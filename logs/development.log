@@ -15020,3 +15020,25 @@
         "CONNECTION_NAME": "erp"
     }
 }
+{
+    "level": "INFO",
+    "timestamp": "2024-11-29T15:47:55.415Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-29T15:47:55.425Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-29T15:47:55.427Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
