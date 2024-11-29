@@ -15042,3 +15042,60 @@
         "SERVER_URL": "http://localhost:3000"
     }
 }
+{
+    "level": "INFO",
+    "timestamp": "2024-11-29T15:52:54.298Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-29T15:52:54.305Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-29T15:52:54.307Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-29T16:02:16.571Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/health"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "application": {
+                "environment": "development",
+                "uptime": "582.01 Second",
+                "memoryUsage": {
+                    "heapTotal": "241.05 MB",
+                    "heapUsed": "238.33 MB"
+                }
+            },
+            "system": {
+                "cpuUsage": [
+                    2.57,
+                    2.24,
+                    2.33
+                ],
+                "totalMemory": "11842.71 MB",
+                "freeMemory": "3372.80 MB"
+            },
+            "timeStamp": 1732896136569
+        }
+    }
+}

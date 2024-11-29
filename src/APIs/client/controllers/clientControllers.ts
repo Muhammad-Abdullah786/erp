@@ -263,7 +263,7 @@ export const updatePassword = async (req: any, res: any): Promise<Response> => {
 
 // Function to send reset email using Nodemailer
 const sendResetEmail = async (email: string, token: string) => {
-  const resetUrl = `http://localhost:3001/updatePassword?token=${token}`;
+  const resetUrl = `https://erp-woad-pi.vercel.app/v1/updatePassword?token=${token}`;
 
   try {
     const response = await transporter.sendMail({
