@@ -15,7 +15,7 @@ import {
 
 const router = Router();
 
-router.route("/employee").post(registerEmployee);
+router.route("/register").post(registerEmployee);
 router.route("/login").post(loginEmployee);
 router.route("/getallemployee").get(getAllEmployees);
 router.route("/getemployee/:id").get(getEmployeeById);
