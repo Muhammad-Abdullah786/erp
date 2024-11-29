@@ -13307,36 +13307,21 @@
 }
 {
     "level": "INFO",
-<<<<<<< HEAD
-    "timestamp": "2024-11-26T07:51:06.405Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-=======
     "timestamp": "2024-11-26T09:22:39.500Z",
     "message": "Database connection established",
     "meta": {
         "CONNECTION_NAME": "test"
->>>>>>> c6b76421ceb4dd73526e51c1e7150ad20298ddfa
     }
 }
 {
     "level": "INFO",
-<<<<<<< HEAD
-    "timestamp": "2024-11-26T07:51:06.420Z",
-=======
     "timestamp": "2024-11-26T09:22:39.519Z",
->>>>>>> c6b76421ceb4dd73526e51c1e7150ad20298ddfa
     "message": "Rate limiter initiated",
     "meta": {}
 }
 {
     "level": "INFO",
-<<<<<<< HEAD
-    "timestamp": "2024-11-26T07:51:06.422Z",
-=======
     "timestamp": "2024-11-26T09:22:39.522Z",
->>>>>>> c6b76421ceb4dd73526e51c1e7150ad20298ddfa
     "message": "Application started on port 3000",
     "meta": {
         "SERVER_URL": "http://localhost:3000"
@@ -13344,36 +13329,21 @@
 }
 {
     "level": "INFO",
-<<<<<<< HEAD
-    "timestamp": "2024-11-26T07:52:54.143Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-=======
     "timestamp": "2024-11-26T09:23:49.740Z",
     "message": "Database connection established",
     "meta": {
         "CONNECTION_NAME": "test"
->>>>>>> c6b76421ceb4dd73526e51c1e7150ad20298ddfa
     }
 }
 {
     "level": "INFO",
-<<<<<<< HEAD
-    "timestamp": "2024-11-26T07:52:54.182Z",
-=======
     "timestamp": "2024-11-26T09:23:49.751Z",
->>>>>>> c6b76421ceb4dd73526e51c1e7150ad20298ddfa
     "message": "Rate limiter initiated",
     "meta": {}
 }
 {
     "level": "INFO",
-<<<<<<< HEAD
-    "timestamp": "2024-11-26T07:52:54.185Z",
-=======
     "timestamp": "2024-11-26T09:23:49.753Z",
->>>>>>> c6b76421ceb4dd73526e51c1e7150ad20298ddfa
     "message": "Application started on port 3000",
     "meta": {
         "SERVER_URL": "http://localhost:3000"
@@ -13381,1672 +13351,21 @@
 }
 {
     "level": "INFO",
-<<<<<<< HEAD
-    "timestamp": "2024-11-26T07:56:50.948Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-=======
     "timestamp": "2024-11-26T09:25:53.686Z",
     "message": "Database connection established",
     "meta": {
         "CONNECTION_NAME": "test"
->>>>>>> c6b76421ceb4dd73526e51c1e7150ad20298ddfa
     }
 }
 {
     "level": "INFO",
-<<<<<<< HEAD
-    "timestamp": "2024-11-26T07:56:51.237Z",
-=======
     "timestamp": "2024-11-26T09:25:53.708Z",
->>>>>>> c6b76421ceb4dd73526e51c1e7150ad20298ddfa
     "message": "Rate limiter initiated",
     "meta": {}
 }
 {
     "level": "INFO",
-<<<<<<< HEAD
-    "timestamp": "2024-11-26T07:56:51.295Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T07:58:20.653Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T07:58:20.697Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T07:58:20.702Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T08:00:57.183Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T08:00:57.220Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T08:00:57.223Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T08:03:12.794Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T08:03:12.822Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T08:03:12.824Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T08:06:43.952Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T08:06:44.149Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T08:06:44.151Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T08:13:34.843Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T08:13:34.870Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T08:13:34.873Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T08:21:32.579Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T08:21:32.674Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T08:21:32.679Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T09:07:55.919Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T09:07:55.976Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T09:07:55.979Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T09:14:01.419Z",
-    "message": "App is listening at port 4050...",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T09:14:04.767Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T09:14:04.781Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T09:14:04.784Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T09:40:29.135Z",
-    "message": "App is listening at port 4050...",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T09:40:30.370Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T09:40:30.377Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T09:40:30.380Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T09:43:31.047Z",
-    "message": "App is listening at port 4050...",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T09:43:31.870Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T09:43:31.878Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T09:43:31.880Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T09:48:36.294Z",
-    "message": "App is listening at port 4050...",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T09:48:38.262Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T09:48:38.277Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T09:48:38.281Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T09:49:57.536Z",
-    "message": "App is listening at port 4050...",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T09:49:58.453Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T09:49:58.466Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T09:49:58.469Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T10:05:51.919Z",
-    "message": "App is listening at port 4050...",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T10:05:53.232Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T10:05:53.244Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T10:05:53.247Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T10:07:21.235Z",
-    "message": "App is listening at port 4050...",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T10:07:22.366Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T10:07:22.379Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T10:07:22.383Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T16:14:24.512Z",
-    "message": "App is listening at port 4050...",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T16:14:28.362Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T16:14:28.383Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T16:14:28.392Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T16:15:51.927Z",
-    "message": "App is listening at port 4050...",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T16:15:55.021Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T16:15:55.031Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T16:15:55.033Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T16:48:06.227Z",
-    "message": "App is listening at port 4050...",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T16:48:11.175Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T16:48:11.182Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T16:48:11.186Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T16:52:22.151Z",
-    "message": "App is listening at port 4050...",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T16:52:28.316Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T16:52:28.337Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T16:52:28.344Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T16:54:02.889Z",
-    "message": "App is listening at port 4050...",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T16:54:05.936Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T16:54:05.942Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T16:54:05.945Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T17:00:00.213Z",
-    "message": "App is listening at port 4050...",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T17:00:04.353Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T17:00:04.361Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T17:00:04.365Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T17:12:38.895Z",
-    "message": "App is listening at port 4050...",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T17:12:45.857Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T17:12:45.870Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T17:12:45.873Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T17:23:27.090Z",
-    "message": "App is listening at port 4050...",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T17:23:28.729Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T17:23:28.767Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T17:23:28.772Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T17:27:04.222Z",
-    "message": "App is listening at port 4050...",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T17:27:05.116Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T17:27:05.130Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T17:27:05.133Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T17:29:24.458Z",
-    "message": "App is listening at port 4050...",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T17:29:27.226Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T17:29:27.248Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T17:29:27.254Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T17:30:20.670Z",
-    "message": "App is listening at port 4050...",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T17:30:23.188Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T17:30:23.203Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T17:30:23.207Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T17:43:00.460Z",
-    "message": "App is listening at port 4050...",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T17:43:06.185Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T17:43:06.207Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T17:43:06.214Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T18:18:35.260Z",
-    "message": "App is listening at port 4050...",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T18:18:37.993Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T18:18:38.018Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T18:18:38.021Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "ERROR",
-    "timestamp": "2024-11-26T18:19:51.755Z",
-    "message": "Controller Response",
-    "meta": {
-        "success": false,
-        "statusCode": 404,
-        "request": {
-            "ip": "::1",
-            "method": "POST",
-            "url": "/v1/registerr/register/upload"
-        },
-        "message": "Route is not found",
-        "data": null,
-        "trace": {
-            "error": "Error: Route is not found\n    at exports.default (E:\\backend\\erp_container_ship\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:47:12)"
-        }
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T18:23:49.175Z",
-    "message": "App is listening at port 4050...",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T18:23:50.371Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T18:23:50.382Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T18:23:50.393Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T18:29:58.957Z",
-    "message": "App is listening at port 4050...",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T18:30:00.027Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T18:30:00.040Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T18:30:00.044Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T18:36:24.926Z",
-    "message": "App is listening at port 4050...",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T18:36:31.006Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T18:36:31.018Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T18:36:31.021Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T18:38:30.719Z",
-    "message": "App is listening at port 4050...",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T18:38:31.661Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T18:38:31.670Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T18:38:31.673Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "ERROR",
-    "timestamp": "2024-11-26T18:39:47.991Z",
-    "message": "Controller Response",
-    "meta": {
-        "success": false,
-        "statusCode": 404,
-        "request": {
-            "ip": "::1",
-            "method": "POST",
-            "url": "/v1/registerr/register/upload"
-        },
-        "message": "Route is not found",
-        "data": null,
-        "trace": {
-            "error": "Error: Route is not found\n    at exports.default (E:\\backend\\erp_container_ship\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:47:12)"
-        }
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T18:56:34.651Z",
-    "message": "App is listening at port 4050...",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T18:56:39.397Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T18:56:39.431Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T18:56:39.438Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T19:01:54.067Z",
-    "message": "App is listening at port 4050...",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T19:02:11.201Z",
-    "message": "App is listening at port 4050...",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T19:02:12.744Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T19:02:12.752Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T19:02:12.755Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T19:06:28.770Z",
-    "message": "App is listening at port 4050...",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T19:06:33.612Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T19:06:33.621Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T19:06:33.625Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T19:11:12.821Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T19:11:12.859Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T19:11:12.862Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T19:12:00.598Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T19:12:00.628Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T19:12:00.630Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T19:14:16.530Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T19:14:16.569Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T19:14:16.571Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T19:24:51.475Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T19:24:51.509Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T19:24:51.513Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T19:26:27.690Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T19:26:27.735Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T19:26:27.739Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T19:40:05.042Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T19:40:05.128Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T19:40:05.162Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T20:03:05.254Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T20:03:05.289Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T20:03:05.293Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T20:09:00.104Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T20:09:00.115Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-26T20:09:00.117Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T07:31:09.394Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T07:31:09.430Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T07:31:09.437Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T07:48:38.081Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T07:48:38.108Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T07:48:38.112Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T07:49:24.539Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T07:49:24.620Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T07:49:24.639Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T07:50:16.098Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T07:50:16.114Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T07:50:16.117Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T07:50:44.698Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T07:50:44.759Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T07:50:44.772Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T08:04:09.913Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T08:04:09.947Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T08:04:09.953Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T08:05:06.689Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T08:05:06.709Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T08:05:06.714Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T08:08:31.229Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T08:08:31.338Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T08:08:31.342Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T08:12:08.405Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T08:12:08.438Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T08:12:08.441Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T08:45:24.903Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T08:45:24.949Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T08:45:24.952Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T08:54:45.639Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T08:54:45.651Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T08:54:45.654Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T08:56:57.881Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T08:56:57.922Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T08:56:57.926Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T09:00:45.174Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T09:00:45.214Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T09:00:45.217Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T09:11:44.203Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T09:11:44.260Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T09:11:44.262Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T09:15:22.061Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T09:15:22.099Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T09:15:22.102Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T09:17:03.957Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T09:17:03.995Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T09:17:03.998Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T09:24:54.070Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T09:24:54.102Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T09:24:54.107Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T09:25:14.558Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T09:25:14.627Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T09:25:14.710Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T09:36:25.039Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T09:36:25.071Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T09:36:25.073Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T09:41:00.867Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T09:41:00.899Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T09:41:00.902Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T09:47:24.642Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T09:47:24.677Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T09:47:24.680Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T09:48:37.258Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T09:48:37.292Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T09:48:37.295Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T10:05:22.414Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T10:05:22.441Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T10:05:22.449Z",
-=======
     "timestamp": "2024-11-26T09:25:53.713Z",
->>>>>>> c6b76421ceb4dd73526e51c1e7150ad20298ddfa
     "message": "Application started on port 3000",
     "meta": {
         "SERVER_URL": "http://localhost:3000"
@@ -15054,7 +13373,7 @@
 }
 {
     "level": "INFO",
-    "timestamp": "2024-11-27T10:49:32.930Z",
+    "timestamp": "2024-11-26T09:41:33.825Z",
     "message": "Database connection established",
     "meta": {
         "CONNECTION_NAME": "test"
@@ -15062,13 +13381,13 @@
 }
 {
     "level": "INFO",
-    "timestamp": "2024-11-27T10:49:33.132Z",
+    "timestamp": "2024-11-26T09:41:33.840Z",
     "message": "Rate limiter initiated",
     "meta": {}
 }
 {
     "level": "INFO",
-    "timestamp": "2024-11-27T10:49:33.169Z",
+    "timestamp": "2024-11-26T09:41:33.846Z",
     "message": "Application started on port 3000",
     "meta": {
         "SERVER_URL": "http://localhost:3000"
@@ -15076,7 +13395,7 @@
 }
 {
     "level": "INFO",
-    "timestamp": "2024-11-27T10:57:21.450Z",
+    "timestamp": "2024-11-26T09:42:51.093Z",
     "message": "Database connection established",
     "meta": {
         "CONNECTION_NAME": "test"
@@ -15084,13 +13403,13 @@
 }
 {
     "level": "INFO",
-    "timestamp": "2024-11-27T10:57:22.053Z",
+    "timestamp": "2024-11-26T09:42:51.109Z",
     "message": "Rate limiter initiated",
     "meta": {}
 }
 {
     "level": "INFO",
-    "timestamp": "2024-11-27T10:57:22.073Z",
+    "timestamp": "2024-11-26T09:42:51.111Z",
     "message": "Application started on port 3000",
     "meta": {
         "SERVER_URL": "http://localhost:3000"
@@ -15098,7 +13417,7 @@
 }
 {
     "level": "INFO",
-    "timestamp": "2024-11-27T11:07:13.906Z",
+    "timestamp": "2024-11-26T09:43:17.985Z",
     "message": "Database connection established",
     "meta": {
         "CONNECTION_NAME": "test"
@@ -15106,13 +13425,13 @@
 }
 {
     "level": "INFO",
-    "timestamp": "2024-11-27T11:07:13.994Z",
+    "timestamp": "2024-11-26T09:43:18.001Z",
     "message": "Rate limiter initiated",
     "meta": {}
 }
 {
     "level": "INFO",
-    "timestamp": "2024-11-27T11:07:14.001Z",
+    "timestamp": "2024-11-26T09:43:18.004Z",
     "message": "Application started on port 3000",
     "meta": {
         "SERVER_URL": "http://localhost:3000"
@@ -15120,7 +13439,7 @@
 }
 {
     "level": "INFO",
-    "timestamp": "2024-11-27T11:10:44.524Z",
+    "timestamp": "2024-11-26T09:43:59.928Z",
     "message": "Database connection established",
     "meta": {
         "CONNECTION_NAME": "test"
@@ -15128,13 +13447,13 @@
 }
 {
     "level": "INFO",
-    "timestamp": "2024-11-27T11:10:44.617Z",
+    "timestamp": "2024-11-26T09:43:59.946Z",
     "message": "Rate limiter initiated",
     "meta": {}
 }
 {
     "level": "INFO",
-    "timestamp": "2024-11-27T11:10:44.631Z",
+    "timestamp": "2024-11-26T09:43:59.951Z",
     "message": "Application started on port 3000",
     "meta": {
         "SERVER_URL": "http://localhost:3000"
@@ -15142,7 +13461,7 @@
 }
 {
     "level": "INFO",
-    "timestamp": "2024-11-27T11:15:03.384Z",
+    "timestamp": "2024-11-26T09:45:05.962Z",
     "message": "Database connection established",
     "meta": {
         "CONNECTION_NAME": "test"
@@ -15150,13 +13469,13 @@
 }
 {
     "level": "INFO",
-    "timestamp": "2024-11-27T11:15:03.442Z",
+    "timestamp": "2024-11-26T09:45:05.991Z",
     "message": "Rate limiter initiated",
     "meta": {}
 }
 {
     "level": "INFO",
-    "timestamp": "2024-11-27T11:15:03.450Z",
+    "timestamp": "2024-11-26T09:45:06.045Z",
     "message": "Application started on port 3000",
     "meta": {
         "SERVER_URL": "http://localhost:3000"
@@ -15164,7 +13483,7 @@
 }
 {
     "level": "INFO",
-    "timestamp": "2024-11-27T11:21:38.252Z",
+    "timestamp": "2024-11-26T09:45:34.876Z",
     "message": "Database connection established",
     "meta": {
         "CONNECTION_NAME": "test"
@@ -15172,13 +13491,13 @@
 }
 {
     "level": "INFO",
-    "timestamp": "2024-11-27T11:21:38.269Z",
+    "timestamp": "2024-11-26T09:45:34.896Z",
     "message": "Rate limiter initiated",
     "meta": {}
 }
 {
     "level": "INFO",
-    "timestamp": "2024-11-27T11:21:38.272Z",
+    "timestamp": "2024-11-26T09:45:34.901Z",
     "message": "Application started on port 3000",
     "meta": {
         "SERVER_URL": "http://localhost:3000"
@@ -15186,29 +13505,7 @@
 }
 {
     "level": "INFO",
-    "timestamp": "2024-11-27T11:24:08.736Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T11:24:08.752Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T11:24:08.755Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T11:24:56.792Z",
+    "timestamp": "2024-11-26T09:45:46.087Z",
     "message": "Database connection established",
     "meta": {
         "CONNECTION_NAME": "test"
@@ -15216,13 +13513,13 @@
 }
 {
     "level": "INFO",
-    "timestamp": "2024-11-27T11:24:56.809Z",
+    "timestamp": "2024-11-26T09:45:46.105Z",
     "message": "Rate limiter initiated",
     "meta": {}
 }
 {
     "level": "INFO",
-    "timestamp": "2024-11-27T11:24:56.812Z",
+    "timestamp": "2024-11-26T09:45:46.109Z",
     "message": "Application started on port 3000",
     "meta": {
         "SERVER_URL": "http://localhost:3000"
@@ -15230,21 +13527,21 @@
 }
 {
     "level": "INFO",
-    "timestamp": "2024-11-27T11:28:00.470Z",
+    "timestamp": "2024-11-26T09:46:22.280Z",
     "message": "Database connection established",
     "meta": {
-        "CONNECTION_NAME": "erp"
+        "CONNECTION_NAME": "test"
     }
 }
 {
     "level": "INFO",
-    "timestamp": "2024-11-27T11:28:00.487Z",
+    "timestamp": "2024-11-26T09:46:22.339Z",
     "message": "Rate limiter initiated",
     "meta": {}
 }
 {
     "level": "INFO",
-    "timestamp": "2024-11-27T11:28:00.490Z",
+    "timestamp": "2024-11-26T09:46:22.341Z",
     "message": "Application started on port 3000",
     "meta": {
         "SERVER_URL": "http://localhost:3000"
@@ -15252,21 +13549,307 @@
 }
 {
     "level": "INFO",
-    "timestamp": "2024-11-27T11:33:08.215Z",
+    "timestamp": "2024-11-26T09:46:39.071Z",
     "message": "Database connection established",
     "meta": {
-        "CONNECTION_NAME": "erp"
+        "CONNECTION_NAME": "test"
     }
 }
 {
     "level": "INFO",
-    "timestamp": "2024-11-27T11:33:08.248Z",
+    "timestamp": "2024-11-26T09:46:39.086Z",
     "message": "Rate limiter initiated",
     "meta": {}
 }
 {
     "level": "INFO",
-    "timestamp": "2024-11-27T11:33:08.251Z",
+    "timestamp": "2024-11-26T09:46:39.089Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-26T09:47:02.201Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-26T09:47:02.218Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-26T09:47:02.221Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-26T09:47:32.333Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-26T09:47:32.344Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-26T09:47:32.346Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-26T09:49:27.761Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-26T09:49:27.771Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-26T09:49:27.774Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-26T10:58:31.825Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-26T10:58:31.847Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-26T10:58:31.852Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-26T10:59:57.674Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-26T10:59:57.701Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-26T10:59:57.708Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-26T11:26:13.209Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-26T11:26:13.233Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-26T11:26:13.239Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-26T11:26:38.594Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-26T11:26:38.613Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-26T11:26:38.640Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-26T11:27:07.110Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-26T11:27:07.138Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-26T11:27:07.143Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-26T11:28:17.602Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-26T11:28:17.612Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-26T11:28:17.615Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-26T11:43:46.951Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-26T11:43:46.962Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-26T11:43:46.965Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-26T11:44:59.215Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-26T11:44:59.251Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-26T11:44:59.255Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-26T15:11:28.746Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-26T15:11:28.817Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-26T15:11:28.821Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-26T15:17:22.913Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-26T15:17:22.940Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-26T15:17:22.947Z",
     "message": "Application started on port 3000",
     "meta": {
         "SERVER_URL": "http://localhost:3000"
@@ -15274,7 +13857,7 @@
 }
 {
     "level": "ERROR",
-    "timestamp": "2024-11-27T11:33:59.010Z",
+    "timestamp": "2024-11-26T15:38:05.182Z",
     "message": "Controller Response",
     "meta": {
         "success": false,
@@ -15282,32 +13865,32 @@
         "request": {
             "ip": "::1",
             "method": "GET",
-            "url": "/v1/getallemployeebyid/GetAllEmployeByiD/6746ffe997235dfe7122e8f1"
+            "url": "/"
         },
         "message": "Route is not found",
         "data": null,
         "trace": {
-            "error": "Error: Route is not found\n    at exports.default (E:\\backend\\erp_container_ship\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:47:12)"
+            "error": "Error: Route is not found\n    at exports.default (D:\\ERP_Container_Backend\\erp_container_ship\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (D:\\ERP_Container_Backend\\erp_container_ship\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\ERP_Container_Backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\ERP_Container_Backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\ERP_Container_Backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\ERP_Container_Backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (D:\\ERP_Container_Backend\\erp_container_ship\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:520:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (D:\\ERP_Container_Backend\\erp_container_ship\\node_modules\\send\\index.js:270:17)"
         }
     }
 }
 {
     "level": "INFO",
-    "timestamp": "2024-11-27T11:35:18.078Z",
+    "timestamp": "2024-11-26T16:52:16.915Z",
     "message": "Database connection established",
     "meta": {
-        "CONNECTION_NAME": "erp"
+        "CONNECTION_NAME": "test"
     }
 }
 {
     "level": "INFO",
-    "timestamp": "2024-11-27T11:35:18.114Z",
+    "timestamp": "2024-11-26T16:52:16.928Z",
     "message": "Rate limiter initiated",
     "meta": {}
 }
 {
     "level": "INFO",
-    "timestamp": "2024-11-27T11:35:18.116Z",
+    "timestamp": "2024-11-26T16:52:16.932Z",
     "message": "Application started on port 3000",
     "meta": {
         "SERVER_URL": "http://localhost:3000"
@@ -15315,21 +13898,21 @@
 }
 {
     "level": "INFO",
-    "timestamp": "2024-11-27T11:38:37.279Z",
+    "timestamp": "2024-11-26T20:31:00.437Z",
     "message": "Database connection established",
     "meta": {
-        "CONNECTION_NAME": "erp"
+        "CONNECTION_NAME": "test"
     }
 }
 {
     "level": "INFO",
-    "timestamp": "2024-11-27T11:38:37.312Z",
+    "timestamp": "2024-11-26T20:31:00.450Z",
     "message": "Rate limiter initiated",
     "meta": {}
 }
 {
     "level": "INFO",
-    "timestamp": "2024-11-27T11:38:37.315Z",
+    "timestamp": "2024-11-26T20:31:00.452Z",
     "message": "Application started on port 3000",
     "meta": {
         "SERVER_URL": "http://localhost:3000"
@@ -15337,21 +13920,285 @@
 }
 {
     "level": "INFO",
-    "timestamp": "2024-11-27T11:39:11.014Z",
+    "timestamp": "2024-11-26T20:34:10.850Z",
     "message": "Database connection established",
     "meta": {
-        "CONNECTION_NAME": "erp"
+        "CONNECTION_NAME": "test"
     }
 }
 {
     "level": "INFO",
-    "timestamp": "2024-11-27T11:39:11.028Z",
+    "timestamp": "2024-11-26T20:34:10.865Z",
     "message": "Rate limiter initiated",
     "meta": {}
 }
 {
     "level": "INFO",
-    "timestamp": "2024-11-27T11:39:11.031Z",
+    "timestamp": "2024-11-26T20:34:10.868Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-26T20:48:24.303Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-26T20:48:24.314Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-26T20:48:24.317Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-26T20:52:39.717Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-26T20:52:39.730Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-26T20:52:39.735Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-26T20:53:46.830Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-26T20:53:46.841Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-26T20:53:46.844Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-26T21:02:33.860Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-26T21:02:33.879Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-26T21:02:33.882Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-26T21:03:24.945Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-26T21:03:24.968Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-26T21:03:24.972Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-26T21:03:37.718Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-26T21:03:37.744Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-26T21:03:37.749Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-26T21:06:48.346Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-26T21:06:48.378Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-26T21:06:48.384Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-27T10:31:01.763Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-27T10:31:01.804Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-27T10:31:01.813Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-27T10:42:56.602Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-27T10:42:56.637Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-27T10:42:56.640Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-27T10:44:23.919Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-27T10:44:23.931Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-27T10:44:23.934Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-27T10:45:32.417Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-27T10:45:32.449Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-27T10:45:32.454Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-27T17:41:15.110Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-27T17:41:15.141Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-27T17:41:15.147Z",
     "message": "Application started on port 3000",
     "meta": {
         "SERVER_URL": "http://localhost:3000"
@@ -15359,7 +14206,7 @@
 }
 {
     "level": "ERROR",
-    "timestamp": "2024-11-27T11:39:22.899Z",
+    "timestamp": "2024-11-27T17:56:46.608Z",
     "message": "Controller Response",
     "meta": {
         "success": false,
@@ -15367,18 +14214,128 @@
         "request": {
             "ip": "::1",
             "method": "GET",
-            "url": "/v1/getemployeebyid/GetEmployeByiD/6746ffe997235dfe7122e8f1"
+            "url": "/"
         },
         "message": "Route is not found",
         "data": null,
         "trace": {
-            "error": "Error: Route is not found\n    at exports.default (E:\\backend\\erp_container_ship\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:47:12)"
+            "error": "Error: Route is not found\n    at exports.default (D:\\ERP_Container_Backend\\erp_container_ship\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (D:\\ERP_Container_Backend\\erp_container_ship\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\ERP_Container_Backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\ERP_Container_Backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\ERP_Container_Backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\ERP_Container_Backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (D:\\ERP_Container_Backend\\erp_container_ship\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:520:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (D:\\ERP_Container_Backend\\erp_container_ship\\node_modules\\send\\index.js:270:17)"
         }
     }
 }
 {
     "level": "INFO",
-    "timestamp": "2024-11-27T11:39:56.878Z",
+    "timestamp": "2024-11-27T18:08:05.616Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-27T18:08:05.645Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-27T18:08:05.651Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T08:32:41.818Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T08:32:41.834Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T08:32:41.837Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T08:33:23.709Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T08:33:23.727Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T08:33:23.731Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T09:12:46.739Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T09:12:46.765Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T09:12:46.769Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T11:34:02.418Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T11:34:02.443Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T11:34:02.445Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T11:41:07.160Z",
     "message": "Database connection established",
     "meta": {
         "CONNECTION_NAME": "erp"
@@ -15386,13 +14343,519 @@
 }
 {
     "level": "INFO",
-    "timestamp": "2024-11-27T11:39:56.922Z",
+    "timestamp": "2024-11-28T11:41:07.196Z",
     "message": "Rate limiter initiated",
     "meta": {}
 }
 {
     "level": "INFO",
-    "timestamp": "2024-11-27T11:39:56.924Z",
+    "timestamp": "2024-11-28T11:41:07.206Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T11:52:09.880Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T11:52:09.898Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T11:52:09.902Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T11:54:32.374Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T11:54:32.394Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T11:54:32.398Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T12:17:11.895Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T12:17:11.911Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T12:17:11.914Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T12:17:26.640Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T12:17:26.656Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T12:17:26.660Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T12:20:57.526Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T12:20:57.550Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T12:20:57.555Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T12:23:18.930Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T12:23:18.949Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T12:23:18.952Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T12:34:13.189Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T12:34:13.209Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T12:34:13.213Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T12:34:42.784Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T12:34:42.806Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T12:34:42.808Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T12:35:33.263Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T12:35:33.277Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T12:35:33.282Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T12:36:20.606Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T12:36:20.624Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T12:36:20.631Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T12:37:42.963Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T12:37:42.994Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T12:37:43.000Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T12:46:43.883Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T12:46:43.895Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T12:46:43.899Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T12:51:10.759Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T12:51:10.778Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T12:51:10.783Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T12:51:51.343Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T12:51:51.367Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T12:51:51.372Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T12:53:44.631Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T12:53:44.642Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T12:53:44.645Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T12:54:17.833Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T12:54:17.851Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T12:54:17.855Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T12:57:14.371Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T12:57:14.388Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T12:57:14.392Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T12:59:31.513Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T12:59:31.532Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T12:59:31.535Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T13:07:49.967Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T13:07:49.981Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T13:07:49.983Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T19:39:07.322Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T19:39:07.353Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T19:39:07.359Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T21:53:21.219Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T21:53:21.254Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-28T21:53:21.258Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-29T08:24:54.763Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-29T08:24:54.794Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-29T08:24:54.800Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-29T09:49:36.901Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-29T09:49:36.927Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-11-29T09:49:36.934Z",
     "message": "Application started on port 3000",
     "meta": {
         "SERVER_URL": "http://localhost:3000"
@@ -15400,7 +14863,7 @@
 }
 {
     "level": "ERROR",
-    "timestamp": "2024-11-27T11:40:10.495Z",
+    "timestamp": "2024-11-29T10:06:58.003Z",
     "message": "Controller Response",
     "meta": {
         "success": false,
@@ -15408,1268 +14871,12 @@
         "request": {
             "ip": "::1",
             "method": "GET",
-            "url": "/v1/getemployee/GetEmployeByiD/6746ffe997235dfe7122e8f1"
+            "url": "/"
         },
         "message": "Route is not found",
         "data": null,
         "trace": {
-            "error": "Error: Route is not found\n    at exports.default (E:\\backend\\erp_container_ship\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:47:12)"
-        }
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T11:46:17.782Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T11:46:17.819Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T11:46:17.822Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T11:48:37.725Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T11:48:37.760Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T11:48:37.762Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T11:50:15.607Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T11:50:15.621Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T11:50:15.623Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "ERROR",
-    "timestamp": "2024-11-27T11:55:12.316Z",
-    "message": "Controller Response",
-    "meta": {
-        "success": false,
-        "statusCode": 404,
-        "request": {
-            "ip": "::1",
-            "method": "GET",
-            "url": "/v1/getemployee/GetEmployeByiD/6746ffe997235dfe7122e8f1"
-        },
-        "message": "Route is not found",
-        "data": null,
-        "trace": {
-            "error": "Error: Route is not found\n    at exports.default (E:\\backend\\erp_container_ship\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:47:12)"
-        }
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T11:55:58.593Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T11:55:58.626Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T11:55:58.628Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "ERROR",
-    "timestamp": "2024-11-27T11:59:50.034Z",
-    "message": "Controller Response",
-    "meta": {
-        "success": false,
-        "statusCode": 404,
-        "request": {
-            "ip": "::1",
-            "method": "GET",
-            "url": "/v1/getemployee/GetEmployeByiD/6746ffe997235dfe7122e8f1"
-        },
-        "message": "Route is not found",
-        "data": null,
-        "trace": {
-            "error": "Error: Route is not found\n    at exports.default (E:\\backend\\erp_container_ship\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:47:12)"
-        }
-    }
-}
-{
-    "level": "ERROR",
-    "timestamp": "2024-11-27T12:00:15.752Z",
-    "message": "Controller Response",
-    "meta": {
-        "success": false,
-        "statusCode": 404,
-        "request": {
-            "ip": "::1",
-            "method": "GET",
-            "url": "/v1/getemployee/GetEmployeByiD/6746ffe997235dfe7122e8f1"
-        },
-        "message": "Route is not found",
-        "data": null,
-        "trace": {
-            "error": "Error: Route is not found\n    at exports.default (E:\\backend\\erp_container_ship\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:47:12)"
-        }
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T16:42:06.135Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T16:42:06.195Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T16:42:06.200Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "ERROR",
-    "timestamp": "2024-11-27T16:45:59.348Z",
-    "message": "Controller Response",
-    "meta": {
-        "success": false,
-        "statusCode": 404,
-        "request": {
-            "ip": "::1",
-            "method": "GET",
-            "url": "/v1/getemployee/GetEmployeByiD/6746ffe997235dfe7122e8f1"
-        },
-        "message": "Route is not found",
-        "data": null,
-        "trace": {
-            "error": "Error: Route is not found\n    at exports.default (E:\\backend\\erp_container_ship\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:47:12)"
-        }
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T16:50:36.724Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T16:50:36.773Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T16:50:36.777Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T16:52:56.401Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T16:52:56.447Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T16:52:56.452Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T16:55:50.102Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T16:55:50.148Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T16:55:50.153Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T17:04:37.862Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T17:04:37.956Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T17:04:37.960Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T17:06:02.917Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T17:06:02.982Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T17:06:02.989Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "ERROR",
-    "timestamp": "2024-11-27T17:08:53.627Z",
-    "message": "Controller Response",
-    "meta": {
-        "success": false,
-        "statusCode": 404,
-        "request": {
-            "ip": "::1",
-            "method": "PUT",
-            "url": "/v1/UpdateEmployeByiD/employee/674708b983eab7d1d2c74b1d"
-        },
-        "message": "Route is not found",
-        "data": null,
-        "trace": {
-            "error": "Error: Route is not found\n    at exports.default (E:\\backend\\erp_container_ship\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:47:12)"
-        }
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T17:09:23.864Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T17:09:23.955Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T17:09:23.960Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "ERROR",
-    "timestamp": "2024-11-27T17:09:56.110Z",
-    "message": "Controller Response",
-    "meta": {
-        "success": false,
-        "statusCode": 404,
-        "request": {
-            "ip": "::1",
-            "method": "PUT",
-            "url": "/v1/UpdateEmployeByiD/employee/674708b983eab7d1d2c74b1d"
-        },
-        "message": "Route is not found",
-        "data": null,
-        "trace": {
-            "error": "Error: Route is not found\n    at exports.default (E:\\backend\\erp_container_ship\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:47:12)"
-        }
-    }
-}
-{
-    "level": "ERROR",
-    "timestamp": "2024-11-27T17:10:00.875Z",
-    "message": "Controller Response",
-    "meta": {
-        "success": false,
-        "statusCode": 404,
-        "request": {
-            "ip": "::1",
-            "method": "PUT",
-            "url": "/v1/UpdateEmployeByiD/employee/674708b983eab7d1d2c74b1d"
-        },
-        "message": "Route is not found",
-        "data": null,
-        "trace": {
-            "error": "Error: Route is not found\n    at exports.default (E:\\backend\\erp_container_ship\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:47:12)"
-        }
-    }
-}
-{
-    "level": "ERROR",
-    "timestamp": "2024-11-27T17:10:02.716Z",
-    "message": "Controller Response",
-    "meta": {
-        "success": false,
-        "statusCode": 404,
-        "request": {
-            "ip": "::1",
-            "method": "PUT",
-            "url": "/v1/UpdateEmployeByiD/employee/674708b983eab7d1d2c74b1d"
-        },
-        "message": "Route is not found",
-        "data": null,
-        "trace": {
-            "error": "Error: Route is not found\n    at exports.default (E:\\backend\\erp_container_ship\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:47:12)"
-        }
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T17:11:49.947Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T17:11:50.015Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T17:11:50.020Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T17:16:05.062Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T17:16:05.095Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T17:16:05.099Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T17:17:21.321Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T17:17:21.349Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T17:17:21.355Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T17:23:37.854Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T17:23:37.902Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T17:23:37.905Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T17:24:35.235Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T17:24:35.301Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T17:24:35.307Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T17:25:56.407Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T17:25:56.467Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T17:25:56.478Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T17:38:32.527Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T17:38:32.578Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-27T17:38:32.608Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T05:17:37.193Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T05:17:37.220Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T05:17:37.226Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T05:19:27.783Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T05:19:27.810Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T05:19:27.814Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "ERROR",
-    "timestamp": "2024-11-28T05:20:56.611Z",
-    "message": "Controller Response",
-    "meta": {
-        "success": false,
-        "statusCode": 422,
-        "request": {
-            "ip": "::1",
-            "method": "POST",
-            "url": "/v1/register"
-        },
-        "message": "\"phoneNumber\" is required",
-        "data": null,
-        "trace": {
-            "error": "ValidationError: \"phoneNumber\" is required"
-        }
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T05:23:18.018Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T05:23:18.044Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T05:23:18.050Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T05:28:39.760Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T05:28:39.788Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T05:28:39.791Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T05:29:57.831Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T05:29:57.866Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T05:29:57.869Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "ERROR",
-    "timestamp": "2024-11-28T05:44:39.976Z",
-    "message": "Controller Response",
-    "meta": {
-        "success": false,
-        "statusCode": 404,
-        "request": {
-            "ip": "::1",
-            "method": "POST",
-            "url": "/v1/ResetPassword/resetpass"
-        },
-        "message": "Route is not found",
-        "data": null,
-        "trace": {
-            "error": "Error: Route is not found\n    at exports.default (E:\\backend\\erp_container_ship\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:47:12)"
-        }
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T05:48:23.450Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T05:48:23.494Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T05:48:23.501Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T06:03:56.442Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T06:03:56.513Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T06:03:56.528Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T06:04:44.666Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T06:04:44.706Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T06:04:44.712Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T06:05:18.899Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T06:05:18.933Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T06:05:18.965Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T06:14:09.413Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T06:14:09.453Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T06:14:09.458Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T06:16:14.760Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T06:16:14.799Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T06:16:14.804Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T06:28:39.706Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T06:28:40.389Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T06:28:40.403Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T06:29:30.980Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T06:29:31.010Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T06:29:31.016Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T06:30:29.537Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T06:30:29.589Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T06:30:29.593Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T06:37:57.536Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T06:37:57.571Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T06:37:57.577Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T06:49:21.653Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T06:49:21.728Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T06:49:21.733Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T06:51:06.804Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T06:51:06.835Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T06:51:06.840Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T06:55:43.684Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T06:55:43.716Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T06:55:43.720Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T07:00:56.419Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T07:00:56.458Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T07:00:56.461Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T07:06:44.979Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T07:06:45.019Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T07:06:45.026Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T07:11:02.494Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T07:11:02.530Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T07:11:02.533Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T07:50:47.047Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T07:50:47.086Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T07:50:47.091Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T07:53:53.324Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T07:53:53.358Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T07:53:53.364Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T07:55:45.487Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T07:55:45.522Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T07:55:45.534Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T08:00:11.381Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T08:00:11.695Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T08:00:11.707Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T08:02:54.661Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T08:02:54.741Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T08:02:54.750Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "ERROR",
-    "timestamp": "2024-11-28T08:09:35.960Z",
-    "message": "Controller Response",
-    "meta": {
-        "success": false,
-        "statusCode": 404,
-        "request": {
-            "ip": "::1",
-            "method": "POST",
-            "url": "/v1/ResetEmail/reset/6747fe50865d5e23fe7feb86"
-        },
-        "message": "Route is not found",
-        "data": null,
-        "trace": {
-            "error": "Error: Route is not found\n    at exports.default (E:\\backend\\erp_container_ship\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:47:12)"
-        }
-    }
-}
-{
-    "level": "ERROR",
-    "timestamp": "2024-11-28T08:09:50.683Z",
-    "message": "Controller Response",
-    "meta": {
-        "success": false,
-        "statusCode": 404,
-        "request": {
-            "ip": "::1",
-            "method": "POST",
-            "url": "/v1/ResetPassword/resetpass/6747fe50865d5e23fe7feb86"
-        },
-        "message": "Route is not found",
-        "data": null,
-        "trace": {
-            "error": "Error: Route is not found\n    at exports.default (E:\\backend\\erp_container_ship\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:47:12)"
-        }
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T08:11:15.178Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T08:11:15.279Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-11-28T08:11:15.283Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "ERROR",
-    "timestamp": "2024-11-28T08:11:30.593Z",
-    "message": "Controller Response",
-    "meta": {
-        "success": false,
-        "statusCode": 404,
-        "request": {
-            "ip": "::1",
-            "method": "POST",
-            "url": "/v1/ResetPassword/resetpass/6747fe50865d5e23fe7feb86"
-        },
-        "message": "Route is not found",
-        "data": null,
-        "trace": {
-            "error": "Error: Route is not found\n    at exports.default (E:\\backend\\erp_container_ship\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:47:12)"
-        }
-    }
-}
-{
-    "level": "ERROR",
-    "timestamp": "2024-11-28T08:17:03.848Z",
-    "message": "Controller Response",
-    "meta": {
-        "success": false,
-        "statusCode": 404,
-        "request": {
-            "ip": "::1",
-            "method": "POST",
-            "url": "/v1/ResetPassword/resetpassword/6747fe50865d5e23fe7feb86/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiI2NzQ3ZmU1MDg2NWQ1ZTIzZmU3ZmViODYiLCJpYXQiOjE3MzI3ODE1NDUsImV4cCI6MTczMjc4MjQ0NX0.klrlPQEAdksz1uznDdx60x4Qr2T5BQ4XUElR0wkQpmI"
-        },
-        "message": "Route is not found",
-        "data": null,
-        "trace": {
-            "error": "Error: Route is not found\n    at exports.default (E:\\backend\\erp_container_ship\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (E:\\backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:47:12)"
+            "error": "Error: Route is not found\n    at exports.default (D:\\ERP_Container_Backend\\erp_container_ship\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (D:\\ERP_Container_Backend\\erp_container_ship\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\ERP_Container_Backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\ERP_Container_Backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\ERP_Container_Backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\ERP_Container_Backend\\erp_container_ship\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (D:\\ERP_Container_Backend\\erp_container_ship\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:520:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (D:\\ERP_Container_Backend\\erp_container_ship\\node_modules\\send\\index.js:270:17)"
         }
     }
 }
