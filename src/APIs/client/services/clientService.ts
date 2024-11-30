@@ -2,9 +2,10 @@ import { createClient, getClientByEmail } from "../repository/clientRepository";
 import { IClient } from "../models/clientModel";
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
-import config from "../../../config/config";
+// import config from "../../../config/config";
 
-const JWT_SECRET = config.TOKENS.ACCESS.SECRET;
+// const JWT_SECRET = config.TOKENS.ACCESS.SECRET;
+// const JWT_SECRET = config.JWT_SECRET_KEY;
 
 export const registerClient = async (clientData: IClient): Promise<IClient> => {
   const { email, password } = clientData;
@@ -36,13 +37,13 @@ export const loginClient = async (
   if (!isMatch) {
     throw new Error("Invalid email or password");
   }
-
+  console.log(client._id);
   // Generate JWT token
   const token = jwt.sign(
-    { id: client._id, email: client.email },
-    JWT_SECRET || "secretKey", // Use env var in production
-    { expiresIn: "1h" }
+    { _id: client._id },
+    "suzair" // Use env var in production
   );
+  // Use env var // Use env var in production
 
   return { token, client };
 };

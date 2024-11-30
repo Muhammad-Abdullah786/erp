@@ -19,6 +19,7 @@ app.use(
       "https://xyz.com",
       "http://localhost:3000",
       "http://localhost:3001",
+      "https://erp-frontend-orcin.vercel.app/",
     ],
     credentials: true,
   })
