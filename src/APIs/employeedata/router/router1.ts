@@ -24,7 +24,7 @@ router.route("/employee/:id").put(updateEmployeeById);
 router.route("/employee/:id").delete(deleteEmployeeById);
 
 router.route("/reset").post(UserPasswordResetEmail);
-router.route("/resetpassword/:id").post(userPasswordReset);
+router.route("/resetpassword/:id/:token").post(userPasswordReset);
 
 // router.route("/sendwelcomeemail").post(sendWelcomeEmail);
 
