@@ -18,6 +18,7 @@ const ContainerSchema = new Schema({
   receiver_details: {
     name: String,
     address: String,
+    country_code: String,
     phone: String,
   },
   installmentDetails: [

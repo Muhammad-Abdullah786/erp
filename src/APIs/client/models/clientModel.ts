@@ -1,9 +1,8 @@
-// In clientModel.ts
-
 import mongoose, { Schema, Document } from "mongoose";
 
 export interface IClient extends Document {
   name: string;
+  username: string; // Added username here
   email: string;
   password: string;
   phone: string;
@@ -16,11 +15,12 @@ export interface IClient extends Document {
 const clientSchema: Schema = new Schema(
   {
     name: { type: String, required: true },
+    username: { type: String, required: true, unique: true }, // Unique username
     email: { type: String, required: true, unique: true },
     password: { type: String, required: true },
     phone: { type: String, required: true },
     address: { type: String, required: true },
-    cnicOrPassport: { type: String, required: true },
+    cnicOrPassport: { type: String, required: true, unique:true },
     resetPasswordToken: { type: String },
     resetPasswordExpires: { type: Number },
   },

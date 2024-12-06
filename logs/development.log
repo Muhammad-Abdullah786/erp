@@ -16146,3 +16146,3710 @@
         }
     }
 }
+{
+    "level": "INFO",
+    "timestamp": "2024-12-02T11:13:31.134Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-02T11:13:31.145Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-02T11:13:31.206Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-02T11:33:57.347Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-02T11:33:57.431Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-02T11:33:57.448Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-02T11:34:52.494Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-02T11:34:52.509Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-02T11:34:52.513Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-02T13:44:38.027Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-02T13:44:38.060Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-02T13:44:38.071Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T04:17:35.736Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T04:17:35.767Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T04:17:35.792Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T04:54:17.679Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T04:54:17.693Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T04:54:17.696Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T06:44:18.032Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T06:44:18.054Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T06:44:18.060Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T06:47:06.592Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T06:47:06.606Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T06:47:06.608Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T07:18:43.248Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T07:18:43.259Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T07:18:43.262Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T07:20:34.212Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T07:20:34.225Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T07:20:34.230Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T07:21:37.718Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T07:21:37.734Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T07:21:37.738Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-03T07:24:30.743Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "\"name\" is required",
+        "data": null,
+        "trace": {
+            "error": "ValidationError: \"name\" is required"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T07:26:08.333Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T07:26:08.342Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T07:26:08.344Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-03T07:26:37.759Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/employe/register"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (D:\\ERP\\erp\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T07:28:03.370Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T07:28:03.398Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T07:28:03.402Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T07:30:39.326Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T07:30:39.338Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T07:30:39.341Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T07:34:08.866Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T07:34:08.879Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T07:34:08.882Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T07:36:34.159Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T07:36:34.171Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T07:36:34.283Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T07:38:21.356Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T07:38:21.372Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T07:38:21.375Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T07:41:29.956Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T07:41:29.968Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T07:41:29.972Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T07:46:49.791Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T07:46:49.857Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T07:46:49.919Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T08:12:16.447Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T08:12:16.459Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T08:12:16.462Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T08:16:22.916Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T08:16:22.944Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T08:16:22.948Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T10:54:02.385Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T10:54:02.429Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T10:54:02.433Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-03T10:54:40.018Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/admin/signup"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (D:\\ERP\\erp\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T10:56:51.989Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T10:56:52.012Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T10:56:52.015Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T11:07:53.333Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T11:07:53.352Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T11:07:53.357Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T11:16:10.132Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T11:16:10.163Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T11:16:10.167Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T11:18:57.712Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T11:18:57.828Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-03T11:18:57.832Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-04T14:35:26.796Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-04T14:35:26.833Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-04T14:35:26.836Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-04T14:56:33.387Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-04T14:56:33.411Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-04T14:56:33.523Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-04T15:12:48.184Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-04T15:12:48.197Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-04T15:12:48.201Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-04T15:17:48.446Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-04T15:17:48.461Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-04T15:17:48.464Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-04T15:22:16.214Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 500,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/container/booked_container"
+        },
+        "message": "invalid signature",
+        "data": null,
+        "trace": {
+            "error": "JsonWebTokenError: invalid signature\n    at D:\\ERP\\erp\\node_modules\\jsonwebtoken\\verify.js:171:19\n    at getSecret (D:\\ERP\\erp\\node_modules\\jsonwebtoken\\verify.js:97:14)\n    at Object.module.exports [as verify] (D:\\ERP\\erp\\node_modules\\jsonwebtoken\\verify.js:101:10)\n    at Object.verifyToken (D:\\ERP\\erp\\src\\utils\\jwt.ts:8:20)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:23:33\n    at Generator.next (<anonymous>)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:17:71"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-04T15:22:18.345Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 500,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/container/container_client_history"
+        },
+        "message": "invalid signature",
+        "data": null,
+        "trace": {
+            "error": "JsonWebTokenError: invalid signature\n    at D:\\ERP\\erp\\node_modules\\jsonwebtoken\\verify.js:171:19\n    at getSecret (D:\\ERP\\erp\\node_modules\\jsonwebtoken\\verify.js:97:14)\n    at Object.module.exports [as verify] (D:\\ERP\\erp\\node_modules\\jsonwebtoken\\verify.js:101:10)\n    at Object.verifyToken (D:\\ERP\\erp\\src\\utils\\jwt.ts:8:20)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:23:33\n    at Generator.next (<anonymous>)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:17:71"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-04T15:22:20.925Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 500,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/container/container_client_history"
+        },
+        "message": "invalid signature",
+        "data": null,
+        "trace": {
+            "error": "JsonWebTokenError: invalid signature\n    at D:\\ERP\\erp\\node_modules\\jsonwebtoken\\verify.js:171:19\n    at getSecret (D:\\ERP\\erp\\node_modules\\jsonwebtoken\\verify.js:97:14)\n    at Object.module.exports [as verify] (D:\\ERP\\erp\\node_modules\\jsonwebtoken\\verify.js:101:10)\n    at Object.verifyToken (D:\\ERP\\erp\\src\\utils\\jwt.ts:8:20)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:23:33\n    at Generator.next (<anonymous>)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:17:71"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-04T15:22:33.461Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 500,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/container/container_client_history"
+        },
+        "message": "invalid signature",
+        "data": null,
+        "trace": {
+            "error": "JsonWebTokenError: invalid signature\n    at D:\\ERP\\erp\\node_modules\\jsonwebtoken\\verify.js:171:19\n    at getSecret (D:\\ERP\\erp\\node_modules\\jsonwebtoken\\verify.js:97:14)\n    at Object.module.exports [as verify] (D:\\ERP\\erp\\node_modules\\jsonwebtoken\\verify.js:101:10)\n    at Object.verifyToken (D:\\ERP\\erp\\src\\utils\\jwt.ts:8:20)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:23:33\n    at Generator.next (<anonymous>)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:17:71"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-04T15:22:38.961Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 500,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/container/container_client_history"
+        },
+        "message": "invalid signature",
+        "data": null,
+        "trace": {
+            "error": "JsonWebTokenError: invalid signature\n    at D:\\ERP\\erp\\node_modules\\jsonwebtoken\\verify.js:171:19\n    at getSecret (D:\\ERP\\erp\\node_modules\\jsonwebtoken\\verify.js:97:14)\n    at Object.module.exports [as verify] (D:\\ERP\\erp\\node_modules\\jsonwebtoken\\verify.js:101:10)\n    at Object.verifyToken (D:\\ERP\\erp\\src\\utils\\jwt.ts:8:20)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:23:33\n    at Generator.next (<anonymous>)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:17:71"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-04T15:22:44.221Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 500,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/container/container_client_history"
+        },
+        "message": "invalid signature",
+        "data": null,
+        "trace": {
+            "error": "JsonWebTokenError: invalid signature\n    at D:\\ERP\\erp\\node_modules\\jsonwebtoken\\verify.js:171:19\n    at getSecret (D:\\ERP\\erp\\node_modules\\jsonwebtoken\\verify.js:97:14)\n    at Object.module.exports [as verify] (D:\\ERP\\erp\\node_modules\\jsonwebtoken\\verify.js:101:10)\n    at Object.verifyToken (D:\\ERP\\erp\\src\\utils\\jwt.ts:8:20)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:23:33\n    at Generator.next (<anonymous>)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:17:71"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-04T15:22:55.575Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 500,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/container/container_client_history"
+        },
+        "message": "invalid signature",
+        "data": null,
+        "trace": {
+            "error": "JsonWebTokenError: invalid signature\n    at D:\\ERP\\erp\\node_modules\\jsonwebtoken\\verify.js:171:19\n    at getSecret (D:\\ERP\\erp\\node_modules\\jsonwebtoken\\verify.js:97:14)\n    at Object.module.exports [as verify] (D:\\ERP\\erp\\node_modules\\jsonwebtoken\\verify.js:101:10)\n    at Object.verifyToken (D:\\ERP\\erp\\src\\utils\\jwt.ts:8:20)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:23:33\n    at Generator.next (<anonymous>)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:17:71"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-04T15:23:18.853Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 500,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/container/container_client_history"
+        },
+        "message": "invalid signature",
+        "data": null,
+        "trace": {
+            "error": "JsonWebTokenError: invalid signature\n    at D:\\ERP\\erp\\node_modules\\jsonwebtoken\\verify.js:171:19\n    at getSecret (D:\\ERP\\erp\\node_modules\\jsonwebtoken\\verify.js:97:14)\n    at Object.module.exports [as verify] (D:\\ERP\\erp\\node_modules\\jsonwebtoken\\verify.js:101:10)\n    at Object.verifyToken (D:\\ERP\\erp\\src\\utils\\jwt.ts:8:20)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:23:33\n    at Generator.next (<anonymous>)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:17:71"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-04T15:23:27.457Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 500,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/container/container_client_history"
+        },
+        "message": "invalid signature",
+        "data": null,
+        "trace": {
+            "error": "JsonWebTokenError: invalid signature\n    at D:\\ERP\\erp\\node_modules\\jsonwebtoken\\verify.js:171:19\n    at getSecret (D:\\ERP\\erp\\node_modules\\jsonwebtoken\\verify.js:97:14)\n    at Object.module.exports [as verify] (D:\\ERP\\erp\\node_modules\\jsonwebtoken\\verify.js:101:10)\n    at Object.verifyToken (D:\\ERP\\erp\\src\\utils\\jwt.ts:8:20)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:23:33\n    at Generator.next (<anonymous>)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:17:71"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-04T15:25:17.824Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 500,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/container/container_client_history"
+        },
+        "message": "invalid signature",
+        "data": null,
+        "trace": {
+            "error": "JsonWebTokenError: invalid signature\n    at D:\\ERP\\erp\\node_modules\\jsonwebtoken\\verify.js:171:19\n    at getSecret (D:\\ERP\\erp\\node_modules\\jsonwebtoken\\verify.js:97:14)\n    at Object.module.exports [as verify] (D:\\ERP\\erp\\node_modules\\jsonwebtoken\\verify.js:101:10)\n    at Object.verifyToken (D:\\ERP\\erp\\src\\utils\\jwt.ts:8:20)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:23:33\n    at Generator.next (<anonymous>)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:17:71"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-04T15:25:37.523Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 401,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/container/container_client_history"
+        },
+        "message": "You are not allowed to perform this task",
+        "data": null,
+        "trace": {
+            "error": "Error: You are not allowed to perform this task\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:32:23\n    at Generator.next (<anonymous>)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:17:71\n    at D:\\ERP\\erp\\src\\handlers\\async.ts:5:25\n    at Layer.handle [as handle_request] (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\route.js:119:3)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-04T15:25:38.498Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/favicon.ico"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (D:\\ERP\\erp\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (D:\\ERP\\erp\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:519:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (D:\\ERP\\erp\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-04T15:29:03.973Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-04T15:29:03.987Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-04T15:29:03.990Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-04T15:29:39.375Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 401,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/container/container_client_history"
+        },
+        "message": "You are not allowed to perform this task",
+        "data": null,
+        "trace": {
+            "error": "Error: You are not allowed to perform this task\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:32:23\n    at Generator.next (<anonymous>)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:17:71\n    at D:\\ERP\\erp\\src\\handlers\\async.ts:5:25\n    at Layer.handle [as handle_request] (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\route.js:119:3)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-04T15:29:43.491Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 500,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/container/container_client_history"
+        },
+        "message": "invalid signature",
+        "data": null,
+        "trace": {
+            "error": "JsonWebTokenError: invalid signature\n    at D:\\ERP\\erp\\node_modules\\jsonwebtoken\\verify.js:171:19\n    at getSecret (D:\\ERP\\erp\\node_modules\\jsonwebtoken\\verify.js:97:14)\n    at Object.module.exports [as verify] (D:\\ERP\\erp\\node_modules\\jsonwebtoken\\verify.js:101:10)\n    at Object.verifyToken (D:\\ERP\\erp\\src\\utils\\jwt.ts:8:20)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:23:33\n    at Generator.next (<anonymous>)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:17:71"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-04T15:29:47.900Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 500,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/container/container_client_history"
+        },
+        "message": "invalid signature",
+        "data": null,
+        "trace": {
+            "error": "JsonWebTokenError: invalid signature\n    at D:\\ERP\\erp\\node_modules\\jsonwebtoken\\verify.js:171:19\n    at getSecret (D:\\ERP\\erp\\node_modules\\jsonwebtoken\\verify.js:97:14)\n    at Object.module.exports [as verify] (D:\\ERP\\erp\\node_modules\\jsonwebtoken\\verify.js:101:10)\n    at Object.verifyToken (D:\\ERP\\erp\\src\\utils\\jwt.ts:8:20)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:23:33\n    at Generator.next (<anonymous>)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:17:71"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-04T15:30:32.575Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 500,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/container/container_client_history"
+        },
+        "message": "invalid signature",
+        "data": null,
+        "trace": {
+            "error": "JsonWebTokenError: invalid signature\n    at D:\\ERP\\erp\\node_modules\\jsonwebtoken\\verify.js:171:19\n    at getSecret (D:\\ERP\\erp\\node_modules\\jsonwebtoken\\verify.js:97:14)\n    at Object.module.exports [as verify] (D:\\ERP\\erp\\node_modules\\jsonwebtoken\\verify.js:101:10)\n    at Object.verifyToken (D:\\ERP\\erp\\src\\utils\\jwt.ts:8:20)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:23:33\n    at Generator.next (<anonymous>)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:17:71"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-04T15:30:56.734Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 401,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/container/container_client_history"
+        },
+        "message": "You are not allowed to perform this task",
+        "data": null,
+        "trace": {
+            "error": "Error: You are not allowed to perform this task\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:32:23\n    at Generator.next (<anonymous>)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:17:71\n    at D:\\ERP\\erp\\src\\handlers\\async.ts:5:25\n    at Layer.handle [as handle_request] (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\route.js:119:3)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-04T15:36:01.876Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-04T15:36:01.888Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-04T15:36:01.890Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-04T15:36:07.690Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (D:\\ERP\\erp\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (D:\\ERP\\erp\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:519:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (D:\\ERP\\erp\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-04T15:36:10.420Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 500,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/container/container_client_history"
+        },
+        "message": "invalid signature",
+        "data": null,
+        "trace": {
+            "error": "JsonWebTokenError: invalid signature\n    at D:\\ERP\\erp\\node_modules\\jsonwebtoken\\verify.js:171:19\n    at getSecret (D:\\ERP\\erp\\node_modules\\jsonwebtoken\\verify.js:97:14)\n    at Object.module.exports [as verify] (D:\\ERP\\erp\\node_modules\\jsonwebtoken\\verify.js:101:10)\n    at Object.verifyToken (D:\\ERP\\erp\\src\\utils\\jwt.ts:8:20)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:23:33\n    at Generator.next (<anonymous>)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:17:71"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-04T15:36:13.854Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 500,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/container/container_client_history"
+        },
+        "message": "invalid signature",
+        "data": null,
+        "trace": {
+            "error": "JsonWebTokenError: invalid signature\n    at D:\\ERP\\erp\\node_modules\\jsonwebtoken\\verify.js:171:19\n    at getSecret (D:\\ERP\\erp\\node_modules\\jsonwebtoken\\verify.js:97:14)\n    at Object.module.exports [as verify] (D:\\ERP\\erp\\node_modules\\jsonwebtoken\\verify.js:101:10)\n    at Object.verifyToken (D:\\ERP\\erp\\src\\utils\\jwt.ts:8:20)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:23:33\n    at Generator.next (<anonymous>)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:17:71"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-04T15:36:16.753Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 500,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/container/container_client_history"
+        },
+        "message": "invalid signature",
+        "data": null,
+        "trace": {
+            "error": "JsonWebTokenError: invalid signature\n    at D:\\ERP\\erp\\node_modules\\jsonwebtoken\\verify.js:171:19\n    at getSecret (D:\\ERP\\erp\\node_modules\\jsonwebtoken\\verify.js:97:14)\n    at Object.module.exports [as verify] (D:\\ERP\\erp\\node_modules\\jsonwebtoken\\verify.js:101:10)\n    at Object.verifyToken (D:\\ERP\\erp\\src\\utils\\jwt.ts:8:20)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:23:33\n    at Generator.next (<anonymous>)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:17:71"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-04T19:12:45.383Z",
+    "message": "Error during bootstrap:",
+    "meta": {
+        "message": "Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/",
+        "reason": {
+            "type": "ReplicaSetNoPrimary",
+            "servers": {
+                "first-shard-00-00.mcuc1.mongodb.net:27017": {
+                    "address": "first-shard-00-00.mcuc1.mongodb.net:27017",
+                    "type": "Unknown",
+                    "hosts": [],
+                    "passives": [],
+                    "arbiters": [],
+                    "tags": {},
+                    "minWireVersion": 0,
+                    "maxWireVersion": 0,
+                    "roundTripTime": -1,
+                    "minRoundTripTime": 0,
+                    "lastUpdateTime": 17036016,
+                    "lastWriteDate": 0,
+                    "error": null,
+                    "topologyVersion": null,
+                    "setName": null,
+                    "setVersion": null,
+                    "electionId": null,
+                    "logicalSessionTimeoutMinutes": null,
+                    "maxMessageSizeBytes": null,
+                    "maxWriteBatchSize": null,
+                    "maxBsonObjectSize": null,
+                    "primary": null,
+                    "me": null,
+                    "$clusterTime": null
+                },
+                "first-shard-00-02.mcuc1.mongodb.net:27017": {
+                    "address": "first-shard-00-02.mcuc1.mongodb.net:27017",
+                    "type": "Unknown",
+                    "hosts": [],
+                    "passives": [],
+                    "arbiters": [],
+                    "tags": {},
+                    "minWireVersion": 0,
+                    "maxWireVersion": 0,
+                    "roundTripTime": -1,
+                    "minRoundTripTime": 0,
+                    "lastUpdateTime": 17048518,
+                    "lastWriteDate": 0,
+                    "error": {},
+                    "topologyVersion": null,
+                    "setName": null,
+                    "setVersion": null,
+                    "electionId": null,
+                    "logicalSessionTimeoutMinutes": null,
+                    "maxMessageSizeBytes": null,
+                    "maxWriteBatchSize": null,
+                    "maxBsonObjectSize": null,
+                    "primary": null,
+                    "me": null,
+                    "$clusterTime": null
+                },
+                "first-shard-00-01.mcuc1.mongodb.net:27017": {
+                    "address": "first-shard-00-01.mcuc1.mongodb.net:27017",
+                    "type": "Unknown",
+                    "hosts": [],
+                    "passives": [],
+                    "arbiters": [],
+                    "tags": {},
+                    "minWireVersion": 0,
+                    "maxWireVersion": 0,
+                    "roundTripTime": -1,
+                    "minRoundTripTime": 0,
+                    "lastUpdateTime": 17036016,
+                    "lastWriteDate": 0,
+                    "error": null,
+                    "topologyVersion": null,
+                    "setName": null,
+                    "setVersion": null,
+                    "electionId": null,
+                    "logicalSessionTimeoutMinutes": null,
+                    "maxMessageSizeBytes": null,
+                    "maxWriteBatchSize": null,
+                    "maxBsonObjectSize": null,
+                    "primary": null,
+                    "me": null,
+                    "$clusterTime": null
+                }
+            },
+            "stale": false,
+            "compatible": true,
+            "heartbeatFrequencyMS": 10000,
+            "localThresholdMS": 15,
+            "setName": "atlas-cpqwn8-shard-0",
+            "maxElectionId": null,
+            "maxSetVersion": null,
+            "commonWireVersion": 0,
+            "logicalSessionTimeoutMinutes": null
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-04T19:16:06.097Z",
+    "message": "Error during bootstrap:",
+    "meta": {
+        "message": "Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/",
+        "reason": {
+            "type": "ReplicaSetNoPrimary",
+            "servers": {
+                "first-shard-00-02.mcuc1.mongodb.net:27017": {
+                    "address": "first-shard-00-02.mcuc1.mongodb.net:27017",
+                    "type": "Unknown",
+                    "hosts": [],
+                    "passives": [],
+                    "arbiters": [],
+                    "tags": {},
+                    "minWireVersion": 0,
+                    "maxWireVersion": 0,
+                    "roundTripTime": -1,
+                    "minRoundTripTime": 0,
+                    "lastUpdateTime": 17236839,
+                    "lastWriteDate": 0,
+                    "error": null,
+                    "topologyVersion": null,
+                    "setName": null,
+                    "setVersion": null,
+                    "electionId": null,
+                    "logicalSessionTimeoutMinutes": null,
+                    "maxMessageSizeBytes": null,
+                    "maxWriteBatchSize": null,
+                    "maxBsonObjectSize": null,
+                    "primary": null,
+                    "me": null,
+                    "$clusterTime": null
+                },
+                "first-shard-00-01.mcuc1.mongodb.net:27017": {
+                    "address": "first-shard-00-01.mcuc1.mongodb.net:27017",
+                    "type": "Unknown",
+                    "hosts": [],
+                    "passives": [],
+                    "arbiters": [],
+                    "tags": {},
+                    "minWireVersion": 0,
+                    "maxWireVersion": 0,
+                    "roundTripTime": -1,
+                    "minRoundTripTime": 0,
+                    "lastUpdateTime": 17236839,
+                    "lastWriteDate": 0,
+                    "error": null,
+                    "topologyVersion": null,
+                    "setName": null,
+                    "setVersion": null,
+                    "electionId": null,
+                    "logicalSessionTimeoutMinutes": null,
+                    "maxMessageSizeBytes": null,
+                    "maxWriteBatchSize": null,
+                    "maxBsonObjectSize": null,
+                    "primary": null,
+                    "me": null,
+                    "$clusterTime": null
+                },
+                "first-shard-00-00.mcuc1.mongodb.net:27017": {
+                    "address": "first-shard-00-00.mcuc1.mongodb.net:27017",
+                    "type": "Unknown",
+                    "hosts": [],
+                    "passives": [],
+                    "arbiters": [],
+                    "tags": {},
+                    "minWireVersion": 0,
+                    "maxWireVersion": 0,
+                    "roundTripTime": -1,
+                    "minRoundTripTime": 0,
+                    "lastUpdateTime": 17236839,
+                    "lastWriteDate": 0,
+                    "error": null,
+                    "topologyVersion": null,
+                    "setName": null,
+                    "setVersion": null,
+                    "electionId": null,
+                    "logicalSessionTimeoutMinutes": null,
+                    "maxMessageSizeBytes": null,
+                    "maxWriteBatchSize": null,
+                    "maxBsonObjectSize": null,
+                    "primary": null,
+                    "me": null,
+                    "$clusterTime": null
+                }
+            },
+            "stale": false,
+            "compatible": true,
+            "heartbeatFrequencyMS": 10000,
+            "localThresholdMS": 15,
+            "setName": "atlas-cpqwn8-shard-0",
+            "maxElectionId": null,
+            "maxSetVersion": null,
+            "commonWireVersion": 0,
+            "logicalSessionTimeoutMinutes": null
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-04T19:19:03.721Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-04T19:19:03.738Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-04T19:19:03.740Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-04T19:25:05.940Z",
+    "message": "Error during bootstrap:",
+    "meta": {
+        "code": "ETIMEOUT",
+        "syscall": "querySrv",
+        "hostname": "_mongodb._tcp.first.mcuc1.mongodb.net"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-04T19:32:19.142Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-04T19:32:19.159Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-04T19:32:19.165Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-04T19:33:59.819Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/admin/login"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (D:\\ERP\\erp\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-04T19:35:53.167Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-04T19:35:53.180Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-04T19:35:53.182Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-04T20:01:53.180Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-04T20:01:53.203Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-04T20:01:53.206Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-04T20:04:07.676Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-04T20:04:07.692Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-04T20:04:07.760Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-04T20:05:35.063Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-04T20:05:35.076Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-04T20:05:35.079Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-04T20:45:08.580Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-04T20:45:08.634Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-04T20:45:08.637Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-04T20:47:26.189Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-04T20:47:26.204Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-04T20:47:26.207Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-04T20:51:23.454Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-04T20:51:23.467Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-04T20:51:23.472Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T03:51:06.891Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T03:51:06.920Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T03:51:06.923Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T03:55:49.490Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T03:55:49.708Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T03:55:49.738Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T04:00:05.658Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T04:00:05.854Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T04:00:05.867Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T04:34:41.262Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T04:34:41.493Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T04:34:41.670Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T04:36:54.139Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T04:36:54.195Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T04:36:54.203Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T05:54:06.355Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T05:54:06.696Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T05:54:06.699Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T06:28:56.486Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T06:28:56.506Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T06:28:56.513Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T09:31:24.327Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T09:31:24.365Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T09:31:24.369Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T09:33:58.195Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T09:33:58.231Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T09:33:58.239Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T09:52:19.249Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T09:52:19.286Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T09:52:19.289Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T10:04:38.603Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T10:04:38.618Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T10:04:38.622Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T10:08:04.125Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T10:08:07.287Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T10:08:07.608Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T10:10:10.032Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T10:10:10.056Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T10:10:10.059Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T11:43:40.243Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T11:43:40.270Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T11:43:40.272Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T11:49:01.140Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T11:49:01.175Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T11:49:01.189Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T11:54:13.196Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T11:54:13.275Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T11:54:13.283Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T11:59:08.206Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T11:59:08.246Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T11:59:08.248Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T12:01:18.586Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T12:01:18.601Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T12:01:18.607Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T12:08:02.335Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T12:08:02.381Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T12:08:02.388Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T12:41:11.448Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T12:41:11.481Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T12:41:11.485Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T14:15:42.557Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T14:15:42.572Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T14:15:42.575Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T14:17:32.820Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T14:17:32.853Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T14:17:32.857Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T14:18:38.638Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T14:18:38.656Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T14:18:38.661Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T14:22:36.816Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T14:22:36.834Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T14:22:36.837Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T14:30:38.191Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T14:30:38.220Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T14:30:38.237Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T14:35:50.683Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T14:35:50.698Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T14:35:50.756Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T14:41:27.102Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T14:41:27.154Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T14:41:27.164Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T14:45:02.718Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T14:45:02.738Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T14:45:02.747Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T14:46:54.444Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T14:46:54.472Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T14:46:54.519Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T14:49:02.589Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T14:49:02.605Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T14:49:02.609Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T14:55:25.331Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T14:55:25.348Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T14:55:25.353Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T15:02:24.567Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T15:02:24.605Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T15:02:24.635Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T15:06:44.189Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T15:06:44.210Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T15:06:44.214Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-05T15:06:55.035Z",
+    "message": "enployee are error;",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T15:07:57.768Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T15:07:57.788Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T15:07:57.794Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-05T15:08:03.779Z",
+    "message": "enployee are error",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T15:09:18.119Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T15:09:18.139Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T15:09:18.144Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-05T15:09:22.019Z",
+    "message": "error in employe",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T15:10:08.299Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T15:10:08.320Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T15:10:08.324Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T15:11:12.035Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T15:11:12.050Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T15:11:12.118Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T15:13:19.853Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T15:13:19.867Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T15:13:19.870Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T15:15:55.418Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T15:15:55.435Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T15:15:55.439Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T15:17:02.686Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T15:17:02.698Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T15:17:02.701Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T15:24:05.621Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T15:24:05.694Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T15:24:05.697Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T15:27:07.456Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T15:27:07.477Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T15:27:07.481Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T15:41:59.249Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T15:41:59.266Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T15:41:59.269Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T15:44:47.618Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T15:44:47.631Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T15:44:47.634Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T15:45:31.055Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T15:45:31.075Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T15:45:31.079Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T15:52:32.168Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T15:52:32.183Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T15:52:32.184Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T16:01:28.481Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T16:01:28.499Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T16:01:28.501Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T16:09:42.421Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T16:09:42.433Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T16:09:42.435Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T16:11:53.165Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T16:11:53.180Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T16:11:53.183Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T16:15:06.152Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T16:15:06.168Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T16:15:06.171Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T16:18:52.523Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T16:18:52.539Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T16:18:52.542Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-05T16:36:04.771Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/container/all_orders_container"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (D:\\ERP\\erp\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-05T16:36:07.678Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/container/all_orders_container"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (D:\\ERP\\erp\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-05T16:36:21.950Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/container/all_orders_container"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (D:\\ERP\\erp\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-05T16:36:44.527Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/container/all_orders_container"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (D:\\ERP\\erp\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-05T16:36:49.874Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/container/all_orders_container"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (D:\\ERP\\erp\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T16:39:15.540Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T16:39:15.552Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T16:39:15.555Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T16:39:36.817Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T16:39:36.827Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T16:39:36.830Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T16:40:07.394Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T16:40:07.407Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-05T16:40:07.411Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-05T17:13:47.403Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/GetEmployeByiD/getemployee/6751d30ebf1569f8f6b00614"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (D:\\ERP\\erp\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-05T17:13:51.042Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/GetEmployeByiD/getemployee/6751d30ebf1569f8f6b00614"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (D:\\ERP\\erp\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-05T17:14:09.075Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/GetEmployeByiD/getemployee/6751d8692ddd1b6796cf2e73"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (D:\\ERP\\erp\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-05T17:14:09.245Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/GetEmployeByiD/getemployee/6751d8692ddd1b6796cf2e73"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (D:\\ERP\\erp\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-05T17:14:53.360Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/GetEmployeByiD/getemployee/6751d8692ddd1b6796cf2e73"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (D:\\ERP\\erp\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-05T17:15:15.310Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/GetEmployeByiD/getemployee/6751d8692ddd1b6796cf2e73"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (D:\\ERP\\erp\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-05T17:15:35.568Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/GetEmployeByiD/getemployee/6751d377bf1569f8f6b0061d"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (D:\\ERP\\erp\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-05T17:15:35.589Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/GetEmployeByiD/getemployee/6751d377bf1569f8f6b0061d"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (D:\\ERP\\erp\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-05T17:16:35.033Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/GetEmployeByiD/getemployee/6751d377bf1569f8f6b0061d"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (D:\\ERP\\erp\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-05T17:16:35.068Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/GetEmployeByiD/getemployee/6751d377bf1569f8f6b0061d"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (D:\\ERP\\erp\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-05T17:16:38.897Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/GetEmployeByiD/getemployee/6751d377bf1569f8f6b0061d"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (D:\\ERP\\erp\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-05T17:17:10.238Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/GetEmployeByiD/getemployee/6751d377bf1569f8f6b0061d"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (D:\\ERP\\erp\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-05T17:19:22.373Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "PUT",
+            "url": "/v1/v1/employe/employee/6751d377bf1569f8f6b0061d"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (D:\\ERP\\erp\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-05T17:38:31.319Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 401,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/container/booked_container"
+        },
+        "message": "You are not allowed to perform this task",
+        "data": null,
+        "trace": {
+            "error": "Error: You are not allowed to perform this task\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:32:23\n    at Generator.next (<anonymous>)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:17:71\n    at D:\\ERP\\erp\\src\\handlers\\async.ts:5:25\n    at Layer.handle [as handle_request] (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\route.js:119:3)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-05T17:38:33.377Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 401,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/container/container_client_history"
+        },
+        "message": "You are not allowed to perform this task",
+        "data": null,
+        "trace": {
+            "error": "Error: You are not allowed to perform this task\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:32:23\n    at Generator.next (<anonymous>)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:17:71\n    at D:\\ERP\\erp\\src\\handlers\\async.ts:5:25\n    at Layer.handle [as handle_request] (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\route.js:119:3)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-05T17:40:43.389Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 401,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/container/container_client_history"
+        },
+        "message": "You are not allowed to perform this task",
+        "data": null,
+        "trace": {
+            "error": "Error: You are not allowed to perform this task\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:32:23\n    at Generator.next (<anonymous>)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:17:71\n    at D:\\ERP\\erp\\src\\handlers\\async.ts:5:25\n    at Layer.handle [as handle_request] (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\route.js:119:3)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-05T17:42:34.202Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 401,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/container/container_client_history"
+        },
+        "message": "You are not allowed to perform this task",
+        "data": null,
+        "trace": {
+            "error": "Error: You are not allowed to perform this task\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:32:23\n    at Generator.next (<anonymous>)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:17:71\n    at D:\\ERP\\erp\\src\\handlers\\async.ts:5:25\n    at Layer.handle [as handle_request] (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\route.js:119:3)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-05T17:47:20.035Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 401,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/container/container_client_history"
+        },
+        "message": "You are not allowed to perform this task",
+        "data": null,
+        "trace": {
+            "error": "Error: You are not allowed to perform this task\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:32:23\n    at Generator.next (<anonymous>)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:17:71\n    at D:\\ERP\\erp\\src\\handlers\\async.ts:5:25\n    at Layer.handle [as handle_request] (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\route.js:119:3)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-05T17:48:26.077Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 401,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/container/container_client_history"
+        },
+        "message": "You are not allowed to perform this task",
+        "data": null,
+        "trace": {
+            "error": "Error: You are not allowed to perform this task\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:32:23\n    at Generator.next (<anonymous>)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:17:71\n    at D:\\ERP\\erp\\src\\handlers\\async.ts:5:25\n    at Layer.handle [as handle_request] (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\route.js:119:3)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-05T17:48:33.922Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 401,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/container/container_client_history"
+        },
+        "message": "You are not allowed to perform this task",
+        "data": null,
+        "trace": {
+            "error": "Error: You are not allowed to perform this task\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:32:23\n    at Generator.next (<anonymous>)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:17:71\n    at D:\\ERP\\erp\\src\\handlers\\async.ts:5:25\n    at Layer.handle [as handle_request] (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\route.js:119:3)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-06T03:01:25.202Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-06T03:01:25.214Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-06T03:01:25.215Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-06T04:17:44.431Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 500,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/container/booked_container"
+        },
+        "message": "invalid signature",
+        "data": null,
+        "trace": {
+            "error": "JsonWebTokenError: invalid signature\n    at D:\\ERP\\erp\\node_modules\\jsonwebtoken\\verify.js:171:19\n    at getSecret (D:\\ERP\\erp\\node_modules\\jsonwebtoken\\verify.js:97:14)\n    at Object.module.exports [as verify] (D:\\ERP\\erp\\node_modules\\jsonwebtoken\\verify.js:101:10)\n    at Object.verifyToken (D:\\ERP\\erp\\src\\utils\\jwt.ts:8:20)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:23:33\n    at Generator.next (<anonymous>)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:17:71"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-06T04:17:44.983Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 500,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/container/container_client_history"
+        },
+        "message": "invalid signature",
+        "data": null,
+        "trace": {
+            "error": "JsonWebTokenError: invalid signature\n    at D:\\ERP\\erp\\node_modules\\jsonwebtoken\\verify.js:171:19\n    at getSecret (D:\\ERP\\erp\\node_modules\\jsonwebtoken\\verify.js:97:14)\n    at Object.module.exports [as verify] (D:\\ERP\\erp\\node_modules\\jsonwebtoken\\verify.js:101:10)\n    at Object.verifyToken (D:\\ERP\\erp\\src\\utils\\jwt.ts:8:20)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:23:33\n    at Generator.next (<anonymous>)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:17:71"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-06T04:17:53.089Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 500,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/container/container_client_history"
+        },
+        "message": "invalid signature",
+        "data": null,
+        "trace": {
+            "error": "JsonWebTokenError: invalid signature\n    at D:\\ERP\\erp\\node_modules\\jsonwebtoken\\verify.js:171:19\n    at getSecret (D:\\ERP\\erp\\node_modules\\jsonwebtoken\\verify.js:97:14)\n    at Object.module.exports [as verify] (D:\\ERP\\erp\\node_modules\\jsonwebtoken\\verify.js:101:10)\n    at Object.verifyToken (D:\\ERP\\erp\\src\\utils\\jwt.ts:8:20)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:23:33\n    at Generator.next (<anonymous>)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:17:71"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-06T04:18:19.899Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 401,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/container/container_client_history"
+        },
+        "message": "You are not allowed to perform this task",
+        "data": null,
+        "trace": {
+            "error": "Error: You are not allowed to perform this task\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:32:23\n    at Generator.next (<anonymous>)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:17:71\n    at D:\\ERP\\erp\\src\\handlers\\async.ts:5:25\n    at Layer.handle [as handle_request] (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\route.js:119:3)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-06T04:18:27.528Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 401,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/container/container_client_history"
+        },
+        "message": "You are not allowed to perform this task",
+        "data": null,
+        "trace": {
+            "error": "Error: You are not allowed to perform this task\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:32:23\n    at Generator.next (<anonymous>)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at D:\\ERP\\erp\\src\\middlewares\\authenticate.ts:17:71\n    at D:\\ERP\\erp\\src\\handlers\\async.ts:5:25\n    at Layer.handle [as handle_request] (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\route.js:119:3)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-06T04:40:23.024Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/v1/employe/getallemployee"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (D:\\ERP\\erp\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-06T04:40:25.097Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/v1/employe/getallemployee"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (D:\\ERP\\erp\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-06T04:40:28.036Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/v1/employe/getallemployee"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (D:\\ERP\\erp\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-06T04:40:36.381Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/v1/employee/getallemployee"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (D:\\ERP\\erp\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-06T04:40:41.631Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/v1/employee/getallemployee"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (D:\\ERP\\erp\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-06T04:43:59.492Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "PUT",
+            "url": "/v1/v1/employe/employee/6751d30ebf1569f8f6b00614"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (D:\\ERP\\erp\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-06T04:46:14.727Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-06T04:46:14.739Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-06T04:46:14.742Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-06T04:47:08.717Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/employee/getemployee/6751d30ebf1569f8f6b00614"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (D:\\ERP\\erp\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (D:\\ERP\\erp\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-06T05:32:16.805Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-06T05:32:16.833Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-06T05:32:16.837Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-06T11:30:43.560Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-06T11:30:43.586Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-06T11:30:43.599Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-06T11:52:24.681Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 401,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/client/verify_token"
+        },
+        "message": "You are not allowed to perform this task",
+        "data": null,
+        "trace": {
+            "error": "Error: You are not allowed to perform this task\n    at F:\\ERP_FINAL\\erp\\src\\middlewares\\authenticate.ts:32:23\n    at Generator.next (<anonymous>)\n    at F:\\ERP_FINAL\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (F:\\ERP_FINAL\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at F:\\ERP_FINAL\\erp\\src\\middlewares\\authenticate.ts:17:71\n    at F:\\ERP_FINAL\\erp\\src\\handlers\\async.ts:5:25\n    at Layer.handle [as handle_request] (F:\\ERP_FINAL\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (F:\\ERP_FINAL\\erp\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (F:\\ERP_FINAL\\erp\\node_modules\\express\\lib\\router\\route.js:119:3)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-06T12:22:51.946Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-06T12:22:51.965Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-06T12:22:51.971Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-06T12:23:53.480Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 401,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/client/verify_token"
+        },
+        "message": "You are not allowed to perform this task",
+        "data": null,
+        "trace": {
+            "error": "Error: You are not allowed to perform this task\n    at F:\\ERP_FINAL\\erp\\src\\middlewares\\authenticate.ts:32:23\n    at Generator.next (<anonymous>)\n    at F:\\ERP_FINAL\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (F:\\ERP_FINAL\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at F:\\ERP_FINAL\\erp\\src\\middlewares\\authenticate.ts:17:71\n    at F:\\ERP_FINAL\\erp\\src\\handlers\\async.ts:5:25\n    at Layer.handle [as handle_request] (F:\\ERP_FINAL\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (F:\\ERP_FINAL\\erp\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (F:\\ERP_FINAL\\erp\\node_modules\\express\\lib\\router\\route.js:119:3)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-06T13:19:13.411Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-06T13:19:13.423Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-06T13:19:13.425Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-06T13:20:42.733Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 401,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/client/verify_token"
+        },
+        "message": "You are not allowed to perform this task",
+        "data": null,
+        "trace": {
+            "error": "Error: You are not allowed to perform this task\n    at F:\\ERP_FINAL\\erp\\src\\middlewares\\authenticate.ts:32:23\n    at Generator.next (<anonymous>)\n    at F:\\ERP_FINAL\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (F:\\ERP_FINAL\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at F:\\ERP_FINAL\\erp\\src\\middlewares\\authenticate.ts:17:71\n    at F:\\ERP_FINAL\\erp\\src\\handlers\\async.ts:5:25\n    at Layer.handle [as handle_request] (F:\\ERP_FINAL\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (F:\\ERP_FINAL\\erp\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (F:\\ERP_FINAL\\erp\\node_modules\\express\\lib\\router\\route.js:119:3)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-06T13:25:38.358Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-06T13:25:38.371Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-06T13:25:38.374Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}

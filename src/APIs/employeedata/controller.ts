@@ -4,6 +4,7 @@ import jwt from "jsonwebtoken";
 import bcrypt from "bcrypt";
 import config from "../../config/config";
 import transporter from "./emailconfiguration/emailcon";
+// import logger from "../../handlers/logger";
 
 interface secret {
   JWT_SECRET_KEY: string; // Define JWT_SECRET_KEY as a string
@@ -11,35 +12,62 @@ interface secret {
 const CONFIG: secret = {
   JWT_SECRET_KEY: config.JWT_SECRET_KEY || "", // Provide a fallback
 };
-
-const passwordRegex =
-  /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,20}$/;
-
+// const JWT_SECRET = config.A
 export const registerEmployee = async (
   req: Request,
   res: Response
 ): Promise<void> => {
   try {
     const {
-      name,
+      username,
       email,
       password,
       confirmPassword,
       phoneno,
+      role,
       address,
       cnic_no,
       profilePic,
+      // department,
     } = req.body;
+    // logger.info(`enpploye`, { meta: { ...req } });
+    if (!username || !email) {
+      res.status(400).json({ message: "Username and email are required" });
+      return;
+    }
+
+    // const normalizedUsername = username.toLowerCase();
+    const normalizedEmail = email.toLowerCase();
+
+    // Check if username or email already exists (without regex)
+    const existingEmployee = await Employee.findOne({
+      $or: [{ username }, { email: normalizedEmail }],
+    });
+
+    if (existingEmployee) {
+      res.status(400).json({
+        error:
+          existingEmployee.username === username
+            ? "Username already exists. Please choose a unique username."
+            : "Email already exists. Please choose a unique email.",
+      });
+      return;
+    }
 
     // Validation for password mismatch
     if (password !== confirmPassword) {
       res.status(400).json({ error: "Passwords do not match" });
+      return;
     }
+
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (!emailRegex.test(email)) {
+    if (!emailRegex.test(normalizedEmail)) {
       res.status(400).json({ message: "Invalid email format" });
       return;
     }
+
+    const passwordRegex =
+      /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
 
     // Validate password strength
     if (!passwordRegex.test(password)) {
@@ -55,38 +83,35 @@ export const registerEmployee = async (
 
     // Create a new employee with the hashed password
     const newEmployee = new Employee({
-      name,
-      email,
+      username,
+      email: normalizedEmail,
       password: hashedPassword,
       confirmPassword: hashedPassword,
       phoneno,
+      role,
       address,
       cnic_no,
       profilePic,
+      // department,
     });
-
     // Save employee to the database
+
     await newEmployee.save();
 
     // Respond with success message and employee data
-    res.status(201).json({
-      message: "Employee registered successfully",
-      employee: {
-        name: newEmployee.name,
-        email: newEmployee.email,
-        phoneno: newEmployee.phoneno,
-        address: newEmployee.address,
-        cnic_no: newEmployee.cnic_no,
-        profilePic: newEmployee.profilePic,
-      },
-    });
-  } catch (error) {
-    // Improved error handling with a fallback error message
-    console.error(error); // Log the actual error for debugging
-    res.status(500).json({
-      message: "An error occurred while registering the employee",
-      error: error instanceof Error ? error.message : "Unknown error",
-    });
+    res.status(201).json(newEmployee);
+  } catch (error: any) {
+    console.error("Error:", error); // Log the actual error for debugging
+
+    if (error.code === 11000) {
+      const field = Object.keys(error.keyPattern)[0];
+      console.log("Field ", field);
+      res.status(400).json({
+        message: `Duplicate value for field: ${field.toLowerCase()}. Please ensure the ${field.toLowerCase()} is unique. `,
+      });
+    } else {
+      res.status(500).json({ message: "An unexpected error occurred." });
+    }
   }
 };
 
@@ -96,10 +121,10 @@ export const loginEmployee = async (
 ): Promise<Response> => {
   // Change return type to Promise<Response>
   try {
-    const { email, password } = req.body;
+    const { username, password } = req.body;
 
     // Find employee by email
-    const employee = await Employee.findOne({ email });
+    const employee = await Employee.findOne({ username });
     if (!employee) {
       return res.status(404).json({ error: "Employee not found" });
     }
@@ -112,7 +137,7 @@ export const loginEmployee = async (
 
     // Generate a JWT token
     const token = jwt.sign(
-      { id: employee._id, email: employee.email }, // Customize payload as needed
+      { id: employee._id, username: employee.username }, // Customize payload as needed
       CONFIG.JWT_SECRET_KEY, // Secret key for signing JWT
       { expiresIn: "1h" } // Token expiration (optional)
     );
@@ -128,16 +153,17 @@ export const loginEmployee = async (
       message: "Login successful",
       token, // Include the generated JWT token in the response
       employee: {
-        name: employee.name,
+        username: employee.username,
         email: employee.email,
         phoneno: employee.phoneno,
         address: employee.address,
         cnic_no: employee.cnic_no,
         profilePic: employee.profilePic,
+        role: employee.role,
       },
     });
   } catch (error) {
-    console.error(error); // Log the error for better debugging
+    console.error("Errorasdas", error); // Log the error for better debugging
     return res
       .status(500)
       .json({ message: "An error occurred", error: error || error });
@@ -322,7 +348,7 @@ export const userPasswordReset = async (
 
     // Regex for password validation: at least 8 characters, one uppercase letter, one lowercase letter, one number, and one special character
     const passwordRegex =
-      /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
+      /^(?=.[a-z])(?=.[A-Z])(?=.\d)(?=.[@$!%?&])[A-Za-z\d@$!%?&]{8,}$/;
 
     if (!password || !password_confirmation) {
       return res
@@ -365,5 +391,3 @@ export const userPasswordReset = async (
       .send({ status: "failed", message: "Invalid Token or Server Error" });
   }
 };
-
-//resend otp
