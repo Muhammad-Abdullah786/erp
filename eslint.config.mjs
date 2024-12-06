@@ -17,6 +17,7 @@ export default tseslint.config({
     ...tseslint.configs.recommendedTypeChecked,
     eslintConfigPrettier,
   ],
+
   rules: {
     "no-console": "error",
     "no-useless-catch": 0,
