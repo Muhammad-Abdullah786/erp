@@ -25,10 +25,7 @@
     "license": "ISC",
     "description": "",
     "lint-staged": {
-        "*.ts": [
-            "npm run lint:fix",
-            "npm run format:fix"
-        ]
+        "**/*.ts": "eslint --fix"
     },
     "devDependencies": {
         "@commitlint/cli": "^19.5.0",
