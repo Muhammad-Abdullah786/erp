@@ -13305,25 +13305,3 @@
         }
     }
 }
-{
-    "level": "INFO",
-    "timestamp": "2024-12-06T17:28:51.434Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-12-06T17:28:51.449Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-12-06T17:28:51.452Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
