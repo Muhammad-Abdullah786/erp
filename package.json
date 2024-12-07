@@ -25,10 +25,7 @@
     "license": "ISC",
     "description": "",
     "lint-staged": {
-        "*.ts": [
-            "npm run lint:fix",
-            "npm run format:fix"
-        ]
+        "**/*.ts": "eslint --fix"
     },
     "devDependencies": {
         "@commitlint/cli": "^19.5.0",
@@ -42,9 +39,12 @@
         "@types/jsonwebtoken": "^9.0.7",
         "@types/node": "^22.6.1",
         "@types/nodemailer": "^6.4.17",
+        "@types/pdfkit": "^0.13.6",
         "@types/source-map-support": "^0.5.10",
         "@types/supertest": "^6.0.2",
         "@types/uuid": "^10.0.0",
+        "@typescript-eslint/eslint-plugin": "^8.17.0",
+        "@typescript-eslint/parser": "^8.17.0",
         "commitlint-config-gitmoji": "^2.3.1",
         "devmoji": "^2.3.0",
         "eslint": "^9.11.1",
@@ -82,6 +82,7 @@
         "mongoose": "^8.6.3",
         "nodemailer": "^6.9.16",
         "ora": "^8.1.0",
+        "pdfkit": "^0.15.1",
         "progress": "^2.0.3",
         "rate-limiter-flexible": "^5.0.3",
         "resend": "^4.0.0",

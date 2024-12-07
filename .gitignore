@@ -1,9 +1,6 @@
-# Ignore node_modules folder
-node_modules/
+node_modules
 
-# Ignore .env file
+dist
 .env.development
 .env.production
-
-# Optionally ignore log files
-*.log
+.env.test

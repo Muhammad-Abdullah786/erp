@@ -20,8 +20,8 @@ interface Payment extends Document {
 
 const PaymentSchema = new Schema<Payment>({
   user_id : {
-    type : String,
-    default : 'User'
+    type : Schema.Types.ObjectId,
+    required : true
   },
   booking_id: {
     type: Schema.Types.ObjectId,
