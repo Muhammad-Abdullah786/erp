@@ -2,7 +2,7 @@ export interface IEmployeeModel {
   username: string;
   email: string;
   password: string;
-  role: String;
+  role: string;
   confirmPassword: string;
   phoneno: string;
   address: string;

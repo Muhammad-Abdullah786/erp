@@ -1,4 +1,4 @@
-import { Client, IClient } from "../models/clientModel";
+import { Client, IClient } from '../models/clientModel';
 
 // Find client by email
 export const getClientByEmail = async (

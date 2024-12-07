@@ -1,12 +1,12 @@
-import bcryptjs from "bcrypt";
+import bcryptjs from 'bcrypt';
 // import crypto from "crypto";
-import jwt from "jsonwebtoken";
-import { Request, Response } from "express";
-import config from "../../../config/config";
-import { generateTokenAndSetCookie } from "../utils/generateTokenAndSetCookie";
-import { User, IUser } from "../models/admin.model";
+import jwt from 'jsonwebtoken';
+import { Request, Response } from 'express';
+import config from '../../../config/config';
+import { generateTokenAndSetCookie } from '../utils/generateTokenAndSetCookie';
+import { User, IUser } from '../models/admin.model';
 // import { emailService } from "../../../services/email";
-import transporter from "../email configurations/emailcon";
+import transporter from '../email configurations/emailcon';
 
 const generateOTP = (): string => {
   return Math.floor(100000 + Math.random() * 900000).toString();
@@ -18,12 +18,12 @@ export const signup = async (req: Request, res: Response): Promise<void> => {
   try {
     // Validate input
     if (!email || !password || !username) {
-      throw new Error("All fields are required.");
+      throw new Error('All fields are required.');
     }
     const existingEmployee = await User.findOne({ username });
     if (existingEmployee) {
       res.status(400).json({
-        error: "username already exists. Please choose a unique username.",
+        error: 'username already exists. Please choose a unique username.',
       });
       return;
     }
@@ -31,7 +31,7 @@ export const signup = async (req: Request, res: Response): Promise<void> => {
     // Check if user already exists
     const userAlreadyExists = await User.findOne({ email });
     if (userAlreadyExists) {
-      res.status(400).json({ success: false, message: "User already exists." });
+      res.status(400).json({ success: false, message: 'User already exists.' });
       return;
     }
 
@@ -57,18 +57,18 @@ export const signup = async (req: Request, res: Response): Promise<void> => {
     await transporter.sendMail({
       from: '"Coderatory" <coderatory@gmail.com>', // Sender's email
       to: email, // Receiver's email
-      subject: "you Entered signup data  Verify your Email using  OTP", // Subject line
-      text: "Verify your Email", // Plain text body
+      subject: 'you Entered signup data  Verify your Email using  OTP', // Subject line
+      text: 'Verify your Email', // Plain text body
       html: `<p>Your verification code is: <strong>${otp}</strong></p>`, // HTML body
     });
 
     // Respond to client
     res.status(201).json({
       success: true,
-      message: "User created successfully. Please verify your email.",
+      message: 'User created successfully. Please verify your email.',
     });
   } catch (error: any) {
-    console.error("Signup error:", error);
+    console.error('Signup error:', error);
     res.status(400).json({ success: false, message: error.message });
   }
 };
@@ -79,13 +79,13 @@ export const login = async (req: Request, res: Response): Promise<void> => {
   try {
     const user = await User.findOne({ username });
     if (!user) {
-      res.status(400).json({ success: false, message: "Invalid credentials" });
+      res.status(400).json({ success: false, message: 'Invalid credentials' });
       return;
     }
 
     const isPasswordValid = await bcryptjs.compare(password, user.password);
     if (!isPasswordValid) {
-      res.status(400).json({ success: false, message: "Invalid credentials" });
+      res.status(400).json({ success: false, message: 'Invalid credentials' });
       return;
     }
 
@@ -96,11 +96,11 @@ export const login = async (req: Request, res: Response): Promise<void> => {
 
     res.status(200).json({
       success: true,
-      message: "Logged in successfully",
+      message: 'Logged in successfully',
       user: { ...user.toObject(), password: undefined },
     });
   } catch (error: any) {
-    console.error("Error in login", error);
+    console.error('Error in login', error);
     res.status(400).json({ success: false, message: error.message });
   }
 };
@@ -108,11 +108,11 @@ export const login = async (req: Request, res: Response): Promise<void> => {
 // Log out user
 export const logout = (_req: Request, res: Response): void => {
   try {
-    res.clearCookie("token"); // Replace 'token' with the actual cookie name if different
-    res.status(200).json({ success: true, message: "Logged out successfully" });
+    res.clearCookie('token'); // Replace 'token' with the actual cookie name if different
+    res.status(200).json({ success: true, message: 'Logged out successfully' });
   } catch (error) {
-    console.error("Error in logout", error);
-    res.status(500).json({ success: false, message: "Server error" });
+    console.error('Error in logout', error);
+    res.status(500).json({ success: false, message: 'Server error' });
   }
 };
 
@@ -129,17 +129,17 @@ export const forgotPassword = async (
       // Generate a token for resetting the password
       const secret = user._id.toString() + config.JWT_SECRET_KEY;
       const token = jwt.sign({ userID: user._id }, secret, {
-        expiresIn: "15m",
+        expiresIn: '15m',
       });
 
       // Create a link to the reset password page with the user ID and token
       const link = `http://localhost:3001/ResetPassword/${user._id}/${token}`; // Updated link
 
       // Send Email
-      let info = await transporter.sendMail({
+      const info = await transporter.sendMail({
         from: config.EMAIL_FROM,
         to: user.email,
-        subject: "Reset Your Password - Mail",
+        subject: 'Reset Your Password - Mail',
         html: `
                     <div style="text-align: center; font-family: Arial, sans-serif;">
                         <h2>Password Reset Request</h2>
@@ -163,15 +163,15 @@ export const forgotPassword = async (
       });
 
       res.send({
-        status: "success",
-        message: "Password Reset Email Sent. Please check your email.",
+        status: 'success',
+        message: 'Password Reset Email Sent. Please check your email.',
         info: info,
       });
     } else {
-      res.send({ status: "failed", message: "Email doesn't exist" });
+      res.send({ status: 'failed', message: 'Email doesn\'t exist' });
     }
   } else {
-    res.send({ status: "failed", message: "Email field is required" });
+    res.send({ status: 'failed', message: 'Email field is required' });
   }
 };
 
@@ -188,7 +188,7 @@ export const resetPassword = async (
     if (!user) {
       return res
         .status(404)
-        .send({ status: "failed", message: "User not found" });
+        .send({ status: 'failed', message: 'User not found' });
     }
 
     const new_secret = user._id.toString() + config.JWT_SECRET_KEY;
@@ -201,22 +201,22 @@ export const resetPassword = async (
     if (!password || !password_confirmation) {
       return res
         .status(400)
-        .send({ status: "failed", message: "All Fields are Required" });
+        .send({ status: 'failed', message: 'All Fields are Required' });
     }
 
     // Check if password matches the regex
     if (!passwordRegex.test(password)) {
       return res.status(400).send({
-        status: "failed",
+        status: 'failed',
         message:
-          "Password must be at least 8 characters long and include at least one uppercase letter, one lowercase letter, one number, and one special character.",
+          'Password must be at least 8 characters long and include at least one uppercase letter, one lowercase letter, one number, and one special character.',
       });
     }
 
     if (password !== password_confirmation) {
       return res.status(400).send({
-        status: "failed",
-        message: "New Password and Confirm New Password don't match",
+        status: 'failed',
+        message: 'New Password and Confirm New Password don\'t match',
       });
     }
 
@@ -229,14 +229,14 @@ export const resetPassword = async (
 
     // Send a success response
     return res.send({
-      status: "success",
-      message: "Password Reset Successfully",
+      status: 'success',
+      message: 'Password Reset Successfully',
     });
   } catch (error) {
     // console.error(error) // Log the error for debugging
     return res
       .status(500)
-      .send({ status: "failed", message: "Invalid Token or Server Error" });
+      .send({ status: 'failed', message: 'Invalid Token or Server Error' });
   }
 };
 
@@ -246,19 +246,19 @@ export const checkAuth = async (req: Request, res: Response): Promise<void> => {
     const userId = (req as any).userId;
 
     if (!userId) {
-      res.status(401).json({ success: false, message: "Unauthorized" });
+      res.status(401).json({ success: false, message: 'Unauthorized' });
       return;
     }
 
-    const user = await User.findById(userId).select("-password");
+    const user = await User.findById(userId).select('-password');
     if (!user) {
-      res.status(400).json({ success: false, message: "User not found" });
+      res.status(400).json({ success: false, message: 'User not found' });
       return;
     }
 
     res.status(200).json({ success: true, user });
   } catch (error: any) {
-    console.error("Error in checkAuth", error);
+    console.error('Error in checkAuth', error);
     res.status(400).json({ success: false, message: error.message });
   }
 };

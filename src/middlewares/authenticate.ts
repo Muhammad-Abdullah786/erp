@@ -1,10 +1,10 @@
-import { NextFunction, Request, Response } from "express";
-import { Client } from "../APIs/client/models/clientModel";
-import jwt from "../utils/jwt";
-import httpError from "../handlers/errorHandler/httpError";
-import responseMessage from "../constant/responseMessage";
-import asyncHandler from "../handlers/async";
-import config from "../config/config";
+import { NextFunction, Request, Response } from 'express';
+import { Client } from '../APIs/client/models/clientModel';
+import jwt from '../utils/jwt';
+import httpError from '../handlers/errorHandler/httpError';
+import responseMessage from '../constant/responseMessage';
+import asyncHandler from '../handlers/async';
+import config from '../config/config';
 declare global {
   namespace Express {
     interface Request {

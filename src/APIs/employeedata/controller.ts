@@ -1,16 +1,16 @@
-import { Request, Response } from "express";
-import Employee from "../employeedata/model/employeemodel";
-import jwt from "jsonwebtoken";
-import bcrypt from "bcrypt";
-import config from "../../config/config";
-import transporter from "./emailconfiguration/emailcon";
+import { Request, Response } from 'express';
+import Employee from '../employeedata/model/employeemodel';
+import jwt from 'jsonwebtoken';
+import bcrypt from 'bcrypt';
+import config from '../../config/config';
+import transporter from './emailconfiguration/emailcon';
 // import logger from "../../handlers/logger";
 
 interface secret {
   JWT_SECRET_KEY: string; // Define JWT_SECRET_KEY as a string
 }
 const CONFIG: secret = {
-  JWT_SECRET_KEY: config.JWT_SECRET_KEY || "", // Provide a fallback
+  JWT_SECRET_KEY: config.JWT_SECRET_KEY || '', // Provide a fallback
 };
 // const JWT_SECRET = config.A
 export const registerEmployee = async (
@@ -32,7 +32,7 @@ export const registerEmployee = async (
     } = req.body;
     // logger.info(`enpploye`, { meta: { ...req } });
     if (!username || !email) {
-      res.status(400).json({ message: "Username and email are required" });
+      res.status(400).json({ message: 'Username and email are required' });
       return;
     }
 
@@ -48,21 +48,21 @@ export const registerEmployee = async (
       res.status(400).json({
         error:
           existingEmployee.username === username
-            ? "Username already exists. Please choose a unique username."
-            : "Email already exists. Please choose a unique email.",
+            ? 'Username already exists. Please choose a unique username.'
+            : 'Email already exists. Please choose a unique email.',
       });
       return;
     }
 
     // Validation for password mismatch
     if (password !== confirmPassword) {
-      res.status(400).json({ error: "Passwords do not match" });
+      res.status(400).json({ error: 'Passwords do not match' });
       return;
     }
 
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(normalizedEmail)) {
-      res.status(400).json({ message: "Invalid email format" });
+      res.status(400).json({ message: 'Invalid email format' });
       return;
     }
 
@@ -73,7 +73,7 @@ export const registerEmployee = async (
     if (!passwordRegex.test(password)) {
       res.status(400).json({
         message:
-          "Password must be between 8 to 20 characters long and contain at least one uppercase letter, one lowercase letter, one digit, and one special character.",
+          'Password must be between 8 to 20 characters long and contain at least one uppercase letter, one lowercase letter, one digit, and one special character.',
       });
       return;
     }
@@ -101,16 +101,16 @@ export const registerEmployee = async (
     // Respond with success message and employee data
     res.status(201).json(newEmployee);
   } catch (error: any) {
-    console.error("Error:", error); // Log the actual error for debugging
+    console.error('Error:', error); // Log the actual error for debugging
 
     if (error.code === 11000) {
       const field = Object.keys(error.keyPattern)[0];
-      console.log("Field ", field);
+      console.log('Field ', field);
       res.status(400).json({
         message: `Duplicate value for field: ${field.toLowerCase()}. Please ensure the ${field.toLowerCase()} is unique. `,
       });
     } else {
-      res.status(500).json({ message: "An unexpected error occurred." });
+      res.status(500).json({ message: 'An unexpected error occurred.' });
     }
   }
 };
@@ -126,31 +126,31 @@ export const loginEmployee = async (
     // Find employee by email
     const employee = await Employee.findOne({ username });
     if (!employee) {
-      return res.status(404).json({ error: "Employee not found" });
+      return res.status(404).json({ error: 'Employee not found' });
     }
 
     // Compare the entered password with the hashed password
     const isMatch = await bcrypt.compare(password, employee.password);
     if (!isMatch) {
-      return res.status(400).json({ error: "Invalid credentials" });
+      return res.status(400).json({ error: 'Invalid credentials' });
     }
 
     // Generate a JWT token
     const token = jwt.sign(
       { id: employee._id, username: employee.username }, // Customize payload as needed
       CONFIG.JWT_SECRET_KEY, // Secret key for signing JWT
-      { expiresIn: "1h" } // Token expiration (optional)
+      { expiresIn: '1h' } // Token expiration (optional)
     );
-    res.cookie("token", token, {
+    res.cookie('token', token, {
       httpOnly: true, // Helps prevent client-side JS from accessing the cookie
-      secure: process.env.NODE_ENV === "production", // Use secure cookie in production
-      sameSite: "strict", // Ensures cookie is sent only to same-site requests
+      secure: process.env.NODE_ENV === 'production', // Use secure cookie in production
+      sameSite: 'strict', // Ensures cookie is sent only to same-site requests
       maxAge: 60 * 60 * 1000, // 1 hour in milliseconds
     });
 
     // Respond with success message and token
     return res.status(200).json({
-      message: "Login successful",
+      message: 'Login successful',
       token, // Include the generated JWT token in the response
       employee: {
         username: employee.username,
@@ -163,10 +163,10 @@ export const loginEmployee = async (
       },
     });
   } catch (error) {
-    console.error("Errorasdas", error); // Log the error for better debugging
+    console.error('Errorasdas', error); // Log the error for better debugging
     return res
       .status(500)
-      .json({ message: "An error occurred", error: error || error });
+      .json({ message: 'An error occurred', error: error || error });
   }
 };
 
@@ -181,18 +181,18 @@ export const getAllEmployees = async (
 
     // If no employees are found
     if (employees.length === 0) {
-      res.status(404).json({ message: "No employees found" });
+      res.status(404).json({ message: 'No employees found' });
     }
 
     // Return all employees in the response
     res.status(200).json({
-      message: "Employees retrieved successfully",
+      message: 'Employees retrieved successfully',
       employees,
     });
   } catch (error) {
     res
       .status(500)
-      .json({ message: "An error occurred", error: error || error });
+      .json({ message: 'An error occurred', error: error || error });
   }
 };
 
@@ -207,15 +207,15 @@ export const getEmployeeById = async (
     const employee = await Employee.findById(id);
 
     if (!employee) {
-      res.status(404).json({ message: "Employee not found" });
+      res.status(404).json({ message: 'Employee not found' });
     }
 
     res.status(200).json({
-      message: "Employee retrieved successfully",
+      message: 'Employee retrieved successfully',
       employee,
     });
   } catch (error) {
-    res.status(500).json({ message: "An error occurred", error });
+    res.status(500).json({ message: 'An error occurred', error });
   }
 };
 
@@ -233,15 +233,15 @@ export const updateEmployeeById = async (
     });
 
     if (!updatedEmployee) {
-      res.status(404).json({ message: "Employee not found" });
+      res.status(404).json({ message: 'Employee not found' });
     }
 
     res.status(200).json({
-      message: "Employee updated successfully",
+      message: 'Employee updated successfully',
       employee: updatedEmployee,
     });
   } catch (error) {
-    res.status(500).json({ message: "An error occurred", error });
+    res.status(500).json({ message: 'An error occurred', error });
   }
 };
 
@@ -255,15 +255,15 @@ export const deleteEmployeeById = async (
     const deletedEmployee = await Employee.findByIdAndDelete(id);
 
     if (!deletedEmployee) {
-      res.status(404).json({ message: "Employee not found" });
+      res.status(404).json({ message: 'Employee not found' });
     }
 
     res.status(200).json({
-      message: "Employee deleted successfully",
+      message: 'Employee deleted successfully',
       employee: deletedEmployee,
     });
   } catch (error) {
-    res.status(500).json({ message: "An error occurred", error });
+    res.status(500).json({ message: 'An error occurred', error });
   }
 };
 
@@ -281,17 +281,17 @@ export const UserPasswordResetEmail = async (
       // Generate a token for resetting the password
       const secret = user._id.toString() + CONFIG.JWT_SECRET_KEY;
       const token = jwt.sign({ userID: user._id }, secret, {
-        expiresIn: "15m",
+        expiresIn: '15m',
       });
 
       // Create a link to the reset password page with the user ID and token
       const link = `http://localhost:3001/ResetPassword/${user._id}/${token}`; // Updated link
 
       // Send Email
-      let info = await transporter.sendMail({
+      const info = await transporter.sendMail({
         from: config.EMAIL_FROM,
         to: user.email,
-        subject: "GeekShop - Password Reset Link",
+        subject: 'GeekShop - Password Reset Link',
         html: `
                     <div style="text-align: center; font-family: Arial, sans-serif;">
                         <h2>Password Reset Request</h2>
@@ -315,15 +315,15 @@ export const UserPasswordResetEmail = async (
       });
 
       res.send({
-        status: "success",
-        message: "Password Reset Email Sent. Please check your email.",
+        status: 'success',
+        message: 'Password Reset Email Sent. Please check your email.',
         info: info,
       });
     } else {
-      res.send({ status: "failed", message: "Email doesn't exist" });
+      res.send({ status: 'failed', message: 'Email doesn\'t exist' });
     }
   } else {
-    res.send({ status: "failed", message: "Email field is required" });
+    res.send({ status: 'failed', message: 'Email field is required' });
   }
 };
 
@@ -340,7 +340,7 @@ export const userPasswordReset = async (
     if (!user) {
       return res
         .status(404)
-        .send({ status: "failed", message: "User not found" });
+        .send({ status: 'failed', message: 'User not found' });
     }
 
     const new_secret = user._id.toString() + CONFIG.JWT_SECRET_KEY;
@@ -353,22 +353,22 @@ export const userPasswordReset = async (
     if (!password || !password_confirmation) {
       return res
         .status(400)
-        .send({ status: "failed", message: "All Fields are Required" });
+        .send({ status: 'failed', message: 'All Fields are Required' });
     }
 
     // Check if password matches the regex
     if (!passwordRegex.test(password)) {
       return res.status(400).send({
-        status: "failed",
+        status: 'failed',
         message:
-          "Password must be at least 8 characters long and include at least one uppercase letter, one lowercase letter, one number, and one special character.",
+          'Password must be at least 8 characters long and include at least one uppercase letter, one lowercase letter, one number, and one special character.',
       });
     }
 
     if (password !== password_confirmation) {
       return res.status(400).send({
-        status: "failed",
-        message: "New Password and Confirm New Password don't match",
+        status: 'failed',
+        message: 'New Password and Confirm New Password don\'t match',
       });
     }
 
@@ -381,13 +381,13 @@ export const userPasswordReset = async (
 
     // Send a success response
     return res.send({
-      status: "success",
-      message: "Password Reset Successfully",
+      status: 'success',
+      message: 'Password Reset Successfully',
     });
   } catch (error) {
     // console.error(error) // Log the error for debugging
     return res
       .status(500)
-      .send({ status: "failed", message: "Invalid Token or Server Error" });
+      .send({ status: 'failed', message: 'Invalid Token or Server Error' });
   }
 };

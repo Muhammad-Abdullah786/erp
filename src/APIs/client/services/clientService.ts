@@ -1,11 +1,11 @@
 import {
   createClient,
   getClientByUsername,
-} from "../repository/clientRepository";
-import { IClient } from "../models/clientModel";
-import bcrypt from "bcrypt";
-import jwt from "jsonwebtoken";
-import config from "../../../config/config";
+} from '../repository/clientRepository';
+import { IClient } from '../models/clientModel';
+import bcrypt from 'bcrypt';
+import jwt from 'jsonwebtoken';
+import config from '../../../config/config';
 
 // Replace with your secret
 const JWT_SECRET = config.TOKENS.ACCESS.SECRET;
@@ -17,7 +17,7 @@ export const registerClient = async (clientData: IClient): Promise<IClient> => {
   // Check if client with email or username already exists
   const existingClient = await getClientByUsername(username);
   if (existingClient) {
-    throw new Error("Client with this username already exists");
+    throw new Error('Client with this username already exists');
   }
 
   // Hash the password
@@ -34,12 +34,12 @@ export const loginClient = async (
 ): Promise<{ token: string; client: IClient }> => {
   const client = await getClientByUsername(username); // Find by username
   if (!client) {
-    throw new Error("Invalid username or password");
+    throw new Error('Invalid username or password');
   }
 
   const isMatch = await bcrypt.compare(password, client.password);
   if (!isMatch) {
-    throw new Error("Invalid username or password");
+    throw new Error('Invalid username or password');
   }
 
   // Generate token

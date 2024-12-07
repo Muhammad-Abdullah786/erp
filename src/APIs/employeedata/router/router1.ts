@@ -1,4 +1,4 @@
-import { Router } from "express";
+import { Router } from 'express';
 import {
   registerEmployee,
   loginEmployee,
@@ -11,20 +11,20 @@ import {
   // sendVerificationEmail,
 
   // sendWelcomeEmail,
-} from "../controller";
+} from '../controller';
 
 const router = Router();
 
-router.route("/register").post(registerEmployee);
-router.route("/login").post(loginEmployee);
-router.route("/").get(getAllEmployees);
-router.route("/:id").get(getEmployeeById);
-router.route("/:id").get(getEmployeeById);
-router.route("/:id").put(updateEmployeeById);
-router.route("/:id").delete(deleteEmployeeById);
+router.route('/register').post(registerEmployee);
+router.route('/login').post(loginEmployee);
+router.route('/').get(getAllEmployees);
+router.route('/:id').get(getEmployeeById);
+router.route('/:id').get(getEmployeeById);
+router.route('/:id').put(updateEmployeeById);
+router.route('/:id').delete(deleteEmployeeById);
 
-router.route("/reset").post(UserPasswordResetEmail);
-router.route("/resetpassword/:id").post(userPasswordReset);
+router.route('/reset').post(UserPasswordResetEmail);
+router.route('/resetpassword/:id').post(userPasswordReset);
 
 // router.route("/sendwelcomeemail").post(sendWelcomeEmail);
 

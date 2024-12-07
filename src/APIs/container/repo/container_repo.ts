@@ -1,9 +1,9 @@
-import { error } from "console";
-import service from "../service/service";
+import { error } from 'console';
+import service from '../service/service';
 
-const Stripe = require("stripe");
+const Stripe = require('stripe');
 const stripe = new Stripe(
-  "sk_test_51QPhZID0nPeKrajIN2Adi7XnUIHz52kAKBkTO9P2nygfQstOgnSLeMgnKTi85nemDr4j2E07YszwIrLXOgye34ip00vWUaKZpe"
+  'sk_test_51QPhZID0nPeKrajIN2Adi7XnUIHz52kAKBkTO9P2nygfQstOgnSLeMgnKTi85nemDr4j2E07YszwIrLXOgye34ip00vWUaKZpe'
 );
 
 export default {
@@ -13,14 +13,14 @@ export default {
       // Create a Payment intent with Stripe
       const paymentIntent = await stripe.paymentIntents.create({
         amount: Math.round(down_payment * 100), // Stripe accepts amounts in cents
-        currency: "usd", // Adjust currency as needed
+        currency: 'usd', // Adjust currency as needed
         automatic_payment_methods: {
           enabled: true, // Enables automatic handling for payment methods
         },
       });
       console.log(paymentIntent);
       if (!paymentIntent) {
-        throw new Error("Failed to create payment intent");
+        throw new Error('Failed to create payment intent');
       }
       return paymentIntent;
     } catch (e) {
@@ -34,22 +34,22 @@ export default {
       const {
         container_type,
         weight,
-        "containers.size": containerSize,
+        'containers.size': containerSize,
         price,
         handle_type,
         tracking_status,
-        "installmentDetails.status": installmentStatus,
+        'installmentDetails.status': installmentStatus,
       } = body;
 
       // Add filters dynamically if they exist in the request query
       if (container_type) filters.container_type = container_type;
       if (weight) filters.weight = Number(weight); // Ensure correct type
-      if (containerSize) filters["containers.size"] = containerSize;
+      if (containerSize) filters['containers.size'] = containerSize;
       if (price) filters.price = Number(price);
       if (handle_type) filters.handle_type = handle_type;
       if (tracking_status) filters.tracking_status = tracking_status;
       if (installmentStatus)
-        filters["installmentDetails.status"] = installmentStatus;
+        filters['installmentDetails.status'] = installmentStatus;
 
       if (body.startDate || body.endDate) {
         filters.created_at = {};
