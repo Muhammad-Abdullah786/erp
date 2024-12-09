@@ -21172,3 +21172,202 @@
     }
 }
 >>>>>>> main
+{
+    "level": "INFO",
+    "timestamp": "2024-12-09T15:14:12.510Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-09T15:14:12.525Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-09T15:14:12.527Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-09T15:15:16.489Z",
+    "message": "Error in booking container",
+    "meta": {
+        "errorResponse": {
+            "index": 0,
+            "code": 11000,
+            "errmsg": "E11000 duplicate key error collection: erp.clients index: email_1 dup key: { email: \"abdulx125@gmail.com\" }",
+            "keyPattern": {
+                "email": 1
+            },
+            "keyValue": {
+                "email": "abdulx125@gmail.com"
+            }
+        },
+        "index": 0,
+        "code": 11000,
+        "keyPattern": {
+            "email": 1
+        },
+        "keyValue": {
+            "email": "abdulx125@gmail.com"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-09T15:15:46.063Z",
+    "message": "Container booked successfully",
+    "meta": {
+        "container": {
+            "container_type": "Refrigerated",
+            "weight": 1500,
+            "containers": [
+                {
+                    "quantity": 2,
+                    "size": "40ft",
+                    "_id": "6757098e7d0e0c7dfa14a084"
+                },
+                {
+                    "quantity": 1,
+                    "size": "20ft",
+                    "_id": "6757098e7d0e0c7dfa14a085"
+                }
+            ],
+            "price": 2000,
+            "handle_type": "Crane",
+            "sender_details": {
+                "name": "John Doe",
+                "email": "saas@gmail.com",
+                "phone": "1234567890"
+            },
+            "receiver_details": {
+                "name": "Jane Smith",
+                "address": "123 Example Street",
+                "country_code": "+1",
+                "phone": "0987654321"
+            },
+            "installmentDetails": [
+                {
+                    "installment_number": 1,
+                    "amount": 500,
+                    "status": "pending",
+                    "_id": "6757098e7d0e0c7dfa14a086",
+                    "due_date": "2025-01-08T15:15:26.841Z"
+                }
+            ],
+            "tracking_status": "Booked",
+            "tracking_stages": {
+                "pickup": {
+                    "status": false,
+                    "timestamp": "2025-01-08T15:15:26.841Z"
+                },
+                "inTransit": {
+                    "status": false,
+                    "timestamp": "2025-02-07T15:15:26.841Z"
+                },
+                "delivered": {
+                    "status": false,
+                    "timestamp": "2025-03-09T15:15:26.841Z"
+                }
+            },
+            "_id": "6757098e7d0e0c7dfa14a083",
+            "remaining_amount": 1500,
+            "created_at": "2024-12-09T15:15:26.841Z",
+            "__v": 0
+        },
+        "client": {
+            "username": "John DoePno6Zcz",
+            "email": "saas@gmail.com",
+            "password": "$2b$10$AXqAzjcXAHkVP0gi4khLdOmvedQE7ZTs2nc/JelmVQtIh5aA6tYwG",
+            "phone": "1234567890",
+            "_id": "675709a27d0e0c7dfa14a08a",
+            "createdAt": "2024-12-09T15:15:46.005Z",
+            "__v": 0
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-09T15:16:20.921Z",
+    "message": "Error in booking container",
+    "meta": {
+        "errorResponse": {
+            "index": 0,
+            "code": 11000,
+            "errmsg": "E11000 duplicate key error collection: erp.clients index: email_1 dup key: { email: \"saas@gmail.com\" }",
+            "keyPattern": {
+                "email": 1
+            },
+            "keyValue": {
+                "email": "saas@gmail.com"
+            }
+        },
+        "index": 0,
+        "code": 11000,
+        "keyPattern": {
+            "email": 1
+        },
+        "keyValue": {
+            "email": "saas@gmail.com"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-09T15:16:48.253Z",
+    "message": "Error in booking container",
+    "meta": {
+        "errorResponse": {
+            "index": 0,
+            "code": 11000,
+            "errmsg": "E11000 duplicate key error collection: erp.clients index: email_1 dup key: { email: \"saas@gmail.com\" }",
+            "keyPattern": {
+                "email": 1
+            },
+            "keyValue": {
+                "email": "saas@gmail.com"
+            }
+        },
+        "index": 0,
+        "code": 11000,
+        "keyPattern": {
+            "email": 1
+        },
+        "keyValue": {
+            "email": "saas@gmail.com"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-09T15:17:34.255Z",
+    "message": "Error in booking container",
+    "meta": {
+        "errorResponse": {
+            "index": 0,
+            "code": 11000,
+            "errmsg": "E11000 duplicate key error collection: erp.clients index: email_1 dup key: { email: \"saas@gmail.com\" }",
+            "keyPattern": {
+                "email": 1
+            },
+            "keyValue": {
+                "email": "saas@gmail.com"
+            }
+        },
+        "index": 0,
+        "code": 11000,
+        "keyPattern": {
+            "email": 1
+        },
+        "keyValue": {
+            "email": "saas@gmail.com"
+        }
+    }
+}

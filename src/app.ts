@@ -16,17 +16,10 @@ app.use(
   cors({
     methods: ['GET', 'POST', 'DELETE', 'OPTIONS', 'HEAD', 'PUT', 'PATCH'],
     origin: [
-<<<<<<< HEAD
-      "https://xyz.com",
-      "http://localhost:3000",
-      "http://localhost:3001",
-      "https://erp-frontend-orcin.vercel.app/",
-=======
       'https://xyz.com',
       'http://localhost:3000',
       'http://localhost:3001',
       'https://erp-frontend-orcin.vercel.app/',
->>>>>>> main
     ],
     credentials: true,
   })

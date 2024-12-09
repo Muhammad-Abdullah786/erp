@@ -15,15 +15,6 @@ import {
 
 const router = Router();
 
-<<<<<<< HEAD
-router.route("/register").post(registerEmployee);
-router.route("/login").post(loginEmployee);
-router.route("/").get(getAllEmployees);
-router.route("/:id").get(getEmployeeById);
-router.route("/:id").get(getEmployeeById);
-router.route("/:id").put(updateEmployeeById);
-router.route("/:id").delete(deleteEmployeeById);
-=======
 router.route('/register').post(registerEmployee);
 router.route('/login').post(loginEmployee);
 router.route('/').get(getAllEmployees);
@@ -31,7 +22,6 @@ router.route('/:id').get(getEmployeeById);
 router.route('/:id').get(getEmployeeById);
 router.route('/:id').put(updateEmployeeById);
 router.route('/:id').delete(deleteEmployeeById);
->>>>>>> main
 
 router.route('/reset').post(UserPasswordResetEmail);
 router.route('/resetpassword/:id').post(userPasswordReset);

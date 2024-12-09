@@ -9,11 +9,7 @@ const EmployeeSchema = new mongoose.Schema<IEmployeeModel>({
   phoneno: { type: String, required: true },
   address: { type: String, required: true },
   cnic_no: { type: String, required: true, unique: true },
-<<<<<<< HEAD
-  profilePic: { type: String, default: "" }, // Store uploaded image path
-=======
   profilePic: { type: String, default: '' }, // Store uploaded image path
->>>>>>> main
   role: { type: String, required: true },
   // department: {
   //   type: String,

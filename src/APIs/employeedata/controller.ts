@@ -1,18 +1,9 @@
-<<<<<<< HEAD
 import { Request, Response } from "express";
 import Employee from "../employeedata/model/employeemodel";
 import jwt from "jsonwebtoken";
 import bcrypt from "bcrypt";
 import config from "../../config/config";
 import transporter from "./emailconfiguration/emailcon";
-=======
-import { Request, Response } from 'express';
-import Employee from '../employeedata/model/employeemodel';
-import jwt from 'jsonwebtoken';
-import bcrypt from 'bcrypt';
-import config from '../../config/config';
-import transporter from './emailconfiguration/emailcon';
->>>>>>> main
 // import logger from "../../handlers/logger";
 
 interface secret {
@@ -41,11 +32,7 @@ export const registerEmployee = async (
     } = req.body;
     // logger.info(`enpploye`, { meta: { ...req } });
     if (!username || !email) {
-<<<<<<< HEAD
-      res.status(400).json({ message: "Username and email are required" });
-=======
       res.status(400).json({ message: 'Username and email are required' });
->>>>>>> main
       return;
     }
 
@@ -61,31 +48,14 @@ export const registerEmployee = async (
       res.status(400).json({
         error:
           existingEmployee.username === username
-<<<<<<< HEAD
-            ? "Username already exists. Please choose a unique username."
-            : "Email already exists. Please choose a unique email.",
-=======
             ? 'Username already exists. Please choose a unique username.'
             : 'Email already exists. Please choose a unique email.',
->>>>>>> main
       });
       return;
     }
 
     // Validation for password mismatch
     if (password !== confirmPassword) {
-<<<<<<< HEAD
-      res.status(400).json({ error: "Passwords do not match" });
-      return;
-    }
-
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (!emailRegex.test(normalizedEmail)) {
-      res.status(400).json({ message: "Invalid email format" });
-      return;
-    }
-
-=======
       res.status(400).json({ error: 'Passwords do not match' });
       return;
     }
@@ -96,7 +66,6 @@ export const registerEmployee = async (
       return;
     }
 
->>>>>>> main
     const passwordRegex =
       /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
 
@@ -132,28 +101,16 @@ export const registerEmployee = async (
     // Respond with success message and employee data
     res.status(201).json(newEmployee);
   } catch (error: any) {
-<<<<<<< HEAD
-    console.error("Error:", error); // Log the actual error for debugging
-
-    if (error.code === 11000) {
-      const field = Object.keys(error.keyPattern)[0];
-      console.log("Field ", field);
-=======
     console.error('Error:', error); // Log the actual error for debugging
 
     if (error.code === 11000) {
       const field = Object.keys(error.keyPattern)[0];
       console.log('Field ', field);
->>>>>>> main
       res.status(400).json({
         message: `Duplicate value for field: ${field.toLowerCase()}. Please ensure the ${field.toLowerCase()} is unique. `,
       });
     } else {
-<<<<<<< HEAD
-      res.status(500).json({ message: "An unexpected error occurred." });
-=======
       res.status(500).json({ message: 'An unexpected error occurred.' });
->>>>>>> main
     }
   }
 };
@@ -206,11 +163,7 @@ export const loginEmployee = async (
       },
     });
   } catch (error) {
-<<<<<<< HEAD
-    console.error("Errorasdas", error); // Log the error for better debugging
-=======
     console.error('Errorasdas', error); // Log the error for better debugging
->>>>>>> main
     return res
       .status(500)
       .json({ message: 'An error occurred', error: error || error });

@@ -4,23 +4,8 @@
 // import logger from "../../handlers/logger";
 
 // export default {
-//   // booking_container: async (req: Request, res: Response) => {
-//   //   try {
-//   //     if (!req.body) {
-//   //       throw new Error("body not found");
-//   //     }
-//   //     const container_data = await service.save_book_conatiner(req.body);
-//   //     logger.info(`container booked: `, { meta: container_data });
-//   //     res.status(201).json({
-//   //       message: "Container Booked Successfully",
-//   //       data: container_data,
-//   //     });
-//   //   } catch (error: any) {
-//   //     console.log(error);
-//   //     logger.error(`error occured in controller : `, { meta: error });
-//   //     res.status(400).json({ error: error?.message });
-//   //   }
-//   // },
+
+
 //   booking_container: async (req: Request, res: Response) => {
 //     try {
 //       if (!req.body) {
