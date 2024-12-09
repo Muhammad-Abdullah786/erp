@@ -11,9 +11,10 @@ const ContainerSchema = new Schema({
   ],
   price: Number,
   handle_type: String,
-  sender_id: {
-    type: Schema.Types.ObjectId,
-    required: true,
+  sender_details: {
+    name: String,
+    email: String,
+    phone: String,
   },
   receiver_details: {
     name: String,

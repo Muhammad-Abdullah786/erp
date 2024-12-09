@@ -1,11 +1,18 @@
+<<<<<<< HEAD
 import bcrypt from "bcrypt";
 import config from "../../../config/config";
 import Joi from "joi";
+=======
+import bcrypt from 'bcrypt';
+import config from '../../../config/config';
+import Joi from 'joi';
+>>>>>>> main
 import {
   verifyResetToken,
   updateClientPassword,
   findClientByEmail,
   saveResetToken,
+<<<<<<< HEAD
 } from "../repository/clientRepository";
 import { v4 as uuidv4 } from "uuid";
 import nodemailer from "nodemailer"; // Importing nodemailer
@@ -17,16 +24,38 @@ import {
 } from "../validations/clientValidation";
 import { IClient } from "../models/clientModel";
 import jwt from "jsonwebtoken";
+=======
+} from '../repository/clientRepository';
+import { v4 as uuidv4 } from 'uuid';
+import nodemailer from 'nodemailer'; // Importing nodemailer
+
+import { registerClient, loginClient } from '../services/clientService';
+import {
+  clientValidation,
+  loginValidation,
+} from '../validations/clientValidation';
+import { IClient } from '../models/clientModel';
+import jwt from 'jsonwebtoken';
+>>>>>>> main
 
 // JWT_SECRET key
 const JWT_SECRET = config.TOKENS.ACCESS.SECRET;
 const transporter = nodemailer.createTransport({
+<<<<<<< HEAD
   host: "smtp.gmail.com",
   port: 587,
   secure: false, // true for port 465, false for other ports
   auth: {
     user: config.EMAIL_USER || "", // Your email
     pass: config.EMAIL_PASS || "", // Your email app password
+=======
+  host: 'smtp.gmail.com',
+  port: 587,
+  secure: false, // true for port 465, false for other ports
+  auth: {
+    user: config.EMAIL_USER || '', // Your email
+    pass: config.EMAIL_PASS || '', // Your email app password
+>>>>>>> main
   },
 });
 
@@ -42,7 +71,11 @@ export const createClient = async (req: any, res: any) => {
     const token = jwt.sign(
       { id: newClient._id, email: newClient.email },
       JWT_SECRET,
+<<<<<<< HEAD
       { expiresIn: "1h" }
+=======
+      { expiresIn: '1h' }
+>>>>>>> main
     );
 
     res.status(201).json({ client: newClient, token });
@@ -55,9 +88,15 @@ export const verify_token = async (req: any, res: any) => {
   try {
     if (req) {
     }
+<<<<<<< HEAD
     res.status.send("token verified");
   } catch (e: any) {
     res.status(400).send("token nt fund");
+=======
+    res.status.send('token verified');
+  } catch (e: any) {
+    res.status(400).send('token nt fund');
+>>>>>>> main
   }
 };
 
@@ -96,7 +135,11 @@ export const updatePassword = async (req: any, res: any): Promise<Response> => {
     if (!passwordValidation(newPassword)) {
       return res.status(400).json({
         message:
+<<<<<<< HEAD
           "Password must contain at least one uppercase letter, one number, one special character, and be at least 8 characters long.",
+=======
+          'Password must contain at least one uppercase letter, one number, one special character, and be at least 8 characters long.',
+>>>>>>> main
       });
     }
 
@@ -104,13 +147,21 @@ export const updatePassword = async (req: any, res: any): Promise<Response> => {
     if (!client) {
       return res
         .status(400)
+<<<<<<< HEAD
         .json({ message: "Invalid or expired reset token" });
+=======
+        .json({ message: 'Invalid or expired reset token' });
+>>>>>>> main
     }
 
     client.password = await bcrypt.hash(newPassword, 10);
     await updateClientPassword(client.id, client.password);
 
+<<<<<<< HEAD
     return res.status(200).json({ message: "Password updated successfully" });
+=======
+    return res.status(200).json({ message: 'Password updated successfully' });
+>>>>>>> main
   } catch (error: any) {
     return res.status(400).json({ message: error.message });
   }
@@ -125,6 +176,7 @@ const sendResetEmail = async (email: string, token: string) => {
     const response = await transporter.sendMail({
       from: `"Coderatory" <${config.EMAIL_USER}>`, // Sender email address
       to: email, // Receiver's email
+<<<<<<< HEAD
       subject: "Password Reset Request",
       html: `<p>You requested a password reset. Click <a href="${resetUrl}">here</a> to reset your password.</p>`,
     });
@@ -133,6 +185,16 @@ const sendResetEmail = async (email: string, token: string) => {
   } catch (error) {
     console.error("Error sending reset email:", error);
     throw new Error("Failed to send reset email");
+=======
+      subject: 'Password Reset Request',
+      html: `<p>You requested a password reset. Click <a href="${resetUrl}">here</a> to reset your password.</p>`,
+    });
+
+    console.log('Email sent successfully:', response);
+  } catch (error) {
+    console.error('Error sending reset email:', error);
+    throw new Error('Failed to send reset email');
+>>>>>>> main
   }
 };
 
@@ -141,8 +203,13 @@ export const resetPassword = async (req: any, res: any): Promise<Response> => {
 
   const { error } = Joi.object({
     email: Joi.string().email().required().messages({
+<<<<<<< HEAD
       "string.email": "Please enter a valid email address",
       "any.required": "Email is required",
+=======
+      'string.email': 'Please enter a valid email address',
+      'any.required': 'Email is required',
+>>>>>>> main
     }),
   }).validate(req.body);
 
@@ -152,7 +219,11 @@ export const resetPassword = async (req: any, res: any): Promise<Response> => {
 
   const user = await findClientByEmail(email);
   if (!user) {
+<<<<<<< HEAD
     return res.status(404).json({ message: "User not found" });
+=======
+    return res.status(404).json({ message: 'User not found' });
+>>>>>>> main
   }
 
   const resetToken = uuidv4();
@@ -161,5 +232,9 @@ export const resetPassword = async (req: any, res: any): Promise<Response> => {
   await saveResetToken(user.id, resetToken, tokenExpiration);
   await sendResetEmail(email, resetToken);
 
+<<<<<<< HEAD
   return res.status(200).json({ message: "Password reset email sent" });
+=======
+  return res.status(200).json({ message: 'Password reset email sent' });
+>>>>>>> main
 };

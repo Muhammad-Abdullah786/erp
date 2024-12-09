@@ -1,75 +1,137 @@
+// import bcryptjs from 'bcrypt';
+// import jwt from 'jsonwebtoken';
+// import { Request, Response } from 'express';
+// import config from '../../../config/config';
+// import { generateTokenAndSetCookie } from '../utils/generateTokenAndSetCookie';
+// import { User, IUser } from '../models/admin.model';
+// import transporter from '../email configurations/emailcon';
+
+// const generateOTP = (): string => {
+//   return Math.floor(100000 + Math.random() * 900000).toString();
+// };
+
+// export const signup = async (req: Request, res: Response): Promise<void> => {
+//   const { email, password, username } = req.body;
+
+//   try {
+//     if (!email || !password || !username) {
+//       throw new Error('All fields are required.');
+//     }
+//     const existingEmployee = await User.findOne({ username });
+//     if (existingEmployee) {
+//       res.status(400).json({
+//         error: 'username already exists. Please choose a unique username.',
+//       });
+//       return;
+//     }
+
+//     // Check if user already exists
+//     const userAlreadyExists = await User.findOne({ email });
+//     if (userAlreadyExists) {
+//       res.status(400).json({ success: false, message: 'User already exists.' });
+//       return;
+//     }
+
+//     // Hash the password
+//     const hashedPassword = await bcryptjs.hash(password, 10);
+
+//     // Generate OTP
+//     const otp = generateOTP();
+
+//     // Save user with OTP and expiry time
+//     const user = new User<Partial<IUser>>({
+//       email,
+//       password: hashedPassword,
+//       username,
+//       otp,
+//       otpExpiresAt: new Date(Date.now() + 10 * 60 * 1000), // OTP valid for 10 minutes
+//       isVerified: false, // Add this field to your model if not already present
+//     });
+
+//     await user.save();
+
+//     // Send verification email
+//     await transporter.sendMail({
+//       from: '"Coderatory" <coderatory@gmail.com>', // Sender's email
+//       to: email, // Receiver's email
+//       subject: 'you Entered signup data  Verify your Email using  OTP', // Subject line
+//       text: 'Verify your Email', // Plain text body
+//       html: `<p>Your verification code is: <strong>${otp}</strong></p>`, // HTML body
+//     });
+
+//     // Respond to client
+//     res.status(201).json({
+//       success: true,
+//       message: 'User created successfully. Please verify your email.',
+//     });
+//   } catch (error: any) {
+//     console.error('Signup error:', error);
+//     res.status(400).json({ success: false, message: error.message });
+//   }
+// };
 import bcryptjs from "bcrypt";
-// import crypto from "crypto";
 import jwt from "jsonwebtoken";
 import { Request, Response } from "express";
 import config from "../../../config/config";
-import { generateTokenAndSetCookie } from "../utils/generateTokenAndSetCookie";
 import { User, IUser } from "../models/admin.model";
-// import { emailService } from "../../../services/email";
 import transporter from "../email configurations/emailcon";
+import { generateTokenAndSetCookie } from "../utils/generateTokenAndSetCookie";
 
-const generateOTP = (): string => {
-  return Math.floor(100000 + Math.random() * 900000).toString();
-};
+const generateOTP = (): string =>
+  Math.floor(100000 + Math.random() * 900000).toString();
 
 export const signup = async (req: Request, res: Response): Promise<void> => {
   const { email, password, username } = req.body;
 
   try {
-    // Validate input
     if (!email || !password || !username) {
-      throw new Error("All fields are required.");
+      res.status(400).json({ message: "All fields are required." });
+      return;
     }
+
     const existingEmployee = await User.findOne({ username });
     if (existingEmployee) {
       res.status(400).json({
-        error: "username already exists. Please choose a unique username.",
+        error: "Username already exists. Please choose a unique username.",
       });
       return;
     }
 
-    // Check if user already exists
     const userAlreadyExists = await User.findOne({ email });
     if (userAlreadyExists) {
       res.status(400).json({ success: false, message: "User already exists." });
       return;
     }
 
-    // Hash the password
     const hashedPassword = await bcryptjs.hash(password, 10);
-
-    // Generate OTP
     const otp = generateOTP();
 
-    // Save user with OTP and expiry time
-    const user = new User<Partial<IUser>>({
+    const user: IUser = new User({
       email,
       password: hashedPassword,
       username,
       otp,
-      otpExpiresAt: new Date(Date.now() + 10 * 60 * 1000), // OTP valid for 10 minutes
-      isVerified: false, // Add this field to your model if not already present
+      otpExpiresAt: new Date(Date.now() + 10 * 60 * 1000),
+      isVerified: false,
     });
 
     await user.save();
 
-    // Send verification email
     await transporter.sendMail({
-      from: '"Coderatory" <coderatory@gmail.com>', // Sender's email
-      to: email, // Receiver's email
-      subject: "you Entered signup data  Verify your Email using  OTP", // Subject line
-      text: "Verify your Email", // Plain text body
-      html: `<p>Your verification code is: <strong>${otp}</strong></p>`, // HTML body
+      from: config.EMAIL_FROM,
+      to: email,
+      subject: "Verify Your Email",
+      html: `<p>Your OTP is: <strong>${otp}</strong></p>`,
     });
 
-    // Respond to client
     res.status(201).json({
       success: true,
       message: "User created successfully. Please verify your email.",
     });
-  } catch (error: any) {
-    console.error("Signup error:", error);
-    res.status(400).json({ success: false, message: error.message });
+  } catch (error: unknown) {
+    if (error instanceof Error) {
+      res.status(400).json({ success: false, message: error.message });
+    }
   }
 };
 
@@ -136,7 +198,7 @@ export const forgotPassword = async (
       const link = `http://localhost:3001/ResetPassword/${user._id}/${token}`; // Updated link
 
       // Send Email
-      let info = await transporter.sendMail({
+      const info = await transporter.sendMail({
         from: config.EMAIL_FROM,
         to: user.email,
         subject: "Reset Your Password - Mail",

@@ -19875,3 +19875,1300 @@
         "SERVER_URL": "http://localhost:3000"
     }
 }
+<<<<<<< HEAD
+=======
+{
+    "level": "INFO",
+    "timestamp": "2024-12-08T09:35:07.581Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-08T09:35:07.592Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-08T09:35:07.596Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-08T17:10:15.910Z",
+    "message": "Error during bootstrap:",
+    "meta": {
+        "message": "Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/",
+        "reason": {
+            "type": "ReplicaSetNoPrimary",
+            "servers": {
+                "first-shard-00-00.mcuc1.mongodb.net:27017": {
+                    "address": "first-shard-00-00.mcuc1.mongodb.net:27017",
+                    "type": "Unknown",
+                    "hosts": [],
+                    "passives": [],
+                    "arbiters": [],
+                    "tags": {},
+                    "minWireVersion": 0,
+                    "maxWireVersion": 0,
+                    "roundTripTime": -1,
+                    "minRoundTripTime": 0,
+                    "lastUpdateTime": 28396673,
+                    "lastWriteDate": 0,
+                    "error": {},
+                    "topologyVersion": null,
+                    "setName": null,
+                    "setVersion": null,
+                    "electionId": null,
+                    "logicalSessionTimeoutMinutes": null,
+                    "maxMessageSizeBytes": null,
+                    "maxWriteBatchSize": null,
+                    "maxBsonObjectSize": null,
+                    "primary": null,
+                    "me": null,
+                    "$clusterTime": null
+                },
+                "first-shard-00-01.mcuc1.mongodb.net:27017": {
+                    "address": "first-shard-00-01.mcuc1.mongodb.net:27017",
+                    "type": "Unknown",
+                    "hosts": [],
+                    "passives": [],
+                    "arbiters": [],
+                    "tags": {},
+                    "minWireVersion": 0,
+                    "maxWireVersion": 0,
+                    "roundTripTime": -1,
+                    "minRoundTripTime": 0,
+                    "lastUpdateTime": 28396903,
+                    "lastWriteDate": 0,
+                    "error": {},
+                    "topologyVersion": null,
+                    "setName": null,
+                    "setVersion": null,
+                    "electionId": null,
+                    "logicalSessionTimeoutMinutes": null,
+                    "maxMessageSizeBytes": null,
+                    "maxWriteBatchSize": null,
+                    "maxBsonObjectSize": null,
+                    "primary": null,
+                    "me": null,
+                    "$clusterTime": null
+                },
+                "first-shard-00-02.mcuc1.mongodb.net:27017": {
+                    "address": "first-shard-00-02.mcuc1.mongodb.net:27017",
+                    "type": "Unknown",
+                    "hosts": [],
+                    "passives": [],
+                    "arbiters": [],
+                    "tags": {},
+                    "minWireVersion": 0,
+                    "maxWireVersion": 0,
+                    "roundTripTime": -1,
+                    "minRoundTripTime": 0,
+                    "lastUpdateTime": 28396905,
+                    "lastWriteDate": 0,
+                    "error": {},
+                    "topologyVersion": null,
+                    "setName": null,
+                    "setVersion": null,
+                    "electionId": null,
+                    "logicalSessionTimeoutMinutes": null,
+                    "maxMessageSizeBytes": null,
+                    "maxWriteBatchSize": null,
+                    "maxBsonObjectSize": null,
+                    "primary": null,
+                    "me": null,
+                    "$clusterTime": null
+                }
+            },
+            "stale": false,
+            "compatible": true,
+            "heartbeatFrequencyMS": 10000,
+            "localThresholdMS": 15,
+            "setName": "atlas-cpqwn8-shard-0",
+            "maxElectionId": null,
+            "maxSetVersion": null,
+            "commonWireVersion": 0,
+            "logicalSessionTimeoutMinutes": null
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-08T17:16:49.024Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-08T17:16:49.030Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-08T17:16:49.033Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-08T17:39:50.185Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-08T17:39:50.195Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-08T17:39:50.198Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-08T17:59:53.102Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-08T17:59:53.116Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-08T17:59:53.118Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-08T18:00:24.958Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-08T18:00:24.975Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-08T18:00:24.984Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-08T18:01:48.131Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-08T18:01:48.138Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-08T18:01:48.142Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-08T18:03:17.905Z",
+    "message": "container booked: ",
+    "meta": {
+        "$__": {
+            "activePaths": {
+                "paths": {},
+                "states": {
+                    "default": {},
+                    "modify": {}
+                }
+            },
+            "pathsToScopes": {
+                "installmentDetails": {
+                    "container_type": "Refrigerated",
+                    "weight": 1500,
+                    "containers": [
+                        {
+                            "quantity": 2,
+                            "size": "40ft",
+                            "_id": "6755df61de6f4b61787be3ce"
+                        },
+                        {
+                            "quantity": 1,
+                            "size": "20ft",
+                            "_id": "6755df61de6f4b61787be3cf"
+                        }
+                    ],
+                    "price": 2000,
+                    "handle_type": "Crane",
+                    "sender_details": {
+                        "name": "John Doe",
+                        "email": "johndoe@example.com",
+                        "phone": "1234567890"
+                    },
+                    "receiver_details": {
+                        "name": "Jane Smith",
+                        "address": "123 Example Street",
+                        "country_code": "+1",
+                        "phone": "0987654321"
+                    },
+                    "installmentDetails": [
+                        {
+                            "installment_number": 1,
+                            "amount": 500,
+                            "status": "pending",
+                            "_id": "6755df62de6f4b61787be3d0",
+                            "due_date": "2025-01-07T18:03:14.001Z"
+                        }
+                    ],
+                    "tracking_status": "Booked",
+                    "tracking_stages": {
+                        "pickup": {
+                            "status": false,
+                            "timestamp": "2025-01-07T18:03:14.002Z"
+                        },
+                        "inTransit": {
+                            "status": false,
+                            "timestamp": "2025-02-06T18:03:14.002Z"
+                        },
+                        "delivered": {
+                            "status": false,
+                            "timestamp": "2025-03-08T18:03:14.003Z"
+                        }
+                    },
+                    "_id": "6755df61de6f4b61787be3cd",
+                    "remaining_amount": 1500,
+                    "created_at": "2024-12-08T18:03:14.003Z",
+                    "__v": 0
+                },
+                "containers.0": [
+                    {
+                        "quantity": 2,
+                        "size": "40ft",
+                        "_id": "6755df61de6f4b61787be3ce"
+                    },
+                    {
+                        "quantity": 1,
+                        "size": "20ft",
+                        "_id": "6755df61de6f4b61787be3cf"
+                    }
+                ],
+                "containers.1": [
+                    {
+                        "quantity": 2,
+                        "size": "40ft",
+                        "_id": "6755df61de6f4b61787be3ce"
+                    },
+                    {
+                        "quantity": 1,
+                        "size": "20ft",
+                        "_id": "6755df61de6f4b61787be3cf"
+                    }
+                ],
+                "installmentDetails.0": [
+                    {
+                        "installment_number": 1,
+                        "amount": 500,
+                        "status": "pending",
+                        "_id": "6755df62de6f4b61787be3d0",
+                        "due_date": "2025-01-07T18:03:14.001Z"
+                    }
+                ]
+            },
+            "op": null,
+            "saving": null,
+            "$versionError": null,
+            "saveOptions": null,
+            "validating": null,
+            "cachedRequired": {},
+            "backup": {
+                "activePaths": {
+                    "modify": {
+                        "container_type": true,
+                        "weight": true,
+                        "containers": true,
+                        "price": true,
+                        "handle_type": true,
+                        "sender_details": true,
+                        "receiver_details": true,
+                        "installmentDetails": true
+                    },
+                    "default": {
+                        "tracking_status": true,
+                        "tracking_stages.pickup.status": true,
+                        "tracking_stages.inTransit.status": true,
+                        "tracking_stages.delivered.status": true,
+                        "_id": true,
+                        "remaining_amount": true,
+                        "tracking_stages.pickup.timestamp": true,
+                        "tracking_stages.inTransit.timestamp": true,
+                        "tracking_stages.delivered.timestamp": true,
+                        "created_at": true
+                    }
+                },
+                "validationError": null
+            },
+            "inserting": true,
+            "savedState": {},
+            "getters": {
+                "receiver_details": {
+                    "name": "Jane Smith",
+                    "address": "123 Example Street",
+                    "country_code": "+1",
+                    "phone": "0987654321"
+                },
+                "sender_details": {
+                    "name": "John Doe",
+                    "email": "johndoe@example.com",
+                    "phone": "1234567890"
+                }
+            },
+            "nestedPath": "sender_details"
+        },
+        "_doc": {
+            "container_type": "Refrigerated",
+            "weight": 1500,
+            "containers": [
+                {
+                    "quantity": 2,
+                    "size": "40ft",
+                    "_id": "6755df61de6f4b61787be3ce"
+                },
+                {
+                    "quantity": 1,
+                    "size": "20ft",
+                    "_id": "6755df61de6f4b61787be3cf"
+                }
+            ],
+            "price": 2000,
+            "handle_type": "Crane",
+            "sender_details": {
+                "name": "John Doe",
+                "email": "johndoe@example.com",
+                "phone": "1234567890"
+            },
+            "receiver_details": {
+                "name": "Jane Smith",
+                "address": "123 Example Street",
+                "country_code": "+1",
+                "phone": "0987654321"
+            },
+            "installmentDetails": [
+                {
+                    "installment_number": 1,
+                    "amount": 500,
+                    "status": "pending",
+                    "_id": "6755df62de6f4b61787be3d0",
+                    "due_date": "2025-01-07T18:03:14.001Z"
+                }
+            ],
+            "tracking_status": "Booked",
+            "tracking_stages": {
+                "pickup": {
+                    "status": false,
+                    "timestamp": "2025-01-07T18:03:14.002Z"
+                },
+                "inTransit": {
+                    "status": false,
+                    "timestamp": "2025-02-06T18:03:14.002Z"
+                },
+                "delivered": {
+                    "status": false,
+                    "timestamp": "2025-03-08T18:03:14.003Z"
+                }
+            },
+            "_id": "6755df61de6f4b61787be3cd",
+            "remaining_amount": 1500,
+            "created_at": "2024-12-08T18:03:14.003Z",
+            "__v": 0
+        },
+        "$isNew": false
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-08T18:05:14.997Z",
+    "message": "container booked: ",
+    "meta": {
+        "$__": {
+            "activePaths": {
+                "paths": {},
+                "states": {
+                    "default": {},
+                    "modify": {}
+                }
+            },
+            "pathsToScopes": {
+                "installmentDetails": {
+                    "container_type": "Refrigerated",
+                    "weight": 1500,
+                    "containers": [
+                        {
+                            "quantity": 2,
+                            "size": "40ft",
+                            "_id": "6755dfd7de6f4b61787be3d4"
+                        },
+                        {
+                            "quantity": 1,
+                            "size": "20ft",
+                            "_id": "6755dfd7de6f4b61787be3d5"
+                        }
+                    ],
+                    "price": 2000,
+                    "handle_type": "Crane",
+                    "sender_details": {
+                        "name": "John Doe",
+                        "email": "ken@justzeus.com",
+                        "phone": "1234567890"
+                    },
+                    "receiver_details": {
+                        "name": "Jane Smith",
+                        "address": "123 Example Street",
+                        "country_code": "+1",
+                        "phone": "0987654321"
+                    },
+                    "installmentDetails": [
+                        {
+                            "installment_number": 1,
+                            "amount": 500,
+                            "status": "pending",
+                            "_id": "6755dfd7de6f4b61787be3d6",
+                            "due_date": "2025-01-07T18:05:11.909Z"
+                        }
+                    ],
+                    "tracking_status": "Booked",
+                    "tracking_stages": {
+                        "pickup": {
+                            "status": false,
+                            "timestamp": "2025-01-07T18:05:11.909Z"
+                        },
+                        "inTransit": {
+                            "status": false,
+                            "timestamp": "2025-02-06T18:05:11.909Z"
+                        },
+                        "delivered": {
+                            "status": false,
+                            "timestamp": "2025-03-08T18:05:11.909Z"
+                        }
+                    },
+                    "_id": "6755dfd7de6f4b61787be3d3",
+                    "remaining_amount": 1500,
+                    "created_at": "2024-12-08T18:05:11.909Z",
+                    "__v": 0
+                },
+                "containers.0": [
+                    {
+                        "quantity": 2,
+                        "size": "40ft",
+                        "_id": "6755dfd7de6f4b61787be3d4"
+                    },
+                    {
+                        "quantity": 1,
+                        "size": "20ft",
+                        "_id": "6755dfd7de6f4b61787be3d5"
+                    }
+                ],
+                "containers.1": [
+                    {
+                        "quantity": 2,
+                        "size": "40ft",
+                        "_id": "6755dfd7de6f4b61787be3d4"
+                    },
+                    {
+                        "quantity": 1,
+                        "size": "20ft",
+                        "_id": "6755dfd7de6f4b61787be3d5"
+                    }
+                ],
+                "installmentDetails.0": [
+                    {
+                        "installment_number": 1,
+                        "amount": 500,
+                        "status": "pending",
+                        "_id": "6755dfd7de6f4b61787be3d6",
+                        "due_date": "2025-01-07T18:05:11.909Z"
+                    }
+                ]
+            },
+            "op": null,
+            "saving": null,
+            "$versionError": null,
+            "saveOptions": null,
+            "validating": null,
+            "cachedRequired": {},
+            "backup": {
+                "activePaths": {
+                    "modify": {
+                        "container_type": true,
+                        "weight": true,
+                        "containers": true,
+                        "price": true,
+                        "handle_type": true,
+                        "sender_details": true,
+                        "receiver_details": true,
+                        "installmentDetails": true
+                    },
+                    "default": {
+                        "tracking_status": true,
+                        "tracking_stages.pickup.status": true,
+                        "tracking_stages.inTransit.status": true,
+                        "tracking_stages.delivered.status": true,
+                        "_id": true,
+                        "remaining_amount": true,
+                        "tracking_stages.pickup.timestamp": true,
+                        "tracking_stages.inTransit.timestamp": true,
+                        "tracking_stages.delivered.timestamp": true,
+                        "created_at": true
+                    }
+                },
+                "validationError": null
+            },
+            "inserting": true,
+            "savedState": {},
+            "getters": {
+                "receiver_details": {
+                    "name": "Jane Smith",
+                    "address": "123 Example Street",
+                    "country_code": "+1",
+                    "phone": "0987654321"
+                },
+                "sender_details": {
+                    "name": "John Doe",
+                    "email": "ken@justzeus.com",
+                    "phone": "1234567890"
+                }
+            },
+            "nestedPath": "sender_details"
+        },
+        "_doc": {
+            "container_type": "Refrigerated",
+            "weight": 1500,
+            "containers": [
+                {
+                    "quantity": 2,
+                    "size": "40ft",
+                    "_id": "6755dfd7de6f4b61787be3d4"
+                },
+                {
+                    "quantity": 1,
+                    "size": "20ft",
+                    "_id": "6755dfd7de6f4b61787be3d5"
+                }
+            ],
+            "price": 2000,
+            "handle_type": "Crane",
+            "sender_details": {
+                "name": "John Doe",
+                "email": "ken@justzeus.com",
+                "phone": "1234567890"
+            },
+            "receiver_details": {
+                "name": "Jane Smith",
+                "address": "123 Example Street",
+                "country_code": "+1",
+                "phone": "0987654321"
+            },
+            "installmentDetails": [
+                {
+                    "installment_number": 1,
+                    "amount": 500,
+                    "status": "pending",
+                    "_id": "6755dfd7de6f4b61787be3d6",
+                    "due_date": "2025-01-07T18:05:11.909Z"
+                }
+            ],
+            "tracking_status": "Booked",
+            "tracking_stages": {
+                "pickup": {
+                    "status": false,
+                    "timestamp": "2025-01-07T18:05:11.909Z"
+                },
+                "inTransit": {
+                    "status": false,
+                    "timestamp": "2025-02-06T18:05:11.909Z"
+                },
+                "delivered": {
+                    "status": false,
+                    "timestamp": "2025-03-08T18:05:11.909Z"
+                }
+            },
+            "_id": "6755dfd7de6f4b61787be3d3",
+            "remaining_amount": 1500,
+            "created_at": "2024-12-08T18:05:11.909Z",
+            "__v": 0
+        },
+        "$isNew": false
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-09T10:34:42.296Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-09T10:34:42.304Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-09T10:34:42.306Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-09T10:53:50.833Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-09T10:53:50.843Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-09T10:53:50.844Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-09T10:57:05.555Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-09T10:57:05.566Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-09T10:57:05.569Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-09T10:58:50.883Z",
+    "message": "container booked: ",
+    "meta": {
+        "$__": {
+            "activePaths": {
+                "paths": {},
+                "states": {
+                    "default": {},
+                    "modify": {}
+                }
+            },
+            "pathsToScopes": {
+                "installmentDetails": {
+                    "container_type": "Refrigerated",
+                    "weight": 1500,
+                    "containers": [
+                        {
+                            "quantity": 2,
+                            "size": "40ft",
+                            "_id": "6756cd67ad907a769b91f369"
+                        },
+                        {
+                            "quantity": 1,
+                            "size": "20ft",
+                            "_id": "6756cd67ad907a769b91f36a"
+                        }
+                    ],
+                    "price": 2000,
+                    "handle_type": "Crane",
+                    "sender_details": {
+                        "name": "John Doe",
+                        "email": "ken@justzeus.com",
+                        "phone": "1234567890"
+                    },
+                    "receiver_details": {
+                        "name": "Jane Smith",
+                        "address": "123 Example Street",
+                        "country_code": "+1",
+                        "phone": "0987654321"
+                    },
+                    "installmentDetails": [
+                        {
+                            "installment_number": 1,
+                            "amount": 500,
+                            "status": "pending",
+                            "_id": "6756cd67ad907a769b91f36b",
+                            "due_date": "2025-01-08T10:58:47.178Z"
+                        }
+                    ],
+                    "tracking_status": "Booked",
+                    "tracking_stages": {
+                        "pickup": {
+                            "status": false,
+                            "timestamp": "2025-01-08T10:58:47.179Z"
+                        },
+                        "inTransit": {
+                            "status": false,
+                            "timestamp": "2025-02-07T10:58:47.179Z"
+                        },
+                        "delivered": {
+                            "status": false,
+                            "timestamp": "2025-03-09T10:58:47.180Z"
+                        }
+                    },
+                    "_id": "6756cd67ad907a769b91f368",
+                    "remaining_amount": 1500,
+                    "created_at": "2024-12-09T10:58:47.180Z",
+                    "__v": 0
+                },
+                "containers.0": [
+                    {
+                        "quantity": 2,
+                        "size": "40ft",
+                        "_id": "6756cd67ad907a769b91f369"
+                    },
+                    {
+                        "quantity": 1,
+                        "size": "20ft",
+                        "_id": "6756cd67ad907a769b91f36a"
+                    }
+                ],
+                "containers.1": [
+                    {
+                        "quantity": 2,
+                        "size": "40ft",
+                        "_id": "6756cd67ad907a769b91f369"
+                    },
+                    {
+                        "quantity": 1,
+                        "size": "20ft",
+                        "_id": "6756cd67ad907a769b91f36a"
+                    }
+                ],
+                "installmentDetails.0": [
+                    {
+                        "installment_number": 1,
+                        "amount": 500,
+                        "status": "pending",
+                        "_id": "6756cd67ad907a769b91f36b",
+                        "due_date": "2025-01-08T10:58:47.178Z"
+                    }
+                ]
+            },
+            "op": null,
+            "saving": null,
+            "$versionError": null,
+            "saveOptions": null,
+            "validating": null,
+            "cachedRequired": {},
+            "backup": {
+                "activePaths": {
+                    "modify": {
+                        "container_type": true,
+                        "weight": true,
+                        "containers": true,
+                        "price": true,
+                        "handle_type": true,
+                        "sender_details": true,
+                        "receiver_details": true,
+                        "installmentDetails": true
+                    },
+                    "default": {
+                        "tracking_status": true,
+                        "tracking_stages.pickup.status": true,
+                        "tracking_stages.inTransit.status": true,
+                        "tracking_stages.delivered.status": true,
+                        "_id": true,
+                        "remaining_amount": true,
+                        "tracking_stages.pickup.timestamp": true,
+                        "tracking_stages.inTransit.timestamp": true,
+                        "tracking_stages.delivered.timestamp": true,
+                        "created_at": true
+                    }
+                },
+                "validationError": null
+            },
+            "inserting": true,
+            "savedState": {},
+            "getters": {
+                "receiver_details": {
+                    "name": "Jane Smith",
+                    "address": "123 Example Street",
+                    "country_code": "+1",
+                    "phone": "0987654321"
+                },
+                "sender_details": {
+                    "name": "John Doe",
+                    "email": "ken@justzeus.com",
+                    "phone": "1234567890"
+                }
+            },
+            "nestedPath": "sender_details"
+        },
+        "_doc": {
+            "container_type": "Refrigerated",
+            "weight": 1500,
+            "containers": [
+                {
+                    "quantity": 2,
+                    "size": "40ft",
+                    "_id": "6756cd67ad907a769b91f369"
+                },
+                {
+                    "quantity": 1,
+                    "size": "20ft",
+                    "_id": "6756cd67ad907a769b91f36a"
+                }
+            ],
+            "price": 2000,
+            "handle_type": "Crane",
+            "sender_details": {
+                "name": "John Doe",
+                "email": "ken@justzeus.com",
+                "phone": "1234567890"
+            },
+            "receiver_details": {
+                "name": "Jane Smith",
+                "address": "123 Example Street",
+                "country_code": "+1",
+                "phone": "0987654321"
+            },
+            "installmentDetails": [
+                {
+                    "installment_number": 1,
+                    "amount": 500,
+                    "status": "pending",
+                    "_id": "6756cd67ad907a769b91f36b",
+                    "due_date": "2025-01-08T10:58:47.178Z"
+                }
+            ],
+            "tracking_status": "Booked",
+            "tracking_stages": {
+                "pickup": {
+                    "status": false,
+                    "timestamp": "2025-01-08T10:58:47.179Z"
+                },
+                "inTransit": {
+                    "status": false,
+                    "timestamp": "2025-02-07T10:58:47.179Z"
+                },
+                "delivered": {
+                    "status": false,
+                    "timestamp": "2025-03-09T10:58:47.180Z"
+                }
+            },
+            "_id": "6756cd67ad907a769b91f368",
+            "remaining_amount": 1500,
+            "created_at": "2024-12-09T10:58:47.180Z",
+            "__v": 0
+        },
+        "$isNew": false
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-09T11:11:12.271Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-09T11:11:12.281Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-09T11:11:12.285Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-09T11:12:50.443Z",
+    "message": "container booked: ",
+    "meta": {
+        "$__": {
+            "activePaths": {
+                "paths": {},
+                "states": {
+                    "default": {},
+                    "modify": {}
+                }
+            },
+            "pathsToScopes": {
+                "installmentDetails": {
+                    "container_type": "Refrigerated",
+                    "weight": 1500,
+                    "containers": [
+                        {
+                            "quantity": 2,
+                            "size": "40ft",
+                            "_id": "6756d0aed3315043b5fe80fa"
+                        },
+                        {
+                            "quantity": 1,
+                            "size": "20ft",
+                            "_id": "6756d0aed3315043b5fe80fb"
+                        }
+                    ],
+                    "price": 2000,
+                    "handle_type": "Crane",
+                    "sender_details": {
+                        "name": "John Doe",
+                        "email": "abdulx125@gmail.com",
+                        "phone": "1234567890"
+                    },
+                    "receiver_details": {
+                        "name": "Jane Smith",
+                        "address": "123 Example Street",
+                        "country_code": "+1",
+                        "phone": "0987654321"
+                    },
+                    "installmentDetails": [
+                        {
+                            "installment_number": 1,
+                            "amount": 500,
+                            "status": "pending",
+                            "_id": "6756d0aed3315043b5fe80fc",
+                            "due_date": "2025-01-08T11:12:46.954Z"
+                        }
+                    ],
+                    "tracking_status": "Booked",
+                    "tracking_stages": {
+                        "pickup": {
+                            "status": false,
+                            "timestamp": "2025-01-08T11:12:46.954Z"
+                        },
+                        "inTransit": {
+                            "status": false,
+                            "timestamp": "2025-02-07T11:12:46.954Z"
+                        },
+                        "delivered": {
+                            "status": false,
+                            "timestamp": "2025-03-09T11:12:46.954Z"
+                        }
+                    },
+                    "_id": "6756d0aed3315043b5fe80f9",
+                    "remaining_amount": 1500,
+                    "created_at": "2024-12-09T11:12:46.954Z",
+                    "__v": 0
+                },
+                "containers.0": [
+                    {
+                        "quantity": 2,
+                        "size": "40ft",
+                        "_id": "6756d0aed3315043b5fe80fa"
+                    },
+                    {
+                        "quantity": 1,
+                        "size": "20ft",
+                        "_id": "6756d0aed3315043b5fe80fb"
+                    }
+                ],
+                "containers.1": [
+                    {
+                        "quantity": 2,
+                        "size": "40ft",
+                        "_id": "6756d0aed3315043b5fe80fa"
+                    },
+                    {
+                        "quantity": 1,
+                        "size": "20ft",
+                        "_id": "6756d0aed3315043b5fe80fb"
+                    }
+                ],
+                "installmentDetails.0": [
+                    {
+                        "installment_number": 1,
+                        "amount": 500,
+                        "status": "pending",
+                        "_id": "6756d0aed3315043b5fe80fc",
+                        "due_date": "2025-01-08T11:12:46.954Z"
+                    }
+                ]
+            },
+            "op": null,
+            "saving": null,
+            "$versionError": null,
+            "saveOptions": null,
+            "validating": null,
+            "cachedRequired": {},
+            "backup": {
+                "activePaths": {
+                    "modify": {
+                        "container_type": true,
+                        "weight": true,
+                        "containers": true,
+                        "price": true,
+                        "handle_type": true,
+                        "sender_details": true,
+                        "receiver_details": true,
+                        "installmentDetails": true
+                    },
+                    "default": {
+                        "tracking_status": true,
+                        "tracking_stages.pickup.status": true,
+                        "tracking_stages.inTransit.status": true,
+                        "tracking_stages.delivered.status": true,
+                        "_id": true,
+                        "remaining_amount": true,
+                        "tracking_stages.pickup.timestamp": true,
+                        "tracking_stages.inTransit.timestamp": true,
+                        "tracking_stages.delivered.timestamp": true,
+                        "created_at": true
+                    }
+                },
+                "validationError": null
+            },
+            "inserting": true,
+            "savedState": {},
+            "getters": {
+                "receiver_details": {
+                    "name": "Jane Smith",
+                    "address": "123 Example Street",
+                    "country_code": "+1",
+                    "phone": "0987654321"
+                },
+                "sender_details": {
+                    "name": "John Doe",
+                    "email": "abdulx125@gmail.com",
+                    "phone": "1234567890"
+                }
+            },
+            "nestedPath": "sender_details"
+        },
+        "_doc": {
+            "container_type": "Refrigerated",
+            "weight": 1500,
+            "containers": [
+                {
+                    "quantity": 2,
+                    "size": "40ft",
+                    "_id": "6756d0aed3315043b5fe80fa"
+                },
+                {
+                    "quantity": 1,
+                    "size": "20ft",
+                    "_id": "6756d0aed3315043b5fe80fb"
+                }
+            ],
+            "price": 2000,
+            "handle_type": "Crane",
+            "sender_details": {
+                "name": "John Doe",
+                "email": "abdulx125@gmail.com",
+                "phone": "1234567890"
+            },
+            "receiver_details": {
+                "name": "Jane Smith",
+                "address": "123 Example Street",
+                "country_code": "+1",
+                "phone": "0987654321"
+            },
+            "installmentDetails": [
+                {
+                    "installment_number": 1,
+                    "amount": 500,
+                    "status": "pending",
+                    "_id": "6756d0aed3315043b5fe80fc",
+                    "due_date": "2025-01-08T11:12:46.954Z"
+                }
+            ],
+            "tracking_status": "Booked",
+            "tracking_stages": {
+                "pickup": {
+                    "status": false,
+                    "timestamp": "2025-01-08T11:12:46.954Z"
+                },
+                "inTransit": {
+                    "status": false,
+                    "timestamp": "2025-02-07T11:12:46.954Z"
+                },
+                "delivered": {
+                    "status": false,
+                    "timestamp": "2025-03-09T11:12:46.954Z"
+                }
+            },
+            "_id": "6756d0aed3315043b5fe80f9",
+            "remaining_amount": 1500,
+            "created_at": "2024-12-09T11:12:46.954Z",
+            "__v": 0
+        },
+        "$isNew": false
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-09T11:36:04.350Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-09T11:36:04.366Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-09T11:36:04.369Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-09T11:36:32.525Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-09T11:36:32.532Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-09T11:36:32.534Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-09T11:38:13.289Z",
+    "message": "the error is :",
+    "meta": {
+        "errorResponse": {
+            "index": 0,
+            "code": 11000,
+            "errmsg": "E11000 duplicate key error collection: erp.clients index: email_1 dup key: { email: \"abdulx125@gmail.com\" }",
+            "keyPattern": {
+                "email": 1
+            },
+            "keyValue": {
+                "email": "abdulx125@gmail.com"
+            }
+        },
+        "index": 0,
+        "code": 11000,
+        "keyPattern": {
+            "email": 1
+        },
+        "keyValue": {
+            "email": "abdulx125@gmail.com"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-09T12:06:19.241Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-09T12:06:19.249Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-09T12:06:19.251Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-09T12:08:11.094Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-09T12:08:11.101Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-09T12:08:11.105Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+>>>>>>> main

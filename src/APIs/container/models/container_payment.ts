@@ -1,10 +1,18 @@
+<<<<<<< HEAD
 import { Schema, model, Document } from "mongoose";
+=======
+import { Schema, model, Document } from 'mongoose';
+>>>>>>> main
 
 interface PaymentSchedule {
   installment_number: number;
   due_date: Date;
   amount: number;
+<<<<<<< HEAD
   status: "pending" | "paid";
+=======
+  status: 'pending' | 'paid';
+>>>>>>> main
 }
 
 interface Payment extends Document {
@@ -14,7 +22,11 @@ interface Payment extends Document {
   down_payment: number;
   remaining_balance: number;
   installmentDetails: PaymentSchedule[];
+<<<<<<< HEAD
   remaining_amount : Number;
+=======
+  remaining_amount : number;
+>>>>>>> main
   created_at: Date;
 }
 
@@ -25,7 +37,11 @@ const PaymentSchema = new Schema<Payment>({
   },
   booking_id: {
     type: Schema.Types.ObjectId,
+<<<<<<< HEAD
     ref: "Container", // Reference to your container booking model
+=======
+    ref: 'Container', // Reference to your container booking model
+>>>>>>> main
     required: true,
   },
   total_amount: {
@@ -60,6 +76,10 @@ const PaymentSchema = new Schema<Payment>({
 },
 },{timestamps : true});
 
+<<<<<<< HEAD
 const PaymentModel = model<Payment>("Payment", PaymentSchema);
+=======
+const PaymentModel = model<Payment>('Payment', PaymentSchema);
+>>>>>>> main
 
 export default PaymentModel;
