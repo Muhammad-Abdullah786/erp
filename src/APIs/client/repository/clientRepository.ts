@@ -1,4 +1,4 @@
-import { Client, IClient } from '../models/clientModel';
+import { Client, IClient, IClientInput } from "../models/clientModel";
 
 // Find client by email
 export const getClientByEmail = async (
@@ -6,7 +6,9 @@ export const getClientByEmail = async (
 ): Promise<IClient | null> => {
   return Client.findOne({ email });
 };
-export const createClient = async (clientData: IClient): Promise<IClient> => {
+export const createClient = async (
+  clientData: IClientInput
+): Promise<IClient> => {
   const client = new Client(clientData);
   return client.save();
 };

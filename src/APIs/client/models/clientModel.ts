@@ -1,30 +1,39 @@
-import mongoose, { Schema, Document } from 'mongoose';
+import mongoose, { Schema, Document } from "mongoose";
 
 export interface IClient extends Document {
-  name: string;
-  username: string; // Added username here
-  email: string;
+  username: string;
   password: string;
   phone: string;
-  address: string;
-  cnicOrPassport: string;
+  email: string; // we will get those 2 when user req a container
   resetPasswordToken?: string;
   resetPasswordExpires?: number;
 }
 
-const clientSchema: Schema = new Schema(
-  {
-    name: { type: String, required: true },
-    username: { type: String, required: true, unique: true }, // Unique username
-    email: { type: String, required: true, unique: true },
-    password: { type: String, required: true },
-    phone: { type: String, required: true },
-    address: { type: String, required: true },
-    cnicOrPassport: { type: String, required: true, unique:true },
-    resetPasswordToken: { type: String },
-    resetPasswordExpires: { type: Number },
-  },
-  { timestamps: true }
-);
+export interface IClientInput {
+  username: string;
+  email: string;
+  phone: string;
+  password: string;
+}
 
-export const Client = mongoose.model<IClient>('Client', clientSchema);
+// const clientSchema: Schema = new Schema(
+//   {
+//     username: { type: String, required: true, unique: true }, // Unique username
+//     email: { type: String, required: true, unique: true },
+//     password: { type: String, required: true },
+//     phone: { type: String, required: true },
+//     resetPasswordToken: { type: String },
+//     resetPasswordExpires: { type: Number },
+//   },
+//   { timestamps: true }
+// );
+
+const clientSchema = new Schema({
+  username: { type: String, unique: true, required: true },
+  email: { type: String, unique: true, required: true },
+  password: { type: String, required: true },
+  phone: { type: String, required: true },
+  createdAt: { type: Date, default: Date.now },
+});
+
+export const Client = mongoose.model<IClient>("Client", clientSchema);

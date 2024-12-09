@@ -25,9 +25,9 @@
   "license": "ISC",
   "description": "",
   "lint-staged": {
-    "*.{js,ts}": [
-      "eslint --fix",
-      "git add"
+    "**/*.{js,ts}": [
+      "npm run lint:fix",
+      "npm run format:fix"
     ]
   },
   "devDependencies": {

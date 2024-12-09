@@ -1,8 +1,7 @@
 import Joi from 'joi';
 
 export const clientValidation = Joi.object({
-  name: Joi.string().min(3).max(50).required(),
-  username: Joi.string().min(3).max(30).required(), // Username validation
+  username: Joi.string().min(3).max(30).required(), 
   email: Joi.string().email().required(),
   password: Joi.string()
     .pattern(new RegExp('^(?=.*[A-Z])(?=.*[!@#$%^&*])(?=.*[0-9])(?=.{8,})'))
@@ -16,8 +15,7 @@ export const clientValidation = Joi.object({
     .required()
     .messages({ 'any.only': 'Passwords must match' }),
   phone: Joi.string().pattern(new RegExp('^\\+?[0-9]{10,15}$')).required(),
-  address: Joi.string().required(),
-  cnicOrPassport: Joi.string().required(),
+
 });
 
 // Login validation schema

@@ -1,7 +1,10 @@
-const Contaier_BD = require('../models/container_models');
-import PDFDocument from 'pdfkit';
-import nodemailer from 'nodemailer';
-import fs from 'fs';
+const Contaier_BD = require("../models/container_models");
+import PDFDocument from "pdfkit";
+import nodemailer from "nodemailer";
+import fs from "fs";
+import { registerClient } from "../../client/services/clientService";
+import { generateRandomPassword } from "../../client/automateRegistration/generateClient";
+import { IClientInput } from "../../client/models/clientModel";
 
 const generatePDF = (container: any, pdfPath: string) => {
   return new Promise<void>((resolve, reject) => {
@@ -10,8 +13,8 @@ const generatePDF = (container: any, pdfPath: string) => {
 
     doc.pipe(stream);
 
-    doc.fontSize(16).text('Booking Confirmation', { align: 'center' });
-    doc.text('\n');
+    doc.fontSize(16).text("Booking Confirmation", { align: "center" });
+    doc.text("\n");
     doc.fontSize(12).text(`Booking ID: ${container._id}`);
     doc.text(`Container Type: ${container.container_type}`);
     doc.text(`Weight: ${container.weight}`);
@@ -21,34 +24,34 @@ const generatePDF = (container: any, pdfPath: string) => {
     doc.text(`Name: ${container.receiver_details.name}`);
     doc.text(`Address: ${container.receiver_details.address}`);
     doc.text(`Phone: ${container.receiver_details.phone}`);
-    doc.text('\nThank you for choosing our service!');
+    doc.text("\nThank you for choosing our service!");
 
     doc.end();
 
-    stream.on('finish', resolve);
-    stream.on('error', reject);
+    stream.on("finish", resolve);
+    stream.on("error", reject);
   });
 };
 
 const sendEmailWithPDF = async (pdfPath: string, recipientEmail: string) => {
   // Configure Nodemailer
   const transporter = nodemailer.createTransport({
-    service: 'Gmail', // Use your email service provider (e.g., Gmail, Outlook)
+    service: "Gmail", // Use your email service provider (e.g., Gmail, Outlook)
     auth: {
-      user: 'khansuzair1@gmail.com', // Replace with your email
-      pass: 'yena sysp bncd uwvz', // Replace with your email password or app-specific password
+      user: "khansuzair1@gmail.com", // Replace with your email
+      pass: "yena sysp bncd uwvz", // Replace with your email password or app-specific password
     },
   });
 
   // Email options
   const mailOptions = {
-    from: 'khansuzair1@gmail.com', // Sender address
+    from: "khansuzair1@gmail.com", // Sender address
     to: recipientEmail, // Recipient email address
-    subject: 'Booking Confirmation PDF',
-    text: 'Please find the booking confirmation attached as a PDF.',
+    subject: "Booking Confirmation PDF",
+    text: "Please find the booking confirmation attached as a PDF.",
     attachments: [
       {
-        filename: pdfPath.split('\\').pop(), // Get the filename from the path
+        filename: pdfPath.split("\\").pop(), // Get the filename from the path
         path: pdfPath, // Attach the generated PDF
       },
     ],
@@ -59,32 +62,45 @@ const sendEmailWithPDF = async (pdfPath: string, recipientEmail: string) => {
 };
 
 export default {
-  save_book_conatiner: async (body: any, user_id: any , user_email : any) => {
+  save_book_conatiner: async (body: any) => {
     try {
-      const newBody = {
-        sender_id: user_id,
-        ...body,
-      };
-      const container = new Contaier_BD(newBody);
-      const save_cont = await container.save();
-      if (!save_cont) {
-        throw new Error('Failed to book container');
+      const newBody = { ...body };
+      const container = new Contaier_BD(newBody); // Ensure `ContainerModel` is imported correctly
+      const saveCont = await container.save();
+      if (!saveCont) {
+        throw new Error("Failed to book container");
       }
 
-      const pdfDir = 'D:\\New_ERP_Containers\\erp\\src\\APIs\\container\\pdfs';
+      // Generate PDF and send email
+      const pdfDir = "D:\\New_ERP_Containers\\erp\\src\\APIs\\container\\pdfs";
       const pdfFileName = `booking_${container._id}.pdf`;
       const pdfPath = `${pdfDir}\\${pdfFileName}`;
 
-      // Ensure the directory exists
       if (!fs.existsSync(pdfDir)) {
         fs.mkdirSync(pdfDir, { recursive: true });
       }
       await generatePDF(container, pdfPath);
+      await sendEmailWithPDF(pdfPath, container.sender_details.email);
 
-      // Send email with PDF attachment
-      await sendEmailWithPDF(pdfPath, user_email);
+      // Create client login
+      const clientData: IClientInput = {
+        username: container.sender_details.name,
+        email: container.sender_details.email,
+        phone: container.sender_details.phone,
+        password: generateRandomPassword(),
+      };
 
-      return save_cont;
+      if (
+        !container.sender_details?.email ||
+        !container.sender_details?.name ||
+        !container.sender_details?.phone
+      ) {
+        throw new Error("Sender details are incomplete");
+      }
+
+      const newClient = await registerClient(clientData);
+
+      return { container: saveCont, client: newClient };
     } catch (error) {
       console.log(error);
       throw error;
@@ -95,7 +111,7 @@ export default {
       const { tracking_status, tracking_stages } = body;
       const container = await Contaier_BD.findById(id);
       if (!container) {
-        throw new Error('Container not found');
+        throw new Error("Container not found");
       }
 
       // Update the tracking status and tracking stages
@@ -136,20 +152,33 @@ export default {
       throw e;
     }
   },
+  // get_all_orders_container: async () => {
+  //   try {
+  //     const get_all_orders = await Contaier_BD.find({});
+  //     if (!get_all_orders) {
+  //       throw new Error("No Containers found");
+  //     }
+  //     return get_all_orders;
+  //   } catch (e) {}
+  // },
   get_all_orders_container: async () => {
     try {
       const get_all_orders = await Contaier_BD.find({});
       if (!get_all_orders) {
-        throw new Error('No Containers found');
+        throw new Error("No Containers found");
       }
       return get_all_orders;
-    } catch (e) {}
+    } catch (e) {
+      console.error(e); // Log the error
+      return []; // Return a default value like an empty array
+    }
   },
+
   find_filter_orders: async (filter_body: any) => {
     try {
       const get_all_orders = await Contaier_BD.find(filter_body);
       if (!get_all_orders) {
-        throw new Error('No Orders found');
+        throw new Error("No Orders found");
       }
       return get_all_orders;
     } catch (error) {
@@ -161,22 +190,22 @@ export default {
       const { containerId, installmentId, amount } = body;
       // Validate inputs
       if (!containerId || !installmentId || !amount) {
-        throw new Error('Missing required fields.');
+        throw new Error("Missing required fields.");
       }
 
       // Find the container by ID
       const container = await Contaier_BD.findById(containerId);
       if (!container) {
-        throw new Error('Container not found.');
+        throw new Error("Container not found.");
       }
 
       // Find the specific installment by ID
       const installment = container.installmentDetails.id(installmentId);
       if (!installment) {
-        throw new Error('Installment not found.');
+        throw new Error("Installment not found.");
       }
 
-      installment.status = 'paid';
+      installment.status = "paid";
       installment.due_date = undefined; // Remove due date if paid
 
       // Update the remaining amount
