@@ -1,10 +1,11 @@
-import { NextFunction, Request, Response } from 'express';
-import { Client } from '../APIs/client/models/clientModel';
-import jwt from '../utils/jwt';
-import httpError from '../handlers/errorHandler/httpError';
-import responseMessage from '../constant/responseMessage';
-import asyncHandler from '../handlers/async';
-import config from '../config/config';
+import { NextFunction, Request, Response } from 'express'
+import { IAuthenticateRequest, IDecryptedJwt } from '../types/types'
+import jwt from '../utils/jwt'
+import config from '../config/config'
+import query from '../APIs/user/_shared/repo/user.repository'
+import httpError from '../handlers/errorHandler/httpError'
+import responseMessage from '../constant/responseMessage'
+import asyncHandler from '../handlers/async'
 declare global {
   namespace Express {
     interface Request {
@@ -13,25 +14,27 @@ declare global {
   }
 }
 
-export default asyncHandler(
-  async (request: Request, _response: Response, next: NextFunction) => {
+export default asyncHandler(async (request: Request, _response: Response, next: NextFunction) => {
     try {
-      const token: any = request.headers.token;
-      // console.log("token hy yeh " + token);
+        const req = request as IAuthenticateRequest
 
-      if (token) {
-        const userId: any = jwt.verifyToken(token, config.TOKENS.ACCESS.SECRET);
-        // console.log(userId);
-        const user = await Client.findById(userId);
-        // console.log("user", user);
-        if (user) {
-          request.authenticatedUser = user;
-          return next();
+        const { cookies } = req
+
+        const { accessToken } = cookies as {
+            accessToken: string | undefined
         }
-      }
-      httpError(next, new Error(responseMessage.UNAUTHORIZED), request, 401);
+
+        if (accessToken) {
+            const { userId } = jwt.verifyToken(accessToken, config.TOKENS.ACCESS.SECRET) as IDecryptedJwt
+
+            const user = await query.findUserById(userId)
+            if (user) {
+                req.authenticatedUser = user
+                return next()
+            }
+        }
+        httpError(next, new Error(responseMessage.UNAUTHORIZED), request, 401)
     } catch (error) {
-      httpError(next, error, request, 500);
+        httpError(next, error, request, 500)
     }
-  }
-);
+})

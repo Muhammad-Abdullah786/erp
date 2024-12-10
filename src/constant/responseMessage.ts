@@ -4,6 +4,7 @@ export default {
     NOT_FOUND: (entity: string) => `${entity} is not found`,
     TOO_MANY_REQUESTS: `So many requests`,
     UNAUTHORIZED: 'You are not allowed to perform this task',
+    FORBIDDEN:'Your are forbidden to go here',
 
     auth: {
         ALREADY_EXISTS: (entity: string, identifier: string) => `${identifier} already exists for the ${entity}`,

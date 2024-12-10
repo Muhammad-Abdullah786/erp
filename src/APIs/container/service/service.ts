@@ -1,11 +1,14 @@
 const Contaier_BD = require("../models/container_models");
 import PDFDocument from "pdfkit";
-import nodemailer from "nodemailer";
 import fs from "fs";
-import { registerClient } from "../../client/services/clientService";
-import { generateRandomPassword } from "../../client/automateRegistration/generateClient";
-import { IClientInput } from "../../client/models/clientModel";
-
+import {
+  generateRandomPassword,
+  generateUniqueUsername,
+} from "../../user/_shared/automateRegistration/generateClient";
+import { IRegisterRequest } from "../../user/authentication/types/authentication.interface";
+import { registrationService } from "../../user/authentication/authentication.service";
+import { sendEmail } from "../../../utils/emailSender";
+import logger from "../../../handlers/logger";
 const generatePDF = (container: any, pdfPath: string) => {
   return new Promise<void>((resolve, reject) => {
     const doc = new PDFDocument();
@@ -33,43 +36,107 @@ const generatePDF = (container: any, pdfPath: string) => {
   });
 };
 
-const sendEmailWithPDF = async (pdfPath: string, recipientEmail: string) => {
-  // Configure Nodemailer
-  const transporter = nodemailer.createTransport({
-    service: "Gmail", // Use your email service provider (e.g., Gmail, Outlook)
-    auth: {
-      user: "khansuzair1@gmail.com", // Replace with your email
-      pass: "yena sysp bncd uwvz", // Replace with your email password or app-specific password
-    },
-  });
-
-  // Email options
-  const mailOptions = {
-    from: "khansuzair1@gmail.com", // Sender address
-    to: recipientEmail, // Recipient email address
-    subject: "Booking Confirmation PDF",
-    text: "Please find the booking confirmation attached as a PDF.",
-    attachments: [
-      {
-        filename: pdfPath.split("\\").pop(), // Get the filename from the path
-        path: pdfPath, // Attach the generated PDF
-      },
-    ],
-  };
-
-  // Send the email
-  await transporter.sendMail(mailOptions);
-};
-
 export default {
+  // save_book_conatiner: async (body: any) => {
+  //   try {
+  //     const newBody = { ...body };
+  //     const container = new Contaier_BD(newBody); // Ensure `ContainerModel` is imported correctly
+  //     const saveCont = await container.save();
+  //     if (!saveCont) {
+  //       throw new Error("Failed to book container");
+  //     }
+
+  //     // Generate PDF and send email
+  //     const pdfDir = "D:\\New_ERP_Containers\\erp\\src\\APIs\\container\\pdfs";
+  //     const pdfFileName = `booking_${container._id}.pdf`;
+  //     const pdfPath = `${pdfDir}\\${pdfFileName}`;
+
+  //     if (!fs.existsSync(pdfDir)) {
+  //       fs.mkdirSync(pdfDir, { recursive: true });
+  //     }
+
+  //     // Create client login
+  //     const clientData: IRegisterRequest = {
+  //       name: `${container.sender_details.name}${generateRandomString(4, 7)}`,
+  //       email: container.sender_details.email,
+  //       phoneNumber: container.sender_details.phone,
+  //       password: generateRandomPassword(),
+  //       consent: true, // Assuming user has given consent for registration
+  //     };
+
+  //     if (
+  //       !container.sender_details?.email ||
+  //       !container.sender_details?.name ||
+  //       !container.sender_details?.phone
+  //     ) {
+  //       throw new Error("Sender details are incomplete");
+  //     }
+  //     const sendEmailWithPDF = async (
+  //       pdfPath: string,
+  //       recipientEmail: string
+  //     ) => {
+  //       // Configure Nodemailer
+  //       const transporter = nodemailer.createTransport({
+  //         service: "Gmail",
+  //         auth: {
+  //           user: "khansuzair1@gmail.com",
+  //           pass: "yena sysp bncd uwvz",
+  //         },
+  //       });
+
+  //       // Email options
+  //       const mailOptions = {
+  //         from: "khansuzair1@gmail.com", // Sender address
+  //         to: recipientEmail, // Recipient email address
+  //         subject: "Booking Confirmation PDF",
+  //         text: `Please find the booking confirmation attached as a PDF.\n To see your container details login by username: ${clientData.name} \n and passwor is : ${clientData.password}`,
+  //         attachments: [
+  //           {
+  //             filename: pdfPath.split("\\").pop(), // Get the filename from the path
+  //             path: pdfPath, // Attach the generated PDF
+  //           },
+  //         ],
+  //       };
+
+  //       // Send the email
+  //       await transporter.sendMail(mailOptions);
+  //     };
+
+  //     await generatePDF(container, pdfPath);
+  //     await sendEmailWithPDF(pdfPath, container.sender_details.email);
+
+  //     const newClient = await registrationService(clientData);
+
+  //     return { container: saveCont, client: newClient };
+  //   } catch (error) {
+  //     console.log(error);
+  //     throw error;
+  //   }
+  // },
   save_book_conatiner: async (body: any) => {
     try {
-      const newBody = { ...body };
-      const container = new Contaier_BD(newBody); // Ensure `ContainerModel` is imported correctly
-      const saveCont = await container.save();
-      if (!saveCont) {
+      // Save container details
+      const container = new Contaier_BD(body);
+      const savedContainer = await container.save();
+
+      if (!savedContainer) {
         throw new Error("Failed to book container");
       }
+
+      // Generate username and password
+      const username = await generateUniqueUsername(body.sender_details.name);
+      const password = generateRandomPassword();
+
+      const clientData: IRegisterRequest = {
+        name: username,
+        email: body.sender_details.email,
+        phoneNumber: body.sender_details.phone,
+        password,
+        consent: true,
+      };
+
+      // Validate and register the user
+      const newClient = await registrationService(clientData);
 
       // Generate PDF and send email
       const pdfDir = "D:\\New_ERP_Containers\\erp\\src\\APIs\\container\\pdfs";
@@ -79,33 +146,30 @@ export default {
       if (!fs.existsSync(pdfDir)) {
         fs.mkdirSync(pdfDir, { recursive: true });
       }
-      await generatePDF(container, pdfPath);
-      await sendEmailWithPDF(pdfPath, container.sender_details.email);
 
-      // Create client login
-      const clientData: IClientInput = {
-        username: container.sender_details.name,
-        email: container.sender_details.email,
-        phone: container.sender_details.phone,
-        password: generateRandomPassword(),
-      };
+      await generatePDF(savedContainer, pdfPath);
 
-      if (
-        !container.sender_details?.email ||
-        !container.sender_details?.name ||
-        !container.sender_details?.phone
-      ) {
-        throw new Error("Sender details are incomplete");
-      }
+      // Send email with PDF and login details
+      const emailBody = `
+        Booking Confirmation Attached.\n
+        Login Details:
+        Username: ${clientData.name}
+        Password: ${clientData.password}
+      `;
 
-      const newClient = await registerClient(clientData);
+      await sendEmail(clientData.email, "Booking Confirmation", emailBody, [
+        { filename: pdfFileName, path: pdfPath },
+      ]);
 
-      return { container: saveCont, client: newClient };
+      return { container: savedContainer, client: newClient };
     } catch (error) {
-      console.log(error);
+      logger.error("Error saving container and registering client", {
+        meta: error,
+      });
       throw error;
     }
   },
+
   update_book_conatiner_tracking: async (body: any, id: any) => {
     try {
       const { tracking_status, tracking_stages } = body;
