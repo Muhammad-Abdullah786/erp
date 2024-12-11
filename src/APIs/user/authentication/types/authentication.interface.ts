@@ -22,7 +22,7 @@ export interface IConfirmRegistration extends Request {
 }
 
 export interface ILoginRequest {
-    email: string
+    name: string
     password: string
 }
 
