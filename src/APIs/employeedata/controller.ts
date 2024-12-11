@@ -3,8 +3,6 @@ import Employee from "../employeedata/model/employeemodel";
 import jwt from "jsonwebtoken";
 import bcrypt from "bcrypt";
 import config from "../../config/config";
-import transporter from "./emailconfiguration/emailcon";
-// import logger from "../../handlers/logger";
 
 interface secret {
   JWT_SECRET_KEY: string; // Define JWT_SECRET_KEY as a string
@@ -28,7 +26,6 @@ export const registerEmployee = async (
       address,
       cnic_no,
       profilePic,
-      // department,
     } = req.body;
     // logger.info(`enpploye`, { meta: { ...req } });
     if (!username || !email) {
@@ -267,127 +264,3 @@ export const deleteEmployeeById = async (
   }
 };
 
-//forgot password using email
-export const UserPasswordResetEmail = async (
-  req: Request,
-  res: Response
-): Promise<void> => {
-  const { email } = req.body;
-
-  if (email) {
-    const user = await Employee.findOne({ email: email });
-
-    if (user) {
-      // Generate a token for resetting the password
-      const secret = user._id.toString() + CONFIG.JWT_SECRET_KEY;
-      const token = jwt.sign({ userID: user._id }, secret, {
-        expiresIn: '15m',
-      });
-
-      // Create a link to the reset password page with the user ID and token
-      const link = `http://localhost:3001/ResetPassword/${user._id}/${token}`; // Updated link
-
-      // Send Email
-      const info = await transporter.sendMail({
-        from: config.EMAIL_FROM,
-        to: user.email,
-        subject: 'GeekShop - Password Reset Link',
-        html: `
-                    <div style="text-align: center; font-family: Arial, sans-serif;">
-                        <h2>Password Reset Request</h2>
-                        <p>You requested a password reset. Click the button below to reset your password:</p>
-                        <a href="${link}" style="text-decoration: none;">
-                            <button style="
-                                background-color: #28a745;
-                                color: white;
-                                padding: 10px 20px;
-                                border: none;
-                                border-radius: 5px;
-                                font-size: 16px;
-                                cursor: pointer;
-                            ">
-                                Reset Password
-                            </button>
-                        </a>
-                        <p>If you did not request this, please ignore this email.</p>
-                    </div>
-                `,
-      });
-
-      res.send({
-        status: 'success',
-        message: 'Password Reset Email Sent. Please check your email.',
-        info: info,
-      });
-    } else {
-      res.send({ status: 'failed', message: 'Email doesn\'t exist' });
-    }
-  } else {
-    res.send({ status: 'failed', message: 'Email field is required' });
-  }
-};
-
-export const userPasswordReset = async (
-  req: Request,
-  res: Response
-): Promise<Response> => {
-  const { password, password_confirmation } = req.body;
-  const { id, token } = req.params;
-
-  try {
-    const user = await Employee.findById(id);
-
-    if (!user) {
-      return res
-        .status(404)
-        .send({ status: 'failed', message: 'User not found' });
-    }
-
-    const new_secret = user._id.toString() + CONFIG.JWT_SECRET_KEY;
-    jwt.verify(token, new_secret);
-
-    // Regex for password validation: at least 8 characters, one uppercase letter, one lowercase letter, one number, and one special character
-    const passwordRegex =
-      /^(?=.[a-z])(?=.[A-Z])(?=.\d)(?=.[@$!%?&])[A-Za-z\d@$!%?&]{8,}$/;
-
-    if (!password || !password_confirmation) {
-      return res
-        .status(400)
-        .send({ status: 'failed', message: 'All Fields are Required' });
-    }
-
-    // Check if password matches the regex
-    if (!passwordRegex.test(password)) {
-      return res.status(400).send({
-        status: 'failed',
-        message:
-          'Password must be at least 8 characters long and include at least one uppercase letter, one lowercase letter, one number, and one special character.',
-      });
-    }
-
-    if (password !== password_confirmation) {
-      return res.status(400).send({
-        status: 'failed',
-        message: 'New Password and Confirm New Password don\'t match',
-      });
-    }
-
-    const salt = await bcrypt.genSalt(10);
-    const newHashPassword = await bcrypt.hash(password, salt);
-
-    await Employee.findByIdAndUpdate(user._id, {
-      $set: { password: newHashPassword },
-    });
-
-    // Send a success response
-    return res.send({
-      status: 'success',
-      message: 'Password Reset Successfully',
-    });
-  } catch (error) {
-    // console.error(error) // Log the error for debugging
-    return res
-      .status(500)
-      .send({ status: 'failed', message: 'Invalid Token or Server Error' });
-  }
-};

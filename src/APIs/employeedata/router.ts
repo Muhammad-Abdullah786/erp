@@ -6,12 +6,9 @@ import {
   getEmployeeById,
   updateEmployeeById,
   deleteEmployeeById,
-  UserPasswordResetEmail,
-  userPasswordReset,
-  // sendVerificationEmail,
 
-  // sendWelcomeEmail,
-} from '../controller';
+} from './controller';
+import authenticate from '../../middlewares/authenticate';
 
 const router = Router();
 
@@ -23,11 +20,11 @@ router.route('/:id').get(getEmployeeById);
 router.route('/:id').put(updateEmployeeById);
 router.route('/:id').delete(deleteEmployeeById);
 
-router.route('/reset').post(UserPasswordResetEmail);
-router.route('/resetpassword/:id').post(userPasswordReset);
 
-// router.route("/sendwelcomeemail").post(sendWelcomeEmail);
+// TODO: need to add notification and modify container details when the checkpoints changes employe will check it and update it
 
-// router.route("/register").post(upload.single("profile"), registerEmployee);
+
+router.route('/updateContainer/:id').post(authenticate,)
+
 
 export default router;

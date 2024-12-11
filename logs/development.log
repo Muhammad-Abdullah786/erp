@@ -26476,3 +26476,443 @@
         }
     }
 }
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:47:39.863Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:47:39.877Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:47:39.880Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:50:38.196Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:50:38.203Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:50:38.206Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T12:06:25.651Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T12:06:25.662Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T12:06:25.664Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T12:06:31.019Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "e",
+        "1": "m",
+        "2": "p",
+        "3": "l",
+        "4": "o",
+        "5": "y",
+        "6": "e",
+        "7": "e",
+        "8": "_",
+        "9": "m",
+        "10": "a",
+        "11": "n",
+        "12": "a",
+        "13": "g",
+        "14": "e",
+        "15": "r"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T12:06:31.180Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "67596f3a87c6b6cdfdab83a7",
+            "password": "$2b$10$1mjuNn4Gjl.nuVixsaNW7.FLiOH5pKvO9fVkd7NI89kJlyAbrcR8W",
+            "role": "employee_manager",
+            "lastLoginAt": "2024-12-11T12:06:31.030Z",
+            "updatedAt": "2024-12-11T12:06:31.052Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzU5NmYzYTg3YzZiNmNkZmRhYjgzYTciLCJpYXQiOjE3MzM5MTg3OTEsImV4cCI6MTczMzkyMjM5MX0.8wTo_a9SEkzbIpe8O0QZFRu88IxYVRlegHI1TmEyLDc",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzU5NmYzYTg3YzZiNmNkZmRhYjgzYTciLCJpYXQiOjE3MzM5MTg3OTEsImV4cCI6MTc2NTQ1NDc5MX0.bPnJSgqJkggNjRjdoRjo2ULhDYL7lS-nioCzpBa7wZg",
+            "greeting": "Hello Employee Manager!"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T12:06:31.183Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzU5NmYzYTg3YzZiNmNkZmRhYjgzYTciLCJpYXQiOjE3MzM5MTg3OTEsImV4cCI6MTczMzkyMjM5MX0.8wTo_a9SEkzbIpe8O0QZFRu88IxYVRlegHI1TmEyLDc",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzU5NmYzYTg3YzZiNmNkZmRhYjgzYTciLCJpYXQiOjE3MzM5MTg3OTEsImV4cCI6MTc2NTQ1NDc5MX0.bPnJSgqJkggNjRjdoRjo2ULhDYL7lS-nioCzpBa7wZg",
+            "greeting": "Hello Employee Manager!"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T12:06:49.517Z",
+    "message": "Existing user found. Using existing username: kentXjayIj",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T12:06:49.606Z",
+    "message": "Container booked successfully",
+    "meta": {
+        "container": {
+            "container_type": "Refrigerated",
+            "weight": 1500,
+            "containers": [
+                {
+                    "quantity": 2,
+                    "size": "40ft",
+                    "_id": "675980596cfb373ac55e73b4"
+                },
+                {
+                    "quantity": 1,
+                    "size": "20ft",
+                    "_id": "675980596cfb373ac55e73b5"
+                }
+            ],
+            "price": 2000,
+            "handle_type": "Crane",
+            "sender_details": {
+                "name": "kentXjayIj",
+                "email": "ken@justzeus.com",
+                "phone": "923128738271"
+            },
+            "receiver_details": {
+                "name": "Jane Smith",
+                "address": "123 Example Street",
+                "country_code": "+1",
+                "phone": "0987654321"
+            },
+            "installmentDetails": [
+                {
+                    "installment_number": 1,
+                    "amount": 500,
+                    "status": "pending",
+                    "_id": "675980596cfb373ac55e73b6",
+                    "due_date": "2025-01-10T12:06:49.527Z"
+                }
+            ],
+            "tracking_status": "Booked",
+            "tracking_stages": {
+                "pickup": {
+                    "status": false,
+                    "timestamp": "2025-01-10T12:06:49.528Z"
+                },
+                "inTransit": {
+                    "status": false,
+                    "timestamp": "2025-02-09T12:06:49.528Z"
+                },
+                "delivered": {
+                    "status": false,
+                    "timestamp": "2025-03-11T12:06:49.528Z"
+                }
+            },
+            "_id": "675980596cfb373ac55e73b3",
+            "remaining_amount": 1500,
+            "created_at": "2024-12-11T12:06:49.528Z",
+            "__v": 0
+        },
+        "user": "kentXjayIj"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T12:10:16.667Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T12:10:16.676Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T12:10:16.678Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T12:39:57.166Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T12:39:57.178Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T12:39:57.180Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T12:51:58.692Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T12:51:58.721Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T12:51:58.722Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T12:53:47.540Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T12:53:47.546Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T12:53:47.548Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T12:54:31.818Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T12:54:31.823Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T12:54:31.824Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T12:55:31.757Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T12:55:31.769Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T12:55:31.772Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T12:58:24.513Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T12:58:24.523Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T12:58:24.525Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T12:58:50.206Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T12:58:50.220Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T12:58:50.224Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T13:02:11.160Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T13:02:11.192Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T13:02:11.194Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T13:03:05.793Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T13:03:05.808Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T13:03:05.818Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T14:18:15.545Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T14:18:15.565Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T14:18:15.569Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}

@@ -1,6 +1,5 @@
 import { Router } from "express";
-import controller from "./controller";
-import authenticate from "../../middlewares/authenticate";
+import controller from "./container.controller";
 import asyncHandler from "../../handlers/async";
 
 const router = Router();
@@ -12,7 +11,6 @@ router.put(
 );
 router.get(
   "/container_client_history",
-  authenticate,
   asyncHandler(controller.get_all_client_booking)
 );
 router.get(

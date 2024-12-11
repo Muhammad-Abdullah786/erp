@@ -106,7 +106,7 @@
 // };
 
 import { Request, Response } from "express";
-import service from "./service/service";
+import service from "./service/container.service";
 import repo from "./repo/container_repo";
 import logger from "../../handlers/logger";
 
@@ -123,32 +123,65 @@ interface UpdateTrackingBody {
 }
 
 export default {
-  
   booking_container: async (req: Request, res: Response): Promise<void> => {
     try {
       const body = req.body as BookingRequestBody;
+
+      // Validate request body
       if (!body) {
         logger.error("Request body is missing", { meta: req.body });
         res.status(400).json({ error: "Body not found" });
         return;
       }
 
-      const { container, client } = await service.save_book_conatiner(body);
+      // Call the service to save the booking
+      const { container, user } = await service.save_book_container(body);
 
       logger.info("Container booked successfully", {
-        meta: { container, client },
+        meta: { container, user },
       });
 
+      // Respond with success message and data
       res.status(201).json({
         message: "Container Booked Successfully",
         container,
-        client,
+        user,
       });
     } catch (error) {
       logger.error("Error in booking container", { meta: error });
-      res.status(400).json({ error: (error as Error).message });
+      res.status(500).json({
+        error: (error as Error).message || "Internal Server Error",
+      });
     }
   },
+
+  // FIXME: if above code not working then use below one
+
+  // booking_container: async (req: Request, res: Response): Promise<void> => {
+  //   try {
+  //     const body = req.body as BookingRequestBody;
+  //     if (!body) {
+  //       logger.error("Request body is missing", { meta: req.body });
+  //       res.status(400).json({ error: "Body not found" });
+  //       return;
+  //     }
+
+  //     const { container, client } = await service.save_book_conatiner(body);
+
+  //     logger.info("Container booked successfully", {
+  //       meta: { container, client },
+  //     });
+
+  //     res.status(201).json({
+  //       message: "Container Booked Successfully",
+  //       container,
+  //       client,
+  //     });
+  //   } catch (error) {
+  //     logger.error("Error in booking container", { meta: error });
+  //     res.status(400).json({ error: (error as Error).message });
+  //   }
+  // },
 
   payment_container: async (req: Request, res: Response): Promise<void> => {
     try {

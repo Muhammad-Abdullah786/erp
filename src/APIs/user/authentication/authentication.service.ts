@@ -186,7 +186,7 @@ export const loginService = async (payload: ILoginRequest) => {
     [EUserRoles.USER, "Hello User!"],
   ]);
 
-  const greetingMessage = roleGreetings.get(user.role) || "Welcome!";
+  const greetingMessage = roleGreetings.get(user.role);
 
   user.lastLoginAt = dayjs().utc().toDate();
   await user.save();
