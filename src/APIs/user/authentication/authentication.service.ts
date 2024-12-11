@@ -20,10 +20,6 @@ import jwt from "../../../utils/jwt";
 import config from "../../../config/config";
 import { IToken } from "../_shared/types/token.interface";
 import tokenRepository from "../_shared/repo/token.repository";
-import {
-  generateUniqueUsername,
-  generateRandomString,
-} from "../_shared/automateRegistration/generateClient";
 import userRepository from "../_shared/repo/user.repository";
 
 dayjs.extend(utc);
@@ -31,14 +27,10 @@ dayjs.extend(utc);
 export const registrationService = async (payload: IRegisterRequest) => {
   let { name, phoneNumber, email, password } = payload;
 
-  name = await generateUniqueUsername(name);
-  logger.info(`the name is : ${name}`)
-  payload.name = `${name}${generateRandomString(4, 7)}`;
-  logger.info(`the name after random str is : ${payload.name}`)
+  logger.info(`the name from registration service is : ${name}`);
 
-  const existingClient = await userRepository.fintUserByName(
-    payload.name
-  );
+  const existingClient = await userRepository.fintUserByName(name); // Ensure the name is unique
+
   if (existingClient) {
     throw new Error("Client with this username already exists");
   }
@@ -156,98 +148,63 @@ export const accountConfirmationService = async (
 };
 
 export const loginService = async (payload: ILoginRequest) => {
-    const { name, password } = payload;
-  
-    // Check if the user is registered
-    const user = await query.fintUserByName(name, "password");
-    if (!user) {
-      throw new CustomError(responseMessage.NOT_FOUND("User"), 404);
-    }
-  
-    // Validate password
-    const isValidPassword = await hashing.comparePassword(password, user.password);
-    if (!isValidPassword) {
-      throw new CustomError(responseMessage.auth.INVALID_EMAIL_OR_PASSWORD, 400);
-    }
-  
-    // Generate tokens
-    const accessToken = jwt.generateToken(
-      { userId: user._id },
-      config.TOKENS.ACCESS.SECRET,
-      config.TOKENS.ACCESS.EXPIRY
-    );
-    const refreshToken = jwt.generateToken(
-      { userId: user._id },
-      config.TOKENS.REFRESH.SECRET,
-      config.TOKENS.REFRESH.EXPIRY
-    );
-  
-    // Update user's last login time
-    user.lastLoginAt = dayjs().utc().toDate();
-    await user.save();
-  
-    // Storing refresh token into DB
-    const token: IToken = {
-      token: refreshToken,
-    };
-    await tokenRepository.createToken(token);
-  
-    // Return response with user info and tokens
-    return {
-      success: true,
-      user: {
-        ...user.toObject(), // Ensure user data is returned as plain object
-        accessToken,
-        refreshToken,
-      },
-    };
+  const { name, password } = payload;
+
+  // Check if the user is registered
+  const user = await query.fintUserByName(name, "password role");
+  if (!user) {
+    throw new CustomError(responseMessage.NOT_FOUND("User"), 404);
+  }
+
+  // Validate password
+  const isValidPassword = await hashing.comparePassword(
+    password,
+    user.password
+  );
+  if (!isValidPassword) {
+    throw new CustomError(responseMessage.auth.INVALID_EMAIL_OR_PASSWORD, 400);
+  }
+  logger.info(`the total info of user from the service file is  is : `, {
+    meta: user.role,
+  });
+  // Generate tokens
+  const accessToken = jwt.generateToken(
+    { userId: user._id },
+    config.TOKENS.ACCESS.SECRET,
+    config.TOKENS.ACCESS.EXPIRY
+  );
+  const refreshToken = jwt.generateToken(
+    { userId: user._id },
+    config.TOKENS.REFRESH.SECRET,
+    config.TOKENS.REFRESH.EXPIRY
+  );
+  const roleGreetings = new Map([
+    [EUserRoles.ADMIN, "Welcome Admin!"],
+    [EUserRoles.EMPLOYEE_MANAGER, "Hello Employee Manager!"],
+    [EUserRoles.EMPLOYEE_STAFF, "Hello Employee Staff!"],
+    [EUserRoles.EMPLOYEE_INTERN, "Welcome Intern!"],
+    [EUserRoles.USER, "Hello User!"],
+  ]);
+
+  const greetingMessage = roleGreetings.get(user.role) || "Welcome!";
+
+  user.lastLoginAt = dayjs().utc().toDate();
+  await user.save();
+
+  // Storing refresh token into DB
+  const token: IToken = {
+    token: refreshToken,
   };
-  
+  await tokenRepository.createToken(token);
 
-// export const loginService = async (payload: ILoginRequest) => {
-//   const { email, password } = payload;
-
-//   //Check if the user is registered
-//   const user = await query.findUserByEmail(email, "password");
-//   if (!user) {
-//     throw new CustomError(responseMessage.NOT_FOUND("User"), 404);
-//   }
-
-//   //Validate password
-//   const isValidPassword = await hashing.comparePassword(
-//     password,
-//     user.password
-//   );
-//   if (!isValidPassword) {
-//     throw new CustomError(responseMessage.auth.INVALID_EMAIL_OR_PASSWORD, 400);
-//   }
-
-//   //Genrate tokens
-//   const accessToken = jwt.generateToken(
-//     { userId: user._id },
-//     config.TOKENS.ACCESS.SECRET,
-//     config.TOKENS.ACCESS.EXPIRY
-//   );
-//   const refreshToken = jwt.generateToken(
-//     { userId: user._id },
-//     config.TOKENS.REFRESH.SECRET,
-//     config.TOKENS.REFRESH.EXPIRY
-//   );
-
-//   user.lastLoginAt = dayjs().utc().toDate();
-
-//   await user.save();
-
-//   //Storing refresh token into db
-//   const token: IToken = {
-//     token: refreshToken,
-//   };
-//   await tokenRepository.createToken(token);
-
-//   return {
-//     success: true,
-//     user: user,
-//     accessToken: accessToken,
-//     refreshToken: refreshToken,
-//   };
-// };
+  // Return response with user info and tokens
+  return {
+    success: true,
+    user: {
+      ...user.toObject(), // Ensure user data is returned as plain object
+      accessToken,
+      refreshToken,
+      greeting: greetingMessage,
+    },
+  };
+};

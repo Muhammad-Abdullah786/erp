@@ -4,6 +4,7 @@ import fs from "fs";
 import {
   generateRandomPassword,
   generateUniqueUsername,
+  generateRandomString,
 } from "../../user/_shared/automateRegistration/generateClient";
 import { IRegisterRequest } from "../../user/authentication/types/authentication.interface";
 import { registrationService } from "../../user/authentication/authentication.service";
@@ -115,7 +116,25 @@ export default {
   // },
   save_book_conatiner: async (body: any) => {
     try {
+      // Generate username and password
+      const username = await generateUniqueUsername(body.sender_details.name);
+      const randomStr = generateRandomString(4, 7); // Generate the random string
+      const finalUsername = `${username}${randomStr}`; // Combine the username with the random string
+      const password = generateRandomPassword();
+
+      const clientData: IRegisterRequest = {
+        name: finalUsername, 
+        email: body.sender_details.email,
+        phoneNumber: body.sender_details.phone,
+        password,
+        consent: true,
+      };
+
+      logger.info(`the data of client is: `, { meta: clientData.name });
+
       // Save container details
+      //FIXME: you need to save the unique user name here
+      body.sender_details.name = finalUsername; // Assign the final username to sender_details.name
       const container = new Contaier_BD(body);
       const savedContainer = await container.save();
 
@@ -123,20 +142,8 @@ export default {
         throw new Error("Failed to book container");
       }
 
-      // Generate username and password
-      const username = await generateUniqueUsername(body.sender_details.name);
-      const password = generateRandomPassword();
-
-      const clientData: IRegisterRequest = {
-        name: username,
-        email: body.sender_details.email,
-        phoneNumber: body.sender_details.phone,
-        password,
-        consent: true,
-      };
-
       // Validate and register the user
-      const newClient = await registrationService(clientData);
+      const newClient = await registrationService(clientData); // Register the user with the final username
 
       // Generate PDF and send email
       const pdfDir = "D:\\New_ERP_Containers\\erp\\src\\APIs\\container\\pdfs";

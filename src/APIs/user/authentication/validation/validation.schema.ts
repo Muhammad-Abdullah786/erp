@@ -27,17 +27,11 @@ export const loginSchema = joi.object<ILoginRequest, true>({
   //   .regex(/^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*\W)(?!.* ).{8,16}$/)
   //   .trim()
   //   .required(),
-  password: joi
-    .string()
-    .min(8)
-    .max(24)
-    .regex(/^(?=.*[a-z])(?=.*[A-Z])(?=.*\W).*$/)
-    .required()
-    .messages({
-      "string.min": "Password must be at least 8 characters long.",
-      "string.max": "Password must be at most 24 characters long.",
-      "string.pattern.base":
-        "Password must contain at least one uppercase letter, one lowercase letter, and one special character.",
-      "any.required": "Password is required.",
-    }),
+  password: joi.string().required().messages({
+    "string.min": "Password must be at least 8 characters long.",
+    "string.max": "Password must be at most 24 characters long.",
+    "string.pattern.base":
+      "Password must contain at least one uppercase letter, one lowercase letter, and one special character.",
+    "any.required": "Password is required.",
+  }),
 });

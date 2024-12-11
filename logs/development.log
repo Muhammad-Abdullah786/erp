@@ -24380,3 +24380,2099 @@
         "SERVER_URL": "http://localhost:3000"
     }
 }
+{
+    "level": "INFO",
+    "timestamp": "2024-12-10T15:11:16.653Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-10T15:11:16.659Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-10T15:11:16.660Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-10T15:21:24.990Z",
+    "message": " the data of client is : ",
+    "meta": {
+        "0": "h",
+        "1": "e",
+        "2": "l",
+        "3": "l",
+        "4": "o"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-10T15:21:25.040Z",
+    "message": "the name is : hello",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-10T15:21:25.042Z",
+    "message": "the name after random str is : helloc3yCD5",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-10T15:21:28.498Z",
+    "message": "Container booked successfully",
+    "meta": {
+        "container": {
+            "container_type": "Refrigerated",
+            "weight": 1500,
+            "containers": [
+                {
+                    "quantity": 2,
+                    "size": "40ft",
+                    "_id": "67585c7444bfb1efa4ca7bb8"
+                },
+                {
+                    "quantity": 1,
+                    "size": "20ft",
+                    "_id": "67585c7444bfb1efa4ca7bb9"
+                }
+            ],
+            "price": 2000,
+            "handle_type": "Crane",
+            "sender_details": {
+                "name": "hello",
+                "email": "ddx125@gmail.com",
+                "phone": "923128738271"
+            },
+            "receiver_details": {
+                "name": "Jane Smith",
+                "address": "123 Example Street",
+                "country_code": "+1",
+                "phone": "0987654321"
+            },
+            "installmentDetails": [
+                {
+                    "installment_number": 1,
+                    "amount": 500,
+                    "status": "pending",
+                    "_id": "67585c7444bfb1efa4ca7bba",
+                    "due_date": "2025-01-09T15:21:24.857Z"
+                }
+            ],
+            "tracking_status": "Booked",
+            "tracking_stages": {
+                "pickup": {
+                    "status": false,
+                    "timestamp": "2025-01-09T15:21:24.858Z"
+                },
+                "inTransit": {
+                    "status": false,
+                    "timestamp": "2025-02-08T15:21:24.858Z"
+                },
+                "delivered": {
+                    "status": false,
+                    "timestamp": "2025-03-10T15:21:24.858Z"
+                }
+            },
+            "_id": "67585c7444bfb1efa4ca7bb7",
+            "remaining_amount": 1500,
+            "created_at": "2024-12-10T15:21:24.858Z",
+            "__v": 0
+        },
+        "client": {
+            "success": true,
+            "_id": "67585c7544bfb1efa4ca7bc3"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-10T16:31:14.774Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/file/create/6758607c6ad59ae707bcaced"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (/media/ken/DISK/Coderatory/erp/src/handlers/notFound.ts:7:15)\n    at Layer.handle [as handle_request] (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:328:13)\n    at /media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:286:9\n    at Function.process_params (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:346:12)\n    at next (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:280:10)\n    at /media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:646:15\n    at next (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:265:14)\n    at Function.handle (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:175:3)\n    at router (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-10T16:31:51.651Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/category/getAll"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (/media/ken/DISK/Coderatory/erp/src/handlers/notFound.ts:7:15)\n    at Layer.handle [as handle_request] (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:328:13)\n    at /media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:286:9\n    at Function.process_params (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:346:12)\n    at next (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:280:10)\n    at /media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:646:15\n    at next (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:265:14)\n    at Function.handle (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:175:3)\n    at router (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-10T16:31:51.660Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/category/getAll"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (/media/ken/DISK/Coderatory/erp/src/handlers/notFound.ts:7:15)\n    at Layer.handle [as handle_request] (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:328:13)\n    at /media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:286:9\n    at Function.process_params (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:346:12)\n    at next (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:280:10)\n    at /media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:646:15\n    at next (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:265:14)\n    at Function.handle (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:175:3)\n    at router (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-10T16:31:51.678Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/category/getAll"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (/media/ken/DISK/Coderatory/erp/src/handlers/notFound.ts:7:15)\n    at Layer.handle [as handle_request] (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:328:13)\n    at /media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:286:9\n    at Function.process_params (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:346:12)\n    at next (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:280:10)\n    at /media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:646:15\n    at next (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:265:14)\n    at Function.handle (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:175:3)\n    at router (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-10T16:31:51.693Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/category/getAll"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (/media/ken/DISK/Coderatory/erp/src/handlers/notFound.ts:7:15)\n    at Layer.handle [as handle_request] (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:328:13)\n    at /media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:286:9\n    at Function.process_params (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:346:12)\n    at next (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:280:10)\n    at /media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:646:15\n    at next (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:265:14)\n    at Function.handle (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:175:3)\n    at router (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-10T16:31:55.826Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/category/getAll"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (/media/ken/DISK/Coderatory/erp/src/handlers/notFound.ts:7:15)\n    at Layer.handle [as handle_request] (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:328:13)\n    at /media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:286:9\n    at Function.process_params (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:346:12)\n    at next (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:280:10)\n    at /media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:646:15\n    at next (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:265:14)\n    at Function.handle (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:175:3)\n    at router (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-10T16:31:55.885Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/category/getAll"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (/media/ken/DISK/Coderatory/erp/src/handlers/notFound.ts:7:15)\n    at Layer.handle [as handle_request] (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:328:13)\n    at /media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:286:9\n    at Function.process_params (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:346:12)\n    at next (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:280:10)\n    at /media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:646:15\n    at next (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:265:14)\n    at Function.handle (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:175:3)\n    at router (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-10T16:31:55.929Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/category/getAll"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (/media/ken/DISK/Coderatory/erp/src/handlers/notFound.ts:7:15)\n    at Layer.handle [as handle_request] (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:328:13)\n    at /media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:286:9\n    at Function.process_params (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:346:12)\n    at next (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:280:10)\n    at /media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:646:15\n    at next (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:265:14)\n    at Function.handle (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:175:3)\n    at router (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-10T16:31:55.978Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/category/getAll"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (/media/ken/DISK/Coderatory/erp/src/handlers/notFound.ts:7:15)\n    at Layer.handle [as handle_request] (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:328:13)\n    at /media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:286:9\n    at Function.process_params (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:346:12)\n    at next (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:280:10)\n    at /media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:646:15\n    at next (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:265:14)\n    at Function.handle (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:175:3)\n    at router (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-10T17:03:41.713Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/category/getAll"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (/media/ken/DISK/Coderatory/erp/src/handlers/notFound.ts:7:15)\n    at Layer.handle [as handle_request] (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:328:13)\n    at /media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:286:9\n    at Function.process_params (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:346:12)\n    at next (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:280:10)\n    at /media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:646:15\n    at next (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:265:14)\n    at Function.handle (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:175:3)\n    at router (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-10T17:03:41.796Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/category/getAll"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (/media/ken/DISK/Coderatory/erp/src/handlers/notFound.ts:7:15)\n    at Layer.handle [as handle_request] (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:328:13)\n    at /media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:286:9\n    at Function.process_params (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:346:12)\n    at next (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:280:10)\n    at /media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:646:15\n    at next (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:265:14)\n    at Function.handle (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:175:3)\n    at router (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-10T17:03:41.887Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/category/getAll"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (/media/ken/DISK/Coderatory/erp/src/handlers/notFound.ts:7:15)\n    at Layer.handle [as handle_request] (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:328:13)\n    at /media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:286:9\n    at Function.process_params (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:346:12)\n    at next (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:280:10)\n    at /media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:646:15\n    at next (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:265:14)\n    at Function.handle (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:175:3)\n    at router (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-10T17:03:41.902Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/category/getAll"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (/media/ken/DISK/Coderatory/erp/src/handlers/notFound.ts:7:15)\n    at Layer.handle [as handle_request] (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:328:13)\n    at /media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:286:9\n    at Function.process_params (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:346:12)\n    at next (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:280:10)\n    at /media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:646:15\n    at next (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:265:14)\n    at Function.handle (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:175:3)\n    at router (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T10:23:47.930Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T10:23:47.951Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T10:23:47.959Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T10:23:56.838Z",
+    "message": " the data of client is : ",
+    "meta": {
+        "0": "y",
+        "1": "o"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T10:23:56.902Z",
+    "message": "the name is : yo",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T10:23:56.903Z",
+    "message": "the name after random str is : yopvmpx",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T10:24:00.556Z",
+    "message": "Container booked successfully",
+    "meta": {
+        "container": {
+            "container_type": "Refrigerated",
+            "weight": 1500,
+            "containers": [
+                {
+                    "quantity": 2,
+                    "size": "40ft",
+                    "_id": "6759683cdc82863ee4200f0a"
+                },
+                {
+                    "quantity": 1,
+                    "size": "20ft",
+                    "_id": "6759683cdc82863ee4200f0b"
+                }
+            ],
+            "price": 2000,
+            "handle_type": "Crane",
+            "sender_details": {
+                "name": "yo",
+                "email": "ddx125@gmail.com",
+                "phone": "923128738271"
+            },
+            "receiver_details": {
+                "name": "Jane Smith",
+                "address": "123 Example Street",
+                "country_code": "+1",
+                "phone": "0987654321"
+            },
+            "installmentDetails": [
+                {
+                    "installment_number": 1,
+                    "amount": 500,
+                    "status": "pending",
+                    "_id": "6759683cdc82863ee4200f0c",
+                    "due_date": "2025-01-10T10:23:56.714Z"
+                }
+            ],
+            "tracking_status": "Booked",
+            "tracking_stages": {
+                "pickup": {
+                    "status": false,
+                    "timestamp": "2025-01-10T10:23:56.716Z"
+                },
+                "inTransit": {
+                    "status": false,
+                    "timestamp": "2025-02-09T10:23:56.716Z"
+                },
+                "delivered": {
+                    "status": false,
+                    "timestamp": "2025-03-11T10:23:56.716Z"
+                }
+            },
+            "_id": "6759683cdc82863ee4200f09",
+            "remaining_amount": 1500,
+            "created_at": "2024-12-11T10:23:56.716Z",
+            "__v": 0
+        },
+        "client": {
+            "success": true,
+            "_id": "6759683ddc82863ee4200f15"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T10:28:20.354Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T10:28:20.361Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T10:28:20.364Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T10:29:07.356Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T10:29:07.365Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T10:29:07.367Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T10:34:12.589Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T10:34:12.598Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T10:34:12.602Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T10:34:50.986Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T10:34:50.997Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T10:34:50.998Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T10:36:25.092Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T10:36:25.107Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T10:36:25.110Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T10:37:41.529Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T10:37:41.536Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T10:37:41.538Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T10:38:01.718Z",
+    "message": "the data of client is: ",
+    "meta": {
+        "0": "a",
+        "1": "b",
+        "2": "c",
+        "3": "d",
+        "4": "9",
+        "5": "M",
+        "6": "f",
+        "7": "t",
+        "8": "p",
+        "9": "4"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T10:38:01.815Z",
+    "message": "the name is : abcd9Mftp4",
+    "meta": {}
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-11T10:38:01.944Z",
+    "message": "Error saving container and registering client",
+    "meta": {
+        "statusCode": 422
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-11T10:38:01.949Z",
+    "message": "Error in booking container",
+    "meta": {
+        "statusCode": 422
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T10:38:11.018Z",
+    "message": "the data of client is: ",
+    "meta": {
+        "0": "y",
+        "1": "o",
+        "2": "b",
+        "3": "u",
+        "4": "g",
+        "5": "p",
+        "6": "t",
+        "7": "g",
+        "8": "9"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T10:38:11.082Z",
+    "message": "the name is : yobugptg9",
+    "meta": {}
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-11T10:38:11.216Z",
+    "message": "Error saving container and registering client",
+    "meta": {
+        "statusCode": 422
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-11T10:38:11.217Z",
+    "message": "Error in booking container",
+    "meta": {
+        "statusCode": 422
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T10:39:10.259Z",
+    "message": "the data of client is: ",
+    "meta": {
+        "0": "k",
+        "1": "e",
+        "2": "n",
+        "3": "E",
+        "4": "G",
+        "5": "c",
+        "6": "k"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T10:39:10.321Z",
+    "message": "the name is : kenEGck",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T10:39:13.656Z",
+    "message": "Container booked successfully",
+    "meta": {
+        "container": {
+            "container_type": "Refrigerated",
+            "weight": 1500,
+            "containers": [
+                {
+                    "quantity": 2,
+                    "size": "40ft",
+                    "_id": "67596bce4e5b25f70721310f"
+                },
+                {
+                    "quantity": 1,
+                    "size": "20ft",
+                    "_id": "67596bce4e5b25f707213110"
+                }
+            ],
+            "price": 2000,
+            "handle_type": "Crane",
+            "sender_details": {
+                "name": "ken",
+                "email": "ken@justzeus.com",
+                "phone": "923128738271"
+            },
+            "receiver_details": {
+                "name": "Jane Smith",
+                "address": "123 Example Street",
+                "country_code": "+1",
+                "phone": "0987654321"
+            },
+            "installmentDetails": [
+                {
+                    "installment_number": 1,
+                    "amount": 500,
+                    "status": "pending",
+                    "_id": "67596bce4e5b25f707213111",
+                    "due_date": "2025-01-10T10:39:10.262Z"
+                }
+            ],
+            "tracking_status": "Booked",
+            "tracking_stages": {
+                "pickup": {
+                    "status": false,
+                    "timestamp": "2025-01-10T10:39:10.262Z"
+                },
+                "inTransit": {
+                    "status": false,
+                    "timestamp": "2025-02-09T10:39:10.262Z"
+                },
+                "delivered": {
+                    "status": false,
+                    "timestamp": "2025-03-11T10:39:10.262Z"
+                }
+            },
+            "_id": "67596bce4e5b25f70721310e",
+            "remaining_amount": 1500,
+            "created_at": "2024-12-11T10:39:10.262Z",
+            "__v": 0
+        },
+        "client": {
+            "success": true,
+            "_id": "67596bce4e5b25f707213117"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T10:44:04.456Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T10:44:04.471Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T10:44:04.474Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T10:44:24.184Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T10:44:24.197Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T10:44:24.199Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T10:46:30.291Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T10:46:30.306Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T10:46:30.311Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T10:47:55.017Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T10:47:55.035Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T10:47:55.040Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T10:48:43.461Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T10:48:43.470Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T10:48:43.474Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T10:49:06.552Z",
+    "message": "the data of client is: ",
+    "meta": {
+        "0": "k",
+        "1": "e",
+        "2": "n",
+        "3": "i",
+        "4": "G",
+        "5": "l",
+        "6": "S",
+        "7": "U"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T10:49:06.647Z",
+    "message": "the name from registration service is : keniGlSU",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T10:49:09.679Z",
+    "message": "Container booked successfully",
+    "meta": {
+        "container": {
+            "container_type": "Refrigerated",
+            "weight": 1500,
+            "containers": [
+                {
+                    "quantity": 2,
+                    "size": "40ft",
+                    "_id": "67596e2266fefc68818d6ceb"
+                },
+                {
+                    "quantity": 1,
+                    "size": "20ft",
+                    "_id": "67596e2266fefc68818d6cec"
+                }
+            ],
+            "price": 2000,
+            "handle_type": "Crane",
+            "sender_details": {
+                "name": "ken",
+                "email": "ken@justzeus.com",
+                "phone": "923128738271"
+            },
+            "receiver_details": {
+                "name": "Jane Smith",
+                "address": "123 Example Street",
+                "country_code": "+1",
+                "phone": "0987654321"
+            },
+            "installmentDetails": [
+                {
+                    "installment_number": 1,
+                    "amount": 500,
+                    "status": "pending",
+                    "_id": "67596e2266fefc68818d6ced",
+                    "due_date": "2025-01-10T10:49:06.575Z"
+                }
+            ],
+            "tracking_status": "Booked",
+            "tracking_stages": {
+                "pickup": {
+                    "status": false,
+                    "timestamp": "2025-01-10T10:49:06.576Z"
+                },
+                "inTransit": {
+                    "status": false,
+                    "timestamp": "2025-02-09T10:49:06.577Z"
+                },
+                "delivered": {
+                    "status": false,
+                    "timestamp": "2025-03-11T10:49:06.577Z"
+                }
+            },
+            "_id": "67596e2266fefc68818d6cea",
+            "remaining_amount": 1500,
+            "created_at": "2024-12-11T10:49:06.577Z",
+            "__v": 0
+        },
+        "client": {
+            "success": true,
+            "_id": "67596e2266fefc68818d6cf3"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T10:53:37.616Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T10:53:37.629Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T10:53:37.631Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T10:53:46.566Z",
+    "message": "the data of client is: ",
+    "meta": {
+        "0": "k",
+        "1": "e",
+        "2": "n",
+        "3": "t",
+        "4": "X",
+        "5": "j",
+        "6": "a",
+        "7": "y",
+        "8": "I",
+        "9": "j"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T10:53:46.681Z",
+    "message": "the name from registration service is : kentXjayIj",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T10:53:49.891Z",
+    "message": "Container booked successfully",
+    "meta": {
+        "container": {
+            "container_type": "Refrigerated",
+            "weight": 1500,
+            "containers": [
+                {
+                    "quantity": 2,
+                    "size": "40ft",
+                    "_id": "67596f3a87c6b6cdfdab839f"
+                },
+                {
+                    "quantity": 1,
+                    "size": "20ft",
+                    "_id": "67596f3a87c6b6cdfdab83a0"
+                }
+            ],
+            "price": 2000,
+            "handle_type": "Crane",
+            "sender_details": {
+                "name": "kentXjayIj",
+                "email": "ken@justzeus.com",
+                "phone": "923128738271"
+            },
+            "receiver_details": {
+                "name": "Jane Smith",
+                "address": "123 Example Street",
+                "country_code": "+1",
+                "phone": "0987654321"
+            },
+            "installmentDetails": [
+                {
+                    "installment_number": 1,
+                    "amount": 500,
+                    "status": "pending",
+                    "_id": "67596f3a87c6b6cdfdab83a1",
+                    "due_date": "2025-01-10T10:53:46.594Z"
+                }
+            ],
+            "tracking_status": "Booked",
+            "tracking_stages": {
+                "pickup": {
+                    "status": false,
+                    "timestamp": "2025-01-10T10:53:46.597Z"
+                },
+                "inTransit": {
+                    "status": false,
+                    "timestamp": "2025-02-09T10:53:46.597Z"
+                },
+                "delivered": {
+                    "status": false,
+                    "timestamp": "2025-03-11T10:53:46.597Z"
+                }
+            },
+            "_id": "67596f3a87c6b6cdfdab839e",
+            "remaining_amount": 1500,
+            "created_at": "2024-12-11T10:53:46.597Z",
+            "__v": 0
+        },
+        "client": {
+            "success": true,
+            "_id": "67596f3a87c6b6cdfdab83a7"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-11T10:55:48.412Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Password must contain at least one uppercase letter, one lowercase letter, and one special character.",
+        "data": null,
+        "trace": {
+            "error": "ValidationError: Password must contain at least one uppercase letter, one lowercase letter, and one special character."
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-11T10:57:48.593Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Password must contain at least one uppercase letter, one lowercase letter, and one special character.",
+        "data": null,
+        "trace": {
+            "error": "ValidationError: Password must contain at least one uppercase letter, one lowercase letter, and one special character."
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T10:59:10.853Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T10:59:10.864Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T10:59:10.867Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T10:59:14.423Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "greeting": "Welcome!",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzU5NmYzYTg3YzZiNmNkZmRhYjgzYTciLCJpYXQiOjE3MzM5MTQ3NTQsImV4cCI6MTczMzkxODM1NH0.XggLSA4JgtkHL5ylBuL5sKi2whiUYQ8g_gWOvIlFXaI",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzU5NmYzYTg3YzZiNmNkZmRhYjgzYTciLCJpYXQiOjE3MzM5MTQ3NTQsImV4cCI6MTc2NTQ1MDc1NH0.kG11ukfRSHbmGRGCNImtX9FL05tuNB3bCtVgLUILpus"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:00:58.205Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:00:58.222Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:00:58.227Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:01:00.938Z",
+    "message": "the role of this user is : ",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:01:00.941Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "greeting": "Welcome!",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzU5NmYzYTg3YzZiNmNkZmRhYjgzYTciLCJpYXQiOjE3MzM5MTQ4NjAsImV4cCI6MTczMzkxODQ2MH0.rup4F8G7usq4XYBYH_wQJ4vScfq2fe3s406GjVpfhow",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzU5NmYzYTg3YzZiNmNkZmRhYjgzYTciLCJpYXQiOjE3MzM5MTQ4NjAsImV4cCI6MTc2NTQ1MDg2MH0._TDzU8x1TgdWC16diaI_x3I_Gz4iuzJbDjAEXDo9UNA"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:10:28.560Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:10:28.577Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:10:28.580Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:10:32.498Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "67596f3a87c6b6cdfdab83a7",
+            "password": "$2b$10$1mjuNn4Gjl.nuVixsaNW7.FLiOH5pKvO9fVkd7NI89kJlyAbrcR8W",
+            "lastLoginAt": "2024-12-11T11:10:32.358Z",
+            "updatedAt": "2024-12-11T11:10:32.375Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzU5NmYzYTg3YzZiNmNkZmRhYjgzYTciLCJpYXQiOjE3MzM5MTU0MzIsImV4cCI6MTczMzkxOTAzMn0.WPbLxVAyw_xGgvGboV8SQ0qolz6HaKXih2nDOwmXnlg",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzU5NmYzYTg3YzZiNmNkZmRhYjgzYTciLCJpYXQiOjE3MzM5MTU0MzIsImV4cCI6MTc2NTQ1MTQzMn0.EQm475kRl51SV9xorF3jZiCuH239qQ3j4S-XILP6WfA"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:10:32.502Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "greeting": "Welcome!",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzU5NmYzYTg3YzZiNmNkZmRhYjgzYTciLCJpYXQiOjE3MzM5MTU0MzIsImV4cCI6MTczMzkxOTAzMn0.WPbLxVAyw_xGgvGboV8SQ0qolz6HaKXih2nDOwmXnlg",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzU5NmYzYTg3YzZiNmNkZmRhYjgzYTciLCJpYXQiOjE3MzM5MTU0MzIsImV4cCI6MTc2NTQ1MTQzMn0.EQm475kRl51SV9xorF3jZiCuH239qQ3j4S-XILP6WfA"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:22:35.735Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:22:35.753Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:22:35.755Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:27:56.833Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:27:56.839Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:27:56.841Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:28:23.151Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:28:23.161Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:28:23.164Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:29:08.632Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:29:08.640Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:29:08.643Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:29:23.182Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:29:23.197Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:29:23.202Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:29:27.610Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "$__": {
+            "activePaths": {
+                "paths": {
+                    "consent": "require",
+                    "accountConfimation.status": "require",
+                    "role": "require",
+                    "password": "init",
+                    "timezone": "require",
+                    "phoneNumber.internationalNumber": "require",
+                    "phoneNumber.countryCode": "require",
+                    "phoneNumber.isoCode": "require",
+                    "email": "require",
+                    "name": "require",
+                    "_id": "init"
+                },
+                "states": {
+                    "require": {
+                        "consent": true,
+                        "accountConfimation.status": true,
+                        "role": true,
+                        "timezone": true,
+                        "phoneNumber.internationalNumber": true,
+                        "phoneNumber.countryCode": true,
+                        "phoneNumber.isoCode": true,
+                        "email": true,
+                        "name": true
+                    },
+                    "init": {
+                        "_id": true,
+                        "password": true
+                    }
+                }
+            },
+            "skipId": true,
+            "selected": {
+                "password": 1
+            },
+            "exclude": false
+        },
+        "$isNew": false,
+        "_doc": {
+            "_id": "67596f3a87c6b6cdfdab83a7",
+            "password": "$2b$10$1mjuNn4Gjl.nuVixsaNW7.FLiOH5pKvO9fVkd7NI89kJlyAbrcR8W"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:29:27.768Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "67596f3a87c6b6cdfdab83a7",
+            "password": "$2b$10$1mjuNn4Gjl.nuVixsaNW7.FLiOH5pKvO9fVkd7NI89kJlyAbrcR8W",
+            "lastLoginAt": "2024-12-11T11:29:27.622Z",
+            "updatedAt": "2024-12-11T11:29:27.649Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzU5NmYzYTg3YzZiNmNkZmRhYjgzYTciLCJpYXQiOjE3MzM5MTY1NjcsImV4cCI6MTczMzkyMDE2N30.2F6rZPQghLLWi0sMA8Bo6OLbIe_ezJ6ekIiZx2pgA7g",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzU5NmYzYTg3YzZiNmNkZmRhYjgzYTciLCJpYXQiOjE3MzM5MTY1NjcsImV4cCI6MTc2NTQ1MjU2N30.W-5SUqXfNTKdJ8TzGh9WF6RUZDwSYBrlqLaq914ACqA"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:29:27.779Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "greeting": "Welcome!",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzU5NmYzYTg3YzZiNmNkZmRhYjgzYTciLCJpYXQiOjE3MzM5MTY1NjcsImV4cCI6MTczMzkyMDE2N30.2F6rZPQghLLWi0sMA8Bo6OLbIe_ezJ6ekIiZx2pgA7g",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzU5NmYzYTg3YzZiNmNkZmRhYjgzYTciLCJpYXQiOjE3MzM5MTY1NjcsImV4cCI6MTc2NTQ1MjU2N30.W-5SUqXfNTKdJ8TzGh9WF6RUZDwSYBrlqLaq914ACqA"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:30:07.320Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:30:07.334Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:30:07.337Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:30:12.534Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "67596f3a87c6b6cdfdab83a7",
+            "password": "$2b$10$1mjuNn4Gjl.nuVixsaNW7.FLiOH5pKvO9fVkd7NI89kJlyAbrcR8W",
+            "lastLoginAt": "2024-12-11T11:30:12.405Z",
+            "updatedAt": "2024-12-11T11:30:12.418Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzU5NmYzYTg3YzZiNmNkZmRhYjgzYTciLCJpYXQiOjE3MzM5MTY2MTIsImV4cCI6MTczMzkyMDIxMn0.NK8aK6LzCL6TUhs58O6EF9z_APaV7ic_SoOVZahE1wM",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzU5NmYzYTg3YzZiNmNkZmRhYjgzYTciLCJpYXQiOjE3MzM5MTY2MTIsImV4cCI6MTc2NTQ1MjYxMn0.NFl9ar-BY5b8LaTThWmDAXB2W01HwJMeRQ4W-oiChkA"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:30:12.538Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "greeting": "Welcome!",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzU5NmYzYTg3YzZiNmNkZmRhYjgzYTciLCJpYXQiOjE3MzM5MTY2MTIsImV4cCI6MTczMzkyMDIxMn0.NK8aK6LzCL6TUhs58O6EF9z_APaV7ic_SoOVZahE1wM",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzU5NmYzYTg3YzZiNmNkZmRhYjgzYTciLCJpYXQiOjE3MzM5MTY2MTIsImV4cCI6MTc2NTQ1MjYxMn0.NFl9ar-BY5b8LaTThWmDAXB2W01HwJMeRQ4W-oiChkA"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:31:22.872Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:31:22.885Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:31:22.888Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:31:27.827Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:31:27.970Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "67596f3a87c6b6cdfdab83a7",
+            "password": "$2b$10$1mjuNn4Gjl.nuVixsaNW7.FLiOH5pKvO9fVkd7NI89kJlyAbrcR8W",
+            "lastLoginAt": "2024-12-11T11:31:27.837Z",
+            "updatedAt": "2024-12-11T11:31:27.851Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzU5NmYzYTg3YzZiNmNkZmRhYjgzYTciLCJpYXQiOjE3MzM5MTY2ODcsImV4cCI6MTczMzkyMDI4N30.6vJzvBETbjNPD3f_4LQu6IXkl-_9VuYImScOjKhj8UU",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzU5NmYzYTg3YzZiNmNkZmRhYjgzYTciLCJpYXQiOjE3MzM5MTY2ODcsImV4cCI6MTc2NTQ1MjY4N30.xcO8VNXkP8GRMNBXfrWqXlXNSKXVK_Nqr43VaMg3hEo"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:31:27.973Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "greeting": "Welcome!",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzU5NmYzYTg3YzZiNmNkZmRhYjgzYTciLCJpYXQiOjE3MzM5MTY2ODcsImV4cCI6MTczMzkyMDI4N30.6vJzvBETbjNPD3f_4LQu6IXkl-_9VuYImScOjKhj8UU",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzU5NmYzYTg3YzZiNmNkZmRhYjgzYTciLCJpYXQiOjE3MzM5MTY2ODcsImV4cCI6MTc2NTQ1MjY4N30.xcO8VNXkP8GRMNBXfrWqXlXNSKXVK_Nqr43VaMg3hEo"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:32:20.258Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:32:20.269Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:32:20.272Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:32:23.198Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "buffer": {
+            "type": "Buffer",
+            "data": [
+                103,
+                89,
+                111,
+                58,
+                135,
+                198,
+                182,
+                205,
+                253,
+                171,
+                131,
+                167
+            ]
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:32:23.333Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "67596f3a87c6b6cdfdab83a7",
+            "password": "$2b$10$1mjuNn4Gjl.nuVixsaNW7.FLiOH5pKvO9fVkd7NI89kJlyAbrcR8W",
+            "lastLoginAt": "2024-12-11T11:32:23.204Z",
+            "updatedAt": "2024-12-11T11:32:23.221Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzU5NmYzYTg3YzZiNmNkZmRhYjgzYTciLCJpYXQiOjE3MzM5MTY3NDMsImV4cCI6MTczMzkyMDM0M30.QlA3pckwz1hJfaPcQdi0N2jrOi5-mU3QKUXPTvAoDu8",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzU5NmYzYTg3YzZiNmNkZmRhYjgzYTciLCJpYXQiOjE3MzM5MTY3NDMsImV4cCI6MTc2NTQ1Mjc0M30.ruE5lIsEjH7gZI_UoJlR_9CU2mRkYkkTWIy_y6EpJho"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:32:23.335Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "greeting": "Welcome!",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzU5NmYzYTg3YzZiNmNkZmRhYjgzYTciLCJpYXQiOjE3MzM5MTY3NDMsImV4cCI6MTczMzkyMDM0M30.QlA3pckwz1hJfaPcQdi0N2jrOi5-mU3QKUXPTvAoDu8",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzU5NmYzYTg3YzZiNmNkZmRhYjgzYTciLCJpYXQiOjE3MzM5MTY3NDMsImV4cCI6MTc2NTQ1Mjc0M30.ruE5lIsEjH7gZI_UoJlR_9CU2mRkYkkTWIy_y6EpJho"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:37:14.806Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:37:14.819Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:37:14.821Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:37:29.354Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:37:29.370Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:37:29.376Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:37:34.652Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "buffer": {
+            "type": "Buffer",
+            "data": [
+                103,
+                89,
+                111,
+                58,
+                135,
+                198,
+                182,
+                205,
+                253,
+                171,
+                131,
+                167
+            ]
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:37:34.793Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "67596f3a87c6b6cdfdab83a7",
+            "password": "$2b$10$1mjuNn4Gjl.nuVixsaNW7.FLiOH5pKvO9fVkd7NI89kJlyAbrcR8W",
+            "role": "user",
+            "lastLoginAt": "2024-12-11T11:37:34.662Z",
+            "updatedAt": "2024-12-11T11:37:34.679Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzU5NmYzYTg3YzZiNmNkZmRhYjgzYTciLCJpYXQiOjE3MzM5MTcwNTQsImV4cCI6MTczMzkyMDY1NH0.glpopFe8Tw3prakjYnhAaLSYG7jKDX1RzlPrBnJwCh0",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzU5NmYzYTg3YzZiNmNkZmRhYjgzYTciLCJpYXQiOjE3MzM5MTcwNTQsImV4cCI6MTc2NTQ1MzA1NH0.b2vMPjH9AOgLp7e7V1_9qzWJbEAOvdjfdunrrs7r6XM"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:37:34.795Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzU5NmYzYTg3YzZiNmNkZmRhYjgzYTciLCJpYXQiOjE3MzM5MTcwNTQsImV4cCI6MTczMzkyMDY1NH0.glpopFe8Tw3prakjYnhAaLSYG7jKDX1RzlPrBnJwCh0",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzU5NmYzYTg3YzZiNmNkZmRhYjgzYTciLCJpYXQiOjE3MzM5MTcwNTQsImV4cCI6MTc2NTQ1MzA1NH0.b2vMPjH9AOgLp7e7V1_9qzWJbEAOvdjfdunrrs7r6XM"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:38:10.509Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:38:10.517Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:38:10.519Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:38:27.316Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "u",
+        "1": "s",
+        "2": "e",
+        "3": "r"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:38:27.465Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "67596f3a87c6b6cdfdab83a7",
+            "password": "$2b$10$1mjuNn4Gjl.nuVixsaNW7.FLiOH5pKvO9fVkd7NI89kJlyAbrcR8W",
+            "role": "user",
+            "lastLoginAt": "2024-12-11T11:38:27.327Z",
+            "updatedAt": "2024-12-11T11:38:27.349Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzU5NmYzYTg3YzZiNmNkZmRhYjgzYTciLCJpYXQiOjE3MzM5MTcxMDcsImV4cCI6MTczMzkyMDcwN30.D_bWaKHY8I8LvRdypMRNX_npgGN3LGtdXeVp6vqK7gI",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzU5NmYzYTg3YzZiNmNkZmRhYjgzYTciLCJpYXQiOjE3MzM5MTcxMDcsImV4cCI6MTc2NTQ1MzEwN30.X2gIL1mX1ATP3mrSpv69HbYLp4h_fsFSPLRda9bmKXg"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:38:27.467Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzU5NmYzYTg3YzZiNmNkZmRhYjgzYTciLCJpYXQiOjE3MzM5MTcxMDcsImV4cCI6MTczMzkyMDcwN30.D_bWaKHY8I8LvRdypMRNX_npgGN3LGtdXeVp6vqK7gI",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzU5NmYzYTg3YzZiNmNkZmRhYjgzYTciLCJpYXQiOjE3MzM5MTcxMDcsImV4cCI6MTc2NTQ1MzEwN30.X2gIL1mX1ATP3mrSpv69HbYLp4h_fsFSPLRda9bmKXg"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:39:51.357Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:39:51.367Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:39:51.369Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:40:18.243Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "u",
+        "1": "s",
+        "2": "e",
+        "3": "r"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:40:18.455Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "67596f3a87c6b6cdfdab83a7",
+            "password": "$2b$10$1mjuNn4Gjl.nuVixsaNW7.FLiOH5pKvO9fVkd7NI89kJlyAbrcR8W",
+            "role": "user",
+            "lastLoginAt": "2024-12-11T11:40:18.259Z",
+            "updatedAt": "2024-12-11T11:40:18.276Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzU5NmYzYTg3YzZiNmNkZmRhYjgzYTciLCJpYXQiOjE3MzM5MTcyMTgsImV4cCI6MTczMzkyMDgxOH0.5gAdpOlkd8fgegiiB9Ph5jZ2L3Tu4DCuVp0AGjisetw",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzU5NmYzYTg3YzZiNmNkZmRhYjgzYTciLCJpYXQiOjE3MzM5MTcyMTgsImV4cCI6MTc2NTQ1MzIxOH0.r6L8K8te7W4Pc17yt19bD140V7ASf9IP6cyC9kFhYGo",
+            "greeting": "Hello User!"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:40:18.458Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzU5NmYzYTg3YzZiNmNkZmRhYjgzYTciLCJpYXQiOjE3MzM5MTcyMTgsImV4cCI6MTczMzkyMDgxOH0.5gAdpOlkd8fgegiiB9Ph5jZ2L3Tu4DCuVp0AGjisetw",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzU5NmYzYTg3YzZiNmNkZmRhYjgzYTciLCJpYXQiOjE3MzM5MTcyMTgsImV4cCI6MTc2NTQ1MzIxOH0.r6L8K8te7W4Pc17yt19bD140V7ASf9IP6cyC9kFhYGo"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:41:25.907Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:41:25.916Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:41:25.918Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:41:53.322Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "u",
+        "1": "s",
+        "2": "e",
+        "3": "r"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:41:53.557Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "67596f3a87c6b6cdfdab83a7",
+            "password": "$2b$10$1mjuNn4Gjl.nuVixsaNW7.FLiOH5pKvO9fVkd7NI89kJlyAbrcR8W",
+            "role": "user",
+            "lastLoginAt": "2024-12-11T11:41:53.352Z",
+            "updatedAt": "2024-12-11T11:41:53.371Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzU5NmYzYTg3YzZiNmNkZmRhYjgzYTciLCJpYXQiOjE3MzM5MTczMTMsImV4cCI6MTczMzkyMDkxM30.MMXoAaMyVODBadVPnmhvYcfhJziwsqx1PYe0-cFt-5U",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzU5NmYzYTg3YzZiNmNkZmRhYjgzYTciLCJpYXQiOjE3MzM5MTczMTMsImV4cCI6MTc2NTQ1MzMxM30.7bZVwIc8yZf7J-bRiRKGFIduifEgg1NoYEBbtQRIY84",
+            "greeting": "Hello User!"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:41:53.565Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzU5NmYzYTg3YzZiNmNkZmRhYjgzYTciLCJpYXQiOjE3MzM5MTczMTMsImV4cCI6MTczMzkyMDkxM30.MMXoAaMyVODBadVPnmhvYcfhJziwsqx1PYe0-cFt-5U",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzU5NmYzYTg3YzZiNmNkZmRhYjgzYTciLCJpYXQiOjE3MzM5MTczMTMsImV4cCI6MTc2NTQ1MzMxM30.7bZVwIc8yZf7J-bRiRKGFIduifEgg1NoYEBbtQRIY84",
+            "greeting": "Hello User!"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:42:33.187Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:42:33.195Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:42:33.198Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:42:36.569Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "h",
+        "1": "e",
+        "2": "l",
+        "3": "l",
+        "4": "o"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-11T11:42:36.610Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 500,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "User validation failed: role: `hello` is not a valid enum value for path `role`.",
+        "data": null,
+        "trace": {
+            "error": "ValidationError: User validation failed: role: `hello` is not a valid enum value for path `role`.\n    at model.Document.invalidate (/media/ken/DISK/Coderatory/erp/node_modules/mongoose/lib/document.js:3318:32)\n    at /media/ken/DISK/Coderatory/erp/node_modules/mongoose/lib/document.js:3079:17\n    at /media/ken/DISK/Coderatory/erp/node_modules/mongoose/lib/schemaType.js:1388:9\n    at processTicksAndRejections (node:internal/process/task_queues:85:11)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:43:07.245Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "e",
+        "1": "m",
+        "2": "p",
+        "3": "l",
+        "4": "o",
+        "5": "y",
+        "6": "e",
+        "7": "e",
+        "8": "_",
+        "9": "m",
+        "10": "a",
+        "11": "n",
+        "12": "a",
+        "13": "g",
+        "14": "e",
+        "15": "r"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:43:07.416Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "67596f3a87c6b6cdfdab83a7",
+            "password": "$2b$10$1mjuNn4Gjl.nuVixsaNW7.FLiOH5pKvO9fVkd7NI89kJlyAbrcR8W",
+            "role": "employee_manager",
+            "lastLoginAt": "2024-12-11T11:43:07.254Z",
+            "updatedAt": "2024-12-11T11:43:07.287Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzU5NmYzYTg3YzZiNmNkZmRhYjgzYTciLCJpYXQiOjE3MzM5MTczODcsImV4cCI6MTczMzkyMDk4N30.yviuBnpIm-oosJJCuBGS5zGD56CuIhwOX2LIKHCZQKA",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzU5NmYzYTg3YzZiNmNkZmRhYjgzYTciLCJpYXQiOjE3MzM5MTczODcsImV4cCI6MTc2NTQ1MzM4N30.MyU_GEkzkKRBcpKp7qBUfE2rUd9e1Nu_1yXrYfBF9HM",
+            "greeting": "Hello Employee Manager!"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T11:43:07.418Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzU5NmYzYTg3YzZiNmNkZmRhYjgzYTciLCJpYXQiOjE3MzM5MTczODcsImV4cCI6MTczMzkyMDk4N30.yviuBnpIm-oosJJCuBGS5zGD56CuIhwOX2LIKHCZQKA",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzU5NmYzYTg3YzZiNmNkZmRhYjgzYTciLCJpYXQiOjE3MzM5MTczODcsImV4cCI6MTc2NTQ1MzM4N30.MyU_GEkzkKRBcpKp7qBUfE2rUd9e1Nu_1yXrYfBF9HM",
+            "greeting": "Hello Employee Manager!"
+        }
+    }
+}

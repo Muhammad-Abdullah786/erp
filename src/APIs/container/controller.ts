@@ -123,29 +123,7 @@ interface UpdateTrackingBody {
 }
 
 export default {
-  // booking_container: async (req: Request, res: Response): Promise<void> => {
-  //   try {
-  //     const body = req.body as BookingRequestBody;
-  //     if (!body) {
-  //       logger.error("Request body is missing", { meta: req.body });
-  //       res.status(400).json({ error: "Body not found" });
-  //       return;
-  //     }
-  //     const { container, client } = await service.save_book_conatiner(body);
-  //     logger.info("Container booked successfully", {
-  //       meta: { container, client },
-  //     });
-
-  //     res.status(201).json({
-  //       message: "Container Booked Successfully",
-  //       container,
-  //       client,
-  //     });
-  //   } catch (error) {
-  //     logger.error("Error in booking container", { meta: error });
-  //     res.status(400).json({ error: (error as Error).message });
-  //   }
-  // },booking_container: async (req: Request, res: Response): Promise<void> => {
+  
   booking_container: async (req: Request, res: Response): Promise<void> => {
     try {
       const body = req.body as BookingRequestBody;

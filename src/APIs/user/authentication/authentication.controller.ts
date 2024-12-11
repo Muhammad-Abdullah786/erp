@@ -22,7 +22,7 @@ import health from "../../../utils/health";
 import { EApplicationEnvironment } from "../../../constant/application";
 import config from "../../../config/config";
 import query from "../_shared/repo/token.repository";
-import { EUserRoles } from "../../../constant/users";
+import logger from "../../../handlers/logger";
 
 export default {
   register: asyncHandler(
@@ -84,109 +84,72 @@ export default {
       }
     }
   ),
-  // login: asyncHandler(async (request: Request, response: Response, next: NextFunction) => {
 
-  //     try {
-  //         const { body } = request as ILogin
+  login: asyncHandler(
+    async (request: Request, response: Response, next: NextFunction) => {
+      try {
+        const { body } = request as ILogin;
 
-  //         //Payload validation
-  //         const { error, payload } = validateSchema<ILoginRequest>(loginSchema, body)
-  //         if (error) {
-  //             return httpError(next, error, request, 422)
-  //         }
+        // Payload validation
+        const { error, payload } = validateSchema<ILoginRequest>(
+          loginSchema,
+          body
+        );
+        if (error) {
+          return httpError(next, error, request, 422);
+        }
 
-  //         const isLoggedIn = await loginService(payload)
-  //         if (isLoggedIn.success === true) {
-  //             //sending cookies
-  //             const DOMAIN = health.getDomain()
-  //             response
-  //                 .cookie('accessToken', isLoggedIn.accessToken, {
-  //                     path: '/v1',
-  //                     domain: DOMAIN,
-  //                     sameSite: 'strict',
-  //                     maxAge: 1000 * config.TOKENS.ACCESS.EXPIRY,
-  //                     httpOnly: true,
-  //                     secure: !(config.ENV === EApplicationEnvironment.DEVELOPMENT)
-  //                 })
-  //                 .cookie('refreshToken', isLoggedIn.refreshToken, {
-  //                     path: '/v1',
-  //                     domain: DOMAIN,
-  //                     sameSite: 'strict',
-  //                     maxAge: 1000 * config.TOKENS.REFRESH.EXPIRY,
-  //                     httpOnly: true,
-  //                     secure: !(config.ENV === EApplicationEnvironment.DEVELOPMENT)
-  //                 })
+        // Call login service
+        const isLoggedIn = await loginService(payload);
+        if (isLoggedIn.success === true) {
+          // Sending cookies
+          const DOMAIN = health.getDomain();
+          response
+            .cookie("accessToken", isLoggedIn.user.accessToken, {
+              path: "/v1",
+              domain: DOMAIN,
+              sameSite: "strict",
+              maxAge: 1000 * config.TOKENS.ACCESS.EXPIRY,
+              httpOnly: true,
+              secure: !(config.ENV === EApplicationEnvironment.DEVELOPMENT),
+            })
+            .cookie("refreshToken", isLoggedIn.user.refreshToken, {
+              path: "/v1",
+              domain: DOMAIN,
+              sameSite: "strict",
+              maxAge: 1000 * config.TOKENS.REFRESH.EXPIRY,
+              httpOnly: true,
+              secure: !(config.ENV === EApplicationEnvironment.DEVELOPMENT),
+            });
 
-  //             httpResponse(response, request, 200, responseMessage.auth.LOGIN_SUCCESSFUL, isLoggedIn)
-  //         }
-  //     } catch (error) {
-  //         if (error instanceof CustomError) {
-  //             httpError(next, error, request, error.statusCode)
-  //         } else {
-  //             httpError(next, error, request, 500)
-  //         }
-  //     }
-  // }),
-  login: asyncHandler(async (request: Request, response: Response, next: NextFunction) => {
-    try {
-      const { body } = request as ILogin;
-  
-      // Payload validation
-      const { error, payload } = validateSchema<ILoginRequest>(loginSchema, body);
-      if (error) {
-        return httpError(next, error, request, 422);
-      }
-  
-      // Call login service
-      const isLoggedIn = await loginService(payload);
-      if (isLoggedIn.success === true) {
-        // Sending cookies
-        const DOMAIN = health.getDomain();
-        response
-          .cookie("accessToken", isLoggedIn.user.accessToken, {
-            path: "/v1",
-            domain: DOMAIN,
-            sameSite: "strict",
-            maxAge: 1000 * config.TOKENS.ACCESS.EXPIRY,
-            httpOnly: true,
-            secure: !(config.ENV === EApplicationEnvironment.DEVELOPMENT),
-          })
-          .cookie("refreshToken", isLoggedIn.user.refreshToken, {
-            path: "/v1",
-            domain: DOMAIN,
-            sameSite: "strict",
-            maxAge: 1000 * config.TOKENS.REFRESH.EXPIRY,
-            httpOnly: true,
-            secure: !(config.ENV === EApplicationEnvironment.DEVELOPMENT),
+          // Role-based greeting using Map for better scalability
+
+          logger.info(`the role of this user is : `, {
+            meta: isLoggedIn,
           });
-  
-        // Role-based greeting using Map for better scalability
-        const roleGreetings = new Map([
-          [EUserRoles.ADMIN, "Welcome Admin!"],
-          [EUserRoles.EMPLOYEE_MANAGER, "Hello Employee Manager!"],
-          [EUserRoles.EMPLOYEE_STAFF, "Hello Employee Staff!"],
-          [EUserRoles.EMPLOYEE_INTERN, "Welcome Intern!"],
-          [EUserRoles.USER, "Hello User!"],
-        ]);
-  
-        const greetingMessage = roleGreetings.get(isLoggedIn.user.role) || "Welcome!"; // Default greeting
-  
-        // Respond with the greeting message and tokens
-        httpResponse(response, request, 200, responseMessage.auth.LOGIN_SUCCESSFUL, {
-          greeting: greetingMessage,
-          accessToken: isLoggedIn.user.accessToken,
-          refreshToken: isLoggedIn.user.refreshToken,
-        });
-      }
-    } catch (error) {
-      if (error instanceof CustomError) {
-        httpError(next, error, request, error.statusCode);
-      } else {
-        httpError(next, error, request, 500);
+
+          // Respond with the greeting message and tokens
+          httpResponse(
+            response,
+            request,
+            200,
+            responseMessage.auth.LOGIN_SUCCESSFUL,
+            {
+              accessToken: isLoggedIn.user.accessToken,
+              refreshToken: isLoggedIn.user.refreshToken,
+              greeting: isLoggedIn.user.greeting,
+            }
+          );
+        }
+      } catch (error) {
+        if (error instanceof CustomError) {
+          httpError(next, error, request, error.statusCode);
+        } else {
+          httpError(next, error, request, 500);
+        }
       }
     }
-  }),
-  
+  ),
 
   logout: asyncHandler(
     async (request: Request, response: Response, next: NextFunction) => {
