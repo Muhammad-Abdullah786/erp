@@ -14,7 +14,7 @@ const App = (app: Application) => {
   app.use(`${API_ROOT}`, authRoutes);
   app.use(`${API_ROOT}/user`, userManagementRoutes);
   app.use(`${API_ROOT}/employee`, employeRouter);
-  app.use(`${API_ROOT}/container`,authenticate, container_router);
+  app.use(`${API_ROOT}/container`, container_router);
   app.use(`${API_ROOT}/admin`, authenticate,adminRoutes);
 };
 

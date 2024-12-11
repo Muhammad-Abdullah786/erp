@@ -180,9 +180,9 @@ export const loginService = async (payload: ILoginRequest) => {
   );
   const roleGreetings = new Map([
     [EUserRoles.ADMIN, "Welcome Admin!"],
-    [EUserRoles.EMPLOYEE_MANAGER, "Hello Employee Manager!"],
-    [EUserRoles.EMPLOYEE_STAFF, "Hello Employee Staff!"],
-    [EUserRoles.EMPLOYEE_INTERN, "Welcome Intern!"],
+    [EUserRoles.EMPLOYEE_SALE, "Hello Sale manager!"],
+    [EUserRoles.EMPLOYEE_HR, "Hello HR!"],
+    [EUserRoles.EMPLOYEE_ACCOUNTS, "Welcome accountants!"],
     [EUserRoles.USER, "Hello User!"],
   ]);
 
