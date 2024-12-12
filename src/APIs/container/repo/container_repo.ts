@@ -1,6 +1,6 @@
 import { error } from "console";
 import service from "../service/container.service";
-
+import axios from "axios";
 const Stripe = require("stripe");
 const stripe = new Stripe(
   "sk_test_51QPhZID0nPeKrajIN2Adi7XnUIHz52kAKBkTO9P2nygfQstOgnSLeMgnKTi85nemDr4j2E07YszwIrLXOgye34ip00vWUaKZpe"
@@ -68,4 +68,17 @@ export default {
       throw error;
     }
   },
+  get_device_id : async() => {
+    try{
+      const get_device_id  = await axios.get(`https://flespi.io/gw/devices/all` ,{
+        headers : {
+          Authorization : `FlespiToken o2fTkbO5RlrtKDlID7bc6sIibkyXQnqaNT5Br1Xtlb3Ufis06SIDE0weYKY6Dh8A`,
+        }
+      });
+      return get_device_id.data;
+    }catch(e: any){
+      console.log(e);
+      throw error;
+    }
+  }
 };

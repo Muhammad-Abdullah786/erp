@@ -133,9 +133,9 @@ export default {
         res.status(400).json({ error: "Body not found" });
         return;
       }
-
+        const devies  = await repo.get_device_id();
       // Call the service to save the booking
-      const { container, user } = await service.save_book_container(body);
+      const { container, user } = await service.save_book_container(body , devies);
 
       logger.info("Container booked successfully", {
         meta: { container, user },
@@ -290,4 +290,16 @@ export default {
       res.status(400).json({ error: (error as Error).message });
     }
   },
+
+  tracking_container : async( req  : Request , res : Response) : Promise<void> =>  {
+         try{
+               const {tracking_id} = await req.body;
+                const find_tracking = await service.find_tracking_id(tracking_id);
+                res.status(200).json({ tracking_id : find_tracking})
+         }
+         catch(error){
+              console.log(error);
+              res.status(400).json({ error: (error as Error).message });
+         }
+  }
 };

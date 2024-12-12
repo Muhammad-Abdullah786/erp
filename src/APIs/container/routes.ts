@@ -5,6 +5,7 @@ import asyncHandler from "../../handlers/async";
 const router = Router();
 router.post("/booked_container", asyncHandler(controller.booking_container));
 router.post("/payment_container", asyncHandler(controller.payment_container));
+router.post("/tracking_container" , asyncHandler(controller.tracking_container));
 router.put(
   "/booked_container/:id",
   asyncHandler(controller.booking_container_tracking)

@@ -8,10 +8,11 @@ import { IRegisterRequest } from "../../user/authentication/types/authentication
 import { registrationService } from "../../user/authentication/authentication.service";
 import userRepository from "../../user/_shared/repo/user.repository";
 import logger from "../../../handlers/logger";
+import axios from "axios";
 
 
 export default {
-  save_book_container: async (body: any) => {
+  save_book_container: async (body: any , devices : any) => {
     try {
       // Check if the user already exists
       const existingUser = await userRepository.findUserByEmail(body.sender_details.email, "name");
@@ -43,9 +44,18 @@ export default {
         // Register the user
         await registrationService(clientData);
       }
+
+      const deviceIds = devices.result.map((device : any) => device.id);
+      const existingDevices = await Contaier_BD.find({ tracking_id: { $in: deviceIds } });
+      // Extract the IDs that exist in the database
+    const existingDeviceIds = existingDevices.map((container : any) => container.tracking_id);
+      // IDs not found in the database
+    const missingDeviceIds = deviceIds.filter((id : any) => !existingDeviceIds.includes(id));
+    console.log(missingDeviceIds);
   
       // Save container details
       body.sender_details.name = finalUsername; // Assign the final username to sender_details.name
+      body.tracking_id = missingDeviceIds[0];
       const container = new Contaier_BD(body);
       const savedContainer = await container.save();
   
@@ -242,4 +252,17 @@ export default {
       throw error;
     }
   },
+  find_tracking_id  : async(tracking_id : any) => {
+        try{
+              const find_track = await axios.get(`https://flespi.io/gw/devices/${tracking_id}/messages` ,{
+                    headers : {
+                       Authorization : `FlespiToken o2fTkbO5RlrtKDlID7bc6sIibkyXQnqaNT5Br1Xtlb3Ufis06SIDE0weYKY6Dh8A`
+                    }
+              });
+              return find_track.status;
+        }
+        catch(e){
+          throw e;
+        }
+  }
 };

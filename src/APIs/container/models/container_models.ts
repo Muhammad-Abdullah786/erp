@@ -1,3 +1,4 @@
+
 import { Schema, model } from "mongoose";
 
 const ContainerSchema = new Schema({
@@ -84,6 +85,9 @@ const ContainerSchema = new Schema({
         },
       },
     },
+  },
+  tracking_id : {
+     type : String
   },
   created_at: { type: Date, default: Date.now },
 });
