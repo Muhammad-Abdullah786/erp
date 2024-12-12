@@ -33514,3 +33514,25 @@
 =======
 >>>>>>> 8212b5bd73cab692a6cb1939a7d3550f900a10df
 >>>>>>> dev
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T16:30:27.679Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T16:30:27.691Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T16:30:27.693Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
