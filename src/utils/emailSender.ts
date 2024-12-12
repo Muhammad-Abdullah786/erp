@@ -1,6 +1,6 @@
 import nodemailer from "nodemailer";
-// import logger from "../handlers/logger";
 import config from "../config/config";
+import logger from "../handlers/logger";
 
 export const sendEmail = async (
   recipient: string,
@@ -9,14 +9,13 @@ export const sendEmail = async (
   attachments: any[] = []
 ) => {
   const transporter = nodemailer.createTransport({
-    // service: "Gmail",
-    service: "smtp.gmail.com",
+    service: 'Gmail',
     auth: {
       user: config.EMAIL_USER,
       pass: config.EMAIL_PASS,
     },
   });
-
+  logger.info(`the email is `,{meta: transporter})
   await transporter.sendMail({
     from: config.EMAIL_USER,
     to: recipient,
@@ -25,3 +24,5 @@ export const sendEmail = async (
     attachments,
   });
 };
+
+// logger.info(`the email is send: `,{meta:sendEmail})
