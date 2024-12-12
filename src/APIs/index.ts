@@ -15,11 +15,7 @@ const App = (app: Application) => {
   app.use(`${API_ROOT}/user`, userManagementRoutes);
   app.use(`${API_ROOT}/employee`, employeRouter);
   app.use(`${API_ROOT}/container`, container_router);
-<<<<<<< HEAD
   app.use(`${API_ROOT}/admin`, authenticate, adminRoutes);
-=======
-  app.use(`${API_ROOT}/admin`, authenticate,adminRoutes);
->>>>>>> 8212b5bd73cab692a6cb1939a7d3550f900a10df
 };
 
 export default App;

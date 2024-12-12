@@ -360,20 +360,12 @@ export const loginService = async (payload: ILoginRequest) => {
     config.TOKENS.REFRESH.EXPIRY
   );
   const roleGreetings = new Map([
-<<<<<<< HEAD
     [EUserRoles.ADMIN, "admin"],
     [EUserRoles.EMPLOYEE_HR, "hr"],
     [EUserRoles.EMPLOYEE_SALES, "sales"],
     [EUserRoles.EMPLOYEE_ACCOUNTS, "accounts"],
     [EUserRoles.USER, "user"],
     [EUserRoles.DRIVER, "driver"],
-=======
-    [EUserRoles.ADMIN, "Welcome Admin!"],
-    [EUserRoles.EMPLOYEE_SALE, "Hello Sale manager!"],
-    [EUserRoles.EMPLOYEE_HR, "Hello HR!"],
-    [EUserRoles.EMPLOYEE_ACCOUNTS, "Welcome accountants!"],
-    [EUserRoles.USER, "Hello User!"],
->>>>>>> 8212b5bd73cab692a6cb1939a7d3550f900a10df
   ]);
 
   const greetingMessage = roleGreetings.get(user.role);
