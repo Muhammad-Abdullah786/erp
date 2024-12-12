@@ -33361,10 +33361,10 @@
 }
 =======
 }
-<<<<<<< HEAD
+>>>>>>> 8212b5bd73cab692a6cb1939a7d3550f900a10df
 {
     "level": "INFO",
-    "timestamp": "2024-12-12T15:03:24.110Z",
+    "timestamp": "2024-12-12T17:00:14.140Z",
     "message": "Database connection established",
     "meta": {
         "CONNECTION_NAME": "erp"
@@ -33372,13 +33372,13 @@
 }
 {
     "level": "INFO",
-    "timestamp": "2024-12-12T15:03:24.127Z",
+    "timestamp": "2024-12-12T17:00:14.149Z",
     "message": "Rate limiter initiated",
     "meta": {}
 }
 {
     "level": "INFO",
-    "timestamp": "2024-12-12T15:03:24.131Z",
+    "timestamp": "2024-12-12T17:00:14.151Z",
     "message": "Application started on port 3000",
     "meta": {
         "SERVER_URL": "http://localhost:3000"
@@ -33386,19 +33386,19 @@
 }
 {
     "level": "INFO",
-    "timestamp": "2024-12-12T15:04:01.794Z",
-    "message": "Registering new user: abdulYFl1VOm",
+    "timestamp": "2024-12-12T17:00:32.960Z",
+    "message": "Registering new user: kentzvn",
     "meta": {}
 }
 {
     "level": "INFO",
-    "timestamp": "2024-12-12T15:04:01.796Z",
-    "message": "the name from registration service is : abdulYFl1VOm",
+    "timestamp": "2024-12-12T17:00:32.961Z",
+    "message": "The name from registration service is: kentzvn",
     "meta": {}
 }
 {
     "level": "INFO",
-    "timestamp": "2024-12-12T15:04:02.166Z",
+    "timestamp": "2024-12-12T17:00:33.340Z",
     "message": "Container booked successfully",
     "meta": {
         "container": {
@@ -33408,18 +33408,18 @@
                 {
                     "quantity": 2,
                     "size": "40ft",
-                    "_id": "675afb6265529bf40525c292"
+                    "_id": "675b16b1b86c0e6a7f9fab5d"
                 },
                 {
                     "quantity": 1,
                     "size": "20ft",
-                    "_id": "675afb6265529bf40525c293"
+                    "_id": "675b16b1b86c0e6a7f9fab5e"
                 }
             ],
             "price": 2000,
             "handle_type": "Crane",
             "sender_details": {
-                "name": "abdulYFl1VOm",
+                "name": "kenTZVn",
                 "email": "ken@justzeus.com",
                 "phone": "923128738271"
             },
@@ -33434,105 +33434,30 @@
                     "installment_number": 1,
                     "amount": 500,
                     "status": "pending",
-                    "_id": "675afb6265529bf40525c294",
-                    "due_date": "2025-01-11T15:04:02.108Z"
+                    "_id": "675b16b1b86c0e6a7f9fab5f",
+                    "due_date": "2025-01-11T17:00:33.276Z"
                 }
             ],
             "tracking_status": "Booked",
             "tracking_stages": {
                 "pickup": {
                     "status": false,
-                    "timestamp": "2025-01-11T15:04:02.108Z"
+                    "timestamp": "2025-01-11T17:00:33.277Z"
                 },
                 "inTransit": {
                     "status": false,
-                    "timestamp": "2025-02-10T15:04:02.108Z"
+                    "timestamp": "2025-02-10T17:00:33.277Z"
                 },
                 "delivered": {
                     "status": false,
-                    "timestamp": "2025-03-12T15:04:02.108Z"
+                    "timestamp": "2025-03-12T17:00:33.277Z"
                 }
             },
-            "_id": "675afb6265529bf40525c291",
+            "_id": "675b16b1b86c0e6a7f9fab5c",
             "remaining_amount": 1500,
-            "created_at": "2024-12-12T15:04:02.109Z",
+            "created_at": "2024-12-12T17:00:33.277Z",
             "__v": 0
         },
-        "user": "abdulYFl1VOm"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-12-12T15:11:57.946Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-12-12T15:11:57.959Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-12-12T15:11:57.962Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-12-12T15:59:46.877Z",
-    "message": "the email is send: ",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-12-12T15:59:51.665Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-12-12T15:59:51.682Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-12-12T15:59:51.686Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
-    }
-}
-=======
->>>>>>> 8212b5bd73cab692a6cb1939a7d3550f900a10df
->>>>>>> dev
-{
-    "level": "INFO",
-    "timestamp": "2024-12-12T16:30:27.679Z",
-    "message": "Database connection established",
-    "meta": {
-        "CONNECTION_NAME": "erp"
-    }
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-12-12T16:30:27.691Z",
-    "message": "Rate limiter initiated",
-    "meta": {}
-}
-{
-    "level": "INFO",
-    "timestamp": "2024-12-12T16:30:27.693Z",
-    "message": "Application started on port 3000",
-    "meta": {
-        "SERVER_URL": "http://localhost:3000"
+        "user": "kenTZVn"
     }
 }

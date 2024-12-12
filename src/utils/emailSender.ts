@@ -1,5 +1,6 @@
 import nodemailer from "nodemailer";
-import logger from "../handlers/logger";
+// import logger from "../handlers/logger";
+// import config from '../config/config';
 
 export const sendEmail = async (
   recipient: string,
@@ -14,7 +15,7 @@ export const sendEmail = async (
       pass: "yena sysp bncd uwvz",
     },
   });
-  logger.info(`the email is `, { meta: transporter });
+
   await transporter.sendMail({
     from: "khansuzair1@gmail.com",
     to: recipient,
@@ -23,5 +24,3 @@ export const sendEmail = async (
     attachments,
   });
 };
-
-// logger.info(`the email is send: `,{meta:sendEmail})
