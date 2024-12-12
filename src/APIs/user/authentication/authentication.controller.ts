@@ -15,6 +15,7 @@ import {
   accountConfirmationService,
   loginService,
   registrationService,
+  updateRoleService,
 } from "./authentication.service";
 import { CustomError } from "../../../utils/errors";
 import asyncHandler from "../../../handlers/async";
@@ -23,14 +24,125 @@ import { EApplicationEnvironment } from "../../../constant/application";
 import config from "../../../config/config";
 import query from "../_shared/repo/token.repository";
 import logger from "../../../handlers/logger";
-
+import { EUserRoles } from "../../../constant/users";
+import {
+  generateRandomPassword,
+  generateUniqueUsername,
+  generateRandomString,
+} from "../_shared/automateRegistration/generateClient";
+import userRepository from "../_shared/repo/user.repository";
 export default {
+  // register: asyncHandler(
+  //   async (request: Request, response: Response, next: NextFunction) => {
+  //     try {
+  //       const { body } = request as IRegister;
+
+  //       //Payload validation
+  //       const { error, payload } = validateSchema<IRegisterRequest>(
+  //         registerSchema,
+  //         body
+  //       );
+  //       if (error) {
+  //         return httpError(next, error, request, 422);
+  //       }
+
+  //       const registrationResult = await registrationService(payload);
+  //       if (registrationResult.success === true) {
+  //         httpResponse(
+  //           response,
+  //           request,
+  //           201,
+  //           responseMessage.auth.USER_REGISTERED,
+  //           registrationResult
+  //         );
+  //       }
+  //     } catch (error) {
+  //       if (error instanceof CustomError) {
+  //         httpError(next, error, request, error.statusCode);
+  //       } else {
+  //         httpError(next, error, request, 500);
+  //       }
+  //     }
+  //   }
+  // ),
+  // register: asyncHandler(
+  //   async (request: Request, response: Response, next: NextFunction) => {
+  //     try {
+  //       const { body } = request as IRegister;
+
+  //       // Payload validation
+  //       const { error, payload } = validateSchema<IRegisterRequest>(
+  //         registerSchema,
+  //         body
+  //       );
+  //       if (error) {
+  //         return httpError(next, error, request, 422);
+  //       }
+
+  //       // Check if user already exists
+  //       const existingUser = await userRepository.findUserByEmail(
+  //         payload.email,
+  //         "name"
+  //       );
+
+  //       let finalUsername: string;
+  //       let password: string | null = null; // Initialize password as null
+
+  //       if (existingUser) {
+  //         // User already exists
+  //         finalUsername = existingUser.name;
+  //         logger.info(
+  //           `Existing user found. Using existing username: ${finalUsername}`
+  //         );
+  //       } else {
+  //         // Generate new username and password for new users
+  //         const username = await generateUniqueUsername(payload.name);
+  //         const randomStr = generateRandomString(4, 7);
+  //         finalUsername = `${username}${randomStr}`;
+  //         password = generateRandomPassword(); // Generate password only for new users
+
+  //         const clientData: IRegisterRequest = {
+  //           name: finalUsername,
+  //           email: payload.email,
+  //           phoneNumber: payload.phoneNumber,
+  //           password,
+  //           consent: true,
+  //         };
+
+  //         logger.info(`Registering new user: ${clientData.name}`);
+
+  //         // Register the user
+  //         await registrationService(clientData);
+  //       }
+
+  //       const registrationResult = { success: true, user: finalUsername };
+
+  //       // Send success response
+  //       if (registrationResult.success === true) {
+  //         httpResponse(
+  //           response,
+  //           request,
+  //           201,
+  //           responseMessage.auth.USER_REGISTERED,
+  //           registrationResult
+  //         );
+  //       }
+  //     } catch (error) {
+  //       if (error instanceof CustomError) {
+  //         httpError(next, error, request, error.statusCode);
+  //       } else {
+  //         httpError(next, error, request, 500);
+  //       }
+  //     }
+  //   }
+  // ),
+
   register: asyncHandler(
     async (request: Request, response: Response, next: NextFunction) => {
       try {
         const { body } = request as IRegister;
 
-        //Payload validation
+        // Payload validation
         const { error, payload } = validateSchema<IRegisterRequest>(
           registerSchema,
           body
@@ -39,7 +151,58 @@ export default {
           return httpError(next, error, request, 422);
         }
 
-        const registrationResult = await registrationService(payload);
+        // Check if user already exists
+        const existingUser = await userRepository.findUserByEmail(
+          payload.email,
+          "name"
+        );
+        logger.info(`Checking if user with email ${payload.email} exists`);
+        console.log("Existing user.....----", existingUser); // Isse aapko pata chalega ke actual mein user mil raha hai ya nahi
+
+        let finalUsername: string;
+        let password: string | null = null; // Initialize password as null
+
+        if (existingUser) {
+          finalUsername = existingUser.name;
+          logger.info(
+            `Existing user found. Using existing username: ${finalUsername}`
+          );
+          // Correct response for existing user
+          return httpResponse(
+            response,
+            request,
+            409, // Conflict status code for already registered user
+            "User already registered", // Custom message
+            { success: false, user: finalUsername } // Return existing user info
+          );
+        } else {
+          // Generate new username and password for new users
+          const username = await generateUniqueUsername(payload.name);
+          const randomStr = generateRandomString(4, 7);
+          finalUsername = `${username}${randomStr}`;
+          password = generateRandomPassword(); // Generate a random password
+
+          // const clientData: IRegisterRequest = {
+          //   name: finalUsername.toLowerCase(),
+          //   email: payload.email,
+          //   phoneNumber: payload.phoneNumber,
+          // };
+          const clientData: IRegisterRequest = {
+            name: finalUsername.toLowerCase(),
+            email: payload.email,
+            phoneNumber: payload.phoneNumber,
+            role: payload.role || EUserRoles.USER, // Default to USER if not provided
+          };
+
+          logger.info(`Registering new user: ${clientData.name}`);
+
+          // Register the user
+          await registrationService({ ...clientData, password }); // Send password to service
+        }
+
+        const registrationResult = { success: true, user: finalUsername };
+
+        // Send success response
         if (registrationResult.success === true) {
           httpResponse(
             response,
@@ -54,6 +217,30 @@ export default {
           httpError(next, error, request, error.statusCode);
         } else {
           httpError(next, error, request, 500);
+        }
+      }
+    }
+  ),
+
+  editUserRole: asyncHandler(
+    async (req: Request, res: Response, next: NextFunction) => {
+      try {
+        const { id } = req.params;
+        const { role } = req.body;
+        console.log("Role", role);
+        const updatedUser = await updateRoleService(id, role);
+        httpResponse(
+          res,
+          req,
+          200,
+          "User role updated successfully",
+          updatedUser
+        );
+      } catch (error) {
+        if (error instanceof CustomError) {
+          next(error);
+        } else {
+          next(new CustomError("Internal Server Error", 500));
         }
       }
     }

@@ -9,50 +9,54 @@ import { registrationService } from "../../user/authentication/authentication.se
 import userRepository from "../../user/_shared/repo/user.repository";
 import logger from "../../../handlers/logger";
 
-
 export default {
   save_book_container: async (body: any) => {
     try {
       // Check if the user already exists
-      const existingUser = await userRepository.findUserByEmail(body.sender_details.email, "name");
-  
+      const existingUser = await userRepository.findUserByEmail(
+        body.sender_details.email,
+        "name"
+      );
+
       let finalUsername: string;
       let password: string | null = null; // Initialize password as null
-  
+
       if (existingUser) {
         // User already exists
         finalUsername = existingUser.name;
-        logger.info(`Existing user found. Using existing username: ${finalUsername}`);
+        logger.info(
+          `Existing user found. Using existing username: ${finalUsername}`
+        );
       } else {
         // Generate new username and password for new users
         const username = await generateUniqueUsername(body.sender_details.name);
         const randomStr = generateRandomString(4, 7);
         finalUsername = `${username}${randomStr}`;
         password = generateRandomPassword(); // Generate password only for new users
-  
+
         const clientData: IRegisterRequest = {
-          name: finalUsername,
+          name: finalUsername.toLowerCase(),
           email: body.sender_details.email,
           phoneNumber: body.sender_details.phone,
           password,
           consent: true,
         };
-  
+
         logger.info(`Registering new user: ${clientData.name}`);
-  
+
         // Register the user
         await registrationService(clientData);
       }
-  
+
       // Save container details
       body.sender_details.name = finalUsername; // Assign the final username to sender_details.name
       const container = new Contaier_BD(body);
       const savedContainer = await container.save();
-  
+
       if (!savedContainer) {
         throw new Error("Failed to book container");
       }
-  
+
       return { container: savedContainer, user: finalUsername };
     } catch (error) {
       logger.error("Error saving container and registering client", {
@@ -61,8 +65,6 @@ export default {
       throw error;
     }
   },
-  
-
 
   // FIXME: if something went wrong use below code its working
   // save_book_conatiner: async (body: any) => {
@@ -74,7 +76,7 @@ export default {
   //     const password = generateRandomPassword();
 
   //     const clientData: IRegisterRequest = {
-  //       name: finalUsername, 
+  //       name: finalUsername,
   //       email: body.sender_details.email,
   //       phoneNumber: body.sender_details.phone,
   //       password,

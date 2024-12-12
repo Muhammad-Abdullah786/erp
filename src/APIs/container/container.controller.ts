@@ -149,6 +149,7 @@ export default {
       });
     } catch (error) {
       logger.error("Error in booking container", { meta: error });
+      console.log("Error", error);
       res.status(500).json({
         error: (error as Error).message || "Internal Server Error",
       });

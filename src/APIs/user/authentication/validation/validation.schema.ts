@@ -3,7 +3,7 @@ import {
   ILoginRequest,
   IRegisterRequest,
 } from "../types/authentication.interface";
-
+import { EUserRoles } from "../../../../constant/users";
 export const registerSchema = joi.object<IRegisterRequest, true>({
   name: joi.string().min(2).max(72).trim().required(),
   email: joi.string().email().required(),
@@ -16,6 +16,10 @@ export const registerSchema = joi.object<IRegisterRequest, true>({
     .trim()
     .required(),
   consent: joi.boolean().valid(true).required(),
+  role: joi
+    .string()
+    .valid(...Object.values(EUserRoles))
+    .optional(), // Allow role
 });
 
 export const loginSchema = joi.object<ILoginRequest, true>({

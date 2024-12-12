@@ -26918,11 +26918,27 @@
 }
 {
     "level": "INFO",
+<<<<<<< HEAD
+    "timestamp": "2024-12-11T16:57:29.242Z",
+=======
     "timestamp": "2024-12-11T14:36:49.921Z",
+>>>>>>> 8212b5bd73cab692a6cb1939a7d3550f900a10df
     "message": "Database connection established",
     "meta": {
         "CONNECTION_NAME": "erp"
     }
+<<<<<<< HEAD
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T16:57:29.251Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T16:57:29.253Z",
+=======
 }
 {
     "level": "INFO",
@@ -26933,18 +26949,38 @@
 {
     "level": "INFO",
     "timestamp": "2024-12-11T14:36:49.944Z",
+>>>>>>> 8212b5bd73cab692a6cb1939a7d3550f900a10df
     "message": "Application started on port 3000",
     "meta": {
         "SERVER_URL": "http://localhost:3000"
     }
+<<<<<<< HEAD
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T17:02:15.744Z",
+=======
 }
 {
     "level": "INFO",
     "timestamp": "2024-12-11T14:50:57.880Z",
+>>>>>>> 8212b5bd73cab692a6cb1939a7d3550f900a10df
     "message": "Database connection established",
     "meta": {
         "CONNECTION_NAME": "erp"
     }
+<<<<<<< HEAD
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T17:02:15.761Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T17:02:15.765Z",
+=======
 }
 {
     "level": "INFO",
@@ -26955,10 +26991,243 @@
 {
     "level": "INFO",
     "timestamp": "2024-12-11T14:50:57.897Z",
+>>>>>>> 8212b5bd73cab692a6cb1939a7d3550f900a10df
     "message": "Application started on port 3000",
     "meta": {
         "SERVER_URL": "http://localhost:3000"
     }
+<<<<<<< HEAD
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T17:02:40.539Z",
+    "message": "the name from registration service is : Mudassir Zaman",
+    "meta": {}
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-11T17:02:40.735Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 500,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Client with this username already exists",
+        "data": null,
+        "trace": {
+            "error": "Error: Client with this username already exists\n    at D:\\Enterprise Resource Planning\\backend-dev\\erp\\src\\APIs\\user\\authentication\\authentication.service.ts:35:11\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\Enterprise Resource Planning\\backend-dev\\erp\\src\\APIs\\user\\authentication\\authentication.service.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T17:04:13.478Z",
+    "message": "the name from registration service is : Mudassir Zaman",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T17:04:13.894Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Account has been created successfully.",
+        "data": {
+            "success": true,
+            "_id": "6759c60d3a4a4136f25acf2d"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-11T17:04:45.462Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "\"name\" is required",
+        "data": null,
+        "trace": {
+            "error": "ValidationError: \"name\" is required"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-11T17:05:11.715Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "User is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: User is not found\n    at D:\\Enterprise Resource Planning\\backend-dev\\erp\\src\\APIs\\user\\authentication\\authentication.service.ts:177:11\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\Enterprise Resource Planning\\backend-dev\\erp\\src\\APIs\\user\\authentication\\authentication.service.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-11T17:05:15.938Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "User is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: User is not found\n    at D:\\Enterprise Resource Planning\\backend-dev\\erp\\src\\APIs\\user\\authentication\\authentication.service.ts:177:11\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\Enterprise Resource Planning\\backend-dev\\erp\\src\\APIs\\user\\authentication\\authentication.service.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-11T17:05:22.548Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "\"name\" is required",
+        "data": null,
+        "trace": {
+            "error": "ValidationError: \"name\" is required"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T17:07:57.614Z",
+    "message": "the name from registration service is : Mudassir Zaman",
+    "meta": {}
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-11T17:07:57.838Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 500,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Client with this username already exists",
+        "data": null,
+        "trace": {
+            "error": "Error: Client with this username already exists\n    at D:\\Enterprise Resource Planning\\backend-dev\\erp\\src\\APIs\\user\\authentication\\authentication.service.ts:35:11\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\Enterprise Resource Planning\\backend-dev\\erp\\src\\APIs\\user\\authentication\\authentication.service.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T17:16:13.719Z",
+    "message": "the name from registration service is : Mudassir Zaman",
+    "meta": {}
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-11T17:16:13.825Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 500,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Client with this username already exists",
+        "data": null,
+        "trace": {
+            "error": "Error: Client with this username already exists\n    at D:\\Enterprise Resource Planning\\backend-dev\\erp\\src\\APIs\\user\\authentication\\authentication.service.ts:35:11\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\Enterprise Resource Planning\\backend-dev\\erp\\src\\APIs\\user\\authentication\\authentication.service.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T17:16:18.456Z",
+    "message": "the name from registration service is : Mudassir Zaman",
+    "meta": {}
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-11T17:16:18.508Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 500,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Client with this username already exists",
+        "data": null,
+        "trace": {
+            "error": "Error: Client with this username already exists\n    at D:\\Enterprise Resource Planning\\backend-dev\\erp\\src\\APIs\\user\\authentication\\authentication.service.ts:35:11\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\Enterprise Resource Planning\\backend-dev\\erp\\src\\APIs\\user\\authentication\\authentication.service.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T17:19:08.931Z",
+    "message": "the name from registration service is : MMudassirZaman",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T17:19:09.247Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Account has been created successfully.",
+        "data": {
+            "success": true,
+            "_id": "6759c98d3a4a4136f25acf42"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-11T17:34:55.214Z",
+=======
 }
 {
     "level": "ERROR",
@@ -27197,6 +27466,7 @@
 {
     "level": "ERROR",
     "timestamp": "2024-12-11T16:37:20.146Z",
+>>>>>>> 8212b5bd73cab692a6cb1939a7d3550f900a10df
     "message": "Controller Response",
     "meta": {
         "success": false,
@@ -27209,6 +27479,15 @@
         "message": "You are not allowed to perform this task",
         "data": null,
         "trace": {
+<<<<<<< HEAD
+            "error": "Error: You are not allowed to perform this task\n    at D:\\Enterprise Resource Planning\\backend-dev\\erp\\src\\middlewares\\authenticate.ts:36:25\n    at Generator.next (<anonymous>)\n    at D:\\Enterprise Resource Planning\\backend-dev\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (D:\\Enterprise Resource Planning\\backend-dev\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at D:\\Enterprise Resource Planning\\backend-dev\\erp\\src\\middlewares\\authenticate.ts:17:97\n    at D:\\Enterprise Resource Planning\\backend-dev\\erp\\src\\handlers\\async.ts:5:25\n    at Layer.handle [as handle_request] (D:\\Enterprise Resource Planning\\backend-dev\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Enterprise Resource Planning\\backend-dev\\erp\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\Enterprise Resource Planning\\backend-dev\\erp\\node_modules\\express\\lib\\router\\index.js:286:9"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T17:37:04.691Z",
+=======
             "error": "Error: You are not allowed to perform this task\n    at /media/ken/DISK/Coderatory/erp/src/middlewares/authenticate.ts:36:25\n    at Generator.next (<anonymous>)\n    at /media/ken/DISK/Coderatory/erp/src/middlewares/authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (/media/ken/DISK/Coderatory/erp/src/middlewares/authenticate.ts:4:12)\n    at /media/ken/DISK/Coderatory/erp/src/middlewares/authenticate.ts:17:97\n    at /media/ken/DISK/Coderatory/erp/src/handlers/async.ts:5:25\n    at Layer.handle [as handle_request] (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:328:13)\n    at /media/ken/DISK/Coderatory/erp/node_modules/express/lib/router/index.js:286:9"
         }
     }
@@ -27216,10 +27495,23 @@
 {
     "level": "INFO",
     "timestamp": "2024-12-11T16:42:10.932Z",
+>>>>>>> 8212b5bd73cab692a6cb1939a7d3550f900a10df
     "message": "Database connection established",
     "meta": {
         "CONNECTION_NAME": "erp"
     }
+<<<<<<< HEAD
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T17:37:04.764Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T17:37:04.767Z",
+=======
 }
 {
     "level": "INFO",
@@ -27230,10 +27522,57 @@
 {
     "level": "INFO",
     "timestamp": "2024-12-11T16:42:10.949Z",
+>>>>>>> 8212b5bd73cab692a6cb1939a7d3550f900a10df
     "message": "Application started on port 3000",
     "meta": {
         "SERVER_URL": "http://localhost:3000"
     }
+<<<<<<< HEAD
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T17:37:26.821Z",
+    "message": "Registering new user: John DoeRs42mdq",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T17:37:26.823Z",
+    "message": "the name from registration service is : John DoeRs42mdq",
+    "meta": {}
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-11T17:37:26.874Z",
+    "message": "Error saving container and registering client",
+    "meta": {
+        "statusCode": 422
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-11T17:37:26.889Z",
+    "message": "Error in booking container",
+    "meta": {
+        "statusCode": 422
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T17:37:37.110Z",
+    "message": "Registering new user: John DoetI7WUs6",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T17:37:37.113Z",
+    "message": "the name from registration service is : John DoetI7WUs6",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T17:37:37.474Z",
+=======
 }
 {
     "level": "INFO",
@@ -27250,15 +27589,37 @@
 {
     "level": "INFO",
     "timestamp": "2024-12-11T16:42:14.436Z",
+>>>>>>> 8212b5bd73cab692a6cb1939a7d3550f900a10df
     "message": "Container booked successfully",
     "meta": {
         "container": {
             "container_type": "Refrigerated",
+<<<<<<< HEAD
+            "weight": 2000,
+=======
             "weight": 1500,
+>>>>>>> 8212b5bd73cab692a6cb1939a7d3550f900a10df
             "containers": [
                 {
                     "quantity": 2,
                     "size": "40ft",
+<<<<<<< HEAD
+                    "_id": "6759cde197520e98719bbf01"
+                }
+            ],
+            "price": 5000,
+            "handle_type": "auto",
+            "sender_details": {
+                "name": "John DoetI7WUs6",
+                "email": "john1@example.com",
+                "phone": "92123456789"
+            },
+            "receiver_details": {
+                "name": "Jane Doe",
+                "address": "123 Shipping Lane",
+                "country_code": "US",
+                "phone": "+987654321"
+=======
                     "_id": "6759c0e671cd3b5d1d603731"
                 },
                 {
@@ -27279,20 +27640,58 @@
                 "address": "123 Example Street",
                 "country_code": "+1",
                 "phone": "0987654321"
+>>>>>>> 8212b5bd73cab692a6cb1939a7d3550f900a10df
             },
             "installmentDetails": [
                 {
                     "installment_number": 1,
+<<<<<<< HEAD
+                    "amount": 1000,
+                    "status": "pending",
+                    "_id": "6759cde197520e98719bbf02",
+                    "due_date": "2025-01-10T17:37:37.417Z"
+=======
                     "amount": 500,
                     "status": "pending",
                     "_id": "6759c0e671cd3b5d1d603733",
                     "due_date": "2025-01-10T16:42:14.374Z"
+>>>>>>> 8212b5bd73cab692a6cb1939a7d3550f900a10df
                 }
             ],
             "tracking_status": "Booked",
             "tracking_stages": {
                 "pickup": {
                     "status": false,
+<<<<<<< HEAD
+                    "timestamp": "2025-01-10T17:37:37.418Z"
+                },
+                "inTransit": {
+                    "status": false,
+                    "timestamp": "2025-02-09T17:37:37.418Z"
+                },
+                "delivered": {
+                    "status": false,
+                    "timestamp": "2025-03-11T17:37:37.418Z"
+                }
+            },
+            "_id": "6759cde197520e98719bbf00",
+            "remaining_amount": 4000,
+            "created_at": "2024-12-11T17:37:37.418Z",
+            "__v": 0
+        },
+        "user": "John DoetI7WUs6"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T17:38:12.789Z",
+    "message": "Existing user found. Using existing username: John DoetI7WUs6",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T17:38:12.853Z",
+=======
                     "timestamp": "2025-01-10T16:42:14.374Z"
                 },
                 "inTransit": {
@@ -27327,15 +27726,37 @@
 {
     "level": "INFO",
     "timestamp": "2024-12-11T16:44:48.527Z",
+>>>>>>> 8212b5bd73cab692a6cb1939a7d3550f900a10df
     "message": "Container booked successfully",
     "meta": {
         "container": {
             "container_type": "Refrigerated",
+<<<<<<< HEAD
+            "weight": 2000,
+=======
             "weight": 1500,
+>>>>>>> 8212b5bd73cab692a6cb1939a7d3550f900a10df
             "containers": [
                 {
                     "quantity": 2,
                     "size": "40ft",
+<<<<<<< HEAD
+                    "_id": "6759ce0497520e98719bbf07"
+                }
+            ],
+            "price": 5000,
+            "handle_type": "auto",
+            "sender_details": {
+                "name": "John DoetI7WUs6",
+                "email": "john1@example.com",
+                "phone": "92123456789"
+            },
+            "receiver_details": {
+                "name": "Jane Doe",
+                "address": "123 Shipping Lane",
+                "country_code": "US",
+                "phone": "+987654321"
+=======
                     "_id": "6759c18071cd3b5d1d60373f"
                 },
                 {
@@ -27356,20 +27777,470 @@
                 "address": "123 Example Street",
                 "country_code": "+1",
                 "phone": "0987654321"
+>>>>>>> 8212b5bd73cab692a6cb1939a7d3550f900a10df
             },
             "installmentDetails": [
                 {
                     "installment_number": 1,
+<<<<<<< HEAD
+                    "amount": 1000,
+                    "status": "pending",
+                    "_id": "6759ce0497520e98719bbf08",
+                    "due_date": "2025-01-10T17:38:12.795Z"
+=======
                     "amount": 500,
                     "status": "pending",
                     "_id": "6759c18071cd3b5d1d603741",
                     "due_date": "2025-01-10T16:44:48.474Z"
+>>>>>>> 8212b5bd73cab692a6cb1939a7d3550f900a10df
                 }
             ],
             "tracking_status": "Booked",
             "tracking_stages": {
                 "pickup": {
                     "status": false,
+<<<<<<< HEAD
+                    "timestamp": "2025-01-10T17:38:12.795Z"
+                },
+                "inTransit": {
+                    "status": false,
+                    "timestamp": "2025-02-09T17:38:12.795Z"
+                },
+                "delivered": {
+                    "status": false,
+                    "timestamp": "2025-03-11T17:38:12.795Z"
+                }
+            },
+            "_id": "6759ce0497520e98719bbf06",
+            "remaining_amount": 4000,
+            "created_at": "2024-12-11T17:38:12.795Z",
+            "__v": 0
+        },
+        "user": "John DoetI7WUs6"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T17:45:13.500Z",
+    "message": "the name from registration service is : MMudassirZaman",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T17:45:13.805Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Account has been created successfully.",
+        "data": {
+            "success": true,
+            "_id": "6759cfa997520e98719bbf0f"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T17:56:07.067Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T17:56:07.086Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T17:56:07.212Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T17:57:05.540Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T17:57:05.550Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T17:57:05.554Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T17:59:17.762Z",
+    "message": "Existing user found. Using existing username: MMudassirZaman",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T17:59:17.764Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Account has been created successfully.",
+        "data": {
+            "success": true,
+            "user": "MMudassirZaman"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-11T17:59:53.801Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "\"password\" is required",
+        "data": null,
+        "trace": {
+            "error": "ValidationError: \"password\" is required"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T18:01:15.163Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T18:01:15.171Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T18:01:15.173Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T20:36:50.879Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T20:36:51.067Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T20:36:51.078Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T20:37:34.788Z",
+    "message": "Registering new user: MMudassirZamanQxsgy",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T20:37:34.792Z",
+    "message": "The name from registration service is: MMudassirZamanQxsgy",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T20:37:35.601Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Account has been created successfully.",
+        "data": {
+            "success": true,
+            "user": "MMudassirZamanQxsgy"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-11T20:37:41.566Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "\"password\" is required",
+        "data": null,
+        "trace": {
+            "error": "ValidationError: \"password\" is required"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T20:38:54.443Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T20:38:54.459Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T20:38:54.461Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-11T20:38:59.039Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "\"password\" is required",
+        "data": null,
+        "trace": {
+            "error": "ValidationError: \"password\" is required"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T20:51:39.194Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T20:51:39.216Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T20:51:39.221Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-11T20:53:04.279Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "\"password\" is required",
+        "data": null,
+        "trace": {
+            "error": "ValidationError: \"password\" is required"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T21:30:21.745Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T21:30:21.776Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T21:30:21.781Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-11T21:30:25.898Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "\"password\" is required",
+        "data": null,
+        "trace": {
+            "error": "ValidationError: \"password\" is required"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T21:31:39.558Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T21:31:39.576Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T21:31:39.585Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T21:31:43.284Z",
+    "message": "Existing user found. Using existing username: MMudassirZamanQxsgy",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T21:31:43.286Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Account has been created successfully.",
+        "data": {
+            "success": true,
+            "user": "MMudassirZamanQxsgy"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T21:34:06.356Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T21:34:06.389Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T21:34:06.396Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-11T21:34:26.194Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 400,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Invalid email or password",
+        "data": null,
+        "trace": {
+            "error": "Error: Invalid email or password\n    at D:\\Enterprise Resource Planning\\backend-dev\\erp\\src\\APIs\\user\\authentication\\authentication.service.ts:347:11\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\Enterprise Resource Planning\\backend-dev\\erp\\src\\APIs\\user\\authentication\\authentication.service.ts:5:58)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T21:34:33.301Z",
+=======
                     "timestamp": "2025-01-10T16:44:48.474Z"
                 },
                 "inTransit": {
@@ -27469,6 +28340,7 @@
 {
     "level": "INFO",
     "timestamp": "2024-12-11T17:14:48.780Z",
+>>>>>>> 8212b5bd73cab692a6cb1939a7d3550f900a10df
     "message": "the total info of user from the service file is  is : ",
     "meta": {
         "0": "u",
@@ -27476,14 +28348,37 @@
         "2": "e",
         "3": "r"
     }
+<<<<<<< HEAD
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T21:34:33.648Z",
+=======
 }
 {
     "level": "INFO",
     "timestamp": "2024-12-11T17:14:48.911Z",
+>>>>>>> 8212b5bd73cab692a6cb1939a7d3550f900a10df
     "message": "the role of this user is : ",
     "meta": {
         "success": true,
         "user": {
+<<<<<<< HEAD
+            "_id": "6759f80f4d55bb8383a577c4",
+            "password": "$2b$10$W5c38CqswWRLRGkjfaaWnOtKnX4m4DucV8mUGT0OkgWo2GfuuU6RG",
+            "role": "user",
+            "lastLoginAt": "2024-12-11T21:34:33.322Z",
+            "updatedAt": "2024-12-11T21:34:33.344Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzU5ZjgwZjRkNTViYjgzODNhNTc3YzQiLCJpYXQiOjE3MzM5NTI4NzMsImV4cCI6MTczMzk1NjQ3M30.-gIZ7i474t3BlOfuw6AlC-sgCLoEhyFPBiewfp4Kyns",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzU5ZjgwZjRkNTViYjgzODNhNTc3YzQiLCJpYXQiOjE3MzM5NTI4NzMsImV4cCI6MTc2NTQ4ODg3M30.FjGi_TmU-me_yDLMKBVECXanPV3uaXfuX2z3ehv5rLI",
+            "greeting": "Hello User!"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T21:34:33.655Z",
+=======
             "_id": "6759c86871cd3b5d1d60374a",
             "password": "$2b$10$RAhDGfOv/FJhfIWoYpaFc.BT2rBDRmfKcbXg18EkksYp1wzEq7lT.",
             "role": "user",
@@ -27498,6 +28393,7 @@
 {
     "level": "INFO",
     "timestamp": "2024-12-11T17:14:48.914Z",
+>>>>>>> 8212b5bd73cab692a6cb1939a7d3550f900a10df
     "message": "Controller Response",
     "meta": {
         "success": true,
@@ -27509,6 +28405,17 @@
         },
         "message": "Login successful",
         "data": {
+<<<<<<< HEAD
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzU5ZjgwZjRkNTViYjgzODNhNTc3YzQiLCJpYXQiOjE3MzM5NTI4NzMsImV4cCI6MTczMzk1NjQ3M30.-gIZ7i474t3BlOfuw6AlC-sgCLoEhyFPBiewfp4Kyns",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzU5ZjgwZjRkNTViYjgzODNhNTc3YzQiLCJpYXQiOjE3MzM5NTI4NzMsImV4cCI6MTc2NTQ4ODg3M30.FjGi_TmU-me_yDLMKBVECXanPV3uaXfuX2z3ehv5rLI",
+            "greeting": "Hello User!"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T21:35:07.126Z",
+=======
             "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzU5Yzg2ODcxY2QzYjVkMWQ2MDM3NGEiLCJpYXQiOjE3MzM5MzcyODgsImV4cCI6MTczMzk0MDg4OH0.afkaYV6rRhD5v3QIQ4RCWbVt59GRJSiMofub2iXoF2U",
             "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzU5Yzg2ODcxY2QzYjVkMWQ2MDM3NGEiLCJpYXQiOjE3MzM5MzcyODgsImV4cCI6MTc2NTQ3MzI4OH0._hRhpCYLDvxl0yQ6zFJSbSo0PHlSVEKQw9A9_wRPnE0",
             "greeting": "Hello User!"
@@ -27518,10 +28425,23 @@
 {
     "level": "INFO",
     "timestamp": "2024-12-11T17:57:16.313Z",
+>>>>>>> 8212b5bd73cab692a6cb1939a7d3550f900a10df
     "message": "Database connection established",
     "meta": {
         "CONNECTION_NAME": "erp"
     }
+<<<<<<< HEAD
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T21:35:07.143Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T21:35:07.147Z",
+=======
 }
 {
     "level": "INFO",
@@ -27532,11 +28452,4916 @@
 {
     "level": "INFO",
     "timestamp": "2024-12-11T17:57:16.333Z",
+>>>>>>> 8212b5bd73cab692a6cb1939a7d3550f900a10df
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+<<<<<<< HEAD
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T21:36:10.292Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T21:36:10.315Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T21:36:10.318Z",
     "message": "Application started on port 3000",
     "meta": {
         "SERVER_URL": "http://localhost:3000"
     }
 }
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T21:36:50.741Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T21:36:50.786Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T21:36:50.788Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-11T21:36:52.810Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "\"password\" is required",
+        "data": null,
+        "trace": {
+            "error": "ValidationError: \"password\" is required"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-11T21:37:04.642Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "\"password\" is not allowed to be empty",
+        "data": null,
+        "trace": {
+            "error": "ValidationError: \"password\" is not allowed to be empty"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T21:38:01.867Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T21:38:01.882Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T21:38:01.885Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-11T21:38:05.360Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "\"password\" is required",
+        "data": null,
+        "trace": {
+            "error": "ValidationError: \"password\" is required"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T21:39:10.650Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T21:39:10.667Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T21:39:10.671Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-11T21:39:15.088Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "\"password\" is required",
+        "data": null,
+        "trace": {
+            "error": "ValidationError: \"password\" is required"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-11T21:39:18.822Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "\"password\" is required",
+        "data": null,
+        "trace": {
+            "error": "ValidationError: \"password\" is required"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-11T21:39:20.018Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "\"password\" is required",
+        "data": null,
+        "trace": {
+            "error": "ValidationError: \"password\" is required"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-11T21:39:21.338Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "\"password\" is required",
+        "data": null,
+        "trace": {
+            "error": "ValidationError: \"password\" is required"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T21:40:59.630Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T21:40:59.649Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T21:40:59.655Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-11T21:41:19.306Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "\"consent\" is required",
+        "data": null,
+        "trace": {
+            "error": "ValidationError: \"consent\" is required"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T21:41:58.118Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T21:41:58.132Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T21:41:58.135Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-11T21:42:35.635Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "\"password\" is required",
+        "data": null,
+        "trace": {
+            "error": "ValidationError: \"password\" is required"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T21:42:50.903Z",
+    "message": "Registering new user: muhammadmudassirzamanwb1ags",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T21:42:50.904Z",
+    "message": "The name from registration service is: muhammadmudassirzamanwb1ags",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T21:42:51.484Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Account has been created successfully.",
+        "data": {
+            "success": true,
+            "user": "MuhammadMudassirZamanwb1AgS"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T21:43:59.544Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "u",
+        "1": "s",
+        "2": "e",
+        "3": "r"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T21:43:59.823Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "675a075b541267196895a91e",
+            "password": "$2b$10$k0IM/A5/XO7lfTTmvlg.wOlslqWHKF3qn2MRWWORCa3xx86frSGsG",
+            "role": "user",
+            "lastLoginAt": "2024-12-11T21:43:59.550Z",
+            "updatedAt": "2024-12-11T21:43:59.553Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhMDc1YjU0MTI2NzE5Njg5NWE5MWUiLCJpYXQiOjE3MzM5NTM0MzksImV4cCI6MTczMzk1NzAzOX0._AS986CMIs2vaIXV9xVGTpwptyUYKbx4sy6tEtboQx4",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhMDc1YjU0MTI2NzE5Njg5NWE5MWUiLCJpYXQiOjE3MzM5NTM0MzksImV4cCI6MTc2NTQ4OTQzOX0.aPszbmYMzdNEeukLxWrEcu6syIBpotykVDZt3oOmeIA",
+            "greeting": "Hello User!"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T21:43:59.829Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhMDc1YjU0MTI2NzE5Njg5NWE5MWUiLCJpYXQiOjE3MzM5NTM0MzksImV4cCI6MTczMzk1NzAzOX0._AS986CMIs2vaIXV9xVGTpwptyUYKbx4sy6tEtboQx4",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhMDc1YjU0MTI2NzE5Njg5NWE5MWUiLCJpYXQiOjE3MzM5NTM0MzksImV4cCI6MTc2NTQ4OTQzOX0.aPszbmYMzdNEeukLxWrEcu6syIBpotykVDZt3oOmeIA",
+            "greeting": "Hello User!"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T21:44:43.646Z",
+    "message": "Existing user found. Using existing username: muhammadmudassirzamanwb1ags",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T21:44:43.811Z",
+    "message": "Container booked successfully",
+    "meta": {
+        "container": {
+            "container_type": "Refrigerated",
+            "weight": 2000,
+            "containers": [
+                {
+                    "quantity": 2,
+                    "size": "40ft",
+                    "_id": "675a07cb541267196895a92a"
+                }
+            ],
+            "price": 5000,
+            "handle_type": "auto",
+            "sender_details": {
+                "name": "muhammadmudassirzamanwb1ags",
+                "email": "zamanmudassir200@gmail.com",
+                "phone": "92123456789"
+            },
+            "receiver_details": {
+                "name": "Jane Doe",
+                "address": "123 Shipping Lane",
+                "country_code": "US",
+                "phone": "+987654321"
+            },
+            "installmentDetails": [
+                {
+                    "installment_number": 1,
+                    "amount": 1000,
+                    "status": "pending",
+                    "_id": "675a07cb541267196895a92b",
+                    "due_date": "2025-01-10T21:44:43.657Z"
+                }
+            ],
+            "tracking_status": "Booked",
+            "tracking_stages": {
+                "pickup": {
+                    "status": false,
+                    "timestamp": "2025-01-10T21:44:43.658Z"
+                },
+                "inTransit": {
+                    "status": false,
+                    "timestamp": "2025-02-09T21:44:43.658Z"
+                },
+                "delivered": {
+                    "status": false,
+                    "timestamp": "2025-03-11T21:44:43.658Z"
+                }
+            },
+            "_id": "675a07cb541267196895a929",
+            "remaining_amount": 4000,
+            "created_at": "2024-12-11T21:44:43.658Z",
+            "__v": 0
+        },
+        "user": "muhammadmudassirzamanwb1ags"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T21:45:20.012Z",
+    "message": "Existing user found. Using existing username: MMudassirZamanQxsgy",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T21:45:20.159Z",
+    "message": "Container booked successfully",
+    "meta": {
+        "container": {
+            "container_type": "Refrigerated",
+            "weight": 2000,
+            "containers": [
+                {
+                    "quantity": 2,
+                    "size": "40ft",
+                    "_id": "675a07f0541267196895a931"
+                }
+            ],
+            "price": 5000,
+            "handle_type": "auto",
+            "sender_details": {
+                "name": "MMudassirZamanQxsgy",
+                "email": "zamanmudassir193@yahoo.com",
+                "phone": "92123456789"
+            },
+            "receiver_details": {
+                "name": "Jane Doe",
+                "address": "123 Shipping Lane",
+                "country_code": "US",
+                "phone": "+987654321"
+            },
+            "installmentDetails": [
+                {
+                    "installment_number": 1,
+                    "amount": 1000,
+                    "status": "pending",
+                    "_id": "675a07f0541267196895a932",
+                    "due_date": "2025-01-10T21:45:20.017Z"
+                }
+            ],
+            "tracking_status": "Booked",
+            "tracking_stages": {
+                "pickup": {
+                    "status": false,
+                    "timestamp": "2025-01-10T21:45:20.017Z"
+                },
+                "inTransit": {
+                    "status": false,
+                    "timestamp": "2025-02-09T21:45:20.017Z"
+                },
+                "delivered": {
+                    "status": false,
+                    "timestamp": "2025-03-11T21:45:20.017Z"
+                }
+            },
+            "_id": "675a07f0541267196895a930",
+            "remaining_amount": 4000,
+            "created_at": "2024-12-11T21:45:20.017Z",
+            "__v": 0
+        },
+        "user": "MMudassirZamanQxsgy"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T21:46:00.020Z",
+    "message": "Registering new user: abdul wahabkclvsdn",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T21:46:00.022Z",
+    "message": "The name from registration service is: abdul wahabkclvsdn",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T21:46:00.784Z",
+    "message": "Container booked successfully",
+    "meta": {
+        "container": {
+            "container_type": "Refrigerated",
+            "weight": 2000,
+            "containers": [
+                {
+                    "quantity": 2,
+                    "size": "40ft",
+                    "_id": "675a0818541267196895a93f"
+                }
+            ],
+            "price": 5000,
+            "handle_type": "auto",
+            "sender_details": {
+                "name": "abdul wahabKcLvSDn",
+                "email": "zamanmudassir.193@yahoo.com",
+                "phone": "92123456789"
+            },
+            "receiver_details": {
+                "name": "Jane Doe",
+                "address": "123 Shipping Lane",
+                "country_code": "US",
+                "phone": "+987654321"
+            },
+            "installmentDetails": [
+                {
+                    "installment_number": 1,
+                    "amount": 1000,
+                    "status": "pending",
+                    "_id": "675a0818541267196895a940",
+                    "due_date": "2025-01-10T21:46:00.627Z"
+                }
+            ],
+            "tracking_status": "Booked",
+            "tracking_stages": {
+                "pickup": {
+                    "status": false,
+                    "timestamp": "2025-01-10T21:46:00.628Z"
+                },
+                "inTransit": {
+                    "status": false,
+                    "timestamp": "2025-02-09T21:46:00.628Z"
+                },
+                "delivered": {
+                    "status": false,
+                    "timestamp": "2025-03-11T21:46:00.628Z"
+                }
+            },
+            "_id": "675a0818541267196895a93e",
+            "remaining_amount": 4000,
+            "created_at": "2024-12-11T21:46:00.628Z",
+            "__v": 0
+        },
+        "user": "abdul wahabKcLvSDn"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T21:47:51.194Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "u",
+        "1": "s",
+        "2": "e",
+        "3": "r"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T21:47:51.487Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "675a0818541267196895a93c",
+            "password": "$2b$10$3ZFAkPziKNRZvroMVN.sDOBzfI7LsVGgofIqyJEFDqD.Yo7/Mw2pK",
+            "role": "user",
+            "lastLoginAt": "2024-12-11T21:47:51.205Z",
+            "updatedAt": "2024-12-11T21:47:51.209Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhMDgxODU0MTI2NzE5Njg5NWE5M2MiLCJpYXQiOjE3MzM5NTM2NzEsImV4cCI6MTczMzk1NzI3MX0.9r1jcCn7CsMbGQR5pLc7_beaxt_crqGOV2LKiMbm8Vw",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhMDgxODU0MTI2NzE5Njg5NWE5M2MiLCJpYXQiOjE3MzM5NTM2NzEsImV4cCI6MTc2NTQ4OTY3MX0.gHpoDEwzKpHg0R51fssd2JP0mUbBHocUDsqPP4eXTz8",
+            "greeting": "Hello User!"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T21:47:51.500Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhMDgxODU0MTI2NzE5Njg5NWE5M2MiLCJpYXQiOjE3MzM5NTM2NzEsImV4cCI6MTczMzk1NzI3MX0.9r1jcCn7CsMbGQR5pLc7_beaxt_crqGOV2LKiMbm8Vw",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhMDgxODU0MTI2NzE5Njg5NWE5M2MiLCJpYXQiOjE3MzM5NTM2NzEsImV4cCI6MTc2NTQ4OTY3MX0.gHpoDEwzKpHg0R51fssd2JP0mUbBHocUDsqPP4eXTz8",
+            "greeting": "Hello User!"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-11T21:48:28.871Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "\"role\" is not allowed",
+        "data": null,
+        "trace": {
+            "error": "ValidationError: \"role\" is not allowed"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T21:51:03.726Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T21:51:03.737Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T21:51:03.739Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:13:34.609Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:13:34.645Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:13:34.652Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:13:55.413Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:13:55.429Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:13:55.434Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:14:32.922Z",
+    "message": "Existing user found. Using existing username: muhammadmudassirzamanwb1ags",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:14:32.926Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Account has been created successfully.",
+        "data": {
+            "success": true,
+            "user": "muhammadmudassirzamanwb1ags"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:15:17.079Z",
+    "message": "Registering new user: muhammadmudassirzamanhjwqm",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:15:17.207Z",
+    "message": "The name from registration service is: muhammadmudassirzamanhjwqm",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:15:17.965Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Account has been created successfully.",
+        "data": {
+            "success": true,
+            "user": "MuhammadMudassirZamanhjwQM"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:15:44.516Z",
+    "message": "Existing user found. Using existing username: muhammadmudassirzamanhjwqm",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:15:44.518Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Account has been created successfully.",
+        "data": {
+            "success": true,
+            "user": "muhammadmudassirzamanhjwqm"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:16:07.989Z",
+    "message": "Existing user found. Using existing username: muhammadmudassirzamanhjwqm",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:16:07.993Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Account has been created successfully.",
+        "data": {
+            "success": true,
+            "user": "muhammadmudassirzamanhjwqm"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:18:44.995Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:18:45.018Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:18:45.022Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:19:27.819Z",
+    "message": "Existing user found. Using existing username: muhammadmudassirzamanhjwqm",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:19:27.821Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Account has been created successfully.",
+        "data": {
+            "success": true,
+            "user": "muhammadmudassirzamanhjwqm"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:20:22.446Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:20:22.458Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:20:22.462Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-11T22:20:26.988Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "\"password\" is required",
+        "data": null,
+        "trace": {
+            "error": "ValidationError: \"password\" is required"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:20:35.005Z",
+    "message": "Registering new user: muhammadmudassirzamanhnjpfu",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:20:35.008Z",
+    "message": "The name from registration service is: muhammadmudassirzamanhnjpfu",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:20:36.190Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Account has been created successfully.",
+        "data": {
+            "success": true,
+            "user": "MuhammadMudassirZamanhNjPfU"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:20:42.699Z",
+    "message": "Existing user found. Using existing username: muhammadmudassirzamanhnjpfu",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:20:42.701Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Account has been created successfully.",
+        "data": {
+            "success": true,
+            "user": "muhammadmudassirzamanhnjpfu"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:21:04.156Z",
+    "message": "Existing user found. Using existing username: muhammadmudassirzamanhnjpfu",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:21:04.158Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Account has been created successfully.",
+        "data": {
+            "success": true,
+            "user": "muhammadmudassirzamanhnjpfu"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:21:17.180Z",
+    "message": "Existing user found. Using existing username: muhammadmudassirzamanhnjpfu",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:21:17.182Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Account has been created successfully.",
+        "data": {
+            "success": true,
+            "user": "muhammadmudassirzamanhnjpfu"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:21:40.410Z",
+    "message": "Registering new user: muhammadmudassirzamanpzbv",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:21:40.412Z",
+    "message": "The name from registration service is: muhammadmudassirzamanpzbv",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:21:40.932Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Account has been created successfully.",
+        "data": {
+            "success": true,
+            "user": "MuhammadMudassirZamanPZBv"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:22:00.358Z",
+    "message": "Registering new user: muhammadmudassirzamand5it1xv",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:22:00.360Z",
+    "message": "The name from registration service is: muhammadmudassirzamand5it1xv",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:22:01.022Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Account has been created successfully.",
+        "data": {
+            "success": true,
+            "user": "MuhammadMudassirZamanD5It1XV"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:26:49.937Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:26:49.962Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:26:49.965Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:27:16.065Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:27:16.075Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:27:16.077Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:27:43.675Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:27:43.687Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:27:43.690Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:30:47.107Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:30:47.117Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:30:47.121Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:31:07.107Z",
+    "message": "Registering new user: muhammadmudassirzamanaywb",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:31:07.110Z",
+    "message": "The name from registration service is: muhammadmudassirzamanaywb",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:31:07.677Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Account has been created successfully.",
+        "data": {
+            "success": true,
+            "user": "MuhammadMudassirZamanaYwB"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:31:17.889Z",
+    "message": "Existing user found. Using existing username: muhammadmudassirzamanaywb",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:31:17.890Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Account has been created successfully.",
+        "data": {
+            "success": true,
+            "user": "muhammadmudassirzamanaywb"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:34:45.068Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:34:45.082Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:34:45.084Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:34:55.010Z",
+    "message": "Checking if user with email zamanmudassir.193@yahoo.com exists",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:34:55.017Z",
+    "message": "Existing user found. Using existing username: muhammadmudassirzamanaywb",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:34:55.020Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Account has been created successfully.",
+        "data": {
+            "success": true,
+            "user": "muhammadmudassirzamanaywb"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:36:02.286Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:36:02.314Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:36:02.319Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:36:37.326Z",
+    "message": "Checking if user with email zamanmudassir.193@yahoo.com exists",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:36:37.460Z",
+    "message": "Registering new user: muhammadmudassirzamaneq5jcz",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:36:37.462Z",
+    "message": "The name from registration service is: muhammadmudassirzamaneq5jcz",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:36:37.971Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Account has been created successfully.",
+        "data": {
+            "success": true,
+            "user": "MuhammadMudassirZamanEq5Jcz"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:36:44.165Z",
+    "message": "Checking if user with email zamanmudassir.193@yahoo.com exists",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:36:44.169Z",
+    "message": "Existing user found. Using existing username: muhammadmudassirzamaneq5jcz",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:36:44.171Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Account has been created successfully.",
+        "data": {
+            "success": true,
+            "user": "muhammadmudassirzamaneq5jcz"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:38:41.189Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:38:41.204Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:38:41.207Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:38:45.986Z",
+    "message": "Checking if user with email zamanmudassir.193@yahoo.com exists",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:38:45.993Z",
+    "message": "Existing user found. Using existing username: muhammadmudassirzamaneq5jcz",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:38:45.997Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 409,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "User already registered",
+        "data": {
+            "success": false,
+            "user": "muhammadmudassirzamaneq5jcz"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:39:03.759Z",
+    "message": "Checking if user with email zamanmudassir.193@yahoo.com exists",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:39:03.762Z",
+    "message": "Existing user found. Using existing username: muhammadmudassirzamaneq5jcz",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:39:03.764Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 409,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "User already registered",
+        "data": {
+            "success": false,
+            "user": "muhammadmudassirzamaneq5jcz"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:39:18.984Z",
+    "message": "Checking if user with email zamanmudassir193@yahoo.com exists",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:39:19.150Z",
+    "message": "Registering new user: mudassir1i6g",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:39:19.153Z",
+    "message": "The name from registration service is: mudassir1i6g",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:39:19.747Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Account has been created successfully.",
+        "data": {
+            "success": true,
+            "user": "mudassir1i6g"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-11T22:39:38.735Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "\"role\" must be one of [admin, user, employee_manager, employee_intern, employee_staff, driver]",
+        "data": null,
+        "trace": {
+            "error": "ValidationError: \"role\" must be one of [admin, user, employee_manager, employee_intern, employee_staff, driver]"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:39:53.075Z",
+    "message": "Checking if user with email zamanmudassir200@gmail.com exists",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:39:53.203Z",
+    "message": "Registering new user: mudassirnjjm",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:39:53.204Z",
+    "message": "The name from registration service is: mudassirnjjm",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:39:53.711Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Account has been created successfully.",
+        "data": {
+            "success": true,
+            "user": "mudassirnJjm"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:44:32.155Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:44:32.170Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:44:32.173Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:45:13.680Z",
+    "message": "Checking if user with email zamanmudassir200@gmail.com exists",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:45:14.152Z",
+    "message": "Registering new user: mudassiru34p5tx",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:45:14.229Z",
+    "message": "The name from registration service is: mudassiru34p5tx",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:45:15.180Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Account has been created successfully.",
+        "data": {
+            "success": true,
+            "user": "mudassirU34P5TX"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:45:49.320Z",
+    "message": "Checking if user with email zamanmudassir193@yahoo.com exists",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:45:49.465Z",
+    "message": "Registering new user: mudassircvxu5p",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:45:49.467Z",
+    "message": "The name from registration service is: mudassircvxu5p",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:45:50.148Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Account has been created successfully.",
+        "data": {
+            "success": true,
+            "user": "mudassircvxU5p"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:46:06.217Z",
+    "message": "Checking if user with email zamanmudassir.193@yahoo.com exists",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:46:06.357Z",
+    "message": "Registering new user: mudassirpasdn",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:46:06.359Z",
+    "message": "The name from registration service is: mudassirpasdn",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:46:07.008Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Account has been created successfully.",
+        "data": {
+            "success": true,
+            "user": "mudassirPASDN"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-11T22:47:03.149Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "\"role\" must be one of [admin, user, employee_hr, employee_sales, employee_accounts, driver]",
+        "data": null,
+        "trace": {
+            "error": "ValidationError: \"role\" must be one of [admin, user, employee_hr, employee_sales, employee_accounts, driver]"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-11T22:47:18.496Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "\"role\" must be one of [admin, user, employee_hr, employee_sales, employee_accounts, driver]",
+        "data": null,
+        "trace": {
+            "error": "ValidationError: \"role\" must be one of [admin, user, employee_hr, employee_sales, employee_accounts, driver]"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:47:28.992Z",
+    "message": "Checking if user with email mmudassirzaman.dev@outlook.com exists",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:47:29.158Z",
+    "message": "Registering new user: mudassiraite2",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:47:29.159Z",
+    "message": "The name from registration service is: mudassiraite2",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:47:29.814Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Account has been created successfully.",
+        "data": {
+            "success": true,
+            "user": "mudassiraITE2"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:47:39.900Z",
+    "message": "Checking if user with email mmudassirzaman.dev@outlook.com exists",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:47:39.904Z",
+    "message": "Existing user found. Using existing username: mudassiraite2",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:47:39.905Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 409,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "User already registered",
+        "data": {
+            "success": false,
+            "user": "mudassiraite2"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-11T22:51:11.510Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "User is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: User is not found\n    at D:\\Enterprise Resource Planning\\backend-dev\\erp\\src\\APIs\\user\\authentication\\authentication.service.ts:363:11\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\Enterprise Resource Planning\\backend-dev\\erp\\src\\APIs\\user\\authentication\\authentication.service.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:51:55.864Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "u",
+        "1": "s",
+        "2": "e",
+        "3": "r"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:51:59.779Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "675a161d0b7be05e1f92d45a",
+            "password": "$2b$10$hEg76enQ3kJ7AVrtwHi1wOa/cFinN9tf20gow1QilpA4RfVnfa.yy",
+            "role": "user",
+            "lastLoginAt": "2024-12-11T22:51:56.128Z",
+            "updatedAt": "2024-12-11T22:51:59.130Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhMTYxZDBiN2JlMDVlMWY5MmQ0NWEiLCJpYXQiOjE3MzM5NTc1MTYsImV4cCI6MTczMzk2MTExNn0.dbFIbKAPBNbQALNLQeJiC9pwfmjvrWALPSren6_6hNo",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhMTYxZDBiN2JlMDVlMWY5MmQ0NWEiLCJpYXQiOjE3MzM5NTc1MTYsImV4cCI6MTc2NTQ5MzUxNn0.TbVLa_Fw_m7d9QGVNYDDmSbHerlGV86kGYkpgimqIGI",
+            "greeting": "Hello User!"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:51:59.798Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhMTYxZDBiN2JlMDVlMWY5MmQ0NWEiLCJpYXQiOjE3MzM5NTc1MTYsImV4cCI6MTczMzk2MTExNn0.dbFIbKAPBNbQALNLQeJiC9pwfmjvrWALPSren6_6hNo",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhMTYxZDBiN2JlMDVlMWY5MmQ0NWEiLCJpYXQiOjE3MzM5NTc1MTYsImV4cCI6MTc2NTQ5MzUxNn0.TbVLa_Fw_m7d9QGVNYDDmSbHerlGV86kGYkpgimqIGI",
+            "greeting": "Hello User!"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:56:02.856Z",
+    "message": "Registering new user: abdulwahabgyglz",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:56:02.858Z",
+    "message": "The name from registration service is: abdulwahabgyglz",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:56:05.463Z",
+    "message": "Container booked successfully",
+    "meta": {
+        "container": {
+            "container_type": "Refrigerated",
+            "weight": 2000,
+            "containers": [
+                {
+                    "quantity": 2,
+                    "size": "40ft",
+                    "_id": "675a18850b7be05e1f92d489"
+                }
+            ],
+            "price": 5000,
+            "handle_type": "auto",
+            "sender_details": {
+                "name": "abdulwahabgYGlZ",
+                "email": "zamanmudassir@yahoo.com",
+                "phone": "92123456789"
+            },
+            "receiver_details": {
+                "name": "Jane Doe",
+                "address": "123 Shipping Lane",
+                "country_code": "US",
+                "phone": "+987654321"
+            },
+            "installmentDetails": [
+                {
+                    "installment_number": 1,
+                    "amount": 1000,
+                    "status": "pending",
+                    "_id": "675a18850b7be05e1f92d48a",
+                    "due_date": "2025-01-10T22:56:05.098Z"
+                }
+            ],
+            "tracking_status": "Booked",
+            "tracking_stages": {
+                "pickup": {
+                    "status": false,
+                    "timestamp": "2025-01-10T22:56:05.100Z"
+                },
+                "inTransit": {
+                    "status": false,
+                    "timestamp": "2025-02-09T22:56:05.100Z"
+                },
+                "delivered": {
+                    "status": false,
+                    "timestamp": "2025-03-11T22:56:05.100Z"
+                }
+            },
+            "_id": "675a18840b7be05e1f92d488",
+            "remaining_amount": 4000,
+            "created_at": "2024-12-11T22:56:05.100Z",
+            "__v": 0
+        },
+        "user": "abdulwahabgYGlZ"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:56:28.060Z",
+    "message": "Registering new user: zamanmudassirpfhp",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:56:28.061Z",
+    "message": "The name from registration service is: zamanmudassirpfhp",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T22:56:29.319Z",
+    "message": "Container booked successfully",
+    "meta": {
+        "container": {
+            "container_type": "Refrigerated",
+            "weight": 2000,
+            "containers": [
+                {
+                    "quantity": 2,
+                    "size": "40ft",
+                    "_id": "675a189d0b7be05e1f92d496"
+                }
+            ],
+            "price": 5000,
+            "handle_type": "auto",
+            "sender_details": {
+                "name": "zamanmudassirpfhP",
+                "email": "zamanmudassir68@gmail.com",
+                "phone": "92123456789"
+            },
+            "receiver_details": {
+                "name": "Jane Doe",
+                "address": "123 Shipping Lane",
+                "country_code": "US",
+                "phone": "+987654321"
+            },
+            "installmentDetails": [
+                {
+                    "installment_number": 1,
+                    "amount": 1000,
+                    "status": "pending",
+                    "_id": "675a189d0b7be05e1f92d497",
+                    "due_date": "2025-01-10T22:56:29.114Z"
+                }
+            ],
+            "tracking_status": "Booked",
+            "tracking_stages": {
+                "pickup": {
+                    "status": false,
+                    "timestamp": "2025-01-10T22:56:29.114Z"
+                },
+                "inTransit": {
+                    "status": false,
+                    "timestamp": "2025-02-09T22:56:29.114Z"
+                },
+                "delivered": {
+                    "status": false,
+                    "timestamp": "2025-03-11T22:56:29.114Z"
+                }
+            },
+            "_id": "675a189d0b7be05e1f92d495",
+            "remaining_amount": 4000,
+            "created_at": "2024-12-11T22:56:29.114Z",
+            "__v": 0
+        },
+        "user": "zamanmudassirpfhP"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T23:00:04.541Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "e",
+        "1": "m",
+        "2": "p",
+        "3": "l",
+        "4": "o",
+        "5": "y",
+        "6": "e",
+        "7": "e",
+        "8": "_",
+        "9": "h",
+        "10": "r"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T23:00:05.110Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "675a16810b7be05e1f92d470",
+            "password": "$2b$10$27Zb7lTAsJC.tBiSC2dY6.QryM90zsJtRvIcu0pC8FsomREo98.BC",
+            "role": "employee_hr",
+            "lastLoginAt": "2024-12-11T23:00:04.788Z",
+            "updatedAt": "2024-12-11T23:00:04.796Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhMTY4MTBiN2JlMDVlMWY5MmQ0NzAiLCJpYXQiOjE3MzM5NTgwMDQsImV4cCI6MTczMzk2MTYwNH0.Ai0W-b-K98UwTlk-JGMbnunZCSNuM09a1Xtdj4nhy2Y",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhMTY4MTBiN2JlMDVlMWY5MmQ0NzAiLCJpYXQiOjE3MzM5NTgwMDQsImV4cCI6MTc2NTQ5NDAwNH0.0pxmpJ1HZ-csFZQ-B59Pt5hey9PVSxJcJB2DOum_kNA",
+            "greeting": "Hello Employee HR!"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T23:00:05.120Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhMTY4MTBiN2JlMDVlMWY5MmQ0NzAiLCJpYXQiOjE3MzM5NTgwMDQsImV4cCI6MTczMzk2MTYwNH0.Ai0W-b-K98UwTlk-JGMbnunZCSNuM09a1Xtdj4nhy2Y",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhMTY4MTBiN2JlMDVlMWY5MmQ0NzAiLCJpYXQiOjE3MzM5NTgwMDQsImV4cCI6MTc2NTQ5NDAwNH0.0pxmpJ1HZ-csFZQ-B59Pt5hey9PVSxJcJB2DOum_kNA",
+            "greeting": "Hello Employee HR!"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T23:04:49.903Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "u",
+        "1": "s",
+        "2": "e",
+        "3": "r"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T23:04:50.207Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "675a189c0b7be05e1f92d493",
+            "password": "$2b$10$Ywd7ICd/KCQAtnybhGwX3e06vUj8wCxo6rfDRQFK4PJY1es.l/9sK",
+            "role": "user",
+            "lastLoginAt": "2024-12-11T23:04:49.910Z",
+            "updatedAt": "2024-12-11T23:04:49.916Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhMTg5YzBiN2JlMDVlMWY5MmQ0OTMiLCJpYXQiOjE3MzM5NTgyODksImV4cCI6MTczMzk2MTg4OX0.uu032OtKykIwcanIr-WTKMVltES461x7qF_EU0wIGPQ",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhMTg5YzBiN2JlMDVlMWY5MmQ0OTMiLCJpYXQiOjE3MzM5NTgyODksImV4cCI6MTc2NTQ5NDI4OX0.tCjyrsV37M8Ux8fmXcqJiG8gDjvHPrCCnCutlwdydGM",
+            "greeting": "Hello User!"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T23:04:50.213Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhMTg5YzBiN2JlMDVlMWY5MmQ0OTMiLCJpYXQiOjE3MzM5NTgyODksImV4cCI6MTczMzk2MTg4OX0.uu032OtKykIwcanIr-WTKMVltES461x7qF_EU0wIGPQ",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhMTg5YzBiN2JlMDVlMWY5MmQ0OTMiLCJpYXQiOjE3MzM5NTgyODksImV4cCI6MTc2NTQ5NDI4OX0.tCjyrsV37M8Ux8fmXcqJiG8gDjvHPrCCnCutlwdydGM",
+            "greeting": "Hello User!"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T23:05:57.795Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "d",
+        "1": "r",
+        "2": "i",
+        "3": "v",
+        "4": "e",
+        "5": "r"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T23:05:58.124Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "675a15fa0b7be05e1f92d450",
+            "password": "$2b$10$JLlPqC3tc3HTQ1LXQD89pOd8s8pjOAKBvm1EpaRwHMF8OEJOCSB/e",
+            "role": "driver",
+            "lastLoginAt": "2024-12-11T23:05:57.816Z",
+            "updatedAt": "2024-12-11T23:05:57.823Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhMTVmYTBiN2JlMDVlMWY5MmQ0NTAiLCJpYXQiOjE3MzM5NTgzNTcsImV4cCI6MTczMzk2MTk1N30.NK-hTBK-cPa6SkqkaejmG_U4KqrEvWo_e_AQOicuS1g",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhMTVmYTBiN2JlMDVlMWY5MmQ0NTAiLCJpYXQiOjE3MzM5NTgzNTcsImV4cCI6MTc2NTQ5NDM1N30.1R7nZsOZ3OIIiSNXmf6_Dj8zD8K9Y_gwccXgEpfOQW4"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T23:05:58.154Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhMTVmYTBiN2JlMDVlMWY5MmQ0NTAiLCJpYXQiOjE3MzM5NTgzNTcsImV4cCI6MTczMzk2MTk1N30.NK-hTBK-cPa6SkqkaejmG_U4KqrEvWo_e_AQOicuS1g",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhMTVmYTBiN2JlMDVlMWY5MmQ0NTAiLCJpYXQiOjE3MzM5NTgzNTcsImV4cCI6MTc2NTQ5NDM1N30.1R7nZsOZ3OIIiSNXmf6_Dj8zD8K9Y_gwccXgEpfOQW4"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T23:07:25.309Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T23:07:25.332Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T23:07:25.336Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-11T23:16:57.275Z",
+    "message": "Error saving container and registering client",
+    "meta": {}
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-11T23:16:57.318Z",
+    "message": "Error in booking container",
+    "meta": {}
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-11T23:18:11.504Z",
+    "message": "Error saving container and registering client",
+    "meta": {}
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-11T23:18:11.509Z",
+    "message": "Error in booking container",
+    "meta": {}
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-11T23:19:11.472Z",
+    "message": "Error saving container and registering client",
+    "meta": {}
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-11T23:19:11.485Z",
+    "message": "Error in booking container",
+    "meta": {}
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-11T23:19:20.075Z",
+    "message": "Error saving container and registering client",
+    "meta": {}
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-11T23:19:20.144Z",
+    "message": "Error in booking container",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T23:21:41.828Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T23:21:41.842Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T23:21:41.844Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-11T23:22:16.562Z",
+    "message": "Error saving container and registering client",
+    "meta": {}
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-11T23:22:16.580Z",
+    "message": "Error in booking container",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T23:23:55.178Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T23:23:55.202Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-11T23:23:55.207Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-11T23:25:05.996Z",
+    "message": "Error saving container and registering client",
+    "meta": {}
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-11T23:25:06.074Z",
+    "message": "Error in booking container",
+    "meta": {}
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-12T04:47:00.968Z",
+    "message": "Error saving container and registering client",
+    "meta": {}
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-12T04:47:01.015Z",
+    "message": "Error in booking container",
+    "meta": {}
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-12T04:47:26.586Z",
+    "message": "Error saving container and registering client",
+    "meta": {}
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-12T04:47:26.610Z",
+    "message": "Error in booking container",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T05:19:50.051Z",
+    "message": "Checking if user with email mmudassirzaman.dev@outlook.com exists",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T05:19:50.228Z",
+    "message": "Registering new user: mudassirrfgltrt",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T05:19:50.262Z",
+    "message": "The name from registration service is: mudassirrfgltrt",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T05:19:51.176Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Account has been created successfully.",
+        "data": {
+            "success": true,
+            "user": "mudassirRFglTRt"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T05:21:10.627Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "e",
+        "1": "m",
+        "2": "p",
+        "3": "l",
+        "4": "o",
+        "5": "y",
+        "6": "e",
+        "7": "e",
+        "8": "_",
+        "9": "h",
+        "10": "r"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T05:21:11.035Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "675a7276d7d7bc7af80308f0",
+            "password": "$2b$10$hYAQROXQN1YIedem2D7My.zuYLSENEjkzxvtXCpr5Hejkvhq0KCw2",
+            "role": "employee_hr",
+            "lastLoginAt": "2024-12-12T05:21:10.680Z",
+            "updatedAt": "2024-12-12T05:21:10.683Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhNzI3NmQ3ZDdiYzdhZjgwMzA4ZjAiLCJpYXQiOjE3MzM5ODA4NzAsImV4cCI6MTczMzk4NDQ3MH0.kCE4jlQz8ANn9lJHX7Pm6LL64JwpnqdwGvlgdTU4BOg",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhNzI3NmQ3ZDdiYzdhZjgwMzA4ZjAiLCJpYXQiOjE3MzM5ODA4NzAsImV4cCI6MTc2NTUxNjg3MH0.mBsdNJGiCYfVywh7_Vf2Xv4aCtU72auvfpqP03yGHEA",
+            "greeting": "Hello Employee HR!"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T05:21:11.062Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhNzI3NmQ3ZDdiYzdhZjgwMzA4ZjAiLCJpYXQiOjE3MzM5ODA4NzAsImV4cCI6MTczMzk4NDQ3MH0.kCE4jlQz8ANn9lJHX7Pm6LL64JwpnqdwGvlgdTU4BOg",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhNzI3NmQ3ZDdiYzdhZjgwMzA4ZjAiLCJpYXQiOjE3MzM5ODA4NzAsImV4cCI6MTc2NTUxNjg3MH0.mBsdNJGiCYfVywh7_Vf2Xv4aCtU72auvfpqP03yGHEA",
+            "greeting": "Hello Employee HR!"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-12T05:21:51.048Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/client/login"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (D:\\Enterprise Resource Planning\\backend-dev\\erp\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (D:\\Enterprise Resource Planning\\backend-dev\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Enterprise Resource Planning\\backend-dev\\erp\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\Enterprise Resource Planning\\backend-dev\\erp\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\Enterprise Resource Planning\\backend-dev\\erp\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Enterprise Resource Planning\\backend-dev\\erp\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at D:\\Enterprise Resource Planning\\backend-dev\\erp\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (D:\\Enterprise Resource Planning\\backend-dev\\erp\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (D:\\Enterprise Resource Planning\\backend-dev\\erp\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (D:\\Enterprise Resource Planning\\backend-dev\\erp\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-12T05:22:42.231Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "\"name\" is required",
+        "data": null,
+        "trace": {
+            "error": "ValidationError: \"name\" is required"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-12T05:22:49.835Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "\"name\" is required",
+        "data": null,
+        "trace": {
+            "error": "ValidationError: \"name\" is required"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-12T05:23:16.043Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "\"name\" is required",
+        "data": null,
+        "trace": {
+            "error": "ValidationError: \"name\" is required"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-12T06:04:49.524Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "\"name\" is required",
+        "data": null,
+        "trace": {
+            "error": "ValidationError: \"name\" is required"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T06:10:37.635Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T06:10:37.647Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T06:10:37.649Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T06:10:58.576Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "e",
+        "1": "m",
+        "2": "p",
+        "3": "l",
+        "4": "o",
+        "5": "y",
+        "6": "e",
+        "7": "e",
+        "8": "_",
+        "9": "h",
+        "10": "r"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T06:10:58.771Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "675a7276d7d7bc7af80308f0",
+            "password": "$2b$10$hYAQROXQN1YIedem2D7My.zuYLSENEjkzxvtXCpr5Hejkvhq0KCw2",
+            "role": "employee_hr",
+            "lastLoginAt": "2024-12-12T06:10:58.592Z",
+            "updatedAt": "2024-12-12T06:10:58.609Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhNzI3NmQ3ZDdiYzdhZjgwMzA4ZjAiLCJpYXQiOjE3MzM5ODM4NTgsImV4cCI6MTczMzk4NzQ1OH0.yP42tHESJnNRd34NlCX8emXXMykLj1TPNPgUH1GWLK8",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhNzI3NmQ3ZDdiYzdhZjgwMzA4ZjAiLCJpYXQiOjE3MzM5ODM4NTgsImV4cCI6MTc2NTUxOTg1OH0._eiJkWI9yVGn26cJogKhUGfzQlQDLinPQZQd_uerz9I",
+            "greeting": "Hello Employee HR!"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T06:10:58.778Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhNzI3NmQ3ZDdiYzdhZjgwMzA4ZjAiLCJpYXQiOjE3MzM5ODM4NTgsImV4cCI6MTczMzk4NzQ1OH0.yP42tHESJnNRd34NlCX8emXXMykLj1TPNPgUH1GWLK8",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhNzI3NmQ3ZDdiYzdhZjgwMzA4ZjAiLCJpYXQiOjE3MzM5ODM4NTgsImV4cCI6MTc2NTUxOTg1OH0._eiJkWI9yVGn26cJogKhUGfzQlQDLinPQZQd_uerz9I",
+            "greeting": "Hello Employee HR!"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T06:12:59.249Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T06:12:59.260Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T06:12:59.262Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T06:13:04.629Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "e",
+        "1": "m",
+        "2": "p",
+        "3": "l",
+        "4": "o",
+        "5": "y",
+        "6": "e",
+        "7": "e",
+        "8": "_",
+        "9": "h",
+        "10": "r"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T06:13:04.998Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "675a7276d7d7bc7af80308f0",
+            "password": "$2b$10$hYAQROXQN1YIedem2D7My.zuYLSENEjkzxvtXCpr5Hejkvhq0KCw2",
+            "role": "employee_hr",
+            "lastLoginAt": "2024-12-12T06:13:04.638Z",
+            "updatedAt": "2024-12-12T06:13:04.650Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhNzI3NmQ3ZDdiYzdhZjgwMzA4ZjAiLCJpYXQiOjE3MzM5ODM5ODQsImV4cCI6MTczMzk4NzU4NH0.X8VcKxyesa-O2snFOsYusEtqAZBjEnkv8P05OwSNy4E",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhNzI3NmQ3ZDdiYzdhZjgwMzA4ZjAiLCJpYXQiOjE3MzM5ODM5ODQsImV4cCI6MTc2NTUxOTk4NH0.kY_MsVQvANC0jN9ZmSAs7KTEbSHqjORDenDyEbrrfFg",
+            "greeting": "employeehr"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T06:13:05.020Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhNzI3NmQ3ZDdiYzdhZjgwMzA4ZjAiLCJpYXQiOjE3MzM5ODM5ODQsImV4cCI6MTczMzk4NzU4NH0.X8VcKxyesa-O2snFOsYusEtqAZBjEnkv8P05OwSNy4E",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhNzI3NmQ3ZDdiYzdhZjgwMzA4ZjAiLCJpYXQiOjE3MzM5ODM5ODQsImV4cCI6MTc2NTUxOTk4NH0.kY_MsVQvANC0jN9ZmSAs7KTEbSHqjORDenDyEbrrfFg",
+            "greeting": "employeehr"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-12T07:28:53.477Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "\"name\" is required",
+        "data": null,
+        "trace": {
+            "error": "ValidationError: \"name\" is required"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T07:30:56.103Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T07:30:56.121Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T07:30:56.122Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-12T07:31:12.429Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "\"name\" is required",
+        "data": null,
+        "trace": {
+            "error": "ValidationError: \"name\" is required"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-12T07:31:53.098Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "\"name\" is required",
+        "data": null,
+        "trace": {
+            "error": "ValidationError: \"name\" is required"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-12T07:32:11.992Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "\"name\" is required",
+        "data": null,
+        "trace": {
+            "error": "ValidationError: \"name\" is required"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T07:32:26.571Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "e",
+        "1": "m",
+        "2": "p",
+        "3": "l",
+        "4": "o",
+        "5": "y",
+        "6": "e",
+        "7": "e",
+        "8": "_",
+        "9": "h",
+        "10": "r"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T07:32:26.828Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "675a7276d7d7bc7af80308f0",
+            "password": "$2b$10$hYAQROXQN1YIedem2D7My.zuYLSENEjkzxvtXCpr5Hejkvhq0KCw2",
+            "role": "employee_hr",
+            "lastLoginAt": "2024-12-12T07:32:26.584Z",
+            "updatedAt": "2024-12-12T07:32:26.605Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhNzI3NmQ3ZDdiYzdhZjgwMzA4ZjAiLCJpYXQiOjE3MzM5ODg3NDYsImV4cCI6MTczMzk5MjM0Nn0.pTPBj_PW3Ebn9Wqm2Q3-arW26bq_zvhdGcD6LmorFh0",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhNzI3NmQ3ZDdiYzdhZjgwMzA4ZjAiLCJpYXQiOjE3MzM5ODg3NDYsImV4cCI6MTc2NTUyNDc0Nn0.ycIKLY3ZbXv3qbs28fMuUmYqlxlPmX6_dO55NqjE0JI",
+            "greeting": "employeehr"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T07:32:26.854Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhNzI3NmQ3ZDdiYzdhZjgwMzA4ZjAiLCJpYXQiOjE3MzM5ODg3NDYsImV4cCI6MTczMzk5MjM0Nn0.pTPBj_PW3Ebn9Wqm2Q3-arW26bq_zvhdGcD6LmorFh0",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhNzI3NmQ3ZDdiYzdhZjgwMzA4ZjAiLCJpYXQiOjE3MzM5ODg3NDYsImV4cCI6MTc2NTUyNDc0Nn0.ycIKLY3ZbXv3qbs28fMuUmYqlxlPmX6_dO55NqjE0JI",
+            "greeting": "employeehr"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-12T07:33:04.509Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "\"name\" is required",
+        "data": null,
+        "trace": {
+            "error": "ValidationError: \"name\" is required"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-12T07:33:08.912Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "\"name\" is required",
+        "data": null,
+        "trace": {
+            "error": "ValidationError: \"name\" is required"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-12T07:33:42.210Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "\"name\" is required",
+        "data": null,
+        "trace": {
+            "error": "ValidationError: \"name\" is required"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-12T07:53:28.160Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "\"name\" is not allowed to be empty",
+        "data": null,
+        "trace": {
+            "error": "ValidationError: \"name\" is not allowed to be empty"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-12T07:53:36.254Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "\"name\" is not allowed to be empty",
+        "data": null,
+        "trace": {
+            "error": "ValidationError: \"name\" is not allowed to be empty"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T07:53:51.375Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "e",
+        "1": "m",
+        "2": "p",
+        "3": "l",
+        "4": "o",
+        "5": "y",
+        "6": "e",
+        "7": "e",
+        "8": "_",
+        "9": "h",
+        "10": "r"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T07:53:51.756Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "675a7276d7d7bc7af80308f0",
+            "password": "$2b$10$hYAQROXQN1YIedem2D7My.zuYLSENEjkzxvtXCpr5Hejkvhq0KCw2",
+            "role": "employee_hr",
+            "lastLoginAt": "2024-12-12T07:53:51.386Z",
+            "updatedAt": "2024-12-12T07:53:51.394Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhNzI3NmQ3ZDdiYzdhZjgwMzA4ZjAiLCJpYXQiOjE3MzM5OTAwMzEsImV4cCI6MTczMzk5MzYzMX0.9PUF8oW-DClDF6dkLI9ku1YqFUnkmaF77vXTtUeik6A",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhNzI3NmQ3ZDdiYzdhZjgwMzA4ZjAiLCJpYXQiOjE3MzM5OTAwMzEsImV4cCI6MTc2NTUyNjAzMX0.reo-Bn8u5G0sgOfriSgXqJK6O7hd5uP8LXSoCSpWv2o",
+            "greeting": "employeehr"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T07:53:51.765Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhNzI3NmQ3ZDdiYzdhZjgwMzA4ZjAiLCJpYXQiOjE3MzM5OTAwMzEsImV4cCI6MTczMzk5MzYzMX0.9PUF8oW-DClDF6dkLI9ku1YqFUnkmaF77vXTtUeik6A",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhNzI3NmQ3ZDdiYzdhZjgwMzA4ZjAiLCJpYXQiOjE3MzM5OTAwMzEsImV4cCI6MTc2NTUyNjAzMX0.reo-Bn8u5G0sgOfriSgXqJK6O7hd5uP8LXSoCSpWv2o",
+            "greeting": "employeehr"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-12T07:53:59.905Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "\"name\" is not allowed to be empty",
+        "data": null,
+        "trace": {
+            "error": "ValidationError: \"name\" is not allowed to be empty"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T07:58:13.314Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "e",
+        "1": "m",
+        "2": "p",
+        "3": "l",
+        "4": "o",
+        "5": "y",
+        "6": "e",
+        "7": "e",
+        "8": "_",
+        "9": "h",
+        "10": "r"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T07:58:13.795Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "675a7276d7d7bc7af80308f0",
+            "password": "$2b$10$hYAQROXQN1YIedem2D7My.zuYLSENEjkzxvtXCpr5Hejkvhq0KCw2",
+            "role": "employee_hr",
+            "lastLoginAt": "2024-12-12T07:58:13.318Z",
+            "updatedAt": "2024-12-12T07:58:13.325Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhNzI3NmQ3ZDdiYzdhZjgwMzA4ZjAiLCJpYXQiOjE3MzM5OTAyOTMsImV4cCI6MTczMzk5Mzg5M30.uXwNuI-wX5f1TTRrhrBdqOdRf-LC54HxoSWnydwGMZU",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhNzI3NmQ3ZDdiYzdhZjgwMzA4ZjAiLCJpYXQiOjE3MzM5OTAyOTMsImV4cCI6MTc2NTUyNjI5M30.8mTCLdx2W_shhsQVS9iuw_o3hjt1fIsFsRWZvXy7LeQ",
+            "greeting": "employeehr"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T07:58:13.801Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhNzI3NmQ3ZDdiYzdhZjgwMzA4ZjAiLCJpYXQiOjE3MzM5OTAyOTMsImV4cCI6MTczMzk5Mzg5M30.uXwNuI-wX5f1TTRrhrBdqOdRf-LC54HxoSWnydwGMZU",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhNzI3NmQ3ZDdiYzdhZjgwMzA4ZjAiLCJpYXQiOjE3MzM5OTAyOTMsImV4cCI6MTc2NTUyNjI5M30.8mTCLdx2W_shhsQVS9iuw_o3hjt1fIsFsRWZvXy7LeQ",
+            "greeting": "employeehr"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T07:58:34.954Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "e",
+        "1": "m",
+        "2": "p",
+        "3": "l",
+        "4": "o",
+        "5": "y",
+        "6": "e",
+        "7": "e",
+        "8": "_",
+        "9": "h",
+        "10": "r"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T07:58:46.861Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "675a7276d7d7bc7af80308f0",
+            "password": "$2b$10$hYAQROXQN1YIedem2D7My.zuYLSENEjkzxvtXCpr5Hejkvhq0KCw2",
+            "role": "employee_hr",
+            "lastLoginAt": "2024-12-12T07:58:34.960Z",
+            "updatedAt": "2024-12-12T07:58:34.962Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhNzI3NmQ3ZDdiYzdhZjgwMzA4ZjAiLCJpYXQiOjE3MzM5OTAzMTQsImV4cCI6MTczMzk5MzkxNH0.SlacXvNvz5KMS-cBllHcEQ9zsNm3e6FTO1w79lS5Sg8",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhNzI3NmQ3ZDdiYzdhZjgwMzA4ZjAiLCJpYXQiOjE3MzM5OTAzMTQsImV4cCI6MTc2NTUyNjMxNH0.-uwsw0dkbIvqwRfGzepXCw5J2VvyAjAz1hr7sDC0kTA",
+            "greeting": "employeehr"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T07:58:46.865Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhNzI3NmQ3ZDdiYzdhZjgwMzA4ZjAiLCJpYXQiOjE3MzM5OTAzMTQsImV4cCI6MTczMzk5MzkxNH0.SlacXvNvz5KMS-cBllHcEQ9zsNm3e6FTO1w79lS5Sg8",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhNzI3NmQ3ZDdiYzdhZjgwMzA4ZjAiLCJpYXQiOjE3MzM5OTAzMTQsImV4cCI6MTc2NTUyNjMxNH0.-uwsw0dkbIvqwRfGzepXCw5J2VvyAjAz1hr7sDC0kTA",
+            "greeting": "employeehr"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T07:58:57.276Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "e",
+        "1": "m",
+        "2": "p",
+        "3": "l",
+        "4": "o",
+        "5": "y",
+        "6": "e",
+        "7": "e",
+        "8": "_",
+        "9": "h",
+        "10": "r"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T07:58:57.781Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "675a7276d7d7bc7af80308f0",
+            "password": "$2b$10$hYAQROXQN1YIedem2D7My.zuYLSENEjkzxvtXCpr5Hejkvhq0KCw2",
+            "role": "employee_hr",
+            "lastLoginAt": "2024-12-12T07:58:57.354Z",
+            "updatedAt": "2024-12-12T07:58:57.373Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhNzI3NmQ3ZDdiYzdhZjgwMzA4ZjAiLCJpYXQiOjE3MzM5OTAzMzcsImV4cCI6MTczMzk5MzkzN30.Kc7I1bT01eVLOEIfwWdmzIB8UbcleVKRumBg5GrbmPU",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhNzI3NmQ3ZDdiYzdhZjgwMzA4ZjAiLCJpYXQiOjE3MzM5OTAzMzcsImV4cCI6MTc2NTUyNjMzN30.pNffjmEYU3E53_PiQHfA4tLe_Au9XPmBMo1j-26AEj0",
+            "greeting": "employeehr"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T07:58:57.785Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhNzI3NmQ3ZDdiYzdhZjgwMzA4ZjAiLCJpYXQiOjE3MzM5OTAzMzcsImV4cCI6MTczMzk5MzkzN30.Kc7I1bT01eVLOEIfwWdmzIB8UbcleVKRumBg5GrbmPU",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhNzI3NmQ3ZDdiYzdhZjgwMzA4ZjAiLCJpYXQiOjE3MzM5OTAzMzcsImV4cCI6MTc2NTUyNjMzN30.pNffjmEYU3E53_PiQHfA4tLe_Au9XPmBMo1j-26AEj0",
+            "greeting": "employeehr"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T07:59:33.623Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "e",
+        "1": "m",
+        "2": "p",
+        "3": "l",
+        "4": "o",
+        "5": "y",
+        "6": "e",
+        "7": "e",
+        "8": "_",
+        "9": "h",
+        "10": "r"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T07:59:33.966Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "675a7276d7d7bc7af80308f0",
+            "password": "$2b$10$hYAQROXQN1YIedem2D7My.zuYLSENEjkzxvtXCpr5Hejkvhq0KCw2",
+            "role": "employee_hr",
+            "lastLoginAt": "2024-12-12T07:59:33.627Z",
+            "updatedAt": "2024-12-12T07:59:33.631Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhNzI3NmQ3ZDdiYzdhZjgwMzA4ZjAiLCJpYXQiOjE3MzM5OTAzNzMsImV4cCI6MTczMzk5Mzk3M30.dAmkHaXkSuU_UTbLV-TQIMAovbf0oW-_RWIAcJ-a3d8",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhNzI3NmQ3ZDdiYzdhZjgwMzA4ZjAiLCJpYXQiOjE3MzM5OTAzNzMsImV4cCI6MTc2NTUyNjM3M30.KM8DmwlI-yEROcWMMKtuomTSlO-BfnK4QHgxkpTgORk",
+            "greeting": "employeehr"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T07:59:33.970Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhNzI3NmQ3ZDdiYzdhZjgwMzA4ZjAiLCJpYXQiOjE3MzM5OTAzNzMsImV4cCI6MTczMzk5Mzk3M30.dAmkHaXkSuU_UTbLV-TQIMAovbf0oW-_RWIAcJ-a3d8",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhNzI3NmQ3ZDdiYzdhZjgwMzA4ZjAiLCJpYXQiOjE3MzM5OTAzNzMsImV4cCI6MTc2NTUyNjM3M30.KM8DmwlI-yEROcWMMKtuomTSlO-BfnK4QHgxkpTgORk",
+            "greeting": "employeehr"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T08:00:05.897Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "e",
+        "1": "m",
+        "2": "p",
+        "3": "l",
+        "4": "o",
+        "5": "y",
+        "6": "e",
+        "7": "e",
+        "8": "_",
+        "9": "h",
+        "10": "r"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T08:00:06.119Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "675a7276d7d7bc7af80308f0",
+            "password": "$2b$10$hYAQROXQN1YIedem2D7My.zuYLSENEjkzxvtXCpr5Hejkvhq0KCw2",
+            "role": "employee_hr",
+            "lastLoginAt": "2024-12-12T08:00:05.901Z",
+            "updatedAt": "2024-12-12T08:00:05.906Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhNzI3NmQ3ZDdiYzdhZjgwMzA4ZjAiLCJpYXQiOjE3MzM5OTA0MDUsImV4cCI6MTczMzk5NDAwNX0.ffkwfyFwdajXyYZUKLY367cJuSm4hdTZKVCvYUIYg-o",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhNzI3NmQ3ZDdiYzdhZjgwMzA4ZjAiLCJpYXQiOjE3MzM5OTA0MDUsImV4cCI6MTc2NTUyNjQwNX0.R42dic8U1fzDe1QZe4lQ6uq0pw4lB_wmMUfIFwtYsQc",
+            "greeting": "employeehr"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T08:00:06.128Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhNzI3NmQ3ZDdiYzdhZjgwMzA4ZjAiLCJpYXQiOjE3MzM5OTA0MDUsImV4cCI6MTczMzk5NDAwNX0.ffkwfyFwdajXyYZUKLY367cJuSm4hdTZKVCvYUIYg-o",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhNzI3NmQ3ZDdiYzdhZjgwMzA4ZjAiLCJpYXQiOjE3MzM5OTA0MDUsImV4cCI6MTc2NTUyNjQwNX0.R42dic8U1fzDe1QZe4lQ6uq0pw4lB_wmMUfIFwtYsQc",
+            "greeting": "employeehr"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T08:00:56.921Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "e",
+        "1": "m",
+        "2": "p",
+        "3": "l",
+        "4": "o",
+        "5": "y",
+        "6": "e",
+        "7": "e",
+        "8": "_",
+        "9": "h",
+        "10": "r"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T08:00:57.117Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "675a7276d7d7bc7af80308f0",
+            "password": "$2b$10$hYAQROXQN1YIedem2D7My.zuYLSENEjkzxvtXCpr5Hejkvhq0KCw2",
+            "role": "employee_hr",
+            "lastLoginAt": "2024-12-12T08:00:56.928Z",
+            "updatedAt": "2024-12-12T08:00:56.930Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhNzI3NmQ3ZDdiYzdhZjgwMzA4ZjAiLCJpYXQiOjE3MzM5OTA0NTYsImV4cCI6MTczMzk5NDA1Nn0.IOH4XigARFfLglCzGShSgqTP8MytJgHdxUeSseM2tFY",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhNzI3NmQ3ZDdiYzdhZjgwMzA4ZjAiLCJpYXQiOjE3MzM5OTA0NTYsImV4cCI6MTc2NTUyNjQ1Nn0.fuT7IvVlwlLJpZzwhseYOmmhMBCWki3LXOIc-IK55Dw",
+            "greeting": "employeehr"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T08:00:57.121Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhNzI3NmQ3ZDdiYzdhZjgwMzA4ZjAiLCJpYXQiOjE3MzM5OTA0NTYsImV4cCI6MTczMzk5NDA1Nn0.IOH4XigARFfLglCzGShSgqTP8MytJgHdxUeSseM2tFY",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhNzI3NmQ3ZDdiYzdhZjgwMzA4ZjAiLCJpYXQiOjE3MzM5OTA0NTYsImV4cCI6MTc2NTUyNjQ1Nn0.fuT7IvVlwlLJpZzwhseYOmmhMBCWki3LXOIc-IK55Dw",
+            "greeting": "employeehr"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T08:04:13.202Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T08:04:13.334Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T08:04:13.336Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-12T08:05:34.768Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "\"role\" must be one of [admin, user, hr, sales, accounts, driver]",
+        "data": null,
+        "trace": {
+            "error": "ValidationError: \"role\" must be one of [admin, user, hr, sales, accounts, driver]"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T08:05:41.582Z",
+    "message": "Checking if user with email mmudassirzaman.dev@outlook.com exists",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T08:05:41.684Z",
+    "message": "Registering new user: mudassirjvhf",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T08:05:41.686Z",
+    "message": "The name from registration service is: mudassirjvhf",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T08:05:42.227Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Account has been created successfully.",
+        "data": {
+            "success": true,
+            "user": "mudassirjvHf"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T08:06:26.739Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "h",
+        "1": "r"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T08:06:27.047Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "675a9956e9f45ae0be8abfc7",
+            "password": "$2b$10$o2mdYvURsdjNn83pu5Z6XupBPzVuw1SJRGVJuv0.51sCWZxXcXIqi",
+            "role": "hr",
+            "lastLoginAt": "2024-12-12T08:06:26.763Z",
+            "updatedAt": "2024-12-12T08:06:26.765Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhOTk1NmU5ZjQ1YWUwYmU4YWJmYzciLCJpYXQiOjE3MzM5OTA3ODYsImV4cCI6MTczMzk5NDM4Nn0.nsLHFCB_tjEn7wT9lyy0kOUX3wHfxhRO94y10tYddU4",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhOTk1NmU5ZjQ1YWUwYmU4YWJmYzciLCJpYXQiOjE3MzM5OTA3ODYsImV4cCI6MTc2NTUyNjc4Nn0.aw_bv-oUM4H4MzfQTVp4gn4gdmTk4OvV-dlXOq9osZI",
+            "greeting": "hr"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T08:06:27.056Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhOTk1NmU5ZjQ1YWUwYmU4YWJmYzciLCJpYXQiOjE3MzM5OTA3ODYsImV4cCI6MTczMzk5NDM4Nn0.nsLHFCB_tjEn7wT9lyy0kOUX3wHfxhRO94y10tYddU4",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhOTk1NmU5ZjQ1YWUwYmU4YWJmYzciLCJpYXQiOjE3MzM5OTA3ODYsImV4cCI6MTc2NTUyNjc4Nn0.aw_bv-oUM4H4MzfQTVp4gn4gdmTk4OvV-dlXOq9osZI",
+            "greeting": "hr"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T08:06:43.314Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "h",
+        "1": "r"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T08:06:43.532Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "675a9956e9f45ae0be8abfc7",
+            "password": "$2b$10$o2mdYvURsdjNn83pu5Z6XupBPzVuw1SJRGVJuv0.51sCWZxXcXIqi",
+            "role": "hr",
+            "lastLoginAt": "2024-12-12T08:06:43.318Z",
+            "updatedAt": "2024-12-12T08:06:43.319Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhOTk1NmU5ZjQ1YWUwYmU4YWJmYzciLCJpYXQiOjE3MzM5OTA4MDMsImV4cCI6MTczMzk5NDQwM30.gVy_0lrg00TSnWCTxqX9Z3dD4Kn-YrzpXRXoCeZzaG0",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhOTk1NmU5ZjQ1YWUwYmU4YWJmYzciLCJpYXQiOjE3MzM5OTA4MDMsImV4cCI6MTc2NTUyNjgwM30.Xg3OoEyErKLf75-926pivUsrFtLOY8Cxp51Vugo76NY",
+            "greeting": "hr"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T08:06:43.536Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhOTk1NmU5ZjQ1YWUwYmU4YWJmYzciLCJpYXQiOjE3MzM5OTA4MDMsImV4cCI6MTczMzk5NDQwM30.gVy_0lrg00TSnWCTxqX9Z3dD4Kn-YrzpXRXoCeZzaG0",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhOTk1NmU5ZjQ1YWUwYmU4YWJmYzciLCJpYXQiOjE3MzM5OTA4MDMsImV4cCI6MTc2NTUyNjgwM30.Xg3OoEyErKLf75-926pivUsrFtLOY8Cxp51Vugo76NY",
+            "greeting": "hr"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T08:08:17.233Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T08:08:17.242Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T08:08:17.245Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T08:08:53.368Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "h",
+        "1": "r"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T08:08:53.584Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "675a9956e9f45ae0be8abfc7",
+            "password": "$2b$10$o2mdYvURsdjNn83pu5Z6XupBPzVuw1SJRGVJuv0.51sCWZxXcXIqi",
+            "role": "hr",
+            "lastLoginAt": "2024-12-12T08:08:53.374Z",
+            "updatedAt": "2024-12-12T08:08:53.387Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhOTk1NmU5ZjQ1YWUwYmU4YWJmYzciLCJpYXQiOjE3MzM5OTA5MzMsImV4cCI6MTczMzk5NDUzM30.XG3rXRs-qtzyom1YgQ3-7MpRXrxsrG7OE0cMu0DmKsA",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhOTk1NmU5ZjQ1YWUwYmU4YWJmYzciLCJpYXQiOjE3MzM5OTA5MzMsImV4cCI6MTc2NTUyNjkzM30.J7xUruOfTxE-mZKI0_DLw9ZBNDJ0yRxNuG22z8Th5Wg",
+            "greeting": "hr"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T08:08:53.593Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhOTk1NmU5ZjQ1YWUwYmU4YWJmYzciLCJpYXQiOjE3MzM5OTA5MzMsImV4cCI6MTczMzk5NDUzM30.XG3rXRs-qtzyom1YgQ3-7MpRXrxsrG7OE0cMu0DmKsA",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhOTk1NmU5ZjQ1YWUwYmU4YWJmYzciLCJpYXQiOjE3MzM5OTA5MzMsImV4cCI6MTc2NTUyNjkzM30.J7xUruOfTxE-mZKI0_DLw9ZBNDJ0yRxNuG22z8Th5Wg",
+            "greeting": "hr"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T08:09:04.137Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "h",
+        "1": "r"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T08:09:04.335Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "675a9956e9f45ae0be8abfc7",
+            "password": "$2b$10$o2mdYvURsdjNn83pu5Z6XupBPzVuw1SJRGVJuv0.51sCWZxXcXIqi",
+            "role": "hr",
+            "lastLoginAt": "2024-12-12T08:09:04.140Z",
+            "updatedAt": "2024-12-12T08:09:04.142Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhOTk1NmU5ZjQ1YWUwYmU4YWJmYzciLCJpYXQiOjE3MzM5OTA5NDQsImV4cCI6MTczMzk5NDU0NH0.VJvcv6tgCyShWBw4Jlw-_ZamgcZCfbsgrp3xMTTwVGM",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhOTk1NmU5ZjQ1YWUwYmU4YWJmYzciLCJpYXQiOjE3MzM5OTA5NDQsImV4cCI6MTc2NTUyNjk0NH0.BPuJsvArnWDS-SixGftK1wpORndQDv5oVeof95oli-Y",
+            "greeting": "hr"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T08:09:04.351Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhOTk1NmU5ZjQ1YWUwYmU4YWJmYzciLCJpYXQiOjE3MzM5OTA5NDQsImV4cCI6MTczMzk5NDU0NH0.VJvcv6tgCyShWBw4Jlw-_ZamgcZCfbsgrp3xMTTwVGM",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhOTk1NmU5ZjQ1YWUwYmU4YWJmYzciLCJpYXQiOjE3MzM5OTA5NDQsImV4cCI6MTc2NTUyNjk0NH0.BPuJsvArnWDS-SixGftK1wpORndQDv5oVeof95oli-Y",
+            "greeting": "hr"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-12T08:10:36.606Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 500,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "read ECONNRESET",
+        "data": null,
+        "trace": {
+            "error": "Error: read ECONNRESET\n    at TLSWrap.onStreamRead (node:internal/stream_base_commons:218:20)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T08:10:58.513Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "h",
+        "1": "r"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T08:10:58.932Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "675a9956e9f45ae0be8abfc7",
+            "password": "$2b$10$o2mdYvURsdjNn83pu5Z6XupBPzVuw1SJRGVJuv0.51sCWZxXcXIqi",
+            "role": "hr",
+            "lastLoginAt": "2024-12-12T08:10:58.518Z",
+            "updatedAt": "2024-12-12T08:10:58.521Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhOTk1NmU5ZjQ1YWUwYmU4YWJmYzciLCJpYXQiOjE3MzM5OTEwNTgsImV4cCI6MTczMzk5NDY1OH0.jB1gInDzQ9ZDrmiTWXwGBHL0KrruotbvaAWF-bWdC0A",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhOTk1NmU5ZjQ1YWUwYmU4YWJmYzciLCJpYXQiOjE3MzM5OTEwNTgsImV4cCI6MTc2NTUyNzA1OH0.rhsmre5nj8U-7VB1GZ0mpWAQoJZsQngQjeNAWvlZ7gI",
+            "greeting": "hr"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T08:10:58.965Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhOTk1NmU5ZjQ1YWUwYmU4YWJmYzciLCJpYXQiOjE3MzM5OTEwNTgsImV4cCI6MTczMzk5NDY1OH0.jB1gInDzQ9ZDrmiTWXwGBHL0KrruotbvaAWF-bWdC0A",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhOTk1NmU5ZjQ1YWUwYmU4YWJmYzciLCJpYXQiOjE3MzM5OTEwNTgsImV4cCI6MTc2NTUyNzA1OH0.rhsmre5nj8U-7VB1GZ0mpWAQoJZsQngQjeNAWvlZ7gI",
+            "greeting": "hr"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T08:17:17.283Z",
+    "message": "Checking if user with email zamanmudassir200@gmail.com exists",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T08:17:17.794Z",
+    "message": "Registering new user: mmudassirpw92",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T08:17:17.797Z",
+    "message": "The name from registration service is: mmudassirpw92",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T08:17:18.332Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Account has been created successfully.",
+        "data": {
+            "success": true,
+            "user": "mmudassirpw92"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T08:20:03.041Z",
+    "message": "Checking if user with email zamanmudassir200@gmail.com exists",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T08:20:03.046Z",
+    "message": "Existing user found. Using existing username: mmudassirpw92",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T08:20:03.049Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 409,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "User already registered",
+        "data": {
+            "success": false,
+            "user": "mmudassirpw92"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T08:20:31.331Z",
+    "message": "Checking if user with email zamanmudassir200@gmail.com exists",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T08:20:32.428Z",
+    "message": "Registering new user: mmudassirp9jl",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T08:20:32.433Z",
+    "message": "The name from registration service is: mmudassirp9jl",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T08:20:33.635Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Account has been created successfully.",
+        "data": {
+            "success": true,
+            "user": "mmudassirP9JL"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T08:23:10.989Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "h",
+        "1": "r"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T08:23:12.034Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "675a9956e9f45ae0be8abfc7",
+            "password": "$2b$10$o2mdYvURsdjNn83pu5Z6XupBPzVuw1SJRGVJuv0.51sCWZxXcXIqi",
+            "role": "hr",
+            "lastLoginAt": "2024-12-12T08:23:10.995Z",
+            "updatedAt": "2024-12-12T08:23:10.997Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhOTk1NmU5ZjQ1YWUwYmU4YWJmYzciLCJpYXQiOjE3MzM5OTE3OTAsImV4cCI6MTczMzk5NTM5MH0.CeiXhWVV8wEF4NMjwYSr6cxx-KHffBz2xHDnGtdiC7I",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhOTk1NmU5ZjQ1YWUwYmU4YWJmYzciLCJpYXQiOjE3MzM5OTE3OTAsImV4cCI6MTc2NTUyNzc5MH0.lfcQ2O21dt3dx4y0PFwsvcvZ-hryCjitVfJ9MtR4Gco",
+            "greeting": "hr"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T08:23:12.039Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhOTk1NmU5ZjQ1YWUwYmU4YWJmYzciLCJpYXQiOjE3MzM5OTE3OTAsImV4cCI6MTczMzk5NTM5MH0.CeiXhWVV8wEF4NMjwYSr6cxx-KHffBz2xHDnGtdiC7I",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhOTk1NmU5ZjQ1YWUwYmU4YWJmYzciLCJpYXQiOjE3MzM5OTE3OTAsImV4cCI6MTc2NTUyNzc5MH0.lfcQ2O21dt3dx4y0PFwsvcvZ-hryCjitVfJ9MtR4Gco",
+            "greeting": "hr"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T08:24:31.303Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "h",
+        "1": "r"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T08:25:07.850Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "675a9956e9f45ae0be8abfc7",
+            "password": "$2b$10$o2mdYvURsdjNn83pu5Z6XupBPzVuw1SJRGVJuv0.51sCWZxXcXIqi",
+            "role": "hr",
+            "lastLoginAt": "2024-12-12T08:24:31.310Z",
+            "updatedAt": "2024-12-12T08:24:31.312Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhOTk1NmU5ZjQ1YWUwYmU4YWJmYzciLCJpYXQiOjE3MzM5OTE4NzEsImV4cCI6MTczMzk5NTQ3MX0.CzTYjjLizvESApdAqubvB9BcNEvDVYsYQa2ttvtCYfI",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhOTk1NmU5ZjQ1YWUwYmU4YWJmYzciLCJpYXQiOjE3MzM5OTE4NzEsImV4cCI6MTc2NTUyNzg3MX0.BfBDLfoFx0TnaNxO0r40GSuuLi3RYQDz3Mxw4waob1g",
+            "greeting": "hr"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T08:25:07.860Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhOTk1NmU5ZjQ1YWUwYmU4YWJmYzciLCJpYXQiOjE3MzM5OTE4NzEsImV4cCI6MTczMzk5NTQ3MX0.CzTYjjLizvESApdAqubvB9BcNEvDVYsYQa2ttvtCYfI",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhOTk1NmU5ZjQ1YWUwYmU4YWJmYzciLCJpYXQiOjE3MzM5OTE4NzEsImV4cCI6MTc2NTUyNzg3MX0.BfBDLfoFx0TnaNxO0r40GSuuLi3RYQDz3Mxw4waob1g",
+            "greeting": "hr"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T09:05:19.657Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T09:05:19.700Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T09:05:19.718Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T09:06:13.222Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "h",
+        "1": "r"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T09:06:13.421Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "675a9956e9f45ae0be8abfc7",
+            "password": "$2b$10$o2mdYvURsdjNn83pu5Z6XupBPzVuw1SJRGVJuv0.51sCWZxXcXIqi",
+            "role": "hr",
+            "lastLoginAt": "2024-12-12T09:06:13.248Z",
+            "updatedAt": "2024-12-12T09:06:13.292Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhOTk1NmU5ZjQ1YWUwYmU4YWJmYzciLCJpYXQiOjE3MzM5OTQzNzMsImV4cCI6MTczMzk5Nzk3M30.o3KD_XJS3_Fs4A35B-AgQdU2KegfODboi6u6dmcwAIM",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhOTk1NmU5ZjQ1YWUwYmU4YWJmYzciLCJpYXQiOjE3MzM5OTQzNzMsImV4cCI6MTc2NTUzMDM3M30.PN8PsQbTkfu5ZprDx5GgZzXofmVsesP18xQtnQw50us",
+            "greeting": "hr"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T09:06:13.431Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhOTk1NmU5ZjQ1YWUwYmU4YWJmYzciLCJpYXQiOjE3MzM5OTQzNzMsImV4cCI6MTczMzk5Nzk3M30.o3KD_XJS3_Fs4A35B-AgQdU2KegfODboi6u6dmcwAIM",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhOTk1NmU5ZjQ1YWUwYmU4YWJmYzciLCJpYXQiOjE3MzM5OTQzNzMsImV4cCI6MTc2NTUzMDM3M30.PN8PsQbTkfu5ZprDx5GgZzXofmVsesP18xQtnQw50us",
+            "greeting": "hr"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-12T09:07:15.929Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/lgin"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (D:\\Enterprise Resource Planning\\backend-dev\\erp\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (D:\\Enterprise Resource Planning\\backend-dev\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Enterprise Resource Planning\\backend-dev\\erp\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\Enterprise Resource Planning\\backend-dev\\erp\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\Enterprise Resource Planning\\backend-dev\\erp\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Enterprise Resource Planning\\backend-dev\\erp\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at D:\\Enterprise Resource Planning\\backend-dev\\erp\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (D:\\Enterprise Resource Planning\\backend-dev\\erp\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (D:\\Enterprise Resource Planning\\backend-dev\\erp\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (D:\\Enterprise Resource Planning\\backend-dev\\erp\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T09:07:32.206Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "h",
+        "1": "r"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T09:07:32.354Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "675a9956e9f45ae0be8abfc7",
+            "password": "$2b$10$o2mdYvURsdjNn83pu5Z6XupBPzVuw1SJRGVJuv0.51sCWZxXcXIqi",
+            "role": "hr",
+            "lastLoginAt": "2024-12-12T09:07:32.216Z",
+            "updatedAt": "2024-12-12T09:07:32.220Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhOTk1NmU5ZjQ1YWUwYmU4YWJmYzciLCJpYXQiOjE3MzM5OTQ0NTIsImV4cCI6MTczMzk5ODA1Mn0.FrBnzxmknSuqBVty-EBA8MTo17RkWUHoZTUNcbIyUng",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhOTk1NmU5ZjQ1YWUwYmU4YWJmYzciLCJpYXQiOjE3MzM5OTQ0NTIsImV4cCI6MTc2NTUzMDQ1Mn0.PKdjqY8OY6Urygmlb58PLmMA4q9DV4sL3TLxIgYvfW0",
+            "greeting": "hr"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T09:07:32.360Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhOTk1NmU5ZjQ1YWUwYmU4YWJmYzciLCJpYXQiOjE3MzM5OTQ0NTIsImV4cCI6MTczMzk5ODA1Mn0.FrBnzxmknSuqBVty-EBA8MTo17RkWUHoZTUNcbIyUng",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhOTk1NmU5ZjQ1YWUwYmU4YWJmYzciLCJpYXQiOjE3MzM5OTQ0NTIsImV4cCI6MTc2NTUzMDQ1Mn0.PKdjqY8OY6Urygmlb58PLmMA4q9DV4sL3TLxIgYvfW0",
+            "greeting": "hr"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T09:08:25.414Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "h",
+        "1": "r"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T09:08:25.531Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "675a9956e9f45ae0be8abfc7",
+            "password": "$2b$10$o2mdYvURsdjNn83pu5Z6XupBPzVuw1SJRGVJuv0.51sCWZxXcXIqi",
+            "role": "hr",
+            "lastLoginAt": "2024-12-12T09:08:25.420Z",
+            "updatedAt": "2024-12-12T09:08:25.422Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhOTk1NmU5ZjQ1YWUwYmU4YWJmYzciLCJpYXQiOjE3MzM5OTQ1MDUsImV4cCI6MTczMzk5ODEwNX0.-u2rtjO9CPsedJFd_JQQv0f1yvGo0ZKIlnlWO93Z6KA",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhOTk1NmU5ZjQ1YWUwYmU4YWJmYzciLCJpYXQiOjE3MzM5OTQ1MDUsImV4cCI6MTc2NTUzMDUwNX0.3eQjkJ0ILcmW-Jjj5cWO-ux-cC9HOfqu7lAFcBssuLA",
+            "greeting": "hr"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T09:08:25.536Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhOTk1NmU5ZjQ1YWUwYmU4YWJmYzciLCJpYXQiOjE3MzM5OTQ1MDUsImV4cCI6MTczMzk5ODEwNX0.-u2rtjO9CPsedJFd_JQQv0f1yvGo0ZKIlnlWO93Z6KA",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhOTk1NmU5ZjQ1YWUwYmU4YWJmYzciLCJpYXQiOjE3MzM5OTQ1MDUsImV4cCI6MTc2NTUzMDUwNX0.3eQjkJ0ILcmW-Jjj5cWO-ux-cC9HOfqu7lAFcBssuLA",
+            "greeting": "hr"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T09:09:27.589Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "h",
+        "1": "r"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T09:09:27.702Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "675a9956e9f45ae0be8abfc7",
+            "password": "$2b$10$o2mdYvURsdjNn83pu5Z6XupBPzVuw1SJRGVJuv0.51sCWZxXcXIqi",
+            "role": "hr",
+            "lastLoginAt": "2024-12-12T09:09:27.593Z",
+            "updatedAt": "2024-12-12T09:09:27.595Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhOTk1NmU5ZjQ1YWUwYmU4YWJmYzciLCJpYXQiOjE3MzM5OTQ1NjcsImV4cCI6MTczMzk5ODE2N30.jaQiD24DDiWkz8mHCd_Nnt6DR2aveU9df0xGSeIiG6Q",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhOTk1NmU5ZjQ1YWUwYmU4YWJmYzciLCJpYXQiOjE3MzM5OTQ1NjcsImV4cCI6MTc2NTUzMDU2N30.LoprkTGjR0j4FsnMcyY9OqsFbHDn62lqIdgfxSmt0ow",
+            "greeting": "hr"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T09:09:27.707Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhOTk1NmU5ZjQ1YWUwYmU4YWJmYzciLCJpYXQiOjE3MzM5OTQ1NjcsImV4cCI6MTczMzk5ODE2N30.jaQiD24DDiWkz8mHCd_Nnt6DR2aveU9df0xGSeIiG6Q",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhOTk1NmU5ZjQ1YWUwYmU4YWJmYzciLCJpYXQiOjE3MzM5OTQ1NjcsImV4cCI6MTc2NTUzMDU2N30.LoprkTGjR0j4FsnMcyY9OqsFbHDn62lqIdgfxSmt0ow",
+            "greeting": "hr"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T09:10:23.607Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T09:10:23.628Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T09:10:23.637Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T09:10:31.424Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "h",
+        "1": "r"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T09:10:31.585Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "675a9956e9f45ae0be8abfc7",
+            "password": "$2b$10$o2mdYvURsdjNn83pu5Z6XupBPzVuw1SJRGVJuv0.51sCWZxXcXIqi",
+            "role": "hr",
+            "lastLoginAt": "2024-12-12T09:10:31.435Z",
+            "updatedAt": "2024-12-12T09:10:31.454Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhOTk1NmU5ZjQ1YWUwYmU4YWJmYzciLCJpYXQiOjE3MzM5OTQ2MzEsImV4cCI6MTczMzk5ODIzMX0.ADHqd9nKDfXkm1Any_edBf_v-fCUlbp0pGUVjKRUpJA",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhOTk1NmU5ZjQ1YWUwYmU4YWJmYzciLCJpYXQiOjE3MzM5OTQ2MzEsImV4cCI6MTc2NTUzMDYzMX0.TcneLyhtY9PVD_UPq3eMtHrDfBRPdZXgB3UCFB86b6Y",
+            "greeting": "hr"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T09:10:31.641Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhOTk1NmU5ZjQ1YWUwYmU4YWJmYzciLCJpYXQiOjE3MzM5OTQ2MzEsImV4cCI6MTczMzk5ODIzMX0.ADHqd9nKDfXkm1Any_edBf_v-fCUlbp0pGUVjKRUpJA",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhOTk1NmU5ZjQ1YWUwYmU4YWJmYzciLCJpYXQiOjE3MzM5OTQ2MzEsImV4cCI6MTc2NTUzMDYzMX0.TcneLyhtY9PVD_UPq3eMtHrDfBRPdZXgB3UCFB86b6Y",
+            "greeting": "hr"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T09:17:57.915Z",
+    "message": "Checking if user with email zamanmudassir200@gmail.com exists",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T09:17:58.053Z",
+    "message": "Registering new user: mmudassircymwc",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T09:17:58.055Z",
+    "message": "The name from registration service is: mmudassircymwc",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T09:17:58.896Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Account has been created successfully.",
+        "data": {
+            "success": true,
+            "user": "mmudassircYmwC"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-12T09:18:41.420Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "User is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: User is not found\n    at D:\\Enterprise Resource Planning\\backend-dev\\erp\\src\\APIs\\user\\authentication\\authentication.service.ts:337:11\n    at Generator.next (<anonymous>)\n    at fulfilled (D:\\Enterprise Resource Planning\\backend-dev\\erp\\src\\APIs\\user\\authentication\\authentication.service.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T09:19:20.313Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "a",
+        "1": "d",
+        "2": "m",
+        "3": "i",
+        "4": "n"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T09:19:20.704Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "675aaa4693bcdd0e0ce476d0",
+            "password": "$2b$10$.5XQirchnTvVvtyNpyWIzuNIBVw1gvBO0FjrM3sb7G5G6bksq07Mq",
+            "role": "admin",
+            "lastLoginAt": "2024-12-12T09:19:20.331Z",
+            "updatedAt": "2024-12-12T09:19:20.334Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhYWE0NjkzYmNkZDBlMGNlNDc2ZDAiLCJpYXQiOjE3MzM5OTUxNjAsImV4cCI6MTczMzk5ODc2MH0.lS456NacVOqu-l7kOLTkc8oOIkLH60asMJZPpOY5Qbs",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhYWE0NjkzYmNkZDBlMGNlNDc2ZDAiLCJpYXQiOjE3MzM5OTUxNjAsImV4cCI6MTc2NTUzMTE2MH0.bVNJGlqX2RImeZZJ0DLJ0kYJtrX4wSzLmLVURhTkxew",
+            "greeting": "admin"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T09:19:20.718Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhYWE0NjkzYmNkZDBlMGNlNDc2ZDAiLCJpYXQiOjE3MzM5OTUxNjAsImV4cCI6MTczMzk5ODc2MH0.lS456NacVOqu-l7kOLTkc8oOIkLH60asMJZPpOY5Qbs",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhYWE0NjkzYmNkZDBlMGNlNDc2ZDAiLCJpYXQiOjE3MzM5OTUxNjAsImV4cCI6MTc2NTUzMTE2MH0.bVNJGlqX2RImeZZJ0DLJ0kYJtrX4wSzLmLVURhTkxew",
+            "greeting": "admin"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T09:20:10.474Z",
+    "message": "Checking if user with email zamanmudassir68@gmail.com exists",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T09:20:10.653Z",
+    "message": "Registering new user: abbaxismzd",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T09:20:10.654Z",
+    "message": "The name from registration service is: abbaxismzd",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T09:20:11.028Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Account has been created successfully.",
+        "data": {
+            "success": true,
+            "user": "abbaxiSMzD"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T09:20:37.245Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "s",
+        "1": "a",
+        "2": "l",
+        "3": "e",
+        "4": "s"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T09:20:37.355Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "675aaaca93bcdd0e0ce476e6",
+            "password": "$2b$10$0lgRXJrG7rwGpKgVnGnGXuF7IJN2cA8JTnRVfVAQoioHoSyoMKpS.",
+            "role": "sales",
+            "lastLoginAt": "2024-12-12T09:20:37.250Z",
+            "updatedAt": "2024-12-12T09:20:37.251Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhYWFjYTkzYmNkZDBlMGNlNDc2ZTYiLCJpYXQiOjE3MzM5OTUyMzcsImV4cCI6MTczMzk5ODgzN30.3IAT_4K4Jq7VNsa5e2NXDZMGd3U4BOVCQjdNOLM1xKw",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhYWFjYTkzYmNkZDBlMGNlNDc2ZTYiLCJpYXQiOjE3MzM5OTUyMzcsImV4cCI6MTc2NTUzMTIzN30.2K7udYJjAKtPbK_akBvwm8ERp3Hhqo0aSxHv8xFU_CI",
+            "greeting": "sales"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T09:20:37.366Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhYWFjYTkzYmNkZDBlMGNlNDc2ZTYiLCJpYXQiOjE3MzM5OTUyMzcsImV4cCI6MTczMzk5ODgzN30.3IAT_4K4Jq7VNsa5e2NXDZMGd3U4BOVCQjdNOLM1xKw",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhYWFjYTkzYmNkZDBlMGNlNDc2ZTYiLCJpYXQiOjE3MzM5OTUyMzcsImV4cCI6MTc2NTUzMTIzN30.2K7udYJjAKtPbK_akBvwm8ERp3Hhqo0aSxHv8xFU_CI",
+            "greeting": "sales"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-12T09:22:20.184Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "\"role\" must be one of [admin, user, hr, sales, accounts, driver]",
+        "data": null,
+        "trace": {
+            "error": "ValidationError: \"role\" must be one of [admin, user, hr, sales, accounts, driver]"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T09:22:26.751Z",
+    "message": "Checking if user with email zamanmudassir193@gmail.com exists",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T09:22:26.819Z",
+    "message": "Registering new user: mudiemue4aj",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T09:22:26.820Z",
+    "message": "The name from registration service is: mudiemue4aj",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T09:22:27.238Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Account has been created successfully.",
+        "data": {
+            "success": true,
+            "user": "mudieMue4aJ"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T09:23:44.210Z",
+    "message": "Checking if user with email zamanmudassir193@yahoo.com exists",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T09:23:44.323Z",
+    "message": "Registering new user: mudie33k3e",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T09:23:44.329Z",
+    "message": "The name from registration service is: mudie33k3e",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T09:23:45.528Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Account has been created successfully.",
+        "data": {
+            "success": true,
+            "user": "mudie33k3e"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T09:24:28.449Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "a",
+        "1": "c",
+        "2": "c",
+        "3": "o",
+        "4": "u",
+        "5": "n",
+        "6": "t",
+        "7": "s"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T09:24:28.574Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "675aaba093bcdd0e0ce4770e",
+            "password": "$2b$10$bvlzNCyxhg3PotFA97pT4ew0kwXcJ5BUEM1mqWXEP10VOIy6Pgr8W",
+            "role": "accounts",
+            "lastLoginAt": "2024-12-12T09:24:28.457Z",
+            "updatedAt": "2024-12-12T09:24:28.458Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhYWJhMDkzYmNkZDBlMGNlNDc3MGUiLCJpYXQiOjE3MzM5OTU0NjgsImV4cCI6MTczMzk5OTA2OH0.Zcxv6abdXmMG6C2L0_EO6uAAi9CfeRrbMAN20Jk5dzE",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhYWJhMDkzYmNkZDBlMGNlNDc3MGUiLCJpYXQiOjE3MzM5OTU0NjgsImV4cCI6MTc2NTUzMTQ2OH0.dQoJsqLHgoZ89WQ0R8gSl_Q0G-slj06OFTiKk3r1-WE",
+            "greeting": "accounts"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T09:24:28.620Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhYWJhMDkzYmNkZDBlMGNlNDc3MGUiLCJpYXQiOjE3MzM5OTU0NjgsImV4cCI6MTczMzk5OTA2OH0.Zcxv6abdXmMG6C2L0_EO6uAAi9CfeRrbMAN20Jk5dzE",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhYWJhMDkzYmNkZDBlMGNlNDc3MGUiLCJpYXQiOjE3MzM5OTU0NjgsImV4cCI6MTc2NTUzMTQ2OH0.dQoJsqLHgoZ89WQ0R8gSl_Q0G-slj06OFTiKk3r1-WE",
+            "greeting": "accounts"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T09:25:25.219Z",
+    "message": "Checking if user with email zamanmudassir.193@yahoo.com exists",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T09:25:25.279Z",
+    "message": "Registering new user: mudieabbaxipqqw6aa",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T09:25:25.281Z",
+    "message": "The name from registration service is: mudieabbaxipqqw6aa",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T09:25:25.567Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Account has been created successfully.",
+        "data": {
+            "success": true,
+            "user": "mudieAbbaxipqqW6AA"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T09:26:01.457Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "d",
+        "1": "r",
+        "2": "i",
+        "3": "v",
+        "4": "e",
+        "5": "r"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T09:26:01.588Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "675aac0593bcdd0e0ce4771f",
+            "password": "$2b$10$qT2OSaniIMQ7i3tkEwMcfOYF/LlV.s1iCZo6VwETGUAO5d8Rjq9ca",
+            "role": "driver",
+            "lastLoginAt": "2024-12-12T09:26:01.468Z",
+            "updatedAt": "2024-12-12T09:26:01.471Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhYWMwNTkzYmNkZDBlMGNlNDc3MWYiLCJpYXQiOjE3MzM5OTU1NjEsImV4cCI6MTczMzk5OTE2MX0.47-Bq827QDUvB41r2gQgiTzZGmRziM8PXa1AKRvyQP4",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhYWMwNTkzYmNkZDBlMGNlNDc3MWYiLCJpYXQiOjE3MzM5OTU1NjEsImV4cCI6MTc2NTUzMTU2MX0.kLAE5QVw7Chr6Lo0qS7bqyZSbfXNWPWEDEilM1lxNtY",
+            "greeting": "driver"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T09:26:01.595Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhYWMwNTkzYmNkZDBlMGNlNDc3MWYiLCJpYXQiOjE3MzM5OTU1NjEsImV4cCI6MTczMzk5OTE2MX0.47-Bq827QDUvB41r2gQgiTzZGmRziM8PXa1AKRvyQP4",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhYWMwNTkzYmNkZDBlMGNlNDc3MWYiLCJpYXQiOjE3MzM5OTU1NjEsImV4cCI6MTc2NTUzMTU2MX0.kLAE5QVw7Chr6Lo0qS7bqyZSbfXNWPWEDEilM1lxNtY",
+            "greeting": "driver"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T09:27:26.407Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "d",
+        "1": "r",
+        "2": "i",
+        "3": "v",
+        "4": "e",
+        "5": "r"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T09:27:26.537Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "675aac0593bcdd0e0ce4771f",
+            "password": "$2b$10$qT2OSaniIMQ7i3tkEwMcfOYF/LlV.s1iCZo6VwETGUAO5d8Rjq9ca",
+            "role": "driver",
+            "lastLoginAt": "2024-12-12T09:27:26.411Z",
+            "updatedAt": "2024-12-12T09:27:26.413Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhYWMwNTkzYmNkZDBlMGNlNDc3MWYiLCJpYXQiOjE3MzM5OTU2NDYsImV4cCI6MTczMzk5OTI0Nn0.Q2Ey4hUZ7DxGL8coRteBeROiUENEBL2nvCp1mepnYSc",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhYWMwNTkzYmNkZDBlMGNlNDc3MWYiLCJpYXQiOjE3MzM5OTU2NDYsImV4cCI6MTc2NTUzMTY0Nn0.s7gf5RP-8jTGf3P88SzJKCGy7MUXsANZhUNl-WJNp-U",
+            "greeting": "driver"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T09:27:26.555Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhYWMwNTkzYmNkZDBlMGNlNDc3MWYiLCJpYXQiOjE3MzM5OTU2NDYsImV4cCI6MTczMzk5OTI0Nn0.Q2Ey4hUZ7DxGL8coRteBeROiUENEBL2nvCp1mepnYSc",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhYWMwNTkzYmNkZDBlMGNlNDc3MWYiLCJpYXQiOjE3MzM5OTU2NDYsImV4cCI6MTc2NTUzMTY0Nn0.s7gf5RP-8jTGf3P88SzJKCGy7MUXsANZhUNl-WJNp-U",
+            "greeting": "driver"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T09:29:15.774Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T09:29:15.825Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T09:29:15.829Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T12:35:37.195Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "h",
+        "1": "r"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T12:35:38.123Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "675a9956e9f45ae0be8abfc7",
+            "password": "$2b$10$o2mdYvURsdjNn83pu5Z6XupBPzVuw1SJRGVJuv0.51sCWZxXcXIqi",
+            "role": "hr",
+            "lastLoginAt": "2024-12-12T12:35:37.585Z",
+            "updatedAt": "2024-12-12T12:35:37.880Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhOTk1NmU5ZjQ1YWUwYmU4YWJmYzciLCJpYXQiOjE3MzQwMDY5MzcsImV4cCI6MTczNDAxMDUzN30.LSS2FHM0WBCnyeZPvF-PRSY-e3Shc8L0-gHZyEsUKjo",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhOTk1NmU5ZjQ1YWUwYmU4YWJmYzciLCJpYXQiOjE3MzQwMDY5MzcsImV4cCI6MTc2NTU0MjkzN30.en73sepXntOFIOBQKB5N-YQ1yQ7k2jngi3Utt22rXQI",
+            "greeting": "hr"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T12:35:38.134Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhOTk1NmU5ZjQ1YWUwYmU4YWJmYzciLCJpYXQiOjE3MzQwMDY5MzcsImV4cCI6MTczNDAxMDUzN30.LSS2FHM0WBCnyeZPvF-PRSY-e3Shc8L0-gHZyEsUKjo",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhOTk1NmU5ZjQ1YWUwYmU4YWJmYzciLCJpYXQiOjE3MzQwMDY5MzcsImV4cCI6MTc2NTU0MjkzN30.en73sepXntOFIOBQKB5N-YQ1yQ7k2jngi3Utt22rXQI",
+            "greeting": "hr"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-12T14:20:38.482Z",
+    "message": "Error saving container and registering client",
+    "meta": {}
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-12T14:20:38.526Z",
+    "message": "Error in booking container",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T14:25:05.974Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "a",
+        "1": "d",
+        "2": "m",
+        "3": "i",
+        "4": "n"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T14:25:06.174Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "675aaa4693bcdd0e0ce476d0",
+            "password": "$2b$10$.5XQirchnTvVvtyNpyWIzuNIBVw1gvBO0FjrM3sb7G5G6bksq07Mq",
+            "role": "admin",
+            "lastLoginAt": "2024-12-12T14:25:06.016Z",
+            "updatedAt": "2024-12-12T14:25:06.027Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhYWE0NjkzYmNkZDBlMGNlNDc2ZDAiLCJpYXQiOjE3MzQwMTM1MDUsImV4cCI6MTczNDAxNzEwNX0.rASS8JynxYl3qElFjZed_P3K4p2oYiYJ1cuZqjGNSZ4",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhYWE0NjkzYmNkZDBlMGNlNDc2ZDAiLCJpYXQiOjE3MzQwMTM1MDYsImV4cCI6MTc2NTU0OTUwNn0.Bq05heDTY5L2xGIfUqHu5k8YFiBGwDM7WHxihCZmA6o",
+            "greeting": "admin"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T14:25:06.182Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhYWE0NjkzYmNkZDBlMGNlNDc2ZDAiLCJpYXQiOjE3MzQwMTM1MDUsImV4cCI6MTczNDAxNzEwNX0.rASS8JynxYl3qElFjZed_P3K4p2oYiYJ1cuZqjGNSZ4",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhYWE0NjkzYmNkZDBlMGNlNDc2ZDAiLCJpYXQiOjE3MzQwMTM1MDYsImV4cCI6MTc2NTU0OTUwNn0.Bq05heDTY5L2xGIfUqHu5k8YFiBGwDM7WHxihCZmA6o",
+            "greeting": "admin"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T14:30:46.171Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "s",
+        "1": "a",
+        "2": "l",
+        "3": "e",
+        "4": "s"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T14:30:46.313Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "675aaaca93bcdd0e0ce476e6",
+            "password": "$2b$10$0lgRXJrG7rwGpKgVnGnGXuF7IJN2cA8JTnRVfVAQoioHoSyoMKpS.",
+            "role": "sales",
+            "lastLoginAt": "2024-12-12T14:30:46.179Z",
+            "updatedAt": "2024-12-12T14:30:46.181Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhYWFjYTkzYmNkZDBlMGNlNDc2ZTYiLCJpYXQiOjE3MzQwMTM4NDYsImV4cCI6MTczNDAxNzQ0Nn0.k5FbPYDnE3p4SeZdJNGZ72JwQ0tN5lLmbQk9S6DTQAc",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhYWFjYTkzYmNkZDBlMGNlNDc2ZTYiLCJpYXQiOjE3MzQwMTM4NDYsImV4cCI6MTc2NTU0OTg0Nn0.VskI4cKvBClWEnAzCtXbSpjO9GMcnmvHdNv2_dzIJLY",
+            "greeting": "sales"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T14:30:46.319Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhYWFjYTkzYmNkZDBlMGNlNDc2ZTYiLCJpYXQiOjE3MzQwMTM4NDYsImV4cCI6MTczNDAxNzQ0Nn0.k5FbPYDnE3p4SeZdJNGZ72JwQ0tN5lLmbQk9S6DTQAc",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhYWFjYTkzYmNkZDBlMGNlNDc2ZTYiLCJpYXQiOjE3MzQwMTM4NDYsImV4cCI6MTc2NTU0OTg0Nn0.VskI4cKvBClWEnAzCtXbSpjO9GMcnmvHdNv2_dzIJLY",
+            "greeting": "sales"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T14:32:01.992Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "a",
+        "1": "d",
+        "2": "m",
+        "3": "i",
+        "4": "n"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T14:32:02.298Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "675aaa4693bcdd0e0ce476d0",
+            "password": "$2b$10$.5XQirchnTvVvtyNpyWIzuNIBVw1gvBO0FjrM3sb7G5G6bksq07Mq",
+            "role": "admin",
+            "lastLoginAt": "2024-12-12T14:32:02.091Z",
+            "updatedAt": "2024-12-12T14:32:02.091Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhYWE0NjkzYmNkZDBlMGNlNDc2ZDAiLCJpYXQiOjE3MzQwMTM5MjIsImV4cCI6MTczNDAxNzUyMn0.FgcPXjM24NhheBxGimRQvTjczPKdjXZtysowXVOUags",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhYWE0NjkzYmNkZDBlMGNlNDc2ZDAiLCJpYXQiOjE3MzQwMTM5MjIsImV4cCI6MTc2NTU0OTkyMn0.1jmN_3i7WlsT-RRhTT9zv9CwPr6THc-iJQ61aQxP2_A",
+            "greeting": "admin"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T14:32:02.302Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhYWE0NjkzYmNkZDBlMGNlNDc2ZDAiLCJpYXQiOjE3MzQwMTM5MjIsImV4cCI6MTczNDAxNzUyMn0.FgcPXjM24NhheBxGimRQvTjczPKdjXZtysowXVOUags",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzVhYWE0NjkzYmNkZDBlMGNlNDc2ZDAiLCJpYXQiOjE3MzQwMTM5MjIsImV4cCI6MTc2NTU0OTkyMn0.1jmN_3i7WlsT-RRhTT9zv9CwPr6THc-iJQ61aQxP2_A",
+            "greeting": "admin"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T14:44:47.833Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T14:44:47.862Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T14:44:47.864Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+=======
+}
+<<<<<<< HEAD
 {
     "level": "INFO",
     "timestamp": "2024-12-12T15:03:24.110Z",
@@ -27686,3 +33511,6 @@
         "SERVER_URL": "http://localhost:3000"
     }
 }
+=======
+>>>>>>> 8212b5bd73cab692a6cb1939a7d3550f900a10df
+>>>>>>> dev

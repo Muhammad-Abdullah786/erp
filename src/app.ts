@@ -1,11 +1,11 @@
-import express, { Application } from 'express';
-import path from 'path';
-import router from './APIs';
-import errorHandler from './middlewares/errorHandler';
-import notFound from './handlers/notFound';
-import helmet from 'helmet';
-import cors from 'cors';
-import cookieParser from 'cookie-parser';
+import express, { Application } from "express";
+import path from "path";
+import router from "./APIs";
+import errorHandler from "./middlewares/errorHandler";
+import notFound from "./handlers/notFound";
+import helmet from "helmet";
+import cors from "cors";
+import cookieParser from "cookie-parser";
 
 const app: Application = express();
 
@@ -14,18 +14,17 @@ app.use(helmet());
 app.use(cookieParser());
 app.use(
   cors({
-    methods: ['GET', 'POST', 'DELETE', 'OPTIONS', 'HEAD', 'PUT', 'PATCH'],
+    methods: ["GET", "POST", "DELETE", "OPTIONS", "HEAD", "PUT", "PATCH"],
     origin: [
-      'https://xyz.com',
-      'http://localhost:3000',
-      'http://localhost:3001',
-      'https://erp-frontend-orcin.vercel.app/',
+      "http://localhost:3000",
+      "http://localhost:3001",
+      "https://erp-frontend-orcin.vercel.app/",
     ],
     credentials: true,
   })
 );
 app.use(express.json());
-app.use(express.static(path.join(__dirname, '../', 'public')));
+app.use(express.static(path.join(__dirname, "../", "public")));
 
 //Router
 // app.use('/v1', router)
