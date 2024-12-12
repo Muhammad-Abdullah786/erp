@@ -9,7 +9,8 @@ export const sendEmail = async (
   attachments: any[] = []
 ) => {
   const transporter = nodemailer.createTransport({
-    service: "Gmail",
+    // service: "Gmail",
+    service: "smtp.gmail.com",
     auth: {
       user: config.EMAIL_USER,
       pass: config.EMAIL_PASS,
