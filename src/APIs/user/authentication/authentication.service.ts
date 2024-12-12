@@ -20,17 +20,176 @@ import jwt from "../../../utils/jwt";
 import config from "../../../config/config";
 import { IToken } from "../_shared/types/token.interface";
 import tokenRepository from "../_shared/repo/token.repository";
+import { generateRandomPassword } from "../_shared/automateRegistration/generateClient";
 import userRepository from "../_shared/repo/user.repository";
-
 dayjs.extend(utc);
 
+// export const registrationService = async (payload: IRegisterRequest) => {
+//   let { name, phoneNumber, email, password } = payload;
+
+//   logger.info(`the name from registration service is : ${name}`);
+
+//   const existingClient = await userRepository.fintUserByName(name); // Ensure the name is unique
+
+//   if (existingClient) {
+//     throw new Error("Client with this username already exists");
+//   }
+
+//   // Parsing and validating phone number
+//   const { countryCode, internationalNumber, isoCode } =
+//     parsers.parsePhoneNumber("+" + phoneNumber);
+//   if (!countryCode || !internationalNumber || !isoCode) {
+//     throw new CustomError(responseMessage.auth.INVALID_PHONE_NUMBER, 422);
+//   }
+
+//   // Extracting country timezone
+//   const timezone = dateAndTime.countryTimezone(isoCode);
+//   if (!timezone || timezone.length === 0) {
+//     throw new CustomError(responseMessage.auth.INVALID_PHONE_NUMBER, 422);
+//   }
+
+//   //Validate if user already exists
+//   await validate.userAlreadyExistsViaEmail(email);
+
+//   //Encrypting password
+//   const hashedPassword = await hashing.hashPassword(password);
+
+//   //Account confimation token and code generation
+//   const token = code.generateRandomId();
+//   const OTP = code.generateOTP(6);
+
+//   const userObj: IUser = {
+//     name: payload.name,
+//     email,
+//     phoneNumber: {
+//       countryCode,
+//       isoCode,
+//       internationalNumber,
+//     },
+//     accountConfimation: {
+//       status: false,
+//       token,
+//       code: OTP,
+//       timestamp: null,
+//     },
+//     passwordReset: {
+//       token: null,
+//       expiry: null,
+//       lastResetAt: null,
+//     },
+//     lastLoginAt: null,
+//     role: EUserRoles.USER,
+//     timezone: timezone[0].name,
+//     password: hashedPassword,
+//     consent: true,
+//   };
+
+//   //adding user to db
+//   const newUser = await query.createUser(userObj);
+
+//   //Sending confimation emails
+//   const confimationURL = `Frontendhost/confimation/${token}?code=${OTP}`;
+//   const to = email;
+//   const subject = `Confirm your account`;
+//   const text = `Hey , Your username is ${name}  and \n  your Password is ${password}\n${confimationURL}`;
+
+//   sendEmail(to, subject, text).catch((error) => {
+//     logger.error("Error sending email", {
+//       // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
+//       meta: error,
+//     });
+//   });
+
+//   return {
+//     success: true,
+//     _id: newUser._id,
+//   };
+// };
+
+// export const registrationService = async (payload: IRegisterRequest) => {
+//   let { name, phoneNumber, email, password } = payload;
+
+//   logger.info(`The name from registration service is: ${name}`);
+
+//   const existingClient = await userRepository.fintUserByName(name); // Ensure the name is unique
+
+//   if (existingClient) {
+//     throw new Error("Client with this username already exists");
+//   }
+
+//   // Parsing and validating phone number
+//   const { countryCode, internationalNumber, isoCode } =
+//     parsers.parsePhoneNumber("+" + phoneNumber);
+//   if (!countryCode || !internationalNumber || !isoCode) {
+//     throw new CustomError(responseMessage.auth.INVALID_PHONE_NUMBER, 422);
+//   }
+
+//   // Extracting country timezone
+//   const timezone = dateAndTime.countryTimezone(isoCode);
+//   if (!timezone || timezone.length === 0) {
+//     throw new CustomError(responseMessage.auth.INVALID_PHONE_NUMBER, 422);
+//   }
+
+//   // Validate if user already exists
+//   await validate.userAlreadyExistsViaEmail(email);
+
+//   // Encrypting password
+//   const hashedPassword = await hashing.hashPassword(password);
+
+//   // Account confirmation token and code generation
+//   const token = code.generateRandomId();
+//   const OTP = code.generateOTP(6);
+
+//   const userObj: IUser = {
+//     name: payload.name,
+//     email,
+//     phoneNumber: {
+//       countryCode,
+//       isoCode,
+//       internationalNumber,
+//     },
+//     accountConfimation: {
+//       status: false,
+//       token,
+//       code: OTP,
+//       timestamp: null,
+//     },
+//     passwordReset: {
+//       token: null,
+//       expiry: null,
+//       lastResetAt: null,
+//     },
+//     lastLoginAt: null,
+//     role: EUserRoles.USER,
+//     timezone: timezone[0].name,
+//     password: hashedPassword,
+//     consent: true,
+//   };
+
+//   // Adding user to db
+//   const newUser = await query.createUser(userObj);
+
+//   // Sending confirmation emails
+//   const confirmationURL = `Frontendhost/confirmation/${token}?code=${OTP}`;
+//   const to = email;
+//   const subject = `Confirm your account`;
+//   const text = `Hey, your username is ${name} and \n your password is ${password}\n${confirmationURL}`;
+
+//   sendEmail(to, subject, text).catch((error) => {
+//     logger.error("Error sending email", { meta: error });
+//   });
+
+//   return {
+//     success: true,
+//     _id: newUser._id,
+//   };
+// };
 export const registrationService = async (payload: IRegisterRequest) => {
   let { name, phoneNumber, email, password } = payload;
+  logger.info(`The name from registration service is: ${name}`);
 
-  logger.info(`the name from registration service is : ${name}`);
-
-  const existingClient = await userRepository.fintUserByName(name); // Ensure the name is unique
-
+  // Ensure the name is unique
+  const existingClient = await userRepository.findUserByName(name);
   if (existingClient) {
     throw new Error("Client with this username already exists");
   }
@@ -48,16 +207,20 @@ export const registrationService = async (payload: IRegisterRequest) => {
     throw new CustomError(responseMessage.auth.INVALID_PHONE_NUMBER, 422);
   }
 
-  //Validate if user already exists
+  // Validate if user already exists
   await validate.userAlreadyExistsViaEmail(email);
 
-  //Encrypting password
+  // Generate random password if not provided
+  password = generateRandomPassword();
+
+  // Encrypting password
   const hashedPassword = await hashing.hashPassword(password);
 
-  //Account confimation token and code generation
+  // Account confirmation token and code generation
   const token = code.generateRandomId();
   const OTP = code.generateOTP(6);
 
+  // Adding user to db
   const userObj: IUser = {
     name: payload.name,
     email,
@@ -78,26 +241,22 @@ export const registrationService = async (payload: IRegisterRequest) => {
       lastResetAt: null,
     },
     lastLoginAt: null,
-    role: EUserRoles.USER,
+    role: payload.role || EUserRoles.USER, // Default to USER if not provided
     timezone: timezone[0].name,
     password: hashedPassword,
     consent: true,
   };
 
-  //adding user to db
   const newUser = await query.createUser(userObj);
 
-  //Sending confimation emails
-  const confimationURL = `Frontendhost/confimation/${token}?code=${OTP}`;
+  // Sending confirmation emails with username and password
+  const confirmationURL = `Frontendhost/confirmation/${token}?code=${OTP}`;
   const to = email;
   const subject = `Confirm your account`;
-  const text = `Hey , Your username is ${name}  and \n  your Password is ${password}\n${confimationURL}`;
+  const text = `Hey, your username is ${name} and \n your password is ${password}\n${confirmationURL}`;
 
   sendEmail(to, subject, text).catch((error) => {
-    logger.error("Error sending email", {
-      // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
-      meta: error,
-    });
+    logger.error("Error sending email", { meta: error });
   });
 
   return {
@@ -106,6 +265,28 @@ export const registrationService = async (payload: IRegisterRequest) => {
   };
 };
 
+export const updateRoleService = async (userId: string, newRole: string) => {
+  // Convert the string newRole into an EUserRoles enum if valid
+  const roleEnumValue = (Object.values(EUserRoles) as string[]).find(
+    (role) => role === newRole
+  );
+
+  if (!roleEnumValue) {
+    throw new CustomError("Invalid role", 400);
+  }
+
+  // Update the user's role
+  const updatedUser = await query.updateUserRole(
+    userId,
+    roleEnumValue as EUserRoles
+  );
+
+  if (!updatedUser) {
+    throw new CustomError("User not found", 404);
+  }
+
+  return updatedUser;
+};
 export const accountConfirmationService = async (
   token: string,
   code: string
@@ -151,7 +332,7 @@ export const loginService = async (payload: ILoginRequest) => {
   const { name, password } = payload;
 
   // Check if the user is registered
-  const user = await query.fintUserByName(name, "password role");
+  const user = await query.findUserByName(name, "password role");
   if (!user) {
     throw new CustomError(responseMessage.NOT_FOUND("User"), 404);
   }
@@ -179,11 +360,12 @@ export const loginService = async (payload: ILoginRequest) => {
     config.TOKENS.REFRESH.EXPIRY
   );
   const roleGreetings = new Map([
-    [EUserRoles.ADMIN, "Welcome Admin!"],
-    [EUserRoles.EMPLOYEE_MANAGER, "Hello Employee Manager!"],
-    [EUserRoles.EMPLOYEE_STAFF, "Hello Employee Staff!"],
-    [EUserRoles.EMPLOYEE_INTERN, "Welcome Intern!"],
-    [EUserRoles.USER, "Hello User!"],
+    [EUserRoles.ADMIN, "admin"],
+    [EUserRoles.EMPLOYEE_HR, "hr"],
+    [EUserRoles.EMPLOYEE_SALES, "sales"],
+    [EUserRoles.EMPLOYEE_ACCOUNTS, "accounts"],
+    [EUserRoles.USER, "user"],
+    [EUserRoles.DRIVER, "driver"],
   ]);
 
   const greetingMessage = roleGreetings.get(user.role);
