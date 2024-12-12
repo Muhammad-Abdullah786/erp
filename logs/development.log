@@ -27537,3 +27537,124 @@
         "SERVER_URL": "http://localhost:3000"
     }
 }
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T15:03:24.110Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T15:03:24.127Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T15:03:24.131Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T15:04:01.794Z",
+    "message": "Registering new user: abdulYFl1VOm",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T15:04:01.796Z",
+    "message": "the name from registration service is : abdulYFl1VOm",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T15:04:02.166Z",
+    "message": "Container booked successfully",
+    "meta": {
+        "container": {
+            "container_type": "Refrigerated",
+            "weight": 1500,
+            "containers": [
+                {
+                    "quantity": 2,
+                    "size": "40ft",
+                    "_id": "675afb6265529bf40525c292"
+                },
+                {
+                    "quantity": 1,
+                    "size": "20ft",
+                    "_id": "675afb6265529bf40525c293"
+                }
+            ],
+            "price": 2000,
+            "handle_type": "Crane",
+            "sender_details": {
+                "name": "abdulYFl1VOm",
+                "email": "ken@justzeus.com",
+                "phone": "923128738271"
+            },
+            "receiver_details": {
+                "name": "Jane Smith",
+                "address": "123 Example Street",
+                "country_code": "+1",
+                "phone": "0987654321"
+            },
+            "installmentDetails": [
+                {
+                    "installment_number": 1,
+                    "amount": 500,
+                    "status": "pending",
+                    "_id": "675afb6265529bf40525c294",
+                    "due_date": "2025-01-11T15:04:02.108Z"
+                }
+            ],
+            "tracking_status": "Booked",
+            "tracking_stages": {
+                "pickup": {
+                    "status": false,
+                    "timestamp": "2025-01-11T15:04:02.108Z"
+                },
+                "inTransit": {
+                    "status": false,
+                    "timestamp": "2025-02-10T15:04:02.108Z"
+                },
+                "delivered": {
+                    "status": false,
+                    "timestamp": "2025-03-12T15:04:02.108Z"
+                }
+            },
+            "_id": "675afb6265529bf40525c291",
+            "remaining_amount": 1500,
+            "created_at": "2024-12-12T15:04:02.109Z",
+            "__v": 0
+        },
+        "user": "abdulYFl1VOm"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T15:11:57.946Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T15:11:57.959Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T15:11:57.962Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
