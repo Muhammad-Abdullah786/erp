@@ -11,7 +11,7 @@ import hashing from "../../../utils/hashing";
 import code from "../../../utils/code";
 import { IUser } from "../_shared/types/users.interface";
 import { EUserRoles } from "../../../constant/users";
-import { sendEmail } from "../../../utils/emailSender";
+import {sendEmail} from "../../../utils/emailSender";
 import logger from "../../../handlers/logger";
 import validate from "./validation/validations";
 import dayjs from "dayjs";
@@ -24,166 +24,7 @@ import { generateRandomPassword } from "../_shared/automateRegistration/generate
 import userRepository from "../_shared/repo/user.repository";
 dayjs.extend(utc);
 
-// export const registrationService = async (payload: IRegisterRequest) => {
-//   let { name, phoneNumber, email, password } = payload;
 
-//   logger.info(`the name from registration service is : ${name}`);
-
-//   const existingClient = await userRepository.fintUserByName(name); // Ensure the name is unique
-
-//   if (existingClient) {
-//     throw new Error("Client with this username already exists");
-//   }
-
-//   // Parsing and validating phone number
-//   const { countryCode, internationalNumber, isoCode } =
-//     parsers.parsePhoneNumber("+" + phoneNumber);
-//   if (!countryCode || !internationalNumber || !isoCode) {
-//     throw new CustomError(responseMessage.auth.INVALID_PHONE_NUMBER, 422);
-//   }
-
-//   // Extracting country timezone
-//   const timezone = dateAndTime.countryTimezone(isoCode);
-//   if (!timezone || timezone.length === 0) {
-//     throw new CustomError(responseMessage.auth.INVALID_PHONE_NUMBER, 422);
-//   }
-
-//   //Validate if user already exists
-//   await validate.userAlreadyExistsViaEmail(email);
-
-//   //Encrypting password
-//   const hashedPassword = await hashing.hashPassword(password);
-
-//   //Account confimation token and code generation
-//   const token = code.generateRandomId();
-//   const OTP = code.generateOTP(6);
-
-//   const userObj: IUser = {
-//     name: payload.name,
-//     email,
-//     phoneNumber: {
-//       countryCode,
-//       isoCode,
-//       internationalNumber,
-//     },
-//     accountConfimation: {
-//       status: false,
-//       token,
-//       code: OTP,
-//       timestamp: null,
-//     },
-//     passwordReset: {
-//       token: null,
-//       expiry: null,
-//       lastResetAt: null,
-//     },
-//     lastLoginAt: null,
-//     role: EUserRoles.USER,
-//     timezone: timezone[0].name,
-//     password: hashedPassword,
-//     consent: true,
-//   };
-
-//   //adding user to db
-//   const newUser = await query.createUser(userObj);
-
-//   //Sending confimation emails
-//   const confimationURL = `Frontendhost/confimation/${token}?code=${OTP}`;
-//   const to = email;
-//   const subject = `Confirm your account`;
-//   const text = `Hey , Your username is ${name}  and \n  your Password is ${password}\n${confimationURL}`;
-
-//   sendEmail(to, subject, text).catch((error) => {
-//     logger.error("Error sending email", {
-//       // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
-//       meta: error,
-//     });
-//   });
-
-//   return {
-//     success: true,
-//     _id: newUser._id,
-//   };
-// };
-
-// export const registrationService = async (payload: IRegisterRequest) => {
-//   let { name, phoneNumber, email, password } = payload;
-
-//   logger.info(`The name from registration service is: ${name}`);
-
-//   const existingClient = await userRepository.fintUserByName(name); // Ensure the name is unique
-
-//   if (existingClient) {
-//     throw new Error("Client with this username already exists");
-//   }
-
-//   // Parsing and validating phone number
-//   const { countryCode, internationalNumber, isoCode } =
-//     parsers.parsePhoneNumber("+" + phoneNumber);
-//   if (!countryCode || !internationalNumber || !isoCode) {
-//     throw new CustomError(responseMessage.auth.INVALID_PHONE_NUMBER, 422);
-//   }
-
-//   // Extracting country timezone
-//   const timezone = dateAndTime.countryTimezone(isoCode);
-//   if (!timezone || timezone.length === 0) {
-//     throw new CustomError(responseMessage.auth.INVALID_PHONE_NUMBER, 422);
-//   }
-
-//   // Validate if user already exists
-//   await validate.userAlreadyExistsViaEmail(email);
-
-//   // Encrypting password
-//   const hashedPassword = await hashing.hashPassword(password);
-
-//   // Account confirmation token and code generation
-//   const token = code.generateRandomId();
-//   const OTP = code.generateOTP(6);
-
-//   const userObj: IUser = {
-//     name: payload.name,
-//     email,
-//     phoneNumber: {
-//       countryCode,
-//       isoCode,
-//       internationalNumber,
-//     },
-//     accountConfimation: {
-//       status: false,
-//       token,
-//       code: OTP,
-//       timestamp: null,
-//     },
-//     passwordReset: {
-//       token: null,
-//       expiry: null,
-//       lastResetAt: null,
-//     },
-//     lastLoginAt: null,
-//     role: EUserRoles.USER,
-//     timezone: timezone[0].name,
-//     password: hashedPassword,
-//     consent: true,
-//   };
-
-//   // Adding user to db
-//   const newUser = await query.createUser(userObj);
-
-//   // Sending confirmation emails
-//   const confirmationURL = `Frontendhost/confirmation/${token}?code=${OTP}`;
-//   const to = email;
-//   const subject = `Confirm your account`;
-//   const text = `Hey, your username is ${name} and \n your password is ${password}\n${confirmationURL}`;
-
-//   sendEmail(to, subject, text).catch((error) => {
-//     logger.error("Error sending email", { meta: error });
-//   });
-
-//   return {
-//     success: true,
-//     _id: newUser._id,
-//   };
-// };
 export const registrationService = async (payload: IRegisterRequest) => {
   let { name, phoneNumber, email, password } = payload;
   logger.info(`The name from registration service is: ${name}`);
@@ -318,7 +159,7 @@ export const accountConfirmationService = async (
   const subject = `Welcome to the base! `;
   const text = `Account has been confirmed.`;
 
-  sendEmail(to, subject, text).catch((error) => {
+  sendEmail(to, subject, text).catch((error:any) => {
     logger.error("Error sending email", {
       // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
       meta: error,

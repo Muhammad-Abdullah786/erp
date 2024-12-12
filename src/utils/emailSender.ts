@@ -26,55 +26,56 @@
 // };
 
 import nodemailer from "nodemailer";
-import logger from "../handlers/logger";
 
 export const sendEmail = async (
   recipient: string,
   subject: string,
   text: string,
-  attachments: any[] = []
+  attachments = []
 ) => {
   const transporter = nodemailer.createTransport({
-    service: "Gmail",
-    // service: "smtp.gmail.com",
     port: 465,
+    host: "smtp.gmail.com",
     auth: {
       user: "khansuzair1@gmail.com",
-      pass: "yena sysp bncd uwvz", // Consider using environment variables for better security
+      pass: "yena sysp bncd uwvz",
     },
-    secure: false, // Ensures TLS encryption
+    secure: true, // Use SSL
   });
 
-  // Verify transporter connection
   await new Promise((resolve, reject) => {
+    // Verify connection configuration
     transporter.verify((error, success) => {
       if (error) {
-        logger.error("Error verifying transporter:", error);
+        console.error("Error verifying SMTP connection:", error);
         reject(error);
       } else {
-        logger.info("Transporter is ready to send emails");
+        console.log("SMTP server is ready to send messages.");
         resolve(success);
       }
     });
   });
 
   const mailData = {
-    from: "khansuzair1@gmail.com",
+    from: {
+      name: "Your Name or App Name",
+      address: "khansuzair1@gmail.com",
+    },
     to: recipient,
     subject,
     text,
-    html: `<p>${text}</p>`, // Include HTML format for rich-text compatibility
+    html: text, // Optionally include HTML content
     attachments,
   };
 
-  // Send the email
   await new Promise((resolve, reject) => {
+    // Send mail
     transporter.sendMail(mailData, (err, info) => {
       if (err) {
-        logger.error("Error sending email:", err);
+        console.error("Error sending email:", err);
         reject(err);
       } else {
-        logger.info("Email sent successfully:", info);
+        console.log("Email sent successfully:", info);
         resolve(info);
       }
     });
