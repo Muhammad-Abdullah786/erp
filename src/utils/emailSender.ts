@@ -26,6 +26,7 @@
 // };
 
 import nodemailer from "nodemailer";
+import logger from "../handlers/logger";
 
 export const sendEmail = async (
   recipient: string,
@@ -40,17 +41,17 @@ export const sendEmail = async (
       user: "khansuzair1@gmail.com",
       pass: "yena sysp bncd uwvz",
     },
-    secure: true, // Use SSL
+    // secure: false, // Use SSL
   });
 
   await new Promise((resolve, reject) => {
     // Verify connection configuration
     transporter.verify((error, success) => {
       if (error) {
-        console.error("Error verifying SMTP connection:", error);
+        logger.error("Error verifying SMTP connection:", error);
         reject(error);
       } else {
-        console.log("SMTP server is ready to send messages.");
+        logger.info("SMTP server is ready to send messages.");
         resolve(success);
       }
     });
@@ -72,10 +73,10 @@ export const sendEmail = async (
     // Send mail
     transporter.sendMail(mailData, (err, info) => {
       if (err) {
-        console.error("Error sending email:", err);
+        logger.error("Error sending email:", err);
         reject(err);
       } else {
-        console.log("Email sent successfully:", info);
+        logger.info("Email sent successfully:", info);
         resolve(info);
       }
     });

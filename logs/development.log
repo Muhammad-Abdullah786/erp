@@ -34031,3 +34031,453 @@
         "user": "kenaxy5"
     }
 }
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T19:37:30.077Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T19:37:30.085Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T19:37:30.087Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T19:39:30.291Z",
+    "message": "Registering new user: kenq71j",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T19:39:30.294Z",
+    "message": "The name from registration service is: kenq71j",
+    "meta": {}
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-12T19:39:30.706Z",
+    "message": "Error verifying SMTP connection: getaddrinfo ENOTFOUND Gmail",
+    "meta": {}
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-12T19:39:30.711Z",
+    "message": "Error sending email",
+    "meta": {
+        "errno": -3008,
+        "code": "EDNS",
+        "syscall": "getaddrinfo",
+        "hostname": "Gmail",
+        "command": "CONN"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T19:39:30.745Z",
+    "message": "Container booked successfully",
+    "meta": {
+        "container": {
+            "container_type": "Refrigerated",
+            "weight": 1500,
+            "containers": [
+                {
+                    "quantity": 2,
+                    "size": "40ft",
+                    "_id": "675b3bf2f92ee431ca448823"
+                },
+                {
+                    "quantity": 1,
+                    "size": "20ft",
+                    "_id": "675b3bf2f92ee431ca448824"
+                }
+            ],
+            "price": 2000,
+            "handle_type": "Crane",
+            "sender_details": {
+                "name": "kenq71J",
+                "email": "keny@deliveryotter.com",
+                "phone": "923128738271"
+            },
+            "receiver_details": {
+                "name": "Jane Smith",
+                "address": "123 Example Street",
+                "country_code": "+1",
+                "phone": "0987654321"
+            },
+            "installmentDetails": [
+                {
+                    "installment_number": 1,
+                    "amount": 500,
+                    "status": "pending",
+                    "_id": "675b3bf2f92ee431ca448825",
+                    "due_date": "2025-01-11T19:39:30.684Z"
+                }
+            ],
+            "tracking_status": "Booked",
+            "tracking_stages": {
+                "pickup": {
+                    "status": false,
+                    "timestamp": "2025-01-11T19:39:30.685Z"
+                },
+                "inTransit": {
+                    "status": false,
+                    "timestamp": "2025-02-10T19:39:30.685Z"
+                },
+                "delivered": {
+                    "status": false,
+                    "timestamp": "2025-03-12T19:39:30.685Z"
+                }
+            },
+            "_id": "675b3bf2f92ee431ca448822",
+            "remaining_amount": 1500,
+            "created_at": "2024-12-12T19:39:30.685Z",
+            "__v": 0
+        },
+        "user": "kenq71J"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T19:41:11.255Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T19:41:11.270Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T19:41:11.274Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T19:41:25.652Z",
+    "message": "Registering new user: kenoj6ubiw",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T19:41:25.654Z",
+    "message": "The name from registration service is: kenoj6ubiw",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T19:41:26.011Z",
+    "message": "Container booked successfully",
+    "meta": {
+        "container": {
+            "container_type": "Refrigerated",
+            "weight": 1500,
+            "containers": [
+                {
+                    "quantity": 2,
+                    "size": "40ft",
+                    "_id": "675b3c6555150fdabede33cc"
+                },
+                {
+                    "quantity": 1,
+                    "size": "20ft",
+                    "_id": "675b3c6555150fdabede33cd"
+                }
+            ],
+            "price": 2000,
+            "handle_type": "Crane",
+            "sender_details": {
+                "name": "kenOj6UbIw",
+                "email": "keny@deliveryotter.com",
+                "phone": "923128738271"
+            },
+            "receiver_details": {
+                "name": "Jane Smith",
+                "address": "123 Example Street",
+                "country_code": "+1",
+                "phone": "0987654321"
+            },
+            "installmentDetails": [
+                {
+                    "installment_number": 1,
+                    "amount": 500,
+                    "status": "pending",
+                    "_id": "675b3c6555150fdabede33ce",
+                    "due_date": "2025-01-11T19:41:25.953Z"
+                }
+            ],
+            "tracking_status": "Booked",
+            "tracking_stages": {
+                "pickup": {
+                    "status": false,
+                    "timestamp": "2025-01-11T19:41:25.954Z"
+                },
+                "inTransit": {
+                    "status": false,
+                    "timestamp": "2025-02-10T19:41:25.954Z"
+                },
+                "delivered": {
+                    "status": false,
+                    "timestamp": "2025-03-12T19:41:25.954Z"
+                }
+            },
+            "_id": "675b3c6555150fdabede33cb",
+            "remaining_amount": 1500,
+            "created_at": "2024-12-12T19:41:25.954Z",
+            "__v": 0
+        },
+        "user": "kenOj6UbIw"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T19:41:26.881Z",
+    "message": "SMTP server is ready to send messages.",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T19:41:29.557Z",
+    "message": "Email sent successfully:",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T19:47:22.437Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T19:47:22.452Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T19:47:22.455Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T19:47:33.007Z",
+    "message": "Registering new user: kenhzgp",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T19:47:33.010Z",
+    "message": "The name from registration service is: kenhzgp",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T19:47:33.373Z",
+    "message": "Container booked successfully",
+    "meta": {
+        "container": {
+            "container_type": "Refrigerated",
+            "weight": 1500,
+            "containers": [
+                {
+                    "quantity": 2,
+                    "size": "40ft",
+                    "_id": "675b3dd50408558686969d23"
+                },
+                {
+                    "quantity": 1,
+                    "size": "20ft",
+                    "_id": "675b3dd50408558686969d24"
+                }
+            ],
+            "price": 2000,
+            "handle_type": "Crane",
+            "sender_details": {
+                "name": "kenHZGP",
+                "email": "keny@deliveryotter.com",
+                "phone": "923128738271"
+            },
+            "receiver_details": {
+                "name": "Jane Smith",
+                "address": "123 Example Street",
+                "country_code": "+1",
+                "phone": "0987654321"
+            },
+            "installmentDetails": [
+                {
+                    "installment_number": 1,
+                    "amount": 500,
+                    "status": "pending",
+                    "_id": "675b3dd50408558686969d25",
+                    "due_date": "2025-01-11T19:47:33.314Z"
+                }
+            ],
+            "tracking_status": "Booked",
+            "tracking_stages": {
+                "pickup": {
+                    "status": false,
+                    "timestamp": "2025-01-11T19:47:33.314Z"
+                },
+                "inTransit": {
+                    "status": false,
+                    "timestamp": "2025-02-10T19:47:33.314Z"
+                },
+                "delivered": {
+                    "status": false,
+                    "timestamp": "2025-03-12T19:47:33.314Z"
+                }
+            },
+            "_id": "675b3dd50408558686969d22",
+            "remaining_amount": 1500,
+            "created_at": "2024-12-12T19:47:33.314Z",
+            "__v": 0
+        },
+        "user": "kenHZGP"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-12T19:47:43.597Z",
+    "message": "Error verifying SMTP connection: Connection closed",
+    "meta": {}
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-12T19:47:43.599Z",
+    "message": "Error sending email",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T19:48:34.194Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T19:48:34.207Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T19:48:34.209Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T19:48:36.043Z",
+    "message": "Registering new user: kenefocv",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T19:48:36.046Z",
+    "message": "The name from registration service is: kenefocv",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T19:48:36.397Z",
+    "message": "Container booked successfully",
+    "meta": {
+        "container": {
+            "container_type": "Refrigerated",
+            "weight": 1500,
+            "containers": [
+                {
+                    "quantity": 2,
+                    "size": "40ft",
+                    "_id": "675b3e14cee93e090eacaa92"
+                },
+                {
+                    "quantity": 1,
+                    "size": "20ft",
+                    "_id": "675b3e14cee93e090eacaa93"
+                }
+            ],
+            "price": 2000,
+            "handle_type": "Crane",
+            "sender_details": {
+                "name": "keneFOCv",
+                "email": "keny@deliveryotter.com",
+                "phone": "923128738271"
+            },
+            "receiver_details": {
+                "name": "Jane Smith",
+                "address": "123 Example Street",
+                "country_code": "+1",
+                "phone": "0987654321"
+            },
+            "installmentDetails": [
+                {
+                    "installment_number": 1,
+                    "amount": 500,
+                    "status": "pending",
+                    "_id": "675b3e14cee93e090eacaa94",
+                    "due_date": "2025-01-11T19:48:36.341Z"
+                }
+            ],
+            "tracking_status": "Booked",
+            "tracking_stages": {
+                "pickup": {
+                    "status": false,
+                    "timestamp": "2025-01-11T19:48:36.341Z"
+                },
+                "inTransit": {
+                    "status": false,
+                    "timestamp": "2025-02-10T19:48:36.342Z"
+                },
+                "delivered": {
+                    "status": false,
+                    "timestamp": "2025-03-12T19:48:36.342Z"
+                }
+            },
+            "_id": "675b3e14cee93e090eacaa91",
+            "remaining_amount": 1500,
+            "created_at": "2024-12-12T19:48:36.342Z",
+            "__v": 0
+        },
+        "user": "keneFOCv"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T19:48:37.291Z",
+    "message": "SMTP server is ready to send messages.",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T19:48:40.920Z",
+    "message": "Email sent successfully:",
+    "meta": {}
+}
