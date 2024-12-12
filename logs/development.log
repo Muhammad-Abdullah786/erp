@@ -34481,3 +34481,114 @@
     "message": "Email sent successfully:",
     "meta": {}
 }
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T20:00:09.575Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T20:00:09.586Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T20:00:09.589Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T20:01:07.775Z",
+    "message": "Registering new user: kennyoppq",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T20:01:07.777Z",
+    "message": "The name from registration service is: kennyoppq",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T20:01:09.001Z",
+    "message": "SMTP server is ready to send messages.",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T20:01:12.967Z",
+    "message": "Email sent successfully:",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T20:01:13.042Z",
+    "message": "Container booked successfully",
+    "meta": {
+        "container": {
+            "container_type": "Refrigerated",
+            "weight": 1500,
+            "containers": [
+                {
+                    "quantity": 2,
+                    "size": "40ft",
+                    "_id": "675b410829582c2c97542513"
+                },
+                {
+                    "quantity": 1,
+                    "size": "20ft",
+                    "_id": "675b410829582c2c97542514"
+                }
+            ],
+            "price": 2000,
+            "handle_type": "Crane",
+            "sender_details": {
+                "name": "kennyOppQ",
+                "email": "ken@justzeus.com",
+                "phone": "923128738271"
+            },
+            "receiver_details": {
+                "name": "Jane Smith",
+                "address": "123 Example Street",
+                "country_code": "+1",
+                "phone": "0987654321"
+            },
+            "installmentDetails": [
+                {
+                    "installment_number": 1,
+                    "amount": 500,
+                    "status": "pending",
+                    "_id": "675b410829582c2c97542515",
+                    "due_date": "2025-01-11T20:01:12.980Z"
+                }
+            ],
+            "tracking_status": "Booked",
+            "tracking_stages": {
+                "pickup": {
+                    "status": false,
+                    "timestamp": "2025-01-11T20:01:12.980Z"
+                },
+                "inTransit": {
+                    "status": false,
+                    "timestamp": "2025-02-10T20:01:12.980Z"
+                },
+                "delivered": {
+                    "status": false,
+                    "timestamp": "2025-03-12T20:01:12.980Z"
+                }
+            },
+            "_id": "675b410829582c2c97542512",
+            "remaining_amount": 1500,
+            "created_at": "2024-12-12T20:01:12.980Z",
+            "__v": 0
+        },
+        "user": "kennyOppQ"
+    }
+}
