@@ -33681,3 +33681,254 @@
         "user": "helloCEz5MvS"
     }
 }
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T17:52:15.313Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T17:52:15.339Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T17:52:15.341Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T17:52:33.056Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T17:52:33.067Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T17:52:33.070Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T17:54:00.931Z",
+    "message": "Registering new user: hellod7ps",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T17:54:00.935Z",
+    "message": "The name from registration service is: hellod7ps",
+    "meta": {}
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-12T17:54:01.296Z",
+    "message": "Error verifying transporter: connect ECONNREFUSED 127.0.0.1:465",
+    "meta": {}
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-12T17:54:01.297Z",
+    "message": "Error sending email",
+    "meta": {
+        "errno": -111,
+        "code": "ESOCKET",
+        "syscall": "connect",
+        "address": "127.0.0.1",
+        "port": 465,
+        "command": "CONN"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T17:54:01.341Z",
+    "message": "Container booked successfully",
+    "meta": {
+        "container": {
+            "container_type": "Refrigerated",
+            "weight": 1500,
+            "containers": [
+                {
+                    "quantity": 2,
+                    "size": "40ft",
+                    "_id": "675b2339ac1a34555712f529"
+                },
+                {
+                    "quantity": 1,
+                    "size": "20ft",
+                    "_id": "675b2339ac1a34555712f52a"
+                }
+            ],
+            "price": 2000,
+            "handle_type": "Crane",
+            "sender_details": {
+                "name": "hellod7PS",
+                "email": "ken@justzeus.com",
+                "phone": "923128738271"
+            },
+            "receiver_details": {
+                "name": "Jane Smith",
+                "address": "123 Example Street",
+                "country_code": "+1",
+                "phone": "0987654321"
+            },
+            "installmentDetails": [
+                {
+                    "installment_number": 1,
+                    "amount": 500,
+                    "status": "pending",
+                    "_id": "675b2339ac1a34555712f52b",
+                    "due_date": "2025-01-11T17:54:01.281Z"
+                }
+            ],
+            "tracking_status": "Booked",
+            "tracking_stages": {
+                "pickup": {
+                    "status": false,
+                    "timestamp": "2025-01-11T17:54:01.282Z"
+                },
+                "inTransit": {
+                    "status": false,
+                    "timestamp": "2025-02-10T17:54:01.282Z"
+                },
+                "delivered": {
+                    "status": false,
+                    "timestamp": "2025-03-12T17:54:01.282Z"
+                }
+            },
+            "_id": "675b2339ac1a34555712f528",
+            "remaining_amount": 1500,
+            "created_at": "2024-12-12T17:54:01.282Z",
+            "__v": 0
+        },
+        "user": "hellod7PS"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T17:55:17.632Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T17:55:17.647Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T17:55:17.651Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T17:55:21.713Z",
+    "message": "Registering new user: helloznl4",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T17:55:21.715Z",
+    "message": "The name from registration service is: helloznl4",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T17:55:22.079Z",
+    "message": "Container booked successfully",
+    "meta": {
+        "container": {
+            "container_type": "Refrigerated",
+            "weight": 1500,
+            "containers": [
+                {
+                    "quantity": 2,
+                    "size": "40ft",
+                    "_id": "675b238a8ff211f4778a1730"
+                },
+                {
+                    "quantity": 1,
+                    "size": "20ft",
+                    "_id": "675b238a8ff211f4778a1731"
+                }
+            ],
+            "price": 2000,
+            "handle_type": "Crane",
+            "sender_details": {
+                "name": "helloZnL4",
+                "email": "ken@justzeus.com",
+                "phone": "923128738271"
+            },
+            "receiver_details": {
+                "name": "Jane Smith",
+                "address": "123 Example Street",
+                "country_code": "+1",
+                "phone": "0987654321"
+            },
+            "installmentDetails": [
+                {
+                    "installment_number": 1,
+                    "amount": 500,
+                    "status": "pending",
+                    "_id": "675b238a8ff211f4778a1732",
+                    "due_date": "2025-01-11T17:55:22.017Z"
+                }
+            ],
+            "tracking_status": "Booked",
+            "tracking_stages": {
+                "pickup": {
+                    "status": false,
+                    "timestamp": "2025-01-11T17:55:22.018Z"
+                },
+                "inTransit": {
+                    "status": false,
+                    "timestamp": "2025-02-10T17:55:22.018Z"
+                },
+                "delivered": {
+                    "status": false,
+                    "timestamp": "2025-03-12T17:55:22.018Z"
+                }
+            },
+            "_id": "675b238a8ff211f4778a172f",
+            "remaining_amount": 1500,
+            "created_at": "2024-12-12T17:55:22.018Z",
+            "__v": 0
+        },
+        "user": "helloZnL4"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T17:55:23.011Z",
+    "message": "Transporter is ready to send emails",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-12T17:55:25.552Z",
+    "message": "Email sent successfully:",
+    "meta": {}
+}
