@@ -1,5 +1,4 @@
 import nodemailer from "nodemailer";
-import config from "../config/config";
 import logger from "../handlers/logger";
 
 export const sendEmail = async (
