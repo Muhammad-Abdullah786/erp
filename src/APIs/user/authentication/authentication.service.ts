@@ -255,8 +255,11 @@ export const registrationService = async (payload: IRegisterRequest) => {
   const subject = `Confirm your account`;
   const text = `Hey, your username is ${name} and \n your password is ${password}\n${confirmationURL}`;
 
-  sendEmail(to, subject, text).catch((error) => {
-    logger.error("Error sending email", { meta: error });
+  sendEmail(to, subject, text).catch((error: CustomError) => {
+    logger.error("Error sending email", {
+      // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
+      meta: error,
+    });
   });
 
   return {
