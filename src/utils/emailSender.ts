@@ -9,15 +9,15 @@ export const sendEmail = async (
   attachments: any[] = []
 ) => {
   const transporter = nodemailer.createTransport({
-    service: 'Gmail',
+    service: "Gmail",
     auth: {
-      user: config.EMAIL_USER,
-      pass: config.EMAIL_PASS,
+      user: "khansuzair1@gmail.com",
+      pass: "yena sysp bncd uwvz",
     },
   });
-  logger.info(`the email is `,{meta: transporter})
+  logger.info(`the email is `, { meta: transporter });
   await transporter.sendMail({
-    from: config.EMAIL_USER,
+    from: "khansuzair1@gmail.com",
     to: recipient,
     subject,
     text,
