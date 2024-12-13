@@ -36,7 +36,6 @@ const userSchema = new mongoose.Schema<IUser>(
     },
     password: {
       type: String,
-      //   required: true,
       default: "Abbaxi!212",
       select: false,
     },
