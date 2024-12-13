@@ -10,27 +10,31 @@ import userRepository from "../../user/_shared/repo/user.repository";
 import logger from "../../../handlers/logger";
 import axios from "axios";
 
-
 export default {
-  save_book_container: async (body: any , devices : any) => {
+  save_book_container: async (body: any, devices: any) => {
     try {
       // Check if the user already exists
-      const existingUser = await userRepository.findUserByEmail(body.sender_details.email, "name");
-  
+      const existingUser = await userRepository.findUserByEmail(
+        body.sender_details.email,
+        "name"
+      );
+
       let finalUsername: string;
       let password: string | null = null; // Initialize password as null
-  
+
       if (existingUser) {
         // User already exists
         finalUsername = existingUser.name;
-        logger.info(`Existing user found. Using existing username: ${finalUsername}`);
+        logger.info(
+          `Existing user found. Using existing username: ${finalUsername}`
+        );
       } else {
         // Generate new username and password for new users
         const username = await generateUniqueUsername(body.sender_details.name);
         const randomStr = generateRandomString(4, 7);
         finalUsername = `${username}${randomStr}`;
         password = generateRandomPassword(); // Generate password only for new users
-  
+
         const clientData: IRegisterRequest = {
           name: finalUsername,
           email: body.sender_details.email,
@@ -38,31 +42,37 @@ export default {
           password,
           consent: true,
         };
-  
+
         logger.info(`Registering new user: ${clientData.name}`);
-  
+
         // Register the user
         await registrationService(clientData);
       }
 
-      const deviceIds = devices.result.map((device : any) => device.id);
-      const existingDevices = await Contaier_BD.find({ tracking_id: { $in: deviceIds } });
+      const deviceIds = devices.result.map((device: any) => device.id);
+      const existingDevices = await Contaier_BD.find({
+        tracking_id: { $in: deviceIds },
+      });
       // Extract the IDs that exist in the database
-    const existingDeviceIds = existingDevices.map((container : any) => container.tracking_id);
+      const existingDeviceIds = existingDevices.map(
+        (container: any) => container.tracking_id
+      );
       // IDs not found in the database
-    const missingDeviceIds = deviceIds.filter((id : any) => !existingDeviceIds.includes(id));
-    console.log(missingDeviceIds);
-  
+      const missingDeviceIds = deviceIds.filter(
+        (id: any) => !existingDeviceIds.includes(id)
+      );
+      console.log(missingDeviceIds);
+
       // Save container details
       body.sender_details.name = finalUsername; // Assign the final username to sender_details.name
       body.tracking_id = missingDeviceIds[0];
       const container = new Contaier_BD(body);
       const savedContainer = await container.save();
-  
+
       if (!savedContainer) {
         throw new Error("Failed to book container");
       }
-  
+
       return { container: savedContainer, user: finalUsername };
     } catch (error) {
       logger.error("Error saving container and registering client", {
@@ -71,8 +81,6 @@ export default {
       throw error;
     }
   },
-  
-
 
   // FIXME: if something went wrong use below code its working
   // save_book_conatiner: async (body: any) => {
@@ -84,7 +92,7 @@ export default {
   //     const password = generateRandomPassword();
 
   //     const clientData: IRegisterRequest = {
-  //       name: finalUsername, 
+  //       name: finalUsername,
   //       email: body.sender_details.email,
   //       phoneNumber: body.sender_details.phone,
   //       password,
@@ -252,17 +260,19 @@ export default {
       throw error;
     }
   },
-  find_tracking_id  : async(tracking_id : any) => {
-        try{
-              const find_track = await axios.get(`https://flespi.io/gw/devices/${tracking_id}/messages` ,{
-                    headers : {
-                       Authorization : `FlespiToken o2fTkbO5RlrtKDlID7bc6sIibkyXQnqaNT5Br1Xtlb3Ufis06SIDE0weYKY6Dh8A`
-                    }
-              });
-              return find_track.status;
+  find_tracking_id: async (tracking_id: any) => {
+    try {
+      const find_track = await axios.get(
+        `https://flespi.io/gw/devices/${tracking_id}/messages`,
+        {
+          headers: {
+            Authorization: `FlespiToken o2fTkbO5RlrtKDlID7bc6sIibkyXQnqaNT5Br1Xtlb3Ufis06SIDE0weYKY6Dh8A`,
+          },
         }
-        catch(e){
-          throw e;
-        }
-  }
+      );
+      return find_track.status;
+    } catch (e) {
+      throw e;
+    }
+  },
 };

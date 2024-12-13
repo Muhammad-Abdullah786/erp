@@ -23,7 +23,7 @@ export const generateUniqueUsername = async (name: string): Promise<string> => {
     let attempts = 0;
   
     // Attempt to generate a unique username
-    while (await userRepo.fintUserByName(uniqueUsername)) {
+    while (await userRepo.findUserByName(uniqueUsername)) {
       if (attempts >= 5) {
         throw new Error('Failed to generate a unique username');
       }

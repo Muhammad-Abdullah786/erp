@@ -7,8 +7,8 @@ export default {
   sendEmail: async (to: string[], subject: string, text: string) => {
     try {
       await resend.emails.send({
-        // from: `Coderatory <onboarding@resend.dev>`,
-        from: `ERP <ken.domain.dev>`,
+        from: `Coderatory <onboarding@resend.dev>`,
+        // from: `ERP <ken.domain.dev>`,
         to,
         subject,
         text,
