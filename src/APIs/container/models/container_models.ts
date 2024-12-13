@@ -85,6 +85,7 @@ const ContainerSchema = new Schema({
       },
     },
   },
+  paymentOrder: { type: Schema.Types.ObjectId, ref: "Payment" }, // Link to payment order
   created_at: { type: Date, default: Date.now },
 });
 

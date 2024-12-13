@@ -8,120 +8,62 @@ import { IRegisterRequest } from "../../user/authentication/types/authentication
 import { registrationService } from "../../user/authentication/authentication.service";
 import userRepository from "../../user/_shared/repo/user.repository";
 import logger from "../../../handlers/logger";
+import container_repo from "../repo/container_repo";
 
 export default {
-  save_book_container: async (body: any) => {
-    try {
-      // Check if the user already exists
-      const existingUser = await userRepository.findUserByEmail(
-        body.sender_details.email,
-        "name"
-      );
-
-      let finalUsername: string;
-      let password: string | null = null; // Initialize password as null
-
-      if (existingUser) {
-        // User already exists
-        finalUsername = existingUser.name;
-        logger.info(
-          `Existing user found. Using existing username: ${finalUsername}`
-        );
-      } else {
-        // Generate new username and password for new users
-        const username = await generateUniqueUsername(body.sender_details.name);
-        const randomStr = generateRandomString(4, 7);
-        finalUsername = `${username}${randomStr}`;
-        password = generateRandomPassword(); // Generate password only for new users
-
-        const clientData: IRegisterRequest = {
-          name: finalUsername.toLowerCase(),
-          email: body.sender_details.email,
-          phoneNumber: body.sender_details.phone,
-          password,
-          consent: true,
-        };
-
-        logger.info(`Registering new user: ${clientData.name}`);
-
-        // Register the user
-        await registrationService(clientData);
-      }
-
-      // Save container details
-      body.sender_details.name = finalUsername; // Assign the final username to sender_details.name
-      const container = new Contaier_BD(body);
-      const savedContainer = await container.save();
-
-      if (!savedContainer) {
-        throw new Error("Failed to book container");
-      }
-
-      return { container: savedContainer, user: finalUsername };
-    } catch (error) {
-      logger.error("Error saving container and registering client", {
-        meta: error,
-      });
-      throw error;
-    }
-  },
-
-  // FIXME: if something went wrong use below code its working
-  // save_book_conatiner: async (body: any) => {
+  // save_book_container: async (body: any) => {
   //   try {
-  //     // Generate username and password
-  //     const username = await generateUniqueUsername(body.sender_details.name);
-  //     const randomStr = generateRandomString(4, 7); // Generate the random string
-  //     const finalUsername = `${username}${randomStr}`; // Combine the username with the random string
-  //     const password = generateRandomPassword();
+  //     // Check if the user already exists
+  //     const existingUser = await userRepository.findUserByEmail(
+  //       body.sender_details.email,
+  //       "name"
+  //     );
 
-  //     const clientData: IRegisterRequest = {
-  //       name: finalUsername,
-  //       email: body.sender_details.email,
-  //       phoneNumber: body.sender_details.phone,
-  //       password,
-  //       consent: true,
-  //     };
+  //     let finalUsername: string;
+  //     let password: string | null = null; // Initialize password as null
 
-  //     logger.info(`the data of client is: `, { meta: clientData.name });
+  //     if (existingUser) {
+  //       // User already exists
+  //       finalUsername = existingUser.name;
+  //       logger.info(
+  //         `Existing user found. Using existing username: ${finalUsername}`
+  //       );
+  //     } else {
+  //       // Generate new username and password for new users
+  //       const username = await generateUniqueUsername(body.sender_details.name);
+  //       const randomStr = generateRandomString(4, 7);
+  //       finalUsername = `${username}${randomStr}`;
+  //       password = generateRandomPassword(); // Generate password only for new users
+
+  //       const clientData: IRegisterRequest = {
+  //         name: finalUsername.toLowerCase(),
+  //         email: body.sender_details.email,
+  //         phoneNumber: body.sender_details.phone,
+  //         password,
+  //         consent: true,
+  //       };
+
+  //       logger.info(`Registering new user: ${clientData.name}`);
+
+  //       // Register the user
+  //       await registrationService(clientData);
+  //     }
 
   //     // Save container details
-  //     //FIXME: you need to save the unique user name here
   //     body.sender_details.name = finalUsername; // Assign the final username to sender_details.name
   //     const container = new Contaier_BD(body);
   //     const savedContainer = await container.save();
 
+  //     // if (!savedContainer) {
+  //     //   throw new Error("Failed to book container");
+  //     // }
   //     if (!savedContainer) {
-  //       throw new Error("Failed to book container");
+  //       const errorMessage = "Failed to book container";
+  //       logger.error(errorMessage, { meta: body });
+  //       throw new Error(errorMessage);
   //     }
 
-  //     // Validate and register the user
-  //     const newClient = await registrationService(clientData); // Register the user with the final username
-
-  //     // Generate PDF and send email
-  //     const pdfDir = "D:\\New_ERP_Containers\\erp\\src\\APIs\\container\\pdfs";
-  //     const pdfFileName = `booking_${container._id}.pdf`;
-  //     const pdfPath = `${pdfDir}\\${pdfFileName}`;
-
-  //     if (!fs.existsSync(pdfDir)) {
-  //       fs.mkdirSync(pdfDir, { recursive: true });
-  //     }
-
-  //     await generatePDF(savedContainer, pdfPath);
-
-  //     // Send email with PDF and login details
-  //     const emailBody = `
-  //       Booking Confirmation Attached.\n
-  //       Login Details:
-  //       Username: ${clientData.name}
-  //       Password: ${clientData.password}
-  //     `;
-
-  //     await sendEmail(clientData.email, "Booking Confirmation", emailBody, [
-  //       { filename: pdfFileName, path: pdfPath },
-  //     ]);
-
-  //     return { container: savedContainer, client: newClient };
+  //     return { container: savedContainer, user: finalUsername };
   //   } catch (error) {
   //     logger.error("Error saving container and registering client", {
   //       meta: error,
@@ -129,6 +71,73 @@ export default {
   //     throw error;
   //   }
   // },
+  save_book_container_with_payment: async (body: any) => {
+    try {
+      // Check if the user already exists
+      const existingUser = await userRepository.findUserByEmail(
+        body.sender_details.email,
+        "name"
+      );
+  
+      let finalUsername: string;
+      let password: string | null = null;
+  
+      if (existingUser) {
+        finalUsername = existingUser.name;
+        logger.info(
+          `Existing user found. Using existing username: ${finalUsername}`
+        );
+      } else {
+        const username = await generateUniqueUsername(body.sender_details.name);
+        const randomStr = generateRandomString(4, 7);
+        finalUsername = `${username}${randomStr}`;
+        password = generateRandomPassword();
+  
+        const clientData: IRegisterRequest = {
+          name: finalUsername.toLowerCase(),
+          email: body.sender_details.email,
+          phoneNumber: body.sender_details.phone,
+          password,
+          consent: true,
+        };
+  
+        logger.info(`Registering new user: ${clientData.name}`);
+        await registrationService(clientData);
+      }
+  
+      // Save container details
+      body.sender_details.name = finalUsername;
+      const container = new Contaier_BD(body);
+      const savedContainer = await container.save();
+  
+      if (!savedContainer) {
+        const errorMessage = "Failed to book container";
+        logger.error(errorMessage, { meta: body });
+        throw new Error(errorMessage);
+      }
+  
+      // Create payment order
+      const paymentOrder = await container_repo.createPaymentOrder({
+        user_uniqueName: finalUsername,
+        phoneNumber: body.sender_details.phone,
+        total_amount: body.total_amount,
+        down_payment: savedContainer.installmentDetails[0].amount,
+      });
+       
+      if (!paymentOrder) {
+        throw new Error("Failed to create payment order");
+      }
+  
+      return { container: savedContainer, payment: paymentOrder };
+    } catch (error) {
+      logger.error("Error saving container and creating payment order", {
+        meta: error,
+      });
+      throw error;
+    }
+  },
+  
+
 
   update_book_conatiner_tracking: async (body: any, id: any) => {
     try {
