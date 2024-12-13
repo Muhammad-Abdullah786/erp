@@ -27293,3 +27293,103 @@
         "SERVER_URL": "http://localhost:3000"
     }
 }
+{
+    "level": "INFO",
+    "timestamp": "2024-12-13T15:01:57.146Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-13T15:01:57.167Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-13T15:01:57.174Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-13T15:02:39.915Z",
+    "message": "Registering new user: KennySrZtc",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-13T15:02:39.917Z",
+    "message": "the name from registration service is : KennySrZtc",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-13T15:02:40.350Z",
+    "message": "Container booked successfully",
+    "meta": {
+        "container": {
+            "container_type": "Refrigerated",
+            "weight": 1500,
+            "containers": [
+                {
+                    "quantity": 2,
+                    "size": "40ft",
+                    "_id": "675c4c90b0e4b319fd47b4f6"
+                },
+                {
+                    "quantity": 1,
+                    "size": "20ft",
+                    "_id": "675c4c90b0e4b319fd47b4f7"
+                }
+            ],
+            "price": 2000,
+            "handle_type": "Crane",
+            "sender_details": {
+                "name": "KennySrZtc",
+                "email": "ken@justzeus.com",
+                "phone": "923128738271"
+            },
+            "receiver_details": {
+                "name": "Jane Smith",
+                "address": "123 Example Street",
+                "country_code": "+1",
+                "phone": "0987654321"
+            },
+            "installmentDetails": [
+                {
+                    "installment_number": 1,
+                    "amount": 500,
+                    "status": "pending",
+                    "_id": "675c4c90b0e4b319fd47b4f8",
+                    "due_date": "2025-01-12T15:02:40.288Z"
+                }
+            ],
+            "tracking_status": "Booked",
+            "tracking_stages": {
+                "pickup": {
+                    "status": false,
+                    "timestamp": "2025-01-12T15:02:40.289Z"
+                },
+                "inTransit": {
+                    "status": false,
+                    "timestamp": "2025-02-11T15:02:40.289Z"
+                },
+                "delivered": {
+                    "status": false,
+                    "timestamp": "2025-03-13T15:02:40.289Z"
+                }
+            },
+            "tracking_id": "6112954",
+            "_id": "675c4c90b0e4b319fd47b4f5",
+            "remaining_amount": 1500,
+            "created_at": "2024-12-13T15:02:40.289Z",
+            "__v": 0
+        },
+        "user": "KennySrZtc"
+    }
+}
