@@ -31,6 +31,7 @@ import {
   generateRandomString,
 } from "../_shared/automateRegistration/generateClient";
 import userRepository from "../_shared/repo/user.repository";
+import userModel from "../_shared/models/user.model";
 export default {
   // register: asyncHandler(
   //   async (request: Request, response: Response, next: NextFunction) => {
@@ -136,6 +137,33 @@ export default {
   //     }
   //   }
   // ),
+
+  get_employee: async (request: any, response: any) => {
+    try {
+      if (request) {
+      }
+      // Find users whose role is either 'HR', 'Accounts', or 'Sales'
+      const employees = await userModel.find({
+        role: {
+          $in: [
+            EUserRoles.EMPLOYEE_HR,
+            EUserRoles.EMPLOYEE_ACCOUNTS,
+            EUserRoles.EMPLOYEE_SALES,
+          ],
+        },
+      });
+
+      if (employees.length === 0) {
+        return response.status(404).json({ message: "No employees found." });
+      }
+
+      response.status(200).json({ employees });
+    } catch (e) {
+      response
+        .status(500)
+        .json({ message: "An error occurred while fetching employees." });
+    }
+  },
 
   register: asyncHandler(
     async (request: Request, response: Response, next: NextFunction) => {

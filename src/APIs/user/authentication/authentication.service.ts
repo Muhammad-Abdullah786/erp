@@ -11,7 +11,7 @@ import hashing from "../../../utils/hashing";
 import code from "../../../utils/code";
 import { IUser } from "../_shared/types/users.interface";
 import { EUserRoles } from "../../../constant/users";
-import {sendEmail} from "../../../utils/emailSender";
+import { sendEmail } from "../../../utils/emailSender";
 import logger from "../../../handlers/logger";
 import validate from "./validation/validations";
 import dayjs from "dayjs";
@@ -91,16 +91,13 @@ export const registrationService = async (payload: IRegisterRequest) => {
   const newUser = await query.createUser(userObj);
 
   // Sending confirmation emails with username and password
-  const confirmationURL = `Frontendhost/confirmation/${token}?code=${OTP}`;
+  // const confirmationURL = `Frontendhost/confirmation/${token}?code=${OTP}`;
   const to = email;
   const subject = `Confirm your account`;
-  const text = `Hey, your username is ${name} and \n your password is ${password}\n${confirmationURL}`;
+  const text = `Hey, your username is ${name} and \n your password is ${password}\n`;
 
-   await sendEmail(to, subject, text).catch((error: CustomError) => {
-    logger.error("Error sending email", {
-      // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
-      meta: error,
-    });
+  await sendEmail(to, subject, text).catch((error) => {
+    logger.error("Error sending email", { meta: error });
   });
 
   return {
@@ -159,7 +156,7 @@ export const accountConfirmationService = async (
   const subject = `Welcome to the base! `;
   const text = `Account has been confirmed.`;
 
-  sendEmail(to, subject, text).catch((error:any) => {
+  sendEmail(to, subject, text).catch((error) => {
     logger.error("Error sending email", {
       // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
       meta: error,

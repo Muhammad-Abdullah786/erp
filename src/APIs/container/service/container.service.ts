@@ -8,9 +8,10 @@ import { IRegisterRequest } from "../../user/authentication/types/authentication
 import { registrationService } from "../../user/authentication/authentication.service";
 import userRepository from "../../user/_shared/repo/user.repository";
 import logger from "../../../handlers/logger";
+import { sendEmail } from "../../../utils/emailSender";
 import axios from "axios";
-
 export default {
+
   save_book_container: async (body: any, devices: any) => {
     try {
       // Check if the user already exists
@@ -69,6 +70,16 @@ export default {
       const container = new Contaier_BD(body);
       const savedContainer = await container.save();
 
+      // Sending confirmation emails with username and password
+      const trackingURL = `${missingDeviceIds[0]}`;
+      const to = body.sender_details.email;
+      const subject = `CYour tracking number`;
+      const text = `this is your tracking id paste it on our website \n ${trackingURL}`;
+
+      await sendEmail(to, subject, text).catch((error) => {
+        logger.error("Error sending email", { meta: error });
+      });
+
       if (!savedContainer) {
         throw new Error("Failed to book container");
       }
@@ -81,71 +92,6 @@ export default {
       throw error;
     }
   },
-
-  // FIXME: if something went wrong use below code its working
-  // save_book_conatiner: async (body: any) => {
-  //   try {
-  //     // Generate username and password
-  //     const username = await generateUniqueUsername(body.sender_details.name);
-  //     const randomStr = generateRandomString(4, 7); // Generate the random string
-  //     const finalUsername = `${username}${randomStr}`; // Combine the username with the random string
-  //     const password = generateRandomPassword();
-
-  //     const clientData: IRegisterRequest = {
-  //       name: finalUsername,
-  //       email: body.sender_details.email,
-  //       phoneNumber: body.sender_details.phone,
-  //       password,
-  //       consent: true,
-  //     };
-
-  //     logger.info(`the data of client is: `, { meta: clientData.name });
-
-  //     // Save container details
-  //     //FIXME: you need to save the unique user name here
-  //     body.sender_details.name = finalUsername; // Assign the final username to sender_details.name
-  //     const container = new Contaier_BD(body);
-  //     const savedContainer = await container.save();
-
-  //     if (!savedContainer) {
-  //       throw new Error("Failed to book container");
-  //     }
-
-  //     // Validate and register the user
-  //     const newClient = await registrationService(clientData); // Register the user with the final username
-
-  //     // Generate PDF and send email
-  //     const pdfDir = "D:\\New_ERP_Containers\\erp\\src\\APIs\\container\\pdfs";
-  //     const pdfFileName = `booking_${container._id}.pdf`;
-  //     const pdfPath = `${pdfDir}\\${pdfFileName}`;
-
-  //     if (!fs.existsSync(pdfDir)) {
-  //       fs.mkdirSync(pdfDir, { recursive: true });
-  //     }
-
-  //     await generatePDF(savedContainer, pdfPath);
-
-  //     // Send email with PDF and login details
-  //     const emailBody = `
-  //       Booking Confirmation Attached.\n
-  //       Login Details:
-  //       Username: ${clientData.name}
-  //       Password: ${clientData.password}
-  //     `;
-
-  //     await sendEmail(clientData.email, "Booking Confirmation", emailBody, [
-  //       { filename: pdfFileName, path: pdfPath },
-  //     ]);
-
-  //     return { container: savedContainer, client: newClient };
-  //   } catch (error) {
-  //     logger.error("Error saving container and registering client", {
-  //       meta: error,
-  //     });
-  //     throw error;
-  //   }
-  // },
-
   update_book_conatiner_tracking: async (body: any, id: any) => {
     try {
       const { tracking_status, tracking_stages } = body;

@@ -1,4 +1,3 @@
-
 import { Schema, model } from "mongoose";
 
 const ContainerSchema = new Schema({
@@ -86,10 +85,6 @@ const ContainerSchema = new Schema({
       },
     },
   },
-  tracking_id : {
-     type : String
-  },
-  paymentOrder: { type: Schema.Types.ObjectId, ref: "Payment" }, // Link to payment order
   created_at: { type: Date, default: Date.now },
 });
 

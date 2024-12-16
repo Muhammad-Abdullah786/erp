@@ -14,5 +14,6 @@ router.route("/logout").put(authenticate, authenticationController.logout);
 router
   .route("/role/:id")
   .patch(authenticate, authenticationController.editUserRole);
+router.route("/get_employees").get(authenticationController.get_employee);
 
 export default router;
