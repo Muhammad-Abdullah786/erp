@@ -38756,3 +38756,105 @@
         "CONNECTION_NAME": "erp"
     }
 }
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T14:52:08.637Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T14:52:08.655Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T14:52:08.659Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T14:52:55.785Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T14:52:55.874Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T14:52:55.881Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T14:53:34.583Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T14:53:34.597Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T14:53:34.600Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T14:55:10.340Z",
+    "message": "this is payment indent[object Object]",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T14:56:15.287Z",
+    "message": "this is payment indent[object Object]",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T14:56:19.258Z",
+    "message": "this is payment indent[object Object]",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T14:56:22.649Z",
+    "message": "this is payment indent[object Object]",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T14:56:26.775Z",
+    "message": "this is payment indent[object Object]",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T14:56:32.914Z",
+    "message": "this is payment indent[object Object]",
+    "meta": {}
+}

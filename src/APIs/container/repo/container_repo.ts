@@ -1,6 +1,7 @@
 import { error } from "console";
 import service from "../service/container.service";
 import axios from "axios";
+import logger from "../../../handlers/logger";
 const Stripe = require("stripe");
 const stripe = new Stripe(
   "sk_test_51QPhZID0nPeKrajIN2Adi7XnUIHz52kAKBkTO9P2nygfQstOgnSLeMgnKTi85nemDr4j2E07YszwIrLXOgye34ip00vWUaKZpe"
@@ -18,13 +19,13 @@ export default {
           enabled: true, // Enables automatic handling for payment methods
         },
       });
-      console.log(paymentIntent);
+      logger.info(`this is payment indent${paymentIntent}`);
       if (!paymentIntent) {
         throw new Error("Failed to create payment intent");
       }
       return paymentIntent;
     } catch (e) {
-      console.log(e);
+      logger.info(`this is catch error in payment `,{meta:e});
       throw error;
     }
   },
