@@ -18,7 +18,8 @@ app.use(
     origin: [
       "http://localhost:3000",
       "http://localhost:3001",
-      "https://front-eight-sage.vercel.app",
+      // "https://front-eight-sage.vercel.app",
+      "https://erp-frontend-orcin.vercel.app",
     ],
     credentials: true,
   })
