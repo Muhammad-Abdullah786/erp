@@ -38756,3 +38756,2393 @@
         "CONNECTION_NAME": "erp"
     }
 }
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T16:56:00.641Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T16:56:00.661Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T16:56:00.667Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-16T16:56:43.646Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (F:\\Container_ERP\\erp\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (F:\\Container_ERP\\erp\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:520:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (F:\\Container_ERP\\erp\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-16T16:56:48.119Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (F:\\Container_ERP\\erp\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (F:\\Container_ERP\\erp\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:520:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (F:\\Container_ERP\\erp\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-16T17:02:43.910Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/api/verify-token"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (F:\\Container_ERP\\erp\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T17:02:54.654Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "u",
+        "1": "s",
+        "2": "e",
+        "3": "r"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T17:02:54.808Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "6760372960772245c5c09c50",
+            "password": "$2b$10$Tvf.T4nlT7hdhZ5l/sUlgup9RKpl/WygFilNr7XXRQ3bNrt/nmtTS",
+            "role": "user",
+            "lastLoginAt": "2024-12-16T17:02:54.664Z",
+            "updatedAt": "2024-12-16T17:02:54.687Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzNjg1NzQsImV4cCI6MTczNDM3MjE3NH0.VBq42in87VCOaYyijuaOjdrUSqsdkYhhud-Pob6NQYQ",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzNjg1NzQsImV4cCI6MTc2NTkwNDU3NH0.0BXHujeegO9NZAQcwDFjlBeeKYTnV_WtnJU55yLq0os",
+            "greeting": "user"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T17:02:54.814Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzNjg1NzQsImV4cCI6MTczNDM3MjE3NH0.VBq42in87VCOaYyijuaOjdrUSqsdkYhhud-Pob6NQYQ",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzNjg1NzQsImV4cCI6MTc2NTkwNDU3NH0.0BXHujeegO9NZAQcwDFjlBeeKYTnV_WtnJU55yLq0os",
+            "greeting": "user"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-16T17:05:19.773Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/api/verify-token"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (F:\\Container_ERP\\erp\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T17:05:29.410Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "u",
+        "1": "s",
+        "2": "e",
+        "3": "r"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T17:05:29.521Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "6760372960772245c5c09c50",
+            "password": "$2b$10$Tvf.T4nlT7hdhZ5l/sUlgup9RKpl/WygFilNr7XXRQ3bNrt/nmtTS",
+            "role": "user",
+            "lastLoginAt": "2024-12-16T17:05:29.416Z",
+            "updatedAt": "2024-12-16T17:05:29.417Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzNjg3MjksImV4cCI6MTczNDM3MjMyOX0.ayYtPwSTTrN7be4gw0s10z1sSTJWnQYH6ZNtY6rAvN8",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzNjg3MjksImV4cCI6MTc2NTkwNDcyOX0.suiS-cGejy-mjz2qdMbbQcxUJwtQF6BpfoT7PwsVNT0",
+            "greeting": "user"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T17:05:29.526Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzNjg3MjksImV4cCI6MTczNDM3MjMyOX0.ayYtPwSTTrN7be4gw0s10z1sSTJWnQYH6ZNtY6rAvN8",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzNjg3MjksImV4cCI6MTc2NTkwNDcyOX0.suiS-cGejy-mjz2qdMbbQcxUJwtQF6BpfoT7PwsVNT0",
+            "greeting": "user"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-16T17:13:51.777Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/container/verify-token"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (F:\\Container_ERP\\erp\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T19:29:26.295Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T19:29:26.320Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T19:29:26.322Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-16T19:32:25.563Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (F:\\Container_ERP\\erp\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (F:\\Container_ERP\\erp\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:520:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (F:\\Container_ERP\\erp\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T19:33:42.100Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "u",
+        "1": "s",
+        "2": "e",
+        "3": "r"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T19:33:42.437Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "6760372960772245c5c09c50",
+            "password": "$2b$10$Tvf.T4nlT7hdhZ5l/sUlgup9RKpl/WygFilNr7XXRQ3bNrt/nmtTS",
+            "role": "user",
+            "lastLoginAt": "2024-12-16T19:33:42.112Z",
+            "updatedAt": "2024-12-16T19:33:42.124Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzNzc2MjIsImV4cCI6MTczNDM4MTIyMn0.CkBcaj0bTH-sr9o1TV2avB3mGHl635u2D3OYLRIo0hc",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzNzc2MjIsImV4cCI6MTc2NTkxMzYyMn0.DFB517MJd5w1UzWNzO3mluHg8qNUbEi_vHAE_HRNQGc",
+            "greeting": "user"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T19:33:42.455Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzNzc2MjIsImV4cCI6MTczNDM4MTIyMn0.CkBcaj0bTH-sr9o1TV2avB3mGHl635u2D3OYLRIo0hc",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzNzc2MjIsImV4cCI6MTc2NTkxMzYyMn0.DFB517MJd5w1UzWNzO3mluHg8qNUbEi_vHAE_HRNQGc",
+            "greeting": "user"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T19:38:56.215Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T19:38:56.235Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T19:38:56.239Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T19:39:19.520Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T19:39:19.536Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T19:39:19.540Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-16T19:39:56.745Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/container/verify-token"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (F:\\Container_ERP\\erp\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T19:40:14.107Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "u",
+        "1": "s",
+        "2": "e",
+        "3": "r"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T19:40:14.429Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "6760372960772245c5c09c50",
+            "password": "$2b$10$Tvf.T4nlT7hdhZ5l/sUlgup9RKpl/WygFilNr7XXRQ3bNrt/nmtTS",
+            "role": "user",
+            "lastLoginAt": "2024-12-16T19:40:14.115Z",
+            "updatedAt": "2024-12-16T19:40:14.132Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzNzgwMTQsImV4cCI6MTczNDM4MTYxNH0.zlVeMhavTz2MT2Rl8z8cWsfayi_TWL7FCHXYUz1Yp08",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzNzgwMTQsImV4cCI6MTc2NTkxNDAxNH0.5-MVXzunklZ-yczLY7LblE20zk9yXk24jQefcegFWxM",
+            "greeting": "user"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T19:40:14.435Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzNzgwMTQsImV4cCI6MTczNDM4MTYxNH0.zlVeMhavTz2MT2Rl8z8cWsfayi_TWL7FCHXYUz1Yp08",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzNzgwMTQsImV4cCI6MTc2NTkxNDAxNH0.5-MVXzunklZ-yczLY7LblE20zk9yXk24jQefcegFWxM",
+            "greeting": "user"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T19:41:37.617Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T19:41:37.628Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T19:41:37.631Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T19:42:58.988Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T19:42:58.999Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T19:42:59.001Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-16T19:43:19.907Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/container/verify-token"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (F:\\Container_ERP\\erp\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T19:43:46.175Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "u",
+        "1": "s",
+        "2": "e",
+        "3": "r"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T19:43:46.458Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "6760372960772245c5c09c50",
+            "password": "$2b$10$Tvf.T4nlT7hdhZ5l/sUlgup9RKpl/WygFilNr7XXRQ3bNrt/nmtTS",
+            "role": "user",
+            "lastLoginAt": "2024-12-16T19:43:46.183Z",
+            "updatedAt": "2024-12-16T19:43:46.197Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzNzgyMjYsImV4cCI6MTczNDM4MTgyNn0.dJ-JuO4nYpoFNgDzYqvMwdVcFe6scs5-PATK_xv2gC8",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzNzgyMjYsImV4cCI6MTc2NTkxNDIyNn0.4C_NMTU05kOLTgBIf6RU1q9uguZa-CmXSPjZXZJ5oLU",
+            "greeting": "user"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T19:43:46.466Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzNzgyMjYsImV4cCI6MTczNDM4MTgyNn0.dJ-JuO4nYpoFNgDzYqvMwdVcFe6scs5-PATK_xv2gC8",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzNzgyMjYsImV4cCI6MTc2NTkxNDIyNn0.4C_NMTU05kOLTgBIf6RU1q9uguZa-CmXSPjZXZJ5oLU",
+            "greeting": "user"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T19:45:07.382Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T19:45:07.398Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T19:45:07.405Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T19:45:49.697Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "u",
+        "1": "s",
+        "2": "e",
+        "3": "r"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T19:45:50.014Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "6760372960772245c5c09c50",
+            "password": "$2b$10$Tvf.T4nlT7hdhZ5l/sUlgup9RKpl/WygFilNr7XXRQ3bNrt/nmtTS",
+            "role": "user",
+            "lastLoginAt": "2024-12-16T19:45:49.705Z",
+            "updatedAt": "2024-12-16T19:45:49.720Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzNzgzNDksImV4cCI6MTczNDM4MTk0OX0.yAyyAqD9d0w98Ov3kmxQ3wIVjOZhR4uMm29tYNTbxJk",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzNzgzNDksImV4cCI6MTc2NTkxNDM0OX0.1Nijxpp9dqt_Az6rnVZAAglOwan2zbyl6WikPh7VMp8",
+            "greeting": "user"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T19:45:50.020Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzNzgzNDksImV4cCI6MTczNDM4MTk0OX0.yAyyAqD9d0w98Ov3kmxQ3wIVjOZhR4uMm29tYNTbxJk",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzNzgzNDksImV4cCI6MTc2NTkxNDM0OX0.1Nijxpp9dqt_Az6rnVZAAglOwan2zbyl6WikPh7VMp8",
+            "greeting": "user"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T19:46:44.953Z",
+    "message": "Existing user found. Using existing username: SuzairqoIm",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T19:46:47.873Z",
+    "message": "Container booked successfully",
+    "meta": {
+        "container": {
+            "container_type": "Dry",
+            "weight": 12,
+            "containers": [
+                {
+                    "quantity": 3,
+                    "size": "40 feet",
+                    "_id": "676083a5d40a64f901b912c3"
+                }
+            ],
+            "price": 6000,
+            "sender_details": {
+                "name": "SuzairqoIm",
+                "email": "khansuzair1@gmail.com",
+                "phone": "03188063124"
+            },
+            "receiver_details": {
+                "name": "DASDA",
+                "address": "Gulshane e iqbal , karachi , pakistn",
+                "phone": "3188063124"
+            },
+            "installmentDetails": [
+                {
+                    "installment_number": 1,
+                    "amount": 2000,
+                    "status": "paid",
+                    "_id": "676083a5d40a64f901b912c4"
+                },
+                {
+                    "installment_number": 2,
+                    "amount": 2000,
+                    "status": "pending",
+                    "_id": "676083a5d40a64f901b912c5",
+                    "due_date": "2025-01-15T19:46:45.101Z"
+                },
+                {
+                    "installment_number": 3,
+                    "amount": 2000,
+                    "status": "pending",
+                    "_id": "676083a5d40a64f901b912c6",
+                    "due_date": "2025-01-15T19:46:45.102Z"
+                }
+            ],
+            "tracking_status": "Booked",
+            "tracking_stages": {
+                "pickup": {
+                    "status": false,
+                    "timestamp": "2025-01-15T19:46:45.104Z"
+                },
+                "inTransit": {
+                    "status": false,
+                    "timestamp": "2025-02-14T19:46:45.104Z"
+                },
+                "delivered": {
+                    "status": false,
+                    "timestamp": "2025-03-16T19:46:45.104Z"
+                }
+            },
+            "_id": "676083a5d40a64f901b912c2",
+            "remaining_amount": 4000,
+            "created_at": "2024-12-16T19:46:45.104Z",
+            "__v": 0
+        },
+        "user": "SuzairqoIm"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-16T19:47:01.599Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 401,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/container/booked_container"
+        },
+        "message": "You are not allowed to perform this task",
+        "data": null,
+        "trace": {
+            "error": "Error: You are not allowed to perform this task\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:66:23\n    at Generator.next (<anonymous>)\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:49:71\n    at F:\\Container_ERP\\erp\\src\\handlers\\async.ts:5:25\n    at Layer.handle [as handle_request] (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\route.js:119:3)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T19:47:17.993Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "u",
+        "1": "s",
+        "2": "e",
+        "3": "r"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T19:47:18.309Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "6760372960772245c5c09c50",
+            "password": "$2b$10$Tvf.T4nlT7hdhZ5l/sUlgup9RKpl/WygFilNr7XXRQ3bNrt/nmtTS",
+            "role": "user",
+            "lastLoginAt": "2024-12-16T19:47:17.998Z",
+            "updatedAt": "2024-12-16T19:47:18.000Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzNzg0MzcsImV4cCI6MTczNDM4MjAzN30.x7WcYBV6KKAeXASV559VIaD8-H8W-j5-Y8Y3wruTOc8",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzNzg0MzcsImV4cCI6MTc2NTkxNDQzN30.TarVavWfZNQ9W23NhTb5RlARXKgJ_A43KB2SpIxrV3A",
+            "greeting": "user"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T19:47:18.313Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzNzg0MzcsImV4cCI6MTczNDM4MjAzN30.x7WcYBV6KKAeXASV559VIaD8-H8W-j5-Y8Y3wruTOc8",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzNzg0MzcsImV4cCI6MTc2NTkxNDQzN30.TarVavWfZNQ9W23NhTb5RlARXKgJ_A43KB2SpIxrV3A",
+            "greeting": "user"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T19:54:43.523Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T19:54:43.534Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T19:54:43.536Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-16T19:55:04.745Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/container/verify-token"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (F:\\Container_ERP\\erp\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T19:55:17.548Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "u",
+        "1": "s",
+        "2": "e",
+        "3": "r"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T19:55:17.856Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "6760372960772245c5c09c50",
+            "password": "$2b$10$Tvf.T4nlT7hdhZ5l/sUlgup9RKpl/WygFilNr7XXRQ3bNrt/nmtTS",
+            "role": "user",
+            "lastLoginAt": "2024-12-16T19:55:17.555Z",
+            "updatedAt": "2024-12-16T19:55:17.570Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzNzg5MTcsImV4cCI6MTczNDM4MjUxN30.d7oINLavM4tisMBE1MGriHxO5yYih7MgT8Mgjq79ziw",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzNzg5MTcsImV4cCI6MTc2NTkxNDkxN30.w6tfIjgcScLQMoIBPjtOv0lvDeyOoBZoA7yQ3uBOu40",
+            "greeting": "user"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T19:55:17.860Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzNzg5MTcsImV4cCI6MTczNDM4MjUxN30.d7oINLavM4tisMBE1MGriHxO5yYih7MgT8Mgjq79ziw",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzNzg5MTcsImV4cCI6MTc2NTkxNDkxN30.w6tfIjgcScLQMoIBPjtOv0lvDeyOoBZoA7yQ3uBOu40",
+            "greeting": "user"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T19:56:11.594Z",
+    "message": "Existing user found. Using existing username: SuzairqoIm",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T19:56:14.645Z",
+    "message": "Container booked successfully",
+    "meta": {
+        "container": {
+            "sender_id": {
+                "phoneNumber": {
+                    "isoCode": "FR",
+                    "countryCode": "33",
+                    "internationalNumber": "+33 02141254"
+                },
+                "accountConfimation": {
+                    "status": false,
+                    "token": "4fe5a689-8d2e-4259-8ae6-a9ac002094ff",
+                    "code": "861802",
+                    "timestamp": null
+                },
+                "passwordReset": {
+                    "token": null,
+                    "expiry": null,
+                    "lastResetAt": null
+                },
+                "_id": "6760372960772245c5c09c50",
+                "name": "SuzairqoIm",
+                "email": "khansuzair1@gmail.com",
+                "timezone": "Europe/Paris",
+                "role": "user",
+                "lastLoginAt": "2024-12-16T19:55:17.555Z",
+                "consent": true,
+                "createdAt": "2024-12-16T14:20:25.840Z",
+                "updatedAt": "2024-12-16T19:55:17.570Z",
+                "__v": 0
+            },
+            "container_type": "Dry",
+            "weight": 2,
+            "containers": [
+                {
+                    "quantity": 1,
+                    "size": "20 feet",
+                    "_id": "676085dc3b4706f1cac07390"
+                }
+            ],
+            "price": 1000,
+            "sender_details": {
+                "name": "SuzairqoIm",
+                "email": "khansuzair1@gmail.com",
+                "phone": "03188063124"
+            },
+            "receiver_details": {
+                "name": "Suzair Khan",
+                "address": "Gulshane e iqbal , karachi , pakistn",
+                "phone": "3188063124"
+            },
+            "installmentDetails": [
+                {
+                    "installment_number": 1,
+                    "amount": 333.33,
+                    "status": "paid",
+                    "_id": "676085dc3b4706f1cac07391"
+                },
+                {
+                    "installment_number": 2,
+                    "amount": 333.33,
+                    "status": "pending",
+                    "_id": "676085dc3b4706f1cac07392",
+                    "due_date": "2025-01-15T19:56:12.050Z"
+                },
+                {
+                    "installment_number": 3,
+                    "amount": 333.33,
+                    "status": "pending",
+                    "_id": "676085dc3b4706f1cac07393",
+                    "due_date": "2025-01-15T19:56:12.051Z"
+                }
+            ],
+            "tracking_status": "Booked",
+            "tracking_stages": {
+                "pickup": {
+                    "status": false,
+                    "timestamp": "2025-01-15T19:56:12.052Z"
+                },
+                "inTransit": {
+                    "status": false,
+                    "timestamp": "2025-02-14T19:56:12.052Z"
+                },
+                "delivered": {
+                    "status": false,
+                    "timestamp": "2025-03-16T19:56:12.052Z"
+                }
+            },
+            "_id": "676085dc3b4706f1cac0738f",
+            "remaining_amount": 666.6700000000001,
+            "created_at": "2024-12-16T19:56:12.052Z",
+            "__v": 0
+        },
+        "user": "SuzairqoIm"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-16T19:56:27.675Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 401,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/container/booked_container"
+        },
+        "message": "You are not allowed to perform this task",
+        "data": null,
+        "trace": {
+            "error": "Error: You are not allowed to perform this task\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:66:23\n    at Generator.next (<anonymous>)\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:49:71\n    at F:\\Container_ERP\\erp\\src\\handlers\\async.ts:5:25\n    at Layer.handle [as handle_request] (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\route.js:119:3)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T19:56:38.852Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "u",
+        "1": "s",
+        "2": "e",
+        "3": "r"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T19:56:39.155Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "6760372960772245c5c09c50",
+            "password": "$2b$10$Tvf.T4nlT7hdhZ5l/sUlgup9RKpl/WygFilNr7XXRQ3bNrt/nmtTS",
+            "role": "user",
+            "lastLoginAt": "2024-12-16T19:56:38.857Z",
+            "updatedAt": "2024-12-16T19:56:38.858Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzNzg5OTgsImV4cCI6MTczNDM4MjU5OH0.Yw6qBuN63KoesrijrkINEFDUfpHScCABRTWQvKoK9Gw",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzNzg5OTgsImV4cCI6MTc2NTkxNDk5OH0.go3Ix35dDTweNTjCPzmguMZ9HMLS4bEd1EHvbp-zXtw",
+            "greeting": "user"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T19:56:39.158Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzNzg5OTgsImV4cCI6MTczNDM4MjU5OH0.Yw6qBuN63KoesrijrkINEFDUfpHScCABRTWQvKoK9Gw",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzNzg5OTgsImV4cCI6MTc2NTkxNDk5OH0.go3Ix35dDTweNTjCPzmguMZ9HMLS4bEd1EHvbp-zXtw",
+            "greeting": "user"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-16T19:57:18.434Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 401,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/container/booked_container"
+        },
+        "message": "You are not allowed to perform this task",
+        "data": null,
+        "trace": {
+            "error": "Error: You are not allowed to perform this task\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:66:23\n    at Generator.next (<anonymous>)\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:49:71\n    at F:\\Container_ERP\\erp\\src\\handlers\\async.ts:5:25\n    at Layer.handle [as handle_request] (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\route.js:119:3)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T20:00:12.317Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T20:00:12.334Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T20:00:12.337Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T20:00:36.676Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "u",
+        "1": "s",
+        "2": "e",
+        "3": "r"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T20:00:37.005Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "6760372960772245c5c09c50",
+            "password": "$2b$10$Tvf.T4nlT7hdhZ5l/sUlgup9RKpl/WygFilNr7XXRQ3bNrt/nmtTS",
+            "role": "user",
+            "lastLoginAt": "2024-12-16T20:00:36.684Z",
+            "updatedAt": "2024-12-16T20:00:36.700Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzNzkyMzYsImV4cCI6MTczNDM4MjgzNn0.gHwaUmwmhX7RdGCS0GBKVWSdEo1PVaYzj1eAyyT-5zM",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzNzkyMzYsImV4cCI6MTc2NTkxNTIzNn0.MwX2d2-krez9m19rdhiNuzBHmyDyt8j63wAgq7yRo_U",
+            "greeting": "user"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T20:00:37.012Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzNzkyMzYsImV4cCI6MTczNDM4MjgzNn0.gHwaUmwmhX7RdGCS0GBKVWSdEo1PVaYzj1eAyyT-5zM",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzNzkyMzYsImV4cCI6MTc2NTkxNTIzNn0.MwX2d2-krez9m19rdhiNuzBHmyDyt8j63wAgq7yRo_U",
+            "greeting": "user"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-16T20:01:18.448Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 401,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/container/booked_container"
+        },
+        "message": "You are not allowed to perform this task",
+        "data": null,
+        "trace": {
+            "error": "Error: You are not allowed to perform this task\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:66:23\n    at Generator.next (<anonymous>)\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:49:71\n    at F:\\Container_ERP\\erp\\src\\handlers\\async.ts:5:25\n    at Layer.handle [as handle_request] (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\route.js:119:3)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T20:01:45.009Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "u",
+        "1": "s",
+        "2": "e",
+        "3": "r"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T20:01:45.298Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "6760372960772245c5c09c50",
+            "password": "$2b$10$Tvf.T4nlT7hdhZ5l/sUlgup9RKpl/WygFilNr7XXRQ3bNrt/nmtTS",
+            "role": "user",
+            "lastLoginAt": "2024-12-16T20:01:45.014Z",
+            "updatedAt": "2024-12-16T20:01:45.015Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzNzkzMDUsImV4cCI6MTczNDM4MjkwNX0.LngjXc2-QbR1YvpHTMhZ9818B8LWummSQhVPXTly3iE",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzNzkzMDUsImV4cCI6MTc2NTkxNTMwNX0.Y4pDpzlTOntQrFgt4SzdXQOk54WMDhRC_qO_geBpcjw",
+            "greeting": "user"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T20:01:45.302Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzNzkzMDUsImV4cCI6MTczNDM4MjkwNX0.LngjXc2-QbR1YvpHTMhZ9818B8LWummSQhVPXTly3iE",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzNzkzMDUsImV4cCI6MTc2NTkxNTMwNX0.Y4pDpzlTOntQrFgt4SzdXQOk54WMDhRC_qO_geBpcjw",
+            "greeting": "user"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-16T20:29:51.725Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/container/verify-token"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (F:\\Container_ERP\\erp\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-16T20:38:47.014Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 401,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/container/verify_token"
+        },
+        "message": "You are not allowed to perform this task",
+        "data": null,
+        "trace": {
+            "error": "Error: You are not allowed to perform this task\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:66:23\n    at Generator.next (<anonymous>)\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:49:71\n    at F:\\Container_ERP\\erp\\src\\handlers\\async.ts:5:25\n    at Layer.handle [as handle_request] (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\route.js:119:3)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-16T20:38:47.067Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 401,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/container/container_client_history"
+        },
+        "message": "You are not allowed to perform this task",
+        "data": null,
+        "trace": {
+            "error": "Error: You are not allowed to perform this task\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:66:23\n    at Generator.next (<anonymous>)\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:49:71\n    at F:\\Container_ERP\\erp\\src\\handlers\\async.ts:5:25\n    at Layer.handle [as handle_request] (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\route.js:119:3)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-16T20:38:54.145Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 401,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/container/verify_token"
+        },
+        "message": "You are not allowed to perform this task",
+        "data": null,
+        "trace": {
+            "error": "Error: You are not allowed to perform this task\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:66:23\n    at Generator.next (<anonymous>)\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:49:71\n    at F:\\Container_ERP\\erp\\src\\handlers\\async.ts:5:25\n    at Layer.handle [as handle_request] (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\route.js:119:3)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T20:39:19.686Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "u",
+        "1": "s",
+        "2": "e",
+        "3": "r"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T20:39:19.945Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "6760372960772245c5c09c50",
+            "password": "$2b$10$Tvf.T4nlT7hdhZ5l/sUlgup9RKpl/WygFilNr7XXRQ3bNrt/nmtTS",
+            "role": "user",
+            "lastLoginAt": "2024-12-16T20:39:19.690Z",
+            "updatedAt": "2024-12-16T20:39:19.692Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzODE1NTksImV4cCI6MTczNDM4NTE1OX0.T6Kib4-SXDn_Ix8Ed_WsXtT2DU08Lo0DJvM3Ng7_hvg",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzODE1NTksImV4cCI6MTc2NTkxNzU1OX0.okpwYowSwL9gyQ231jZjqmqHdJvgV2T48a5PXA8ZoBs",
+            "greeting": "user"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T20:39:19.948Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzODE1NTksImV4cCI6MTczNDM4NTE1OX0.T6Kib4-SXDn_Ix8Ed_WsXtT2DU08Lo0DJvM3Ng7_hvg",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzODE1NTksImV4cCI6MTc2NTkxNzU1OX0.okpwYowSwL9gyQ231jZjqmqHdJvgV2T48a5PXA8ZoBs",
+            "greeting": "user"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-16T20:39:20.352Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 401,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/container/verify_token"
+        },
+        "message": "You are not allowed to perform this task",
+        "data": null,
+        "trace": {
+            "error": "Error: You are not allowed to perform this task\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:66:23\n    at Generator.next (<anonymous>)\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:49:71\n    at F:\\Container_ERP\\erp\\src\\handlers\\async.ts:5:25\n    at Layer.handle [as handle_request] (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\route.js:119:3)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-16T20:39:34.091Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 401,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/container/verify_token"
+        },
+        "message": "You are not allowed to perform this task",
+        "data": null,
+        "trace": {
+            "error": "Error: You are not allowed to perform this task\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:66:23\n    at Generator.next (<anonymous>)\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:49:71\n    at F:\\Container_ERP\\erp\\src\\handlers\\async.ts:5:25\n    at Layer.handle [as handle_request] (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\route.js:119:3)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T20:39:44.239Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "u",
+        "1": "s",
+        "2": "e",
+        "3": "r"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T20:39:44.503Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "6760372960772245c5c09c50",
+            "password": "$2b$10$Tvf.T4nlT7hdhZ5l/sUlgup9RKpl/WygFilNr7XXRQ3bNrt/nmtTS",
+            "role": "user",
+            "lastLoginAt": "2024-12-16T20:39:44.243Z",
+            "updatedAt": "2024-12-16T20:39:44.244Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzODE1ODQsImV4cCI6MTczNDM4NTE4NH0.r_ISXFv4CLvbgc0CEr5DlC_Lup90Y1eVv6x_FtJxtRA",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzODE1ODQsImV4cCI6MTc2NTkxNzU4NH0.wxBMNAH_5c7bMx5NBVm-Tpu1bY5qH5jNcEGF07_3_JY",
+            "greeting": "user"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T20:39:44.506Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzODE1ODQsImV4cCI6MTczNDM4NTE4NH0.r_ISXFv4CLvbgc0CEr5DlC_Lup90Y1eVv6x_FtJxtRA",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzODE1ODQsImV4cCI6MTc2NTkxNzU4NH0.wxBMNAH_5c7bMx5NBVm-Tpu1bY5qH5jNcEGF07_3_JY",
+            "greeting": "user"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-16T20:39:44.798Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 401,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/container/verify_token"
+        },
+        "message": "You are not allowed to perform this task",
+        "data": null,
+        "trace": {
+            "error": "Error: You are not allowed to perform this task\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:66:23\n    at Generator.next (<anonymous>)\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:49:71\n    at F:\\Container_ERP\\erp\\src\\handlers\\async.ts:5:25\n    at Layer.handle [as handle_request] (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\route.js:119:3)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-16T20:40:20.462Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 401,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/container/verify_token"
+        },
+        "message": "You are not allowed to perform this task",
+        "data": null,
+        "trace": {
+            "error": "Error: You are not allowed to perform this task\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:66:23\n    at Generator.next (<anonymous>)\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:49:71\n    at F:\\Container_ERP\\erp\\src\\handlers\\async.ts:5:25\n    at Layer.handle [as handle_request] (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\route.js:119:3)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T20:40:40.042Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "u",
+        "1": "s",
+        "2": "e",
+        "3": "r"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T20:40:40.306Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "6760372960772245c5c09c50",
+            "password": "$2b$10$Tvf.T4nlT7hdhZ5l/sUlgup9RKpl/WygFilNr7XXRQ3bNrt/nmtTS",
+            "role": "user",
+            "lastLoginAt": "2024-12-16T20:40:40.047Z",
+            "updatedAt": "2024-12-16T20:40:40.048Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzODE2NDAsImV4cCI6MTczNDM4NTI0MH0.fbRgbmH0uWgAlLIjYWBhCVnECrAq4ALppNDZrrifmLQ",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzODE2NDAsImV4cCI6MTc2NTkxNzY0MH0.x_zs6CXbcKzczHFrhTvzW_ElkxbdOSUFpMSFuHO09KI",
+            "greeting": "user"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T20:40:40.309Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzODE2NDAsImV4cCI6MTczNDM4NTI0MH0.fbRgbmH0uWgAlLIjYWBhCVnECrAq4ALppNDZrrifmLQ",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzODE2NDAsImV4cCI6MTc2NTkxNzY0MH0.x_zs6CXbcKzczHFrhTvzW_ElkxbdOSUFpMSFuHO09KI",
+            "greeting": "user"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-16T20:40:40.621Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 401,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/container/verify_token"
+        },
+        "message": "You are not allowed to perform this task",
+        "data": null,
+        "trace": {
+            "error": "Error: You are not allowed to perform this task\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:66:23\n    at Generator.next (<anonymous>)\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:49:71\n    at F:\\Container_ERP\\erp\\src\\handlers\\async.ts:5:25\n    at Layer.handle [as handle_request] (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\route.js:119:3)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-16T20:40:44.005Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 401,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/container/verify_token"
+        },
+        "message": "You are not allowed to perform this task",
+        "data": null,
+        "trace": {
+            "error": "Error: You are not allowed to perform this task\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:66:23\n    at Generator.next (<anonymous>)\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:49:71\n    at F:\\Container_ERP\\erp\\src\\handlers\\async.ts:5:25\n    at Layer.handle [as handle_request] (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\route.js:119:3)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-16T20:40:59.194Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 401,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/container/verify_token"
+        },
+        "message": "You are not allowed to perform this task",
+        "data": null,
+        "trace": {
+            "error": "Error: You are not allowed to perform this task\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:66:23\n    at Generator.next (<anonymous>)\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:49:71\n    at F:\\Container_ERP\\erp\\src\\handlers\\async.ts:5:25\n    at Layer.handle [as handle_request] (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\route.js:119:3)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-16T20:41:54.315Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 401,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/container/verify_token"
+        },
+        "message": "You are not allowed to perform this task",
+        "data": null,
+        "trace": {
+            "error": "Error: You are not allowed to perform this task\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:66:23\n    at Generator.next (<anonymous>)\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:49:71\n    at F:\\Container_ERP\\erp\\src\\handlers\\async.ts:5:25\n    at Layer.handle [as handle_request] (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\route.js:119:3)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-16T20:42:04.849Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 401,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/container/verify_token"
+        },
+        "message": "You are not allowed to perform this task",
+        "data": null,
+        "trace": {
+            "error": "Error: You are not allowed to perform this task\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:66:23\n    at Generator.next (<anonymous>)\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:49:71\n    at F:\\Container_ERP\\erp\\src\\handlers\\async.ts:5:25\n    at Layer.handle [as handle_request] (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\route.js:119:3)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-16T20:43:55.955Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 401,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/container/verify_token"
+        },
+        "message": "You are not allowed to perform this task",
+        "data": null,
+        "trace": {
+            "error": "Error: You are not allowed to perform this task\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:66:23\n    at Generator.next (<anonymous>)\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:49:71\n    at F:\\Container_ERP\\erp\\src\\handlers\\async.ts:5:25\n    at Layer.handle [as handle_request] (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\route.js:119:3)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-16T20:44:07.495Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 401,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/container/verify_token"
+        },
+        "message": "You are not allowed to perform this task",
+        "data": null,
+        "trace": {
+            "error": "Error: You are not allowed to perform this task\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:66:23\n    at Generator.next (<anonymous>)\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:49:71\n    at F:\\Container_ERP\\erp\\src\\handlers\\async.ts:5:25\n    at Layer.handle [as handle_request] (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\route.js:119:3)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T20:44:28.593Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "u",
+        "1": "s",
+        "2": "e",
+        "3": "r"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T20:44:28.851Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "6760372960772245c5c09c50",
+            "password": "$2b$10$Tvf.T4nlT7hdhZ5l/sUlgup9RKpl/WygFilNr7XXRQ3bNrt/nmtTS",
+            "role": "user",
+            "lastLoginAt": "2024-12-16T20:44:28.599Z",
+            "updatedAt": "2024-12-16T20:44:28.601Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzODE4NjgsImV4cCI6MTczNDM4NTQ2OH0.b3Y254IkDV3bpR6r2gnwFlCiXO4gZDO9zY9ay9jeU3Y",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzODE4NjgsImV4cCI6MTc2NTkxNzg2OH0.hklEH2bW4XwCh-gREHjwnousJDfoRHkiuIkd5TeaHuY",
+            "greeting": "user"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T20:44:28.855Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzODE4NjgsImV4cCI6MTczNDM4NTQ2OH0.b3Y254IkDV3bpR6r2gnwFlCiXO4gZDO9zY9ay9jeU3Y",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzODE4NjgsImV4cCI6MTc2NTkxNzg2OH0.hklEH2bW4XwCh-gREHjwnousJDfoRHkiuIkd5TeaHuY",
+            "greeting": "user"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-16T20:44:29.334Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 401,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/container/verify_token"
+        },
+        "message": "You are not allowed to perform this task",
+        "data": null,
+        "trace": {
+            "error": "Error: You are not allowed to perform this task\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:66:23\n    at Generator.next (<anonymous>)\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:49:71\n    at F:\\Container_ERP\\erp\\src\\handlers\\async.ts:5:25\n    at Layer.handle [as handle_request] (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\route.js:119:3)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-16T20:44:33.095Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 401,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/container/verify_token"
+        },
+        "message": "You are not allowed to perform this task",
+        "data": null,
+        "trace": {
+            "error": "Error: You are not allowed to perform this task\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:66:23\n    at Generator.next (<anonymous>)\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:49:71\n    at F:\\Container_ERP\\erp\\src\\handlers\\async.ts:5:25\n    at Layer.handle [as handle_request] (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\route.js:119:3)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T20:44:47.375Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "u",
+        "1": "s",
+        "2": "e",
+        "3": "r"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T20:44:47.629Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "6760372960772245c5c09c50",
+            "password": "$2b$10$Tvf.T4nlT7hdhZ5l/sUlgup9RKpl/WygFilNr7XXRQ3bNrt/nmtTS",
+            "role": "user",
+            "lastLoginAt": "2024-12-16T20:44:47.379Z",
+            "updatedAt": "2024-12-16T20:44:47.380Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzODE4ODcsImV4cCI6MTczNDM4NTQ4N30.vHqVahTESytr4Tmj_FAMaXqg1W03NxUshHcUHPRPvsY",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzODE4ODcsImV4cCI6MTc2NTkxNzg4N30.i4kIAUhXwAOWAdQPoDLxWUNM0ijGuLPyTNx5h9dzVqE",
+            "greeting": "user"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T20:44:47.633Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzODE4ODcsImV4cCI6MTczNDM4NTQ4N30.vHqVahTESytr4Tmj_FAMaXqg1W03NxUshHcUHPRPvsY",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzODE4ODcsImV4cCI6MTc2NTkxNzg4N30.i4kIAUhXwAOWAdQPoDLxWUNM0ijGuLPyTNx5h9dzVqE",
+            "greeting": "user"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-16T20:44:47.934Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 401,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/container/verify_token"
+        },
+        "message": "You are not allowed to perform this task",
+        "data": null,
+        "trace": {
+            "error": "Error: You are not allowed to perform this task\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:66:23\n    at Generator.next (<anonymous>)\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:49:71\n    at F:\\Container_ERP\\erp\\src\\handlers\\async.ts:5:25\n    at Layer.handle [as handle_request] (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\route.js:119:3)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-16T20:45:00.809Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 401,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/container/verify_token"
+        },
+        "message": "You are not allowed to perform this task",
+        "data": null,
+        "trace": {
+            "error": "Error: You are not allowed to perform this task\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:66:23\n    at Generator.next (<anonymous>)\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:49:71\n    at F:\\Container_ERP\\erp\\src\\handlers\\async.ts:5:25\n    at Layer.handle [as handle_request] (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\route.js:119:3)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-16T20:45:19.192Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 401,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/container/verify_token"
+        },
+        "message": "You are not allowed to perform this task",
+        "data": null,
+        "trace": {
+            "error": "Error: You are not allowed to perform this task\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:66:23\n    at Generator.next (<anonymous>)\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:49:71\n    at F:\\Container_ERP\\erp\\src\\handlers\\async.ts:5:25\n    at Layer.handle [as handle_request] (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\route.js:119:3)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T20:45:44.325Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "u",
+        "1": "s",
+        "2": "e",
+        "3": "r"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T20:45:44.583Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "6760372960772245c5c09c50",
+            "password": "$2b$10$Tvf.T4nlT7hdhZ5l/sUlgup9RKpl/WygFilNr7XXRQ3bNrt/nmtTS",
+            "role": "user",
+            "lastLoginAt": "2024-12-16T20:45:44.329Z",
+            "updatedAt": "2024-12-16T20:45:44.330Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzODE5NDQsImV4cCI6MTczNDM4NTU0NH0.mxDjiYB_gI12OOuKvDfNGaf1A4nBq_yfuClROkM6S1E",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzODE5NDQsImV4cCI6MTc2NTkxNzk0NH0.dTUToT4OEeqY1ymVWV4voD6qfMPcRg6ZSdQHq0fXGkY",
+            "greeting": "user"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T20:45:44.587Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzODE5NDQsImV4cCI6MTczNDM4NTU0NH0.mxDjiYB_gI12OOuKvDfNGaf1A4nBq_yfuClROkM6S1E",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzODE5NDQsImV4cCI6MTc2NTkxNzk0NH0.dTUToT4OEeqY1ymVWV4voD6qfMPcRg6ZSdQHq0fXGkY",
+            "greeting": "user"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-16T20:45:45.228Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 401,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/container/verify_token"
+        },
+        "message": "You are not allowed to perform this task",
+        "data": null,
+        "trace": {
+            "error": "Error: You are not allowed to perform this task\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:66:23\n    at Generator.next (<anonymous>)\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:49:71\n    at F:\\Container_ERP\\erp\\src\\handlers\\async.ts:5:25\n    at Layer.handle [as handle_request] (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\route.js:119:3)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-16T20:48:38.062Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 401,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/container/verify_token"
+        },
+        "message": "You are not allowed to perform this task",
+        "data": null,
+        "trace": {
+            "error": "Error: You are not allowed to perform this task\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:66:23\n    at Generator.next (<anonymous>)\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:49:71\n    at F:\\Container_ERP\\erp\\src\\handlers\\async.ts:5:25\n    at Layer.handle [as handle_request] (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\route.js:119:3)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T20:50:59.065Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T20:50:59.076Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T20:50:59.078Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-16T20:52:07.434Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 401,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/container/verify_token"
+        },
+        "message": "You are not allowed to perform this task",
+        "data": null,
+        "trace": {
+            "error": "Error: You are not allowed to perform this task\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:66:23\n    at Generator.next (<anonymous>)\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:49:71\n    at F:\\Container_ERP\\erp\\src\\handlers\\async.ts:5:25\n    at Layer.handle [as handle_request] (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\route.js:119:3)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-16T20:53:29.472Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 401,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/container/verify_token"
+        },
+        "message": "You are not allowed to perform this task",
+        "data": null,
+        "trace": {
+            "error": "Error: You are not allowed to perform this task\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:66:23\n    at Generator.next (<anonymous>)\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:49:71\n    at F:\\Container_ERP\\erp\\src\\handlers\\async.ts:5:25\n    at Layer.handle [as handle_request] (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\route.js:119:3)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-12-16T20:54:04.963Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 401,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/container/verify_token"
+        },
+        "message": "You are not allowed to perform this task",
+        "data": null,
+        "trace": {
+            "error": "Error: You are not allowed to perform this task\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:66:23\n    at Generator.next (<anonymous>)\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:4:12)\n    at F:\\Container_ERP\\erp\\src\\middlewares\\authenticate.ts:49:71\n    at F:\\Container_ERP\\erp\\src\\handlers\\async.ts:5:25\n    at Layer.handle [as handle_request] (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (F:\\Container_ERP\\erp\\node_modules\\express\\lib\\router\\route.js:119:3)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T20:54:18.549Z",
+    "message": "the total info of user from the service file is  is : ",
+    "meta": {
+        "0": "u",
+        "1": "s",
+        "2": "e",
+        "3": "r"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T20:54:18.830Z",
+    "message": "the role of this user is : ",
+    "meta": {
+        "success": true,
+        "user": {
+            "_id": "6760372960772245c5c09c50",
+            "password": "$2b$10$Tvf.T4nlT7hdhZ5l/sUlgup9RKpl/WygFilNr7XXRQ3bNrt/nmtTS",
+            "role": "user",
+            "lastLoginAt": "2024-12-16T20:54:18.556Z",
+            "updatedAt": "2024-12-16T20:54:18.569Z",
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzODI0NTgsImV4cCI6MTczNDM4NjA1OH0.Y3InBUsgGa2ORClaqOa7i3JsFmzGx31P8JWou8sOAuw",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzODI0NTgsImV4cCI6MTc2NTkxODQ1OH0.0WvzfiIu9MwnY_wKpkBXQohhpSDzi8Z9Dcn4MRu_06Q",
+            "greeting": "user"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T20:54:18.833Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzODI0NTgsImV4cCI6MTczNDM4NjA1OH0.Y3InBUsgGa2ORClaqOa7i3JsFmzGx31P8JWou8sOAuw",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzYwMzcyOTYwNzcyMjQ1YzVjMDljNTAiLCJpYXQiOjE3MzQzODI0NTgsImV4cCI6MTc2NTkxODQ1OH0.0WvzfiIu9MwnY_wKpkBXQohhpSDzi8Z9Dcn4MRu_06Q",
+            "greeting": "user"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T21:04:12.648Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T21:04:12.659Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T21:04:12.661Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T21:05:50.895Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T21:05:50.915Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T21:05:50.920Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T21:10:29.313Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T21:10:29.327Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T21:10:29.331Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T21:10:53.199Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T21:10:53.211Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T21:10:53.215Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T21:11:11.527Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T21:11:11.539Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T21:11:11.541Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T21:12:57.702Z",
+    "message": "Existing user found. Using existing username: SuzairqoIm",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T21:13:02.720Z",
+    "message": "Container booked successfully",
+    "meta": {
+        "container": {
+            "sender_id": "6760372960772245c5c09c50",
+            "container_type": "Dry",
+            "weight": 12,
+            "containers": [
+                {
+                    "quantity": 3,
+                    "size": "40 feet",
+                    "_id": "676097d9ba26600d15016229"
+                }
+            ],
+            "price": 6000,
+            "sender_details": {
+                "name": "SuzairqoIm",
+                "email": "khansuzair1@gmail.com",
+                "phone": "03188063124"
+            },
+            "receiver_details": {
+                "name": "Suzair Khan",
+                "address": "Gulshane e iqbal , karachi , pakistn",
+                "phone": "3188063124"
+            },
+            "installmentDetails": [
+                {
+                    "installment_number": 1,
+                    "amount": 3000,
+                    "status": "paid",
+                    "_id": "676097d9ba26600d1501622a"
+                },
+                {
+                    "installment_number": 2,
+                    "amount": 3000,
+                    "status": "pending",
+                    "_id": "676097d9ba26600d1501622b",
+                    "due_date": "2025-01-15T21:12:57.863Z"
+                }
+            ],
+            "tracking_status": "Booked",
+            "tracking_stages": {
+                "pickup": {
+                    "status": false,
+                    "timestamp": "2025-01-15T21:12:57.865Z"
+                },
+                "inTransit": {
+                    "status": false,
+                    "timestamp": "2025-02-14T21:12:57.865Z"
+                },
+                "delivered": {
+                    "status": false,
+                    "timestamp": "2025-03-16T21:12:57.866Z"
+                }
+            },
+            "_id": "676097d9ba26600d15016228",
+            "remaining_amount": 3000,
+            "created_at": "2024-12-16T21:12:57.866Z",
+            "__v": 0
+        },
+        "user": "SuzairqoIm"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T21:13:13.686Z",
+    "message": "Existing user found. Using existing username: SuzairqoIm",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T21:13:17.176Z",
+    "message": "Container booked successfully",
+    "meta": {
+        "container": {
+            "sender_id": "6760372960772245c5c09c50",
+            "container_type": "Dry",
+            "weight": 12,
+            "containers": [
+                {
+                    "quantity": 3,
+                    "size": "40 feet",
+                    "_id": "676097e9ba26600d15016232"
+                }
+            ],
+            "price": 6000,
+            "sender_details": {
+                "name": "SuzairqoIm",
+                "email": "khansuzair1@gmail.com",
+                "phone": "03188063124"
+            },
+            "receiver_details": {
+                "name": "Suzair Khan",
+                "address": "Gulshane e iqbal , karachi , pakistn",
+                "phone": "3188063124"
+            },
+            "installmentDetails": [
+                {
+                    "installment_number": 1,
+                    "amount": 3000,
+                    "status": "paid",
+                    "_id": "676097e9ba26600d15016233"
+                },
+                {
+                    "installment_number": 2,
+                    "amount": 3000,
+                    "status": "pending",
+                    "_id": "676097e9ba26600d15016234",
+                    "due_date": "2025-01-15T21:13:13.833Z"
+                }
+            ],
+            "tracking_status": "Booked",
+            "tracking_stages": {
+                "pickup": {
+                    "status": false,
+                    "timestamp": "2025-01-15T21:13:13.833Z"
+                },
+                "inTransit": {
+                    "status": false,
+                    "timestamp": "2025-02-14T21:13:13.833Z"
+                },
+                "delivered": {
+                    "status": false,
+                    "timestamp": "2025-03-16T21:13:13.833Z"
+                }
+            },
+            "_id": "676097e9ba26600d15016231",
+            "remaining_amount": 3000,
+            "created_at": "2024-12-16T21:13:13.833Z",
+            "__v": 0
+        },
+        "user": "SuzairqoIm"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T21:26:25.214Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T21:26:25.227Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T21:26:25.231Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T21:29:08.005Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T21:29:08.025Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T21:29:08.029Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T21:31:04.028Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T21:31:04.053Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T21:31:04.055Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T21:37:44.667Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T21:37:44.705Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T21:37:44.716Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T21:38:14.100Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T21:38:14.112Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T21:38:14.114Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T21:41:54.447Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "erp"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T21:41:54.482Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-12-16T21:41:54.484Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}

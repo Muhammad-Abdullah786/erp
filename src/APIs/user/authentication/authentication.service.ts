@@ -89,7 +89,7 @@ export const registrationService = async (payload: IRegisterRequest) => {
   };
 
   const newUser = await query.createUser(userObj);
-
+  
   // Sending confirmation emails with username and password
   // const confirmationURL = `Frontendhost/confirmation/${token}?code=${OTP}`;
   const to = email;
