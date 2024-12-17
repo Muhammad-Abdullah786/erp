@@ -126,7 +126,7 @@ export default {
   booking_container: async (req: Request, res: Response): Promise<void> => {
     try {
       const body = req.body as BookingRequestBody;
-
+      
       // Validate request body
       if (!body) {
         logger.error("Request body is missing", { meta: req.body });
@@ -305,4 +305,14 @@ export default {
       res.status(400).json({ error: (error as Error).message });
     }
   },
+  test_token : async ( req: Request , res: Response) : Promise<void>  => {
+    try{
+     if(req){}
+     console.log(req.authenticatedUser);
+     res.status(200).send({message : "token is verified"})
+     }
+    catch(e){
+      res.status(400).json({ error: "token expired" });
+    }
+}
 };

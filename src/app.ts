@@ -20,6 +20,7 @@ app.use(
       "http://localhost:3001",
       // "https://front-eight-sage.vercel.app",
       "https://erp-frontend-orcin.vercel.app",
+      "https://front-eight-sage.vercel.app",
     ],
     credentials: true,
   })

@@ -12,20 +12,23 @@ import { sendEmail } from "../../../utils/emailSender";
 import axios from "axios";
 export default {
 
-  save_book_container: async (body: any, devices: any) => {
+  save_book_container: async ( body: any, devices: any) => {
     try {
+      
       // Check if the user already exists
       const existingUser = await userRepository.findUserByEmail(
         body.sender_details.email,
-        "name"
+        "name _id"
       );
 
       let finalUsername: string;
       let password: string | null = null; // Initialize password as null
+      let find_user : any;
 
       if (existingUser) {
         // User already exists
         finalUsername = existingUser.name;
+        find_user = existingUser._id
         logger.info(
           `Existing user found. Using existing username: ${finalUsername}`
         );
@@ -47,27 +50,31 @@ export default {
         logger.info(`Registering new user: ${clientData.name}`);
 
         // Register the user
-        await registrationService(clientData);
+        let new_user_id =  await registrationService(clientData);
+        find_user = new_user_id._id; // Assign the new user ID to find_user variable
       }
 
       const deviceIds = devices.result.map((device: any) => device.id);
+     
       const existingDevices = await Contaier_BD.find({
         tracking_id: { $in: deviceIds },
       });
+  
       // Extract the IDs that exist in the database
       const existingDeviceIds = existingDevices.map(
         (container: any) => container.tracking_id
       );
+    
       // IDs not found in the database
       const missingDeviceIds = deviceIds.filter(
         (id: any) => !existingDeviceIds.includes(id)
       );
-      console.log(missingDeviceIds);
+  
 
       // Save container details
       body.sender_details.name = finalUsername; // Assign the final username to sender_details.name
       body.tracking_id = missingDeviceIds[0];
-      const container = new Contaier_BD(body);
+      const container = new Contaier_BD({ sender_id : find_user, ...body});
       const savedContainer = await container.save();
 
       // Sending confirmation emails with username and password
@@ -174,6 +181,7 @@ export default {
   update_client_installment: async (body: any) => {
     try {
       const { containerId, installmentId, amount } = body;
+      console.log(containerId , installmentId , amount);
       // Validate inputs
       if (!containerId || !installmentId || !amount) {
         throw new Error("Missing required fields.");

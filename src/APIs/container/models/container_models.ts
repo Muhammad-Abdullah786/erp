@@ -1,6 +1,10 @@
-import { Schema, model } from "mongoose";
+import mongoose, { Schema, model } from "mongoose";
 
 const ContainerSchema = new Schema({
+  sender_id : {
+     type : mongoose.Types.ObjectId,
+     ref: "User",
+  },
   container_type: String,
   weight: Number,
   containers: [
@@ -84,6 +88,9 @@ const ContainerSchema = new Schema({
         },
       },
     },
+  },
+  tracking_id: {
+    type: String, // Ensure this matches the data type in your quer
   },
   created_at: { type: Date, default: Date.now },
 });
