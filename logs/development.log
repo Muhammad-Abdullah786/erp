@@ -38756,6 +38756,8 @@
         "CONNECTION_NAME": "erp"
     }
 }
+<<<<<<< HEAD
+=======
 {
     "level": "INFO",
     "timestamp": "2024-12-16T16:56:00.641Z",
@@ -41146,3 +41148,4 @@
         "SERVER_URL": "http://localhost:3000"
     }
 }
+>>>>>>> dev
