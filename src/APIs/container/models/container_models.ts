@@ -1,9 +1,9 @@
 import mongoose, { Schema, model } from "mongoose";
 
 const ContainerSchema = new Schema({
-  sender_id : {
-     type : mongoose.Types.ObjectId,
-     ref: "User",
+  sender_id: {
+    type: mongoose.Types.ObjectId,
+    ref: "User",
   },
   container_type: String,
   weight: Number,
@@ -90,9 +90,9 @@ const ContainerSchema = new Schema({
     },
   },
   tracking_id: {
-    type: String, // Ensure this matches the data type in your quer
+    type: String,
   },
+
   created_at: { type: Date, default: Date.now },
 });
-
 module.exports = model("Container", ContainerSchema);
